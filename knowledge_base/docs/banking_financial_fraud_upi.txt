@@ -1,0 +1,131 @@
+BANKING FRAUD, UPI SCAMS, FINANCIAL FRAUD — RIGHTS AND REMEDIES
+================================================================
+
+OVERVIEW
+Financial fraud includes UPI fraud, credit/debit card fraud, bank fraud, investment scams, insurance fraud, loan fraud, and chit fund fraud. Multiple agencies and laws apply. Act FAST — money recovery chances decrease with time.
+
+IMMEDIATE STEPS FOR FINANCIAL FRAUD
+1. Call 1930 (National Cybercrime Helpline) IMMEDIATELY — this is the most important step.
+2. Call your bank's 24-hour helpline and freeze the account/card.
+3. File complaint at cybercrime.gov.in — get acknowledgment number.
+4. Visit nearest police station (Cyber Crime Cell) within 24 hours with all documents.
+5. Your bank MUST give you a complaint reference number.
+
+UPI FRAUD — SPECIFIC TYPES AND REMEDIES
+
+"Wrong number" scam: Fraudster claims they sent money to wrong number, sends screenshot, asks you to return money. NEVER return money shown in fake screenshots — check your actual bank balance.
+
+QR Code scam: Fraudster sends QR code to scan "to receive money" — scanning actually SENDS money.
+
+Fake KYC calls: Fraudsters impersonate bank/NPCI officials and ask for OTP, card number, CVV, Aadhaar, or ask you to install remote access apps (AnyDesk, TeamViewer).
+YOUR BANK WILL NEVER ASK FOR OTP OR FULL CARD NUMBER BY PHONE.
+
+Fake investment apps promising 10-30% monthly returns: These are Ponzi schemes. Report to SEBI (sebi.gov.in) + cybercrime.gov.in + police.
+
+Fake lottery/prize calls asking for "GST" or "fee" before releasing prize: No legitimate lottery charges fee to give prize. Report to cybercrime.gov.in.
+
+APPLICABLE LAWS FOR FINANCIAL FRAUD
+- IT Act Section 66C: Identity theft (using your OTP/credentials without consent).
+- IT Act Section 66D: Cheating by personation (fake bank official, fake portal).
+- BNS Section 318: Cheating (inducing delivery of property by fraud).
+- BNS Section 308: Extortion (if threatening calls).
+- RBI Guidelines on unauthorized transactions (most important for bank refunds).
+
+RBI GUIDELINES — UNAUTHORIZED TRANSACTIONS IN BANK ACCOUNT
+
+Zero Liability (you pay NOTHING) if:
+- Fraud is due to bank's negligence (bank system hacked, insider fraud).
+- You reported the fraud within 3 working days.
+
+Limited Liability (you pay part) if:
+- Fraud is due to negligence on your part but you reported within 4-7 days.
+- Liability capped at Rs. 5,000 to Rs. 25,000 depending on account type.
+
+Higher Liability if reported after 7 days or if due entirely to your gross negligence.
+
+HOW TO CLAIM REFUND FROM BANK:
+Step 1: File complaint with bank's customer care within 24-72 hours — get complaint number.
+Step 2: Bank must respond to complaint within 90 days.
+Step 3: If bank refuses or doesn't respond in 30 days, file complaint with:
+RBI Banking Ombudsman: bankingombudsman.rbi.org.in (free, no fee).
+Step 4: If RBI Ombudsman doesn't resolve, file complaint at Consumer Forum (Consumer Protection Act 2019 — deficiency in banking service).
+
+CHEQUE BOUNCE — NEGOTIABLE INSTRUMENTS ACT SECTION 138
+See also: bns_property_crimes_fraud.txt
+A cheque bounce for insufficient funds is both a civil and criminal matter.
+Creditor's steps:
+1. Receive dishonour memo from bank (within validity period — 3 months of cheque date).
+2. Send demand notice within 30 days of receiving dishonour memo.
+3. Wait 15 days for payment.
+4. If unpaid: File complaint in Magistrate court within 30 days of expiry of notice period.
+Punishment: Up to 2 years OR fine up to twice the cheque amount, or both.
+Interim compensation: Court can order 20% of cheque amount to be paid during trial.
+
+INVESTMENT FRAUD — SEBI
+
+If stockbroker, mutual fund, or investment advisor cheats you:
+- Registered broker/advisor: Complaint to SEBI (sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=32).
+- SCORES portal: scores.sebi.gov.in — online complaint platform.
+- SEBI Helpline: 1800 266 7575 (toll free).
+- For BSE/NSE: Investor grievance cell of respective exchange.
+- Unregistered entity taking money: Police complaint (BNS 318) + SEBI.
+
+INSURANCE FRAUD / CLAIM DENIAL
+
+If insurance company denies or delays legitimate claim:
+1. File complaint with insurance company's grievance cell — get reference number.
+2. Insurance Ombudsman (free): Approach if not resolved within 30 days by insurer. Covers: life, health, motor insurance. Website: cioins.co.in (Council for Insurance Ombudsman).
+3. Consumer Forum: Consumer Protection Act 2019 — deficiency in service.
+4. IRDAI Bima Bharosa portal: Bimabharosa.irdai.gov.in or call 155255.
+
+Common issues:
+- Claim rejection citing "pre-existing condition" not disclosed: Challenge with medical records showing it was actually a new condition.
+- Motor insurance claim rejected after accident: Challenge citing Section 149 MV Act (pay-and-recover principle).
+- Life insurance claim rejected citing suppression: If genuinely not aware of condition, challenge with medical opinion.
+
+LOAN RECOVERY HARASSMENT BY BANKS/NBFCs/RECOVERY AGENTS
+
+RBI guidelines prohibit banks and recovery agents from:
+- Calling before 7 AM or after 7 PM.
+- Using abusive, threatening, or intimidating language.
+- Visiting borrower's residence or workplace repeatedly.
+- Approaching relatives, friends, or employer.
+- Making threatening calls or publicly shaming the borrower.
+
+If this happens:
+1. Record calls (if possible).
+2. File complaint with bank's Nodal Officer/Grievance Cell.
+3. File complaint with RBI Ombudsman: bankingombudsman.rbi.org.in.
+4. File FIR if threats amount to criminal intimidation (BNS Section 351).
+5. File complaint with IRDAI/RBI/SEBI depending on type of institution.
+
+CHIT FUND FRAUD (Ponzi Schemes)
+Regulated under Chit Funds Act 1982 and SEBI (for collective investment schemes).
+Unregistered chit funds are illegal. Report to: State Registrar of Chit Funds + Economic Offences Wing (EOW) of state police + cybercrime.gov.in.
+File FIR under BNS Section 318 (cheating) + state chit fund regulations.
+
+==========================================================================
+IF YOU ARE ACCUSED OF FINANCIAL FRAUD — DEFENSE RIGHTS
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent — do NOT explain transactions to police without a lawyer.
+- Right to a lawyer immediately upon arrest.
+- Bank account freeze orders by police can be challenged — demand proper legal authority for any freeze.
+
+WHAT PROSECUTION MUST PROVE:
+For BNS Section 318 (Cheating): Prosecution must prove you made a false representation KNOWING it was false, and the victim was induced by it. A bad investment that lost money, a failed business deal, or a genuine dispute about repayment terms is NOT cheating.
+For IT Act Section 66C (Identity theft): Prosecution must prove you fraudulently used someone else's credentials — not that your own credentials were misused by someone else.
+
+CIVIL VS. CRIMINAL DISTINCTION:
+Unpaid loans, failed investments, and business disputes gone wrong are CIVIL matters — not fraud. Supreme Court has held repeatedly that criminal courts cannot be used as debt recovery tools. If you have a genuine dispute about a loan, contract, or investment, apply to High Court to quash any criminal FIR filed to harass you.
+
+BANK ACCOUNT FREEZE — YOUR RIGHTS:
+Police can request banks to freeze accounts linked to fraud investigation — but only with proper written orders.
+You can challenge an account freeze by approaching the bank for the written authority and then challenging it before the Magistrate/Sessions Court.
+Legitimate business transactions frozen due to erroneous cyber complaint: File representation to Cyber Crime Cell immediately with evidence of legitimate transactions.
+
+COMMON DEFENSES FOR ACCUSED IN FINANCIAL FRAUD:
+Genuine transaction: Produce contracts, receipts, communication showing the transaction was legitimate.
+You were defrauded too: If you were also a victim in a chain fraud (e.g., a middleman in a scam), show you acted in good faith and suffered loss too.
+Identity compromise: Your bank account/UPI ID was used without your knowledge — show login alerts, unusual location data, police complaint you filed about the compromise.

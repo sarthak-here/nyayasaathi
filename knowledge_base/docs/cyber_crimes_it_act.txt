@@ -1,0 +1,166 @@
+CYBER CRIMES — INFORMATION TECHNOLOGY ACT 2000 AND BNS 2023
+=============================================================
+(IT Act 2000 is still fully in force — not replaced by BNS)
+
+OVERVIEW
+Cyber crimes are governed primarily by the Information Technology Act 2000 (IT Act). The new BNS 2023 supplements it for crimes like online stalking (Section 78), voyeurism (Section 77), and online defamation (Section 356). Both laws can apply simultaneously to the same cyber crime.
+
+IMPORTANT HELPLINES
+- National Cybercrime Helpline: 1930 (call immediately for financial fraud)
+- Online Complaint Portal: cybercrime.gov.in
+- For children/women: cybercrime.gov.in has dedicated reporting section
+- Report to bank: Within 3 hours of fraud for best chance of reversal
+
+HACKING AND UNAUTHORIZED ACCESS
+
+IT Act Section 43 — Unauthorized computer access:
+Accessing or downloading data from a computer or network without permission, introducing virus/malware, disrupting service, stealing data.
+Civil liability: Compensation to affected person (no upper cap).
+Criminal under Section 66 if done with dishonest/fraudulent intent.
+File at: Cyber Crime Cell; also civil suit for compensation.
+
+IT Act Section 66 — Computer-related offences (Hacking):
+Accessing systems, altering/destroying data, denying access — if done dishonestly or fraudulently.
+Up to 3 years imprisonment or Rs. 5 lakh fine, or both.
+Cognizable, Bailable.
+File at: Cyber Crime Cell / cybercrime.gov.in.
+
+IDENTITY THEFT AND ONLINE FRAUD
+
+IT Act Section 66C — Identity theft:
+Fraudulent use of electronic signature, password, OTP, biometric data, account credentials, Aadhaar number, bank account details.
+Up to 3 years imprisonment + Rs. 1 lakh fine.
+Cognizable, Bailable.
+File at: Cyber Crime Cell.
+
+IT Act Section 66D — Cheating by personation using computer:
+Impersonating someone else online (fake profiles, email spoofing, phone spoofing) to cheat a person.
+Also covers: fake government portals, fake bank websites (phishing).
+Up to 3 years imprisonment + Rs. 1 lakh fine.
+Cognizable, Bailable.
+Also file under BNS Section 318 (cheating) and Section 319 (cheating by personation).
+
+ONLINE FINANCIAL FRAUD — WHAT TO DO IMMEDIATELY
+If money is stolen from bank account/UPI/credit card by fraud:
+Step 1: Call 1930 (National Cybercrime Helpline) immediately — the earlier the better.
+Step 2: Call your bank's 24/7 helpline and freeze the account/card.
+Step 3: File complaint on cybercrime.gov.in (get acknowledgment number).
+Step 4: File FIR at nearest police station (Cyber Crime Cell) with: screenshots, transaction ID, fraudster's phone/account number.
+Step 5: RBI Ombudsman (bankingombudsman.rbi.org.in) if bank refuses to cooperate.
+Important: Banks may reverse fraudulent transactions if reported within 3-4 hours.
+
+UPI FRAUD SPECIFIC:
+- Fake payment screenshots/QR codes: BNS Section 318 + IT Act 66D.
+- Fake "KYC update" calls demanding OTP: IT Act 66C (identity theft).
+- Investment fraud (fake apps promising returns): BNS Section 318 + SEBI complaint.
+
+PRIVACY VIOLATIONS
+
+IT Act Section 66E — Violation of privacy:
+Capturing, publishing, or transmitting images of private areas of a person without consent.
+Up to 3 years imprisonment or Rs. 2 lakh fine, or both.
+Cognizable, Bailable.
+Also covered by BNS Section 77 (voyeurism) — up to 3-7 years.
+
+OBSCENE AND SEXUAL CONTENT ONLINE
+
+IT Act Section 67 — Publishing obscene material electronically:
+First conviction: Up to 3 years + Rs. 5 lakh fine.
+Subsequent: Up to 5 years + Rs. 10 lakh fine.
+Cognizable, Bailable (first), Non-bailable (subsequent).
+
+IT Act Section 67A — Sexually explicit material online (sextortion, morphed images, non-consensual intimate content/NCIC):
+Sextortion: Someone threatening to share/sharing intimate images without consent to extort money or favours.
+Morphed images: Digitally altering someone's image to make it sexual.
+First: Up to 5 years + Rs. 10 lakh fine.
+Subsequent: Up to 7 years + Rs. 10 lakh fine.
+Cognizable, Non-bailable.
+File at: Cyber Crime Cell + cybercrime.gov.in (has dedicated "Report & Remove" tool for intimate image abuse).
+Also BNS Section 77 (voyeurism), BNS Section 79 (insulting modesty).
+
+IT Act Section 67B — Child pornography / Child Sexual Abuse Material (CSAM):
+Publishing, transmitting, or even browsing CSAM.
+First: Up to 5 years + Rs. 10 lakh fine. Subsequent: Up to 7 years + Rs. 10 lakh fine.
+Cognizable, Non-bailable. Also POCSO Act applies.
+File at: cybercrime.gov.in (dedicated child abuse reporting) + police station.
+
+ONLINE STALKING AND HARASSMENT
+
+BNS Section 78 (Online Stalking) — Monitoring online activity, sending repeated messages despite disinterest, tracking location online.
+First offence: Up to 3 years + fine (Bailable).
+Repeat: Up to 5 years + fine (Non-bailable).
+File at: Police station + Cyber Crime Cell.
+
+Cyberbullying and Online Abuse:
+If abusive messages, threats, or harassment online:
+BNS Section 351 (Criminal intimidation) — threatening messages: Up to 2-7 years.
+BNS Section 356 (Defamation) — false statements harming reputation online: Up to 2 years. Non-cognizable — file private complaint in Magistrate court.
+BNS Section 353 (Spreading false information online to cause public mischief): Up to 3 years. Cognizable.
+IT Act Section 66 (if hacking of account used to spread fake content).
+
+NOTE ON SECTION 66A — THIS SECTION IS DEAD:
+IT Act Section 66A (offensive online messages) was struck down by Supreme Court in Shreya Singhal v. Union of India (2015) as unconstitutional. It is NO LONGER in force. Police cannot invoke 66A — if they try, it is illegal. Online speech offences are now covered under BNS Sections 196, 351, 353.
+
+EMAIL AND PHONE FRAUD
+
+Phishing emails/SMS (fake bank/government messages asking for OTP/credentials):
+IT Act 66C (identity theft) + IT Act 66D (cheating by personation) + BNS 318 (cheating).
+
+Fake tech support scams (someone calls claiming to be Microsoft/bank and installs remote access):
+IT Act 66 (hacking) + IT Act 66D + BNS 318.
+File complaint: cybercrime.gov.in + local Cyber Crime Cell.
+
+IMPORTANT — PLATFORM REPORTING
+Also report to the platform where abuse occurred:
+- Twitter/X, Facebook, Instagram: Report to the platform directly (for faster content removal).
+- Google: Removal of defamatory or intimate content.
+- I4C (Indian Cyber Crime Coordination Centre) can issue take-down notices to platforms.
+
+EVIDENCE TO PRESERVE
+Before filing complaint, preserve:
+1. Screenshots of messages, posts, transactions (with timestamp visible).
+2. URLs of offending content.
+3. Email headers (full headers, not just the email body) — shows true sender.
+4. Bank/UPI transaction IDs and screenshots.
+5. Voice recordings if threats made by call (check local law on recording consent).
+Note: Evidence on devices should NOT be deleted or overwritten.
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS FOR CYBER CRIME CHARGES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent — do NOT give your passwords, PIN, or device access to police without a court order.
+- Right to a lawyer immediately upon arrest.
+- Electronic devices can only be seized with proper procedure — demand a proper seizure memo.
+- Right to challenge the seizure and forensic evidence in court.
+
+WHAT PROSECUTION MUST PROVE:
+For IT Act Section 66 (Hacking): Prosecution must prove (1) you accessed a computer system, (2) without authorization or exceeding authorization, (3) with dishonest or fraudulent intent. Accidental access or authorized access exceeding scope may not meet the threshold.
+For IT Act Section 66C (Identity theft): Prosecution must prove you fraudulently used someone else's electronic credentials. Sharing your own device with family members who misused it may not make you liable.
+For IT Act Section 66D (Cheating by personation): Prosecution must prove you impersonated another person online with intent to cheat — not just that your account was hacked and misused.
+
+KEY DEFENSES:
+Account hacking defense: If your own account/device was compromised and used by someone else, you are not liable for their acts. Preserve evidence of the breach (login alerts, IP logs, bank notifications).
+No fraudulent intent: Accessing a system by mistake or due to misconfiguration is not hacking — intent is a required element.
+Jurisdiction defense: Many cyber crime FIRs are filed in the wrong jurisdiction — challenge this. Proper jurisdiction is where the accused is located, not just where the victim is.
+Lack of forensic integrity: Digital evidence can be challenged if the seizure, chain of custody, or forensic examination was not conducted per CERT-In / FSL standards.
+IP address is not the person: An IP address identifies a router/connection, not an individual. Prosecution must prove you were operating the device.
+
+BAIL:
+IT Act Section 66 (hacking): Cognizable, Bailable — right to bail.
+IT Act Section 66C/66D (identity theft, personation): Cognizable, Bailable.
+IT Act Section 67A (sexually explicit content): Non-bailable — apply to Sessions Court/HC.
+IT Act Section 67B (child pornography): Non-bailable — rarely granted, extremely serious.
+
+IF FALSELY ACCUSED OF ONLINE FRAUD:
+Preserve all bank statements, transaction records, and communication logs showing your innocence.
+Get your ISP/telecom provider to give records of IP address allocation for the relevant time.
+File a counter-complaint at cybercrime.gov.in if someone is misusing your identity.
+Apply to High Court to quash FIR if it is frivolous or based on mistaken identity.
+
+DEVICE SEIZURE RIGHTS:
+Police cannot take your phone/laptop without proper legal authority.
+Demand a seizure memo listing every item taken.
+You are entitled to a copy of the forensic report.
+Challenge inadmissible or tampered electronic evidence before the Special Court.

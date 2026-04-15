@@ -1,0 +1,167 @@
+MOTOR VEHICLES ACT 1988 — ACCIDENTS, HIT AND RUN, INSURANCE CLAIMS
+====================================================================
+
+OVERVIEW
+The Motor Vehicles Act 1988 governs road accidents, compensation claims, traffic offences, and vehicle insurance. Accident compensation is claimed before Motor Accident Claims Tribunals (MACT), not civil courts.
+
+THIS DOCUMENT COVERS TWO DIFFERENT SITUATIONS — READ CAREFULLY:
+SITUATION A: You were INJURED or your vehicle was DAMAGED by another driver who fled → you are the VICTIM → see "Hit and Run Compensation" section below.
+SITUATION B: YOU drove away after hitting someone's vehicle or a person → you are the DRIVER WHO FLED → see "Driver Who Fled the Scene" section below.
+
+DRIVER WHO FLED THE SCENE — WHAT TO DO IF YOU HIT SOMETHING AND DROVE AWAY
+
+Section 134 MV Act — Duty of driver after accident:
+Every driver involved in an accident MUST:
+1. Stop the vehicle immediately.
+2. Provide medical assistance to any injured person.
+3. Report the accident to the nearest police station within 24 hours.
+Failure to do any of these is a separate offence under Section 187.
+
+Section 187 MV Act — Punishment for failure to report accident:
+Fine up to Rs. 500 or imprisonment up to 3 months (first offence).
+Fine up to Rs. 1,000 or imprisonment up to 6 months (repeat offence).
+This is relatively minor — BUT if a person was injured and you fled, BNS Section 106 (causing hurt by negligence) may also apply.
+
+IF YOU HIT ONLY A PARKED VEHICLE (no person injured):
+Your legal exposure is: Section 187 MV Act (failure to report) + civil liability for vehicle damage. No criminal negligence charge (no person was hurt).
+
+IF YOU HIT A PERSON WHO WAS INJURED:
+Your legal exposure is: Section 187 MV Act + BNS Section 106 (causing grievous hurt by negligence, up to 5 years) + civil compensation liability.
+
+HOW TO FIX IT — VOLUNTARY REPORTING (STRONGLY ADVISED):
+
+Courts and police treat voluntary reporting far more leniently than being traced after the fact.
+
+Step 1 — IMMEDIATELY: Go to the nearest police station within 24 hours and report the accident voluntarily under Section 134 MV Act. Tell them: date, time, location, what happened, and that you panicked and left.
+
+Step 2: If you know whose vehicle/property you damaged, contact the owner directly, apologize, and offer to pay for repairs. Get a written settlement if possible.
+
+Step 3: Contact your motor insurance company and inform them of the accident. Voluntary disclosure protects your insurance position.
+
+Step 4: Consult a lawyer before going to police if a person was injured — a lawyer can accompany you and help negotiate the reporting process. Contact DLSA for a free lawyer.
+
+Step 5: If a person was injured, try to locate the victim and offer to pay medical expenses. This is treated as a strong mitigating factor by courts.
+
+WHY VOLUNTARY REPORTING HELPS:
+- Converts an aggravated offence into a minor one.
+- Courts routinely reduce or waive sentences for genuinely remorseful first-time offenders who come forward voluntarily.
+- Being traced later after CCTV or witness identification leads to arrest, FIR, and much harsher treatment.
+- Insurance claims by the victim can be processed — which reduces civil liability on you.
+
+PROPERTY DAMAGE ONLY — CIVIL LIABILITY:
+If only property was damaged (parked car, boundary wall, etc.):
+- You owe the owner compensation for actual repair cost.
+- If you pay voluntarily, no court case is likely.
+- If owner files civil suit, court will order payment plus interest.
+- Motor insurance (own-damage cover) may cover the other vehicle's damage too.
+
+HIT AND RUN — IMMEDIATE COMPENSATION
+
+Section 161 — Solatium Scheme (Hit and Run where driver is unknown/untraced):
+Death: Rs. 2 lakh fixed compensation.
+Grievous hurt: Rs. 50,000 fixed compensation.
+Paid from the Motor Vehicle Accident Fund (Central Government).
+Available even if vehicle owner/driver is untraceable.
+No need to prove fault — just prove accident occurred.
+Apply to: Claims Inquiry Officer or nearest MACT.
+
+Section 164 — No-Fault Liability (for all accidents):
+Even if fault cannot be proven, compensation is payable:
+Death: Rs. 5 lakh.
+Grievous hurt: Rs. 2.5 lakh.
+This is in addition to regular compensation if fault is later proven.
+
+REGULAR ACCIDENT COMPENSATION — MACT CLAIM
+
+Section 166 — Application for compensation to MACT:
+File within: No hard statutory deadline but file early; courts rarely refuse on delay alone.
+Where to file: MACT in district where accident occurred OR where owner/driver resides OR where claimant resides.
+Who can claim: Injured person, or legal heirs/dependants in case of death.
+
+COMPENSATION IS CALCULATED ON:
+1. Medical expenses (past and future).
+2. Loss of income/earning capacity.
+3. Loss of dependency (for family members of deceased).
+4. Pain, suffering, and mental agony.
+5. Funeral expenses (death cases).
+6. Loss of consortium (spouse's claim).
+MACT uses multiplier method: (annual income) x (multiplier based on age) = compensation.
+
+INSURANCE — MANDATORY THIRD-PARTY INSURANCE
+
+Section 146 — Mandatory insurance:
+Every vehicle must have at minimum third-party insurance covering injury/death to others.
+Driving without insurance: Fine up to Rs. 2,000 (first offence), Rs. 4,000 (repeat).
+
+Section 149 — Pay-and-recover principle:
+Even if owner/driver violates policy conditions, insurance company must first pay compensation to victim and then recover from owner/driver. Victim cannot be denied compensation due to policy violations.
+
+HOW TO FILE MACT CLAIM — STEP BY STEP
+
+Step 1: File FIR at nearest police station immediately after accident.
+Step 2: Get spot inspection done — police will note tyre marks, vehicle position, injuries.
+Step 3: Collect documents: FIR copy, medical bills, post-mortem report (death cases), salary/income proof, insurance details of vehicle (check VAHAN portal — vahan.parivahan.gov.in), RC and driving licence of vehicle.
+Step 4: File claim petition at MACT in prescribed form.
+Step 5: Insurance company will file reply. Hearing and evidence. Award within reasonable time (target: 6 months under new rules).
+
+INTERIM COMPENSATION:
+MACT can award interim compensation at any stage to meet urgent needs. Apply specifically for this if you need immediate money for medical treatment.
+
+HIT AND RUN — DRIVER FLED THE SCENE
+
+If vehicle hit and fled:
+1. Note vehicle number, colour, make, direction it fled.
+2. Note time and location precisely.
+3. File FIR with all available details — even partial number plate is useful.
+4. Request police to check CCTV from area.
+5. Apply for Rs. 2 lakh (death) or Rs. 50,000 (grievous hurt) solatium without waiting for driver to be found.
+
+DRUNK DRIVING BY ACCUSED
+Section 185 — Driving under influence of alcohol: Blood Alcohol Content above 30mg/100ml.
+Punishment: Fine of Rs. 10,000 or imprisonment up to 6 months, or both.
+Evidence of drunk driving significantly increases compensation in MACT claims.
+
+COMPENSATION IN CASE OF DEATH — FAMILY MEMBERS CAN CLAIM
+Legal heirs can claim even without formal legal heir certificate initially.
+Dependants include: spouse, children, parents.
+Courts have awarded compensation to live-in partners and financial dependants as well.
+
+ACCIDENT BY GOVERNMENT VEHICLE
+If accident is caused by government vehicle (bus, truck, police vehicle):
+File MACT claim same as private vehicle.
+Government is vicariously liable for negligence of its employees in course of duty.
+Also: File RTI for vehicle maintenance records to establish negligence.
+
+HELPFUL RESOURCES
+- VAHAN portal (vehicle and insurance check): vahan.parivahan.gov.in
+- Road Accident Fund claim form: Available at MACT offices.
+- National Highways Authority of India crash helpline: 1033.
+- Emergency: 112.
+
+==========================================================================
+IF YOU ARE THE ACCUSED DRIVER — DEFENSE RIGHTS IN ACCIDENT / MV ACT CASES
+==========================================================================
+
+YOUR RIGHTS AS AN ACCUSED DRIVER:
+- Right to remain silent — do NOT admit fault to anyone at the scene beyond calling for medical help.
+- Right to a lawyer before giving any statement to police.
+- Right to challenge the FIR if it contains false facts.
+
+WHAT PROSECUTION MUST PROVE:
+For BNS Section 106 (causing death by negligence): Prosecution must prove (1) you were driving negligently — not that an accident merely occurred, (2) the negligence CAUSED the death, (3) you were operating the vehicle. Accidents can happen even with careful driving — mere occurrence of accident is not proof of negligence.
+For Section 187 MV Act (failure to report): Prosecution must prove you were the driver, the accident occurred, and you failed to report within 24 hours. Voluntary reporting before detection is a strong mitigating factor.
+
+COMMON DEFENSES:
+No negligence: The accident was caused by the other party's sudden negligent action (jaywalking, abrupt lane change), a road defect, or mechanical failure beyond your control.
+Victim's contributory negligence: If the victim was also negligent (speeding, drunk driving, not wearing helmet), compensation can be reduced proportionately in civil claims.
+Mechanical failure: If a tyre burst, brake failure, or steering failure caused the accident and you had properly maintained the vehicle, this reduces or negates criminal negligence.
+Challenging speed/alcohol evidence: Speed readings and breath analyser tests must follow prescribed procedures — challenge if procedures were not followed.
+
+BAIL:
+BNS Section 106 (causing death by negligence, non-rash driving): Bailable — absolute right to bail.
+BNS Section 106 (medical practitioner): Bailable.
+Causing death by rash and negligent driving: Generally bailable at police station.
+If racing or joyriding involved: Possibly non-bailable depending on facts.
+
+INSURANCE PROTECTS YOU CIVILLY:
+Third-party insurance covers civil compensation to the victim — your insurer pays the MACT award. This does not affect the criminal case but limits your financial exposure in civil proceedings.

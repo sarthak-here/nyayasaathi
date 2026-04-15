@@ -1,0 +1,146 @@
+RIGHT TO INFORMATION ACT 2005 — KEY PROVISIONS
+================================================
+
+OVERVIEW
+The Right to Information Act 2005 (RTI Act) is a landmark legislation that empowers every Indian citizen to request information from any public authority. It promotes transparency and accountability in government functioning.
+
+WHO CAN FILE AN RTI?
+Any citizen of India can file an RTI application. There is no requirement to state reasons for seeking information. NRIs and foreigners cannot file RTI under this Act. A person below 18 years can file through a guardian.
+
+WHAT INFORMATION CAN BE SOUGHT?
+Citizens can seek any information held by or under the control of a public authority. This includes:
+- Records, documents, memos, emails, opinions, advices, press releases
+- Contracts, reports, papers, samples, models, data held in electronic form
+- Information relating to any private body which can be accessed by a public authority
+- Inspection of work, documents and records
+- Taking certified samples of material
+
+WHAT CANNOT BE SOUGHT UNDER RTI?
+The following are exemptions under Section 8:
+- Information that would prejudicially affect sovereignty, integrity, security of India
+- Information expressly forbidden by courts or tribunals
+- Information which would cause breach of privilege of Parliament or State Legislature
+- Commercial confidence, trade secrets, or intellectual property
+- Information received in confidence from a foreign government
+- Cabinet papers including deliberations of Council of Ministers
+- Personal information with no relationship to public activity or interest
+- Information that would endanger life or physical safety of any person
+
+HOW TO FILE AN RTI APPLICATION?
+Step 1: Identify the Public Information Officer (PIO) of the concerned public authority
+Step 2: Write a simple application in English, Hindi, or local official language
+Step 3: Pay the application fee of Rs. 10 (by cash, demand draft, or court fee stamp)
+Step 4: Submit either in person, by post, or electronically through the RTI online portal (rtionline.gov.in)
+Step 5: Obtain an acknowledgment/receipt with date of submission
+
+APPLICATION FORMAT:
+To,
+The Public Information Officer,
+[Name of Public Authority]
+[Address]
+
+Subject: Application under Right to Information Act 2005
+
+Sir/Madam,
+I, [Name], resident of [Address], wish to obtain the following information under the provisions of the RTI Act 2005:
+[State the information clearly and specifically]
+
+I am enclosing the application fee of Rs. 10.
+
+Yours faithfully,
+[Name]
+[Address]
+[Phone/Email]
+[Date]
+
+TIME LIMITS FOR RESPONSE
+- Normal cases: 30 days from receipt of application by PIO
+- Cases involving life and liberty: 48 hours
+- If application sent to wrong PIO and transferred: 35 days total
+- Information concerning third party: 40 days
+
+WHAT IF PIO DOES NOT RESPOND?
+If PIO fails to respond within 30 days, it is deemed refusal. The applicant can:
+
+FIRST APPEAL (Section 19(1)):
+- File within 30 days of receiving reply or expiry of 30-day period
+- Submit to the First Appellate Authority (an officer senior to PIO, within same organization)
+- First Appellate Authority must decide within 30 days (extendable to 45 days)
+- No fee for first appeal
+
+SECOND APPEAL (Section 19(3)):
+- File within 90 days of receiving First Appellate Authority's order or its expiry
+- Submit to Central Information Commission (CIC) or State Information Commission (SIC)
+- No fee for second appeal
+- Commission can order disclosure, impose penalty, award compensation
+
+PENALTIES
+Under Section 20, the Information Commission can impose penalty on PIO for:
+- Refusing to receive application without reasonable cause
+- Not providing information within time limit
+- Knowingly giving incomplete, incorrect or misleading information
+- Destroying information before request period
+- Obstructing furnishing of information
+Penalty: Rs. 250 per day, up to maximum Rs. 25,000
+
+The Commission can also recommend disciplinary action against the PIO.
+
+COMPENSATION
+Under Section 19(8)(b), the Commission can require the public authority to compensate the complainant for any loss or other detriment suffered.
+
+BPL APPLICANTS
+Citizens below the poverty line (BPL) are exempt from paying application and appeal fees. They must submit a copy of their BPL certificate.
+
+PROACTIVE DISCLOSURE (Section 4)
+Every public authority must proactively disclose on its website:
+- Particulars of organization, functions, duties
+- Powers and duties of officers
+- Decision-making procedures
+- Norms set for discharge of functions
+- Rules, regulations, instructions, manuals
+- Directory of officers and employees with monthly remuneration
+- Budget allocated to each agency
+- Annual reports and plans
+
+COMMON RTI USE CASES IN INDIA
+1. Status of government job applications, transfers, promotions
+2. Public works expenditure — roads, schools, hospitals, wells
+3. Ration card, BPL list, MGNREGA payments
+4. Property/land records, mutations, encumbrances
+5. Police action taken on complaints
+6. Pension, PF, gratuity matters
+7. Examination results and answer sheets
+8. Environmental clearances
+9. Municipal services — water, drainage, building permissions
+
+RTI ONLINE PORTAL
+Website: rtionline.gov.in
+Provides online filing, payment, tracking, and appeal filing for Central Government departments.
+
+==========================================================================
+IF YOU ARE A PUBLIC SERVANT FACING RTI PENALTIES — DEFENSE RIGHTS
+==========================================================================
+
+YOUR RIGHTS AS A PUBLIC INFORMATION OFFICER (PIO):
+- Right to appeal any penalty order from the Information Commission to the High Court.
+- Right to be heard before penalty is imposed (Section 20 requires the Commission to give you reasonable opportunity to be heard).
+- Right to show reasonable cause for delay or non-disclosure.
+
+WHAT THE COMMISSION MUST ESTABLISH BEFORE IMPOSING PENALTY:
+- That you received the application.
+- That the time limit expired without a response.
+- That you failed to respond WITHOUT REASONABLE CAUSE.
+The penalty is NOT automatic — the Commission must find that the delay/refusal was without reasonable cause. You can show: the application was forwarded to another department, information was exempt under Section 8, the applicant's description was vague, or you were on leave/transferred.
+
+VALID DEFENSES FOR NON-DISCLOSURE:
+Section 8 Exemptions: Information relating to national security, personal privacy, commercial confidence, cabinet deliberations, etc. is exempt. If you withheld information under a genuine belief that it was exempt, this is a defense against penalty.
+Third-party information: If disclosure would harm a third party and you were following due process for consultation, delay may be justified.
+Information not held: If the information requested does not exist in your office, you cannot provide what you don't have — show this with an affidavit.
+Transfer/charge handover: If the RTI was received by a predecessor who failed to respond, subsequent officer may not be personally liable.
+
+APPEAL AGAINST COMMISSION ORDERS:
+Any person aggrieved by an Information Commission order (including the public authority/PIO) can file a writ petition in the High Court under Article 226/227.
+Penalty orders specifically can be challenged if the Commission did not follow due process.
+
+IF FALSELY TARGETED BY VEXATIOUS RTI:
+Some RTI applications are filed vexatiously to harass officials. While the Act does not allow rejection on this ground alone, show the Commission the pattern of applications and harassment if seeking relief.

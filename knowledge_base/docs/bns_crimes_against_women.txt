@@ -1,0 +1,151 @@
+BNS 2023 — CRIMES AGAINST WOMEN AND CHILDREN (Chapter V, Sections 63–99)
+==========================================================================
+(Bharatiya Nyaya Sanhita replaced IPC w.e.f. July 1, 2024)
+(Cases before July 1, 2024 continue under old IPC sections)
+
+OVERVIEW
+The Bharatiya Nyaya Sanhita (BNS) 2023 replaced the Indian Penal Code 1860 on July 1, 2024. Chapter V covers offences against women and children with significantly enhanced punishments compared to the old IPC.
+
+RAPE AND SEXUAL ASSAULT
+
+BNS Section 64 (Old IPC 376) — Rape Punishment:
+Minimum 10 years rigorous imprisonment up to life + fine.
+Cognizable, Non-bailable offence. Tried by Sessions Court.
+File complaint at nearest police station or SJPU (Special Juvenile Police Unit for minors).
+
+BNS Section 65 (Old IPC 376(3)) — Rape on woman under 18 years:
+Minimum 20 years RI up to life imprisonment + fine, or death penalty.
+Cognizable, Non-bailable.
+
+BNS Section 66 (Old IPC 376A) — Rape causing death or persistent vegetative state:
+Minimum 20 years RI up to life, or death + fine payable to victim.
+Cognizable, Non-bailable.
+
+BNS Section 69 (NEW — no IPC equivalent) — Deceptive sexual intercourse:
+Sexual intercourse obtained by fraudulent means, deceit, false identity, or false promise of marriage/employment/promotion.
+Up to 10 years imprisonment + fine.
+Cognizable, Non-bailable.
+
+BNS Section 70 (Old IPC 376D) — Gang rape:
+Minimum 20 years RI up to life + fine. Death penalty if victim under 18.
+Cognizable, Non-bailable.
+
+SEXUAL HARASSMENT AND STALKING
+
+BNS Section 74 (Old IPC 354) — Assault or criminal force outraging modesty of woman:
+1 to 5 years imprisonment + fine.
+Cognizable, Non-bailable.
+File at: Police station.
+
+BNS Section 75 (Old IPC 354A) — Sexual harassment:
+Physical contact / unwelcome advances / demand for sexual favours: Up to 3 years + fine.
+Making sexually coloured remarks: Up to 1 year + fine.
+Cognizable, Non-bailable.
+File at: Police station; also Internal Complaints Committee (ICC) under POSH Act for workplace.
+
+BNS Section 76 (Old IPC 354B) — Assault to disrobe a woman:
+3 to 7 years imprisonment + fine.
+Cognizable, Non-bailable.
+
+BNS Section 77 (Old IPC 354C) — Voyeurism (including online):
+Capturing or publishing images of woman's private acts without consent.
+First offence: 1 to 3 years + fine. Repeat: 3 to 7 years + fine.
+First offence Bailable; Repeat Non-bailable.
+File at: Police station / Cyber Crime Cell (cybercrime.gov.in)
+
+BNS Section 78 (Old IPC 354D) — Stalking (physical or online):
+Following a woman, contacting or attempting to contact despite clear disinterest, monitoring online activity.
+First offence: Up to 3 years + fine (Bailable).
+Repeat offence: Up to 5 years + fine (Non-bailable).
+File at: Police station + Cyber Crime Cell for online stalking.
+
+BNS Section 79 (Old IPC 509) — Words or gestures to insult modesty of woman:
+Making sounds, gestures, showing object, or intruding upon privacy of a woman.
+Up to 3 years + fine. Cognizable, Bailable.
+File at: Police station.
+
+DOWRY AND MARITAL CRUELTY
+
+BNS Section 80 (Old IPC 304B) — Dowry death:
+Death of woman within 7 years of marriage caused or connected to dowry harassment.
+7 years imprisonment to life imprisonment.
+Cognizable, Non-bailable. Tried by Sessions Court.
+File at: Police station.
+
+BNS Section 85 (Old IPC 498A) — Cruelty by husband or his relatives:
+Subjecting woman to cruelty — physical or mental harassment, demands for dowry, threats, conduct driving woman to suicide.
+Up to 3 years imprisonment + fine.
+Cognizable, Non-bailable.
+File at: Police station.
+
+NOTE: BNS Section 85/86 (cruelty) runs separately from the Protection of Women from Domestic Violence Act 2005 (PWDVA). PWDVA is a civil remedy; BNS 85 is criminal. Both can be filed simultaneously.
+
+ACID ATTACK
+
+BNS Section 124 (Old IPC 326A/326B) — Acid attack:
+Throwing or administering acid causing permanent/partial damage:
+Minimum 10 years RI up to life + fine (paid to victim for medical treatment).
+Attempting acid attack: 5 to 7 years + fine.
+Cognizable, Non-bailable.
+
+HOW TO REPORT — WOMEN'S HELPLINES
+- Women Helpline (All India): 1091
+- Domestic Violence / Shelter: 181
+- Police Emergency: 112
+- Child Helpline (POCSO cases): 1098
+- NHRC: 14433
+- National Commission for Women: 7827170170
+
+WHERE TO FILE COMPLAINT
+1. Nearest police station — FIR must be registered, cannot be refused.
+2. For POCSO/child cases: Special Juvenile Police Unit (SJPU) or Child Welfare Committee.
+3. Online: cybercrime.gov.in for cyber-related sexual offences.
+4. Zero FIR: Can file at ANY police station regardless of where incident occurred.
+
+RIGHTS OF RAPE SURVIVORS
+- Statement recorded by female police officer (mandatory under BNSS).
+- Medical examination at government hospital — FREE (private hospitals also mandated under BNSS Section 397).
+- In-camera court proceedings (identity not revealed publicly).
+- Victim compensation from State Victim Compensation Scheme (apply to SLSA/DLSA).
+- Free legal aid from District Legal Services Authority (DLSA).
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS IN CRIMES AGAINST WOMEN CASES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent — no forced confession under any circumstances (Article 20(3)).
+- Right to a lawyer from the moment of arrest (Article 22(1)). Free lawyer from DLSA.
+- In rape cases: Right to medical examination by a doctor of your choice.
+- No detention beyond 24 hours without magistrate's remand.
+
+WHAT PROSECUTION MUST PROVE — RAPE (BNS Section 64):
+- Sexual intercourse occurred.
+- It was without consent OR consent was obtained by force, threat, fraud, or impersonation.
+- You were the perpetrator — identity must be established beyond reasonable doubt.
+Prosecution must prove absence of consent — this is a high burden of proof.
+
+FOR BNS SECTION 85 (CRUELTY / DOWRY HARASSMENT):
+Prosecution must prove cruelty — physical or mental — beyond reasonable doubt.
+Matrimonial disagreements, arguments, and ordinary domestic friction are NOT cruelty under the law.
+Supreme Court: FIR under 498A/BNS 85 does not automatically mean arrest — police must follow Arnesh Kumar guidelines and take magistrate approval before arrest.
+
+FOR BNS SECTION 78 (STALKING):
+Prosecution must prove: persistent following/contact despite clear disinterest. A single instance or a genuine attempt to reconcile in a relationship may not meet "persistent" threshold.
+
+BAIL:
+BNS Section 85 (cruelty): Non-bailable — apply immediately to Magistrate/Sessions Court. Bail often granted for first-time accused with no prior record in 498A cases.
+BNS Section 64 (rape): Non-bailable — bail very difficult to get. Apply to Sessions Court with strong grounds (false implication, consensual relationship, alibi).
+BNS Section 78 (stalking, first offence): Bailable — absolute right to bail.
+BNS Section 75 (sexual harassment): Non-bailable — Sessions Court bail application.
+
+COMMON DEFENSES:
+Consent: In cases where the relationship was consensual — produce evidence of relationship (messages, social media, mutual plans). False promise of marriage cases require examining intent at the time of the promise.
+Alibi: You were not present — phone location data, travel records, witnesses.
+Motivated complaint: Establish the complainant's motive — prior dispute, failed relationship, property conflict.
+Mistaken identity: If complainant cannot specifically identify you.
+Contradictions in complainant's statement: Inconsistencies between FIR, statement before Magistrate, and deposition in court weaken the prosecution case.
+
+PROTECTING YOURSELF FROM FALSE CASES:
+If you anticipate a false case: Preserve all communication evidence. Apply for anticipatory bail proactively.
+In matrimonial disputes: Before separation, record agreements, document financial transactions, keep witnesses to important interactions.

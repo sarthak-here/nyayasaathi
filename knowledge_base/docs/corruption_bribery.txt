@@ -1,0 +1,138 @@
+CORRUPTION AND BRIBERY — PREVENTION OF CORRUPTION ACT 1988
+============================================================
+(Amended 2018 — significant changes to bribe-giving provisions)
+
+OVERVIEW
+Corruption and bribery by public servants is governed by the Prevention of Corruption Act 1988 (PC Act). This covers government officials, police, municipal workers, bank employees (public sector), and all persons in public service demanding or accepting bribes.
+
+WHAT IS A "PUBLIC SERVANT"?
+Very wide definition under Section 2(c):
+- Central and state government employees.
+- Police officers of all ranks.
+- Municipal/panchayat officials.
+- Employees of public sector banks (SBI, PNB, etc.) and PSUs.
+- Judges, arbitrators, jury members.
+- Employees of universities and government-aided institutions.
+- Military and paramilitary personnel.
+- Any person performing public duty under government authorization.
+
+BRIBERY — TAKING A BRIBE
+
+Section 7 (Amended 2018) — Public servant accepting bribe:
+Any public servant who obtains or accepts any undue advantage (money, gift, favour, entertainment, anything of value) for:
+- Performing their official duty improperly.
+- Showing favour to any person in official matters.
+- Any act or omission in exercise of official functions.
+Even ATTEMPTING to obtain a bribe is an offence under this section.
+Punishment: Minimum 3 years, Maximum 7 years RI + fine.
+Cognizable, Non-bailable.
+
+BRIBERY — GIVING A BRIBE
+
+Section 8 (2018 Amendment) — Person giving bribe is also guilty:
+Whoever gives, offers, or agrees to give a bribe to a public servant is also guilty.
+Punishment: Minimum 3 years, Maximum 7 years RI + fine.
+
+IMPORTANT EXCEPTION (Section 8 Proviso):
+If a person was COERCED into giving a bribe against their will AND they report the matter to the law enforcement within 7 days of giving the bribe — they are NOT guilty. This protects harassment victims who feel compelled to pay to get their work done.
+
+Section 7A — Giving bribe to influence public servant (by third party):
+Any person (including private company) who gives/accepts gratification to cause a public servant to act improperly.
+Minimum 3 years, Maximum 7 years + fine.
+
+CRIMINAL MISCONDUCT — DISPROPORTIONATE ASSETS (DA)
+
+Section 13 — Criminal Misconduct by Public Servant:
+Public servant having assets disproportionate to known sources of income (the classic "DA case").
+Also covers: Fraudulent misappropriation of property entrusted to public servant; obtaining pecuniary advantage by corrupt or illegal means.
+Minimum 1 year, Maximum 7 years RI + fine.
+Cognizable, Non-bailable.
+
+WHERE TO FILE COMPLAINT
+
+For State Government Employees (state police, municipal workers, revenue officials, state bank employees):
+Anti-Corruption Bureau (ACB) or Vigilance Department of the State.
+State Vigilance Commission.
+Complaint to SP/DIG level directly.
+
+For Central Government Employees (central bank, income tax, customs, railway employees, etc.):
+Central Bureau of Investigation (CBI): cbi.gov.in
+Central Vigilance Commission (CVC): cvc.gov.in | 1964 (CVC helpline)
+
+Online Complaints:
+CVC portal: cvc.gov.in/complaints.
+State Lokayukta/Lokpal portals.
+PMO/CM Office portals for very high-profile matters.
+
+TRAP CASE — CATCHING A BRIBE RED-HANDED
+
+The most effective way to get a corrupt official prosecuted:
+Step 1: Contact ACB/CBI and report that a public servant is demanding a specific bribe.
+Step 2: ACB verifies the complaint (confidential preliminary inquiry).
+Step 3: ACB provides marked currency notes (treated with chemical phenolphthalein).
+Step 4: Complainant gives the bribe in the presence of witnesses + ACB team on surveillance.
+Step 5: Official arrested immediately. Chemical test (sodium carbonate test) on hands confirms contact with marked notes.
+Step 6: Recovery of notes from official = strong evidence.
+Note: You are protected — as the bribe-giver under coercion, you are exempt if you cooperate with ACB.
+
+LOKPAL AND LOKAYUKTA
+
+Lokpal Act 2013: Central anti-corruption body for complaints against:
+- Prime Minister (limited jurisdiction), Ministers, Members of Parliament, Group A officers of central government.
+File online: lokpal.gov.in.
+
+Lokayukta: State-level anti-corruption body (exists in most states). Covers state government employees including MLAs, Ministers.
+Find your state Lokayukta: Available through state government portals.
+
+WHISTLEBLOWER PROTECTION
+
+Whistle Blowers Protection Act 2014 (implementation pending full notification):
+Provides protection to persons making public interest disclosures about corruption.
+Complaint to CVC (Central Vigilance Commission) for central employees.
+Identity kept confidential.
+
+EVERYDAY CORRUPTION — PRACTICAL GUIDANCE
+
+Police asking for bribe to register FIR:
+You have a RIGHT to have FIR registered for cognizable offences. Police cannot demand money. Escalate to:
+- Superintendent of Police (SP) of district.
+- State Police Complaints Authority.
+- State ACB.
+- Magistrate under BNSS Section 175 (magistrate can direct FIR registration).
+
+Revenue/municipal officials demanding bribe for certificates, mutations, permits:
+File complaint with ACB/Vigilance + report to District Collector's complaint cell.
+Many states have toll-free vigilance helplines.
+
+Hospital/doctor demanding bribe for services covered under Ayushman Bharat:
+Complaint to National Health Authority: nhp.gov.in | 14555 (PM-JAY helpline).
+State Health Department's grievance cell.
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS IN CORRUPTION / BRIBERY CASES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent — do NOT explain your assets or decisions to police without a lawyer.
+- Right to a lawyer immediately upon arrest.
+- For DA (disproportionate assets) cases: You are entitled to explain the sources of your assets — prepare a full account with documentary evidence.
+
+WHAT PROSECUTION MUST PROVE:
+For Section 7 PC Act (taking bribe): Prosecution must prove (1) you are a public servant, (2) you accepted an "undue advantage," (3) it was for performing your official duty improperly. Acceptance of gifts within government-prescribed limits, or voluntary gratification after rendering service without any prior demand, may not constitute an offence.
+For Section 13 (Disproportionate Assets): Prosecution must prove assets disproportionate to known income. The burden then shifts to you to explain — you must account for EVERY asset with documentary proof of legitimate income source.
+
+COMMON DEFENSES:
+No demand made: The money was pressed upon you without a prior demand — lack of demand negates the offence under Section 7.
+Accepted under duress: You were threatened and accepted under fear — this is not a voluntary bribe (Section 7 requires voluntary acceptance).
+Assets explained: For DA cases, produce income tax returns, salary slips, agricultural income records, inheritance documents, gifts received, and prior savings to account for all assets.
+Trap case planted: Challenge the trap procedure — if phenolphthalein powder was applied after the fact, chain of custody broken, or witnesses are planted, the trap evidence is unreliable.
+Prior sanction absent: Prosecution of a public servant without proper prior sanction from the competent authority (Section 19 PC Act) is a jurisdictional defect and the entire prosecution fails.
+
+BAIL:
+PC Act offences: Generally bailable — apply to Magistrate immediately. For serious DA cases: Sessions Court bail.
+Prior sanction required for arrest in some cases — if arrested without proper sanction, challenge the arrest.
+
+PROTECTING YOURSELF AS A PUBLIC SERVANT:
+Always document your decisions — noting files with proper reasons protects you from allegations of impropriety.
+Refuse any gift or benefit in writing if offered — send an email or note it on file.
+If threatened for bribe: Report to ACB/CVC immediately — you are protected as a whistleblower.

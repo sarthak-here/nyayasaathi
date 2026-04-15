@@ -1,0 +1,163 @@
+BNS 2023 — ASSAULT, HURT, CRIMINAL INTIMIDATION, PUBLIC ORDER OFFENCES
+=======================================================================
+(Bharatiya Nyaya Sanhita replaced IPC w.e.f. July 1, 2024)
+IMPORTANT: This section covers STRANGER-related crimes in public, workplace, or any non-domestic setting. For domestic/family violence, see domestic_violence_act_2005.txt
+
+HURT AND ASSAULT
+
+BNS Section 115(2) (Old IPC 323) — Voluntarily causing hurt:
+Causing bodily pain, disease, or infirmity to another person.
+Up to 1 year imprisonment or Rs. 10,000 fine, or both.
+NON-Cognizable, Bailable — file private complaint in Magistrate court.
+Note: For minor physical altercations, police may refuse FIR. File directly before Magistrate.
+
+BNS Section 117(2) (Old IPC 325) — Voluntarily causing grievous hurt:
+Grievous hurt = permanent eye/ear damage, broken bone, fracture, dislocation, permanent disfigurement, life-threatening injury.
+Up to 7 years + fine. Cognizable, Bailable. File FIR at police station.
+
+BNS Section 117(3) (NEW) — Grievous hurt causing permanent disability or vegetative state:
+Minimum 10 years RI up to life imprisonment.
+Cognizable, Non-bailable.
+
+BNS Section 118(1) (Old IPC 324) — Voluntarily causing hurt by dangerous weapon:
+Knife, rod, stone, acid, any instrument capable of causing death used to hurt.
+Up to 3 years or Rs. 20,000 fine, or both.
+Cognizable, Bailable.
+
+BNS Section 131 (Old IPC 352) — Assault or use of criminal force:
+Making physical gesture or movement causing apprehension of force, OR actually using force without consent.
+Stranger threatening and moving towards you in public = assault even without physical contact.
+Up to 3 months or Rs. 1,000 fine.
+Non-cognizable, Bailable. File at Magistrate court.
+
+BNS Section 132 (Old IPC 353) — Assault on public servant on duty:
+Attacking, threatening, or obstructing police, doctor, firefighter, etc. on duty.
+Up to 2 years or fine. Cognizable, Non-bailable.
+
+CRIMINAL INTIMIDATION
+
+BNS Section 351 (Old IPC 503/506) — Criminal intimidation:
+Threatening another person with injury to their PERSON, REPUTATION, or PROPERTY — or injury to anyone they care about — to cause alarm OR to force them to do or not do something.
+
+THIS IS THE RIGHT SECTION WHEN:
+- A stranger threatens you verbally in public ("Do whatever you can", "I'll see you later", "Main dekh loonga")
+- Someone threatens to harm your family member
+- Anyone threatens you via phone/message
+- Neighbour threatening you over property dispute
+- Someone threatening to file false case against you unless you pay
+
+Punishment:
+Basic: Up to 2 years + fine (Cognizable, Non-bailable).
+Threat to cause death or grievous hurt, fire, or imputing unchastity to a woman: Up to 7 years + fine (Cognizable, Non-bailable).
+Anonymous threat (unsigned letter, unknown caller): Add 2 more years to punishment.
+
+File at: Nearest police station — FIR for cognizable offence.
+
+BNS Section 352 (Old IPC 504) — Intentional insult to provoke breach of peace:
+Deliberately insulting someone in a way intended to provoke them into violence or breach of public order.
+Abusing or using slangs against someone in public to provoke = this section.
+Up to 2 years + fine.
+Non-cognizable, Bailable — file private complaint in Magistrate court.
+Police CAN still arrest if situation warrants breach of peace.
+
+ABUSIVE LANGUAGE AND PUBLIC NUISANCE
+
+BNS Section 296 (Old IPC 294) — Obscene acts or words in public:
+Using obscene/abusive language in a public place, singing obscene songs, making obscene gestures.
+Up to 3 months or fine.
+Non-cognizable, Bailable. Police can still act to prevent breach of peace.
+File at: Police station (for FIR if cognizable elements also present) or Magistrate court.
+
+COMMUNAL AND RELIGIOUS OFFENCES
+
+BNS Section 196 (Old IPC 153A) — Promoting enmity between groups:
+Making statements, speeches, or gestures that promote hatred between people of different religions, races, communities, castes, or languages.
+Also covers: Writing in newspapers, posters, social media posts promoting communal hatred.
+Up to 3 years + fine (Non-bailable, Cognizable).
+In places of worship: Up to 5 years + fine.
+File at: Police station.
+
+If a person uses religious slurs or insults directed at someone based on their religion in a way promoting hatred: This section applies PLUS BNS Section 352 (intentional insult).
+
+BNS Section 299 (Old IPC 295A) — Deliberate act intended to outrage religious feelings:
+Deliberately causing insult to religion or religious beliefs of any class.
+Up to 3 years + fine. Cognizable, Bailable.
+File at: Police station.
+
+DEFAMATION
+
+BNS Section 356 (Old IPC 499/500) — Defamation:
+Making or publishing false statements of fact about a person that harm their reputation.
+Spoken defamation (slander) = up to 2 years + fine.
+Written/printed defamation (libel) = up to 2 years + fine.
+NON-Cognizable, Bailable — must file PRIVATE COMPLAINT in Magistrate court, not FIR.
+DEFENCES: Truth in public interest; fair comment on public affairs; report of court proceedings.
+Note: Accusing someone of a crime without evidence can itself be defamation.
+
+PUBLIC ORDER AND MOB VIOLENCE
+
+BNS Section 191 (Old IPC 141) — Unlawful assembly (5+ persons with common object to commit offence):
+Being member of unlawful assembly: Up to 6 months + fine.
+If assembly commits offence, every member guilty.
+
+BNS Section 103 — Murder by group on caste/religious grounds:
+If 5 or more persons commit murder of a person on grounds of race, caste, community, sex, sexual orientation, language, or personal belief — EACH MEMBER faces death or life or minimum 7 years RI + fine.
+This is a new provision specifically targeting mob lynching.
+
+HOW TO FILE COMPLAINT — DECISION GUIDE
+
+If you were:
+PHYSICALLY ATTACKED: BNS 115/117 — FIR at police station if grievous hurt; Magistrate complaint if minor hurt.
+THREATENED (any form — verbal, phone, message): BNS 351 — FIR at police station.
+VERBALLY ABUSED/INSULTED in public: BNS 352 — private Magistrate complaint (or BNS 296 if obscene language, also Magistrate).
+INSULTED based on religion/caste: BNS 196 + BNS 352 — FIR at police station.
+STALKED: BNS 78 — FIR at police station.
+HARASSED sexually in public: BNS 74/75 — FIR at police station.
+YOUR REPUTATION DAMAGED by false statements: BNS 356 — private Magistrate complaint.
+
+IMPORTANT: A situation involving a complete stranger in a public place does NOT fall under:
+- Domestic Violence Act (only applies to people in domestic relationships).
+- SC/ST Atrocities Act (only if accused is non-SC/ST and victim is SC/ST and offence is caste-based).
+The correct sections are BNS 351, 352, 115-117, 196, 296 as applicable.
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS FOR ASSAULT / INTIMIDATION CHARGES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS (apply regardless of guilt or innocence):
+- Right to remain silent — you cannot be forced to confess (Article 20(3) Constitution).
+- Right to a lawyer — immediately upon arrest (Article 22(1)). If you cannot afford one, DLSA provides free lawyers.
+- Right to know the charges against you in full (BNSS Section 47).
+- Right to medical examination to document your own condition at time of arrest (BNSS Section 51).
+- No detention beyond 24 hours without magistrate's remand order (BNSS Section 57).
+
+WHAT PROSECUTION MUST PROVE (burden is entirely on them):
+For BNS Section 351 (Criminal Intimidation): Prosecution must prove (1) you made a threat, (2) the threat was of injury to person/property/reputation, (3) you intended to cause alarm OR compel/deter action. Mere words said in anger without intent to cause alarm may not meet the threshold.
+For BNS Section 115/117 (Hurt/Grievous Hurt): Prosecution must prove the injury was voluntarily caused by you — accidental hurt is not an offence.
+For BNS Section 131 (Assault): Prosecution must prove you made a gesture or preparation intending to cause apprehension — verbal argument alone is not assault.
+
+COMMON DEFENSES:
+Right of private defence (BNS Section 100): You had the right to use reasonable force to protect yourself or another from imminent attack. If you were attacked first and responded, this is a complete defense.
+Provocation: Sudden and grave provocation reducing the gravity of the offence — relevant at sentencing even if not a complete defence.
+Consent: For certain offences, if the other party consented (e.g., sports, mutual combat) it negates the offence.
+Alibi: You were not present at the scene — prosecution's identification evidence must be challenged.
+False implication: Complainant has a prior dispute, motive to falsely implicate, or no independent witnesses.
+
+BAIL:
+BNS Section 115 (simple hurt): Non-cognizable, Bailable — you have an absolute right to bail.
+BNS Section 117 (grievous hurt): Cognizable, Bailable — right to bail at police station.
+BNS Section 351 (criminal intimidation, basic): Non-bailable but Sessions Court/HC can grant bail — apply immediately.
+BNS Section 351 (death threat variant): Non-bailable — anticipatory bail from Sessions Court/HC before arrest if you fear false implication.
+
+IF FALSELY ACCUSED:
+Collect evidence immediately: Call records, location data, CCTV footage, witnesses who can establish your alibi or the complainant's motive.
+File a counter-complaint if you were actually the one attacked or threatened.
+Apply for anticipatory bail before arrest.
+Challenge the FIR in High Court by filing a petition to quash it if it is frivolous or based on false facts.
+
+MITIGATING FACTORS (reduce sentence if convicted):
+First-time offender with no prior criminal record.
+Voluntary apology and settlement with the complainant before trial (compounding).
+Provocation by the complainant.
+Minor nature of injury.
+Old age, illness, or dependants.

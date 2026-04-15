@@ -1,0 +1,125 @@
+PUBLIC HARASSMENT, CRIMINAL INTIMIDATION & ABUSIVE BEHAVIOR IN PUBLIC — IPC/BNS
+================================================================================
+
+OVERVIEW
+When a stranger threatens, insults, or uses abusive language against someone in a public place, the Protection of Women from Domestic Violence Act does NOT apply — that Act is exclusively for people in domestic relationships (family, spouse, live-in partner). Instead, the Indian Penal Code (IPC) / Bharatiya Nyaya Sanhita (BNS) provisions apply for public harassment and criminal intimidation.
+
+APPLICABLE LAWS FOR STRANGER HARASSMENT IN PUBLIC
+
+1. CRIMINAL INTIMIDATION
+IPC Section 503 / BNS Section 351:
+Definition: Whoever threatens another person with injury to their person, reputation, or property, or to the person or reputation of anyone in whom that person is interested, with intent to cause alarm or to cause that person to do an act they are not legally bound to do, is guilty of criminal intimidation.
+
+Example: A stranger telling you "do whatever you can" after threatening your mother = criminal intimidation.
+
+Punishment (IPC Section 506 / BNS Section 351):
+- Simple criminal intimidation: imprisonment up to 2 years, OR fine, OR both
+- If threat is of death or grievous hurt: imprisonment up to 7 years, OR fine, OR both
+This is a COGNIZABLE offence — police MUST register FIR.
+
+2. INTENTIONAL INSULT TO PROVOKE BREACH OF PEACE
+IPC Section 504 / BNS Section 352:
+Whoever intentionally insults, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace, or to commit any other offence.
+Punishment: Imprisonment up to 2 years, OR fine, OR both.
+
+3. ABUSIVE/OBSCENE LANGUAGE IN PUBLIC
+IPC Section 294 / BNS Section 296:
+Whoever commits any obscene act in a public place to the annoyance of others, or sings, recites or utters any obscene song or words in or near any public place.
+Punishment: Imprisonment up to 3 months, OR fine, OR both.
+
+4. ASSAULT OR CRIMINAL FORCE
+IPC Section 351-352 / BNS Section 130-131:
+If the person made any physical gesture, moved toward the woman in a threatening manner, or used any force — this becomes assault or use of criminal force.
+Punishment: Imprisonment up to 3 months to 1 year depending on severity.
+
+5. OUTRAGING MODESTY OF A WOMAN
+IPC Section 354 / BNS Section 74:
+If the abusive language or behavior was directed at a woman and was sexual in nature or intended to outrage her modesty.
+Punishment: Imprisonment of 1 to 5 years AND fine. This is a COGNIZABLE and NON-BAILABLE offence.
+
+HOW TO FILE A COMPLAINT FOR PUBLIC HARASSMENT
+
+OPTION 1: FILE FIR AT POLICE STATION (Most important first step)
+Step 1: Go to the nearest police station where the incident occurred
+Step 2: Tell the duty officer you want to file an FIR for criminal intimidation under Section 503/506 IPC (or BNS Section 351)
+Step 3: Give a written complaint with full details:
+  - Date, time, and exact location of incident
+  - Description of the accused (appearance, clothing, vehicle if any)
+  - Exact words used as threats/insults
+  - Names of any witnesses present
+  - Whether any video/photo evidence exists
+
+COMPLAINT FORMAT FOR POLICE:
+
+To,
+The Station House Officer (SHO),
+[Name] Police Station,
+[Address]
+
+Subject: Complaint for Criminal Intimidation and Public Harassment under Section 503/506 IPC
+
+Sir,
+I, [Name], resident of [Address], wish to lodge a complaint against an unknown/known person for criminal intimidation and public harassment.
+
+Facts:
+On [Date] at approximately [Time], at [Location — e.g., parking area of ABC Shopping Center, City], a person [description if known] verbally abused and threatened my mother [Name]. The person used abusive/derogatory language and when I confronted him, he said "[exact words, e.g., 'do whatever you can']", which amounts to criminal intimidation.
+
+The incident was witnessed by [names/descriptions of witnesses if any].
+
+The accused has:
+1. Used abusive language against my mother in a public place (Section 294/504 IPC)
+2. Made threatening statements when confronted (Section 503/506 IPC)
+
+I request you to:
+1. Register an FIR against the accused
+2. Identify and arrest the accused
+3. Take appropriate legal action
+
+Yours faithfully,
+[Name]
+[Address]
+[Phone]
+[Date]
+
+OPTION 2: IF POLICE REFUSE TO REGISTER FIR
+This is an unfortunately common problem. Steps to escalate:
+1. Ask for the diary number of your written complaint — they must give this
+2. Send complaint by registered post to the Superintendent of Police (SP) of the district
+3. File a complaint before the Judicial Magistrate under Section 156(3) CrPC/BNSS — the court can direct police to register FIR
+4. Approach the State Human Rights Commission or NHRC if police are uncooperative
+
+OPTION 3: PRIVATE COMPLAINT BEFORE MAGISTRATE
+If police refuse FIR, file a private complaint under Section 200 CrPC/BNSS directly before the Judicial Magistrate. No fee required. Magistrate will examine you and can take cognizance.
+
+OPTION 4: CCTV EVIDENCE
+If the incident occurred at or near a shopping center:
+- Request the mall/shop management to preserve CCTV footage immediately
+- The footage is typically overwritten after 7-30 days
+- Mention the specific camera locations in your complaint
+- Police can seize CCTV footage as evidence once FIR is registered
+
+WHAT IF THE ACCUSED IS IDENTIFIED?
+If you know the person's name, vehicle number, or can identify them:
+- Provide all details to police in your complaint
+- If the accused has a vehicle, its registration number can be used to identify them through RTO records
+- Witnesses who saw the incident can give statements to police
+
+COMMUNAL/RELIGION-BASED ANGLE
+If the harassment involved religious insults, provocative statements based on religion, or was intended to create communal discord:
+IPC Section 153A / BNS Section 196: Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language — imprisonment up to 3 years OR fine OR both. In places of worship: up to 5 years.
+IPC Section 295A / BNS Section 299: Deliberate acts intended to outrage religious feelings — imprisonment up to 3 years OR fine OR both.
+
+WHAT COUNTS AS EVIDENCE
+For public harassment cases, collect:
+1. CCTV footage from the location (most important)
+2. Names and contact details of eyewitnesses
+3. Photos/videos taken on mobile phones by bystanders
+4. Your own written account made immediately after the incident
+5. Medical records if any physical injury occurred
+
+IMPORTANT: Write down everything you remember — exact words, time, location, what the person looked like, their vehicle — as soon as possible. Memory fades and details matter in court.
+
+COMPENSATION AND CIVIL REMEDY
+Apart from criminal complaint, if you suffered mental trauma, you can also:
+- File a civil suit for damages for mental harassment
+- Claim compensation in criminal proceedings after conviction

@@ -1,0 +1,158 @@
+BNS 2023 — PROPERTY CRIMES, THEFT, FRAUD AND CHEATING (Chapter XVII)
+======================================================================
+(Bharatiya Nyaya Sanhita replaced IPC w.e.f. July 1, 2024)
+
+THEFT
+
+BNS Section 303 (Old IPC 378/379) — Theft:
+Dishonestly taking movable property out of someone's possession without consent.
+Punishment: Up to 3 years + fine.
+First offence under Rs. 5,000: Community service available as alternative.
+Repeat offender: 1 to 5 years RI + fine.
+Cognizable, Non-bailable. File at: Police station.
+
+BNS Section 304 (NEW — no IPC equivalent) — Snatching:
+Snatching of property (mobile phone, gold chain, bag, etc.) from a person.
+Solo: Up to 3 years + fine.
+Gang snatching: 1 to 7 years RI + fine.
+Cognizable, Non-bailable. File at: Police station.
+
+BNS Section 305 (Old IPC 380) — Theft in dwelling house, vehicle, place of worship:
+Theft in house, building, tent, vessel, or vehicle where person resides or keeps property.
+Up to 7 years + fine. Cognizable, Non-bailable.
+
+BNS Section 307 (Old IPC 382) — Theft with preparation for violence:
+Up to 10 years RI + fine. Cognizable, Non-bailable.
+
+ROBBERY AND DACOITY
+
+BNS Section 309 (Old IPC 390-392) — Robbery:
+Theft or extortion with violence or threat of immediate harm.
+Up to 10 years RI + fine.
+Highway robbery between sunset and sunrise: Up to 14 years.
+Cognizable, Non-bailable. File at: Police station.
+
+BNS Section 310 (Old IPC 391/395) — Dacoity:
+Five or more persons jointly committing robbery.
+Life imprisonment or up to 10 years RI + fine.
+If murder committed during dacoity: Death or life imprisonment.
+Cognizable, Non-bailable.
+
+CHEATING AND FRAUD
+
+BNS Section 318 (Old IPC 415/420) — Cheating:
+Fraudulently or dishonestly inducing a person to deliver property, or to consent to retention of property, or intentionally inducing to do or omit something causing damage or harm.
+Basic cheating: Up to 3 years or fine.
+Cheating involving valuable security, will, or sealed document: Up to 7 years + fine.
+Cognizable (7-year variant), Non-bailable. File at: Police station.
+
+IMPORTANT: For online fraud/cyber cheating — also file under IT Act Section 66C/66D at Cyber Crime Cell or cybercrime.gov.in or call 1930.
+
+BNS Section 319 (Old IPC 416/419) — Cheating by personation:
+Cheating by pretending to be another person (including online impersonation).
+Up to 5 years + fine. Cognizable, Bailable.
+
+BNS Section 316 (Old IPC 405/406) — Criminal breach of trust:
+Person entrusted with property dishonestly misappropriating or converting it.
+Basic: Up to 3 years + fine.
+By employer of a clerk/servant: Up to 7 years + fine.
+By carrier, warehouse keeper: Up to 7 years + fine.
+By public servant or banker: Life or up to 10 years + fine.
+Cognizable, Non-bailable for serious variants.
+
+EXTORTION
+
+BNS Section 308 (Old IPC 383-389) — Extortion:
+Intentionally putting a person in fear of injury to cause delivery of property, valuable security, or document.
+Up to 7 years or fine.
+If extortion by threat of death or grievous hurt: Up to 10 years.
+Cognizable, Non-bailable.
+
+PROPERTY DAMAGE
+
+BNS Section 324 (Old IPC 425/427) — Mischief (destroying/damaging property):
+Intentional destruction or damage to property.
+Basic: Up to 6 months or fine.
+Damage of Rs. 20,000 to Rs. 1 lakh: Up to 2 years.
+Damage above Rs. 1 lakh: Up to 5 years.
+Fire/explosion damage to building: Life or up to 10 years.
+
+TRESPASS
+
+BNS Section 329 (Old IPC 441/447) — Criminal trespass:
+Entering property in possession of another with intent to commit offence or to intimidate/insult/annoy.
+Up to 3 months or Rs. 5,000 fine.
+Non-cognizable, Bailable. File at: Police station / Magistrate court.
+
+BNS Section 331 (Old IPC 448/451/452) — House-trespass:
+Basic: Up to 2 years + fine.
+Night-time trespass: Up to 3 years.
+With intent to steal: Up to 10 years.
+With preparation for violence: Up to 10 years.
+Cognizable (serious forms), Non-bailable.
+
+CHEQUE BOUNCE — NEGOTIABLE INSTRUMENTS ACT (Still in force — not replaced by BNS)
+Section 138 NI Act: Dishonour of cheque for insufficiency of funds.
+Punishment: Up to 2 years imprisonment or fine up to twice the cheque amount, or both.
+Prerequisites:
+1. Cheque was given for legally enforceable debt.
+2. Payee sends demand notice within 30 days of dishonour memo.
+3. Drawer fails to pay within 15 days of receiving notice.
+4. Complaint filed in Magistrate court within 30 days of expiry of notice period.
+File at: Judicial Magistrate First Class (JMFC) court.
+
+HOW TO FILE COMPLAINT FOR PROPERTY CRIMES
+1. For cognizable offences (theft, robbery, cheating): File FIR at nearest police station.
+2. Police cannot refuse to register FIR for cognizable offences.
+3. Zero FIR: Can be filed at any police station regardless of jurisdiction.
+4. For online fraud: File at cybercrime.gov.in or call 1930 (National Cybercrime Helpline) immediately — call bank within 3 hours for best chance of transaction reversal.
+5. For cheque bounce: File in Magistrate court — DO NOT go to police station for this.
+
+DOCUMENTS TO COLLECT
+- For theft: List of stolen items with approximate value, any receipts/photos.
+- For cheating/fraud: Agreement, receipts, bank statements, screenshots of communication.
+- For online fraud: Screenshots of fraud communication, transaction IDs, bank statement.
+- For cheque bounce: Original dishonoured cheque, bank memo, copy of demand notice sent with proof of delivery.
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS FOR PROPERTY / FRAUD CHARGES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent — no forced confession (Article 20(3)).
+- Right to a lawyer immediately upon arrest (Article 22(1)). Free lawyer from DLSA.
+- Right to know full particulars of charges (BNSS Section 47).
+- No detention beyond 24 hours without magistrate's remand (BNSS Section 57).
+
+WHAT PROSECUTION MUST PROVE:
+For BNS Section 303 (Theft): Prosecution must prove (1) the property was movable, (2) it was in someone's possession, (3) you took it dishonestly, (4) without that person's consent. Mistake of ownership (you genuinely believed it was yours) negates dishonest intent.
+For BNS Section 318 (Cheating): Prosecution must prove (1) you made a false representation, (2) you knew it was false, (3) the victim was induced by it, (4) the victim delivered property or suffered harm. A business deal gone wrong without fraud = civil dispute, not cheating.
+For BNS Section 316 (Criminal Breach of Trust): Prosecution must prove entrustment AND dishonest misappropriation. Mere failure to repay a loan or deliver goods on time is a civil matter, not criminal breach of trust.
+
+THE CIVIL VS. CRIMINAL DISTINCTION — IMPORTANT:
+Many commercial disputes are falsely filed as criminal cases to coerce the other party. A breach of contract, unpaid loan, or business dispute is a CIVIL matter — not theft or cheating — unless there was deliberate fraud at the time of the transaction. Supreme Court has repeatedly held that criminal courts cannot be used to recover money in civil disputes.
+If you are falsely accused: Apply to High Court to quash the FIR as abuse of process.
+
+COMMON DEFENSES:
+Bona fide claim of right: You genuinely believed you had a right to the property.
+No dishonest intent: The act was accidental, mistaken, or done in good faith.
+Civil dispute disguised as crime: The complainant is actually seeking money recovery, not punishing crime.
+No misrepresentation: In cheating cases, no false statement was made — the complainant's loss was due to their own risk or market factors.
+Partial payment/settlement: Paying back before or during trial is a strong mitigating factor.
+
+BAIL:
+Theft (BNS 303): Cognizable, Non-bailable — apply for bail before Magistrate immediately.
+Cheating (BNS 318, basic): Bailable — absolute right to bail.
+Cheating involving valuable security (BNS 318, aggravated): Non-bailable — apply to Sessions Court.
+Criminal Breach of Trust (basic): Bailable.
+Dacoity (BNS 310): Non-bailable — apply to Sessions Court/HC. Rarely granted given gravity.
+Cheque bounce (NI Act 138): Bailable — bail is automatic. This is a compoundable offence; settling with complainant closes the case.
+
+COMPOUNDING (SETTLEMENT):
+Many property offences are compoundable — meaning if you settle with the complainant and they agree, the case is dropped. Cheque bounce (NI Act 138), basic theft, cheating are all compoundable with court permission. Settling early is usually the most practical solution.
+
+MITIGATING FACTORS:
+First offence, genuine remorse.
+Full restitution made to victim.
+Financial hardship that drove the act.
+Young age or family dependants.

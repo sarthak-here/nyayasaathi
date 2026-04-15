@@ -1,0 +1,114 @@
+LEGAL AID, BAIL, RIGHTS OF ARRESTED PERSONS — BNSS 2023
+=========================================================
+(Bharatiya Nagarik Suraksha Sanhita replaced CrPC w.e.f. July 1, 2024)
+
+RIGHTS OF ARRESTED PERSON (Sections 35–60 BNSS)
+
+Right to know grounds of arrest (Section 47):
+Police MUST inform you of the FULL particulars of the offence for which you are arrested — at the time of arrest.
+If arrested for a bailable offence, police MUST inform you of your right to bail.
+
+Right to inform family (Section 48):
+Police MUST immediately inform a relative, friend, or nominated person about:
+- The fact of your arrest.
+- The place where you are held.
+This is a MANDATORY duty — failure by police is actionable.
+
+Right to free legal aid:
+If you cannot afford a lawyer, you have a fundamental right to free legal representation (Article 22(1) of Constitution + Legal Services Authorities Act 1987).
+Request free legal aid from District Legal Services Authority (DLSA) immediately.
+Duty Counsel is available at police stations and courts — available 24/7 for arrested persons.
+Call NALSA helpline: 15100.
+
+Right against illegal detention (Section 57):
+No arrested person can be held in police custody for more than 24 HOURS without a Magistrate's remand order.
+This 24-hour rule is absolute — if violated, the detention is illegal (unlawful detention).
+If held illegally: File Habeas Corpus petition in High Court immediately.
+
+Right to medical examination (Section 51):
+Any arrested person can request medical examination by a government medical officer.
+Critical if you have injuries at time of arrest (to document and protect against false custodial violence claims against you, and to document actual custodial violence).
+
+Right against custodial torture:
+Custodial torture and third-degree methods are unconstitutional (Article 21).
+If tortured in custody: File complaint with NHRC (nhrc.nic.in | 14433), State Human Rights Commission, or petition High Court.
+File complaint to Superintendent of Police and District Magistrate.
+National Human Rights Commission can recommend compensation and prosecution.
+
+BAIL — BNSS SECTIONS 478–498
+
+BAILABLE OFFENCES — BAIL IS YOUR ABSOLUTE RIGHT (Section 478):
+For bailable offences, bail CANNOT be refused by police or courts.
+Bail must be given on personal recognizance (your own bond) or surety.
+Police officer at police station must release you on bail.
+
+NON-BAILABLE OFFENCES — BAIL IS AT COURT'S DISCRETION (Section 480):
+Apply for bail before the Magistrate (for lesser offences) or Sessions Court (for serious offences).
+Court considers: Gravity of offence, prior record, flight risk, witness tampering risk.
+
+DEFAULT BAIL (Section 480) — VERY IMPORTANT:
+If police fail to file chargesheet within:
+90 days: For offences punishable with death, life imprisonment, or 10+ years.
+60 days: For all other offences.
+You are ENTITLED TO BAIL as of right. Apply to Magistrate for default bail.
+This is also called "statutory bail" — court CANNOT deny it if conditions are met.
+
+DEFAULT BAIL FOR FIRST-TIME OFFENDERS (Section 479 — NEW IN BNSS):
+If you have NEVER been convicted previously, and you have served:
+1/3rd of the maximum sentence for your offence while as undertrial —
+You are entitled to bail as of right.
+Example: Offence with maximum 3-year sentence — after 1 year in jail as undertrial, entitled to bail.
+The Jail Superintendent has a duty to proactively bring such cases to court.
+Exception: Offences punishable with death or life imprisonment.
+
+ANTICIPATORY BAIL (Section 482):
+If you have reason to believe you may be arrested for a non-bailable offence:
+Apply to Sessions Court or High Court for anticipatory bail BEFORE arrest.
+Court can grant pre-arrest bail with conditions.
+SC/ST Atrocities Act cases: Anticipatory bail is generally not available (Supreme Court ruling).
+
+FIR RIGHTS
+
+Zero FIR (Section 173 BNSS):
+You can file an FIR at ANY police station anywhere in India, regardless of where the incident occurred.
+Police MUST register the FIR, then transfer it to the jurisdictional police station.
+No police station can refuse a Zero FIR.
+
+If police refuse to register FIR:
+Step 1: Get your written complaint dated and stamped as "received" by the duty officer.
+Step 2: Send complaint by registered post to Superintendent of Police (SP).
+Step 3: File complaint under BNSS Section 175 before Judicial Magistrate — Magistrate can direct FIR registration.
+Step 4: High Court writ petition (Mandamus) if all else fails.
+
+FREE LEGAL AID — WHO IS ENTITLED?
+
+Under Legal Services Authorities Act 1987, the following get FREE legal representation:
+- Persons with annual income below state-specified limit (usually Rs. 1 lakh to Rs. 3 lakh).
+- Women (for all matters relating to women).
+- Children.
+- Persons in custody.
+- Persons with disability.
+- Victims of trafficking, disasters, violence.
+- SC/ST persons.
+- Industrial workmen.
+- Mass disaster victims.
+
+HOW TO GET FREE LEGAL AID:
+Visit or call your District Legal Services Authority (DLSA) — present in every district.
+National helpline: 15100.
+Tell them you cannot afford a lawyer — they will assign a lawyer at no cost.
+Retainer lawyers are available on duty at all courts.
+
+RIGHTS DURING TRIAL
+- Right to speedy trial (not held in custody for years without trial completion).
+- Right to cross-examine prosecution witnesses.
+- Right to present your defense.
+- Right to be informed of charges in a language you understand.
+- Right to an interpreter if you don't understand the proceedings language.
+
+POLICE ENCOUNTERS
+If a police encounter (alleged) happens to a family member:
+File complaint with NHRC (nhrc.nic.in) immediately.
+State Human Rights Commission.
+File FIR against police officers involved (BNS Section 103/105 as applicable).
+Petition High Court for independent inquiry.

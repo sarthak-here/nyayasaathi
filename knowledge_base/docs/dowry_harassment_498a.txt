@@ -1,0 +1,119 @@
+DOWRY HARASSMENT AND CRUELTY — BNS SECTION 85, DOWRY PROHIBITION ACT
+======================================================================
+
+DOWRY PROHIBITION ACT 1961
+
+WHAT IS DOWRY?
+Dowry means any property or valuable security given or agreed to be given:
+- By one party to a marriage to the other party.
+- By parents of either party.
+- By any other person to either party or their parents.
+- In connection with the marriage.
+Gifts not demanded and given voluntarily (stridhan) are NOT dowry.
+
+GIVING OR TAKING DOWRY IS ILLEGAL:
+Giving dowry: Imprisonment up to 5 years + Rs. 15,000 fine or value of dowry (whichever higher).
+Taking dowry: Same punishment.
+Demanding dowry: Up to 2 years + Rs. 10,000 fine.
+Important exception: The person giving dowry under COMPULSION by the other side is not penalized if they report to police within 1 year.
+
+Where to file: Police station for all dowry offences.
+
+BNS SECTION 85 (Old IPC 498A) — CRUELTY BY HUSBAND OR RELATIVES
+
+This is the primary criminal provision for dowry harassment and marital cruelty.
+"Cruelty" includes:
+1. Willful conduct likely to drive woman to suicide or cause grave injury/danger to life, limb, or health (physical or mental).
+2. Harassment for dowry — coercing woman or her relatives to meet any unlawful demand for property or valuable security.
+
+Punishment: Up to 3 years imprisonment + fine.
+Cognizable, Non-bailable.
+Who can be charged: Husband AND his relatives (mother-in-law, sister-in-law, father-in-law, etc.).
+
+EVIDENCE IN 498A CASES
+Key evidence to preserve:
+- Records of dowry demands (WhatsApp messages, letters, emails).
+- Medical records of injuries.
+- Photographs of injuries (date-stamped).
+- Witnesses (neighbours, relatives who saw or heard abuse).
+- Records of money/valuables transferred as dowry.
+- Diary entries or voice recordings of threats.
+
+IMPORTANT NOTE ON 498A:
+Supreme Court in Arnesh Kumar v. State of Bihar (2014) directed police to not make automatic arrests in 498A cases — magistrate approval required before arrest in most circumstances. This was to prevent misuse. However, if there is direct evidence of violence, arrest can still be made.
+
+DOWRY DEATH — BNS SECTION 80 (Old IPC 304B)
+
+If a woman dies within 7 years of marriage under suspicious circumstances, and there was dowry harassment before death:
+Punishment: 7 years to life imprisonment.
+Cognizable, Non-bailable. Tried by Sessions Court.
+PRESUMPTION (Section 80 read with BSA): If it is shown that woman was subjected to dowry harassment soon before death, court shall presume dowry death. Burden shifts to accused.
+
+Post-mortem is mandatory for all unnatural deaths within 7 years of marriage.
+File complaint at police station — police must investigate.
+
+ABETMENT TO SUICIDE — BNS SECTION 109
+
+If dowry harassment drives a woman to suicide:
+Anyone who abets/instigates the suicide is punishable under BNS Section 109.
+Up to 10 years imprisonment + fine.
+Cognizable, Non-bailable.
+
+STRIDHAN — WOMAN'S ABSOLUTE PROPERTY
+
+All gifts received by a woman before, during, and after marriage — from family, friends, husband, in-laws:
+- Gold, jewellery, cash, property — this is her stridhan.
+- Husband/in-laws cannot use or take it without her consent.
+- If taken by force: Criminal breach of trust (BNS 316) + DV Act economic abuse.
+- If not returned after separation/divorce: File FIR for breach of trust + civil suit.
+The woman can sue for return of stridhan at any time — no limitation period issue in matrimonial property matters.
+
+COMBINATION OF REMEDIES — FILE ALL SIMULTANEOUSLY:
+1. BNS Section 85/80 complaint at police station (criminal).
+2. Dowry Prohibition Act complaint at police station.
+3. PWDVA (Domestic Violence Act) application before Magistrate for protection order, residence order, and monetary relief (civil).
+4. Maintenance application under BNSS Section 144 before JMFC.
+5. Divorce petition in Family Court (if marriage breakdown).
+
+All these proceedings can run simultaneously in parallel.
+
+FREE LEGAL AID
+District Legal Services Authority provides free lawyers to women in dowry/DV cases.
+National Commission for Women: 7827170170.
+Mahila Thana / Women Police Station: Available in most districts.
+Women Helpline: 181.
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS IN DOWRY / BNS 85 CASES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent. Do NOT give any statement to police without a lawyer.
+- Supreme Court in Arnesh Kumar v. State of Bihar (2014): Police CANNOT automatically arrest in BNS 85 / 498A cases. They must first satisfy themselves that arrest is necessary and obtain magistrate approval. If arrested without this, apply for bail immediately citing Arnesh Kumar guidelines.
+- Right to anticipatory bail: Apply proactively to Sessions Court if you suspect a false case will be filed.
+
+WHAT PROSECUTION MUST PROVE FOR BNS SECTION 85:
+- That cruelty occurred — physical or mental.
+- That it was willful conduct likely to drive the woman to suicide or cause serious injury, OR that it was harassment for dowry.
+- That YOU (specifically) participated — not just that cruelty occurred in the household.
+Normal marital discord, arguments, and incompatibility is NOT cruelty under the law.
+
+FOR DOWRY DEATH (BNS SECTION 80):
+Prosecution benefits from a presumption: If the woman died within 7 years of marriage and dowry harassment is shown, court presumes dowry death. You must rebut this presumption with evidence.
+
+COMMON DEFENSES:
+No dowry demand: Produce evidence (messages, financial records) showing no demand was made. Show that gifts were given voluntarily by the bride's family.
+Gifts were mutual: Many families give gifts freely — this is not "giving under compulsion."
+False case for matrimonial advantage: If BNS 85 case is filed after the woman has already filed for divorce, show the timing and motive. Supreme Court has recognized misuse of 498A in matrimonial disputes.
+Conduct of the complainant: If the complainant herself engaged in cruelty, harassment, or provocation, this is relevant to the defense.
+Medical/forensic evidence contradicts allegations: In dowry death cases, challenge the post-mortem and forensic evidence if it supports natural/accidental death.
+
+BAIL:
+BNS Section 85: Non-bailable — apply to Magistrate immediately. Bail commonly granted for first-time accused with no prior record, especially after Arnesh Kumar guidelines.
+BNS Section 80 (dowry death): Non-bailable, tried by Sessions Court — bail very difficult to obtain.
+Anticipatory bail under BNSS Section 482: Apply to Sessions Court/HC before arrest.
+
+PROTECTING YOURSELF:
+Keep all communication records (WhatsApp, phone calls, emails) — they can prove or disprove what was said.
+Never delete messages even if they seem embarrassing — selective deletion looks worse in court.
+If harassment by wife's family: File counter-complaint for criminal intimidation (BNS 351) if threats were made.

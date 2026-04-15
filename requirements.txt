@@ -1,0 +1,9 @@
+ollama
+chromadb
+sentence-transformers
+gradio
+fpdf2
+langchain-community
+langchain
+openai-whisper
+python-dotenv

@@ -1,0 +1,128 @@
+POSH ACT 2013 — SEXUAL HARASSMENT AT WORKPLACE
+===============================================
+(Prevention, Prohibition and Redressal of Sexual Harassment of Women at Workplace Act, 2013)
+
+WHAT IS SEXUAL HARASSMENT AT WORKPLACE (Section 2(n))?
+Any one or more of the following unwelcome acts or behaviour:
+1. Physical contact and advances (touching, groping, brushing against).
+2. Demand or request for sexual favours.
+3. Making sexually coloured remarks or jokes.
+4. Showing pornography.
+5. Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature.
+Implied or explicit promise of preferential treatment for sexual favours also counts.
+Implied or explicit threat of detrimental treatment for rejection also counts.
+
+WHO IS PROTECTED?
+Any woman — employee, intern, trainee, apprentice, contractual worker, daily wager, domestic worker, client, or customer — in any workplace.
+
+WHAT IS A "WORKPLACE"?
+Section 2(o) defines workplace very broadly:
+- Government offices, private companies, factories, shops.
+- Hospitals, schools, colleges, coaching centres.
+- Sports institutes, stadiums, gyms.
+- Unorganised sector, NGOs, trusts.
+- Places visited by employee in connection with work (client sites, travel).
+- Residential workplace (domestic workers in homes).
+- Online workspace (virtual meetings, email, work chat tools).
+
+INTERNAL COMPLAINTS COMMITTEE (ICC) — Section 4:
+Every employer with 10 or more employees must set up an ICC.
+Composition: Female presiding officer (senior employee) + minimum 2 employees with women's rights commitment + 1 external member from NGO or legal background. At least 50% must be women.
+If employer has ICC but doesn't respond: File complaint to District Officer (LCC).
+
+LOCAL COMPLAINTS COMMITTEE (LCC) — Section 6:
+For workplaces with fewer than 10 employees OR if the complaint is against the employer themselves.
+Constituted by District Officer (District Collector or delegated officer).
+Any woman can approach LCC directly.
+
+HOW TO FILE COMPLAINT — STEP BY STEP
+
+Step 1: File written complaint to ICC or LCC within 3 months of incident.
+If multiple incidents: Within 3 months of last incident.
+If unable to file due to physical/mental incapacity: Any friend, relative, or co-worker can file on her behalf.
+
+Step 2: ICC/LCC has 90 days to complete inquiry. Process is CONFIDENTIAL — names not disclosed publicly.
+
+Step 3: Conciliation (settlement without inquiry) available ONLY if the complainant requests it. Cannot be money-based settlement.
+
+Step 4: ICC/LCC submits inquiry report to employer/District Officer within 10 days.
+
+Step 5: Employer must act on recommendations within 60 days.
+
+WHAT ACTION CAN ICC/LCC RECOMMEND?
+Against the respondent (accused):
+- Written apology.
+- Warning, reprimand, or censure.
+- Withholding of promotion/pay raise.
+- Transfer to different department.
+- Suspension or termination.
+- Undergo counselling.
+
+For the complainant:
+- Transfer of complainant to different location (with consent).
+- Grant leave (up to 3 months extra).
+- Restrain respondent from entering complainant's work area.
+- Compensation from respondent for mental trauma, medical expenses, and loss of career opportunities.
+
+WHAT IF EMPLOYER DOESN'T HAVE AN ICC?
+This itself is an offence under Section 26. Employer is liable for fine of Rs. 50,000. Repeat: Cancellation of business licence/registration.
+Still file complaint with LCC (District Officer's office). Also report to Labour Commissioner.
+
+EMPLOYER'S DUTIES (Section 19):
+- Display POSH policy prominently in workplace.
+- Conduct awareness training for employees and ICC members.
+- Maintain confidentiality of proceedings.
+- Provide assistance to complainant to file police complaint if she chooses.
+- Submit annual report to District Officer on complaints received and disposed.
+
+FILING POLICE COMPLAINT SIMULTANEOUSLY:
+POSH Act proceedings and criminal proceedings (under BNS Section 74/75 for sexual harassment/assault) can run simultaneously. One does not bar the other. Police complaint is at complainant's choice — ICC cannot compel or prevent it.
+
+FALSE COMPLAINT:
+Section 14 — ICC can recommend action if complaint is found to be false AND was made with malicious intent. However, an UNSUBSTANTIATED complaint (where evidence was insufficient) does NOT automatically mean it was false — action cannot be taken merely because inquiry found in favour of respondent.
+
+DOMESTIC WORKERS SPECIFICALLY:
+Employer is any person who engages a domestic worker. If no employer, the worker can approach LCC. Employer is expected to follow same obligations.
+
+APPEAL AGAINST ICC/LCC ORDER:
+Aggrieved party (complainant or respondent) can appeal to court (Service Tribunal if government employee, or appropriate court) within 90 days of receiving recommendation.
+
+HELPLINES AND RESOURCES
+- SHe-Box (Sexual Harassment Electronic Box — for central government employees): shebox.wcd.gov.in
+- National Commission for Women: 7827170170
+- District Legal Services Authority (DLSA): Free legal aid
+- Shakti Shalini helpline: 011-24373736
+
+==========================================================================
+IF YOU ARE THE RESPONDENT — DEFENSE RIGHTS IN POSH / WORKPLACE HARASSMENT
+==========================================================================
+
+YOUR RIGHTS AS RESPONDENT:
+- Right to receive a copy of the complaint (ICC must give you the complaint within 7 days).
+- Right to file a written reply within 10 working days of receiving the complaint.
+- Right to cross-examine the complainant and witnesses before the ICC.
+- Right to produce your own witnesses and documents.
+- Right to appeal the ICC/LCC recommendations to the appropriate court/tribunal within 90 days.
+
+WHAT THE COMPLAINANT MUST ESTABLISH:
+- That a specific act of sexual harassment as defined in Section 2(n) POSH Act occurred.
+- That you committed it.
+- That it was unwelcome.
+The ICC applies a "balance of probabilities" standard — not "beyond reasonable doubt."
+
+COMMON DEFENSES:
+No unwelcome conduct: The interaction was professional, consensual, or welcome — produce messages, professional context, and witnesses showing the normal nature of the interaction.
+False/motivated complaint: The complaint was filed due to a workplace dispute, performance issue, or personal rivalry — show the prior context and motive.
+Mistaken interpretation: The act was not sexual in nature — the complainant's interpretation was unreasonable in the context.
+Procedural challenge: ICC not properly constituted (less than 50% women, no external member, presiding officer not senior enough) — the inquiry itself can be challenged.
+Timing: If complaint was filed more than 3 months after the incident without valid reason for delay — apply for dismissal on limitation.
+
+CONFIDENTIALITY WORKS BOTH WAYS:
+The ICC process is confidential — the respondent's identity also cannot be published. If anyone is leaking your identity publicly during the inquiry, complain to the employer and ICC.
+
+IF ICC FINDS AGAINST YOU UNFAIRLY:
+Appeal to the court (Service Tribunal for government employees, appropriate civil court for others) within 90 days.
+Challenge if: ICC was not properly constituted, you were not given proper opportunity to be heard, or the finding is perverse given the evidence.
+
+FALSE COMPLAINT:
+Section 14 POSH Act: ICC can recommend action against a complainant who makes a malicious, false complaint. However, an unsubstantiated complaint alone is NOT sufficient — you must show malicious intent.

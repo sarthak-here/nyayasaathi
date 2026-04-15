@@ -1,0 +1,114 @@
+RERA 2016, PROPERTY DISPUTES AND REAL ESTATE FRAUD
+====================================================
+
+RERA ACT 2016 — REAL ESTATE (REGULATION AND DEVELOPMENT) ACT
+
+OVERVIEW
+RERA 2016 regulates the real estate sector and protects home buyers from builder fraud, delays, and mis-selling. Each state has its own RERA authority. Civil courts are BARRED from hearing RERA matters — must approach RERA authority.
+
+MANDATORY REGISTRATION
+
+Section 3 — Every residential/commercial project above 500 sq. meters OR 8+ units must be registered with state RERA before selling, advertising, or accepting any booking amount.
+Selling without RERA registration: Fine up to 10% of project cost; repeat: up to 3 years imprisonment.
+Verify registration: Check state RERA portal before paying any money to builder.
+
+BUILDER'S OBLIGATIONS TO BUYER
+
+Section 14 — Builder must deliver exactly as per sanctioned plans, specifications, and carpet area mentioned in agreement.
+Section 14(3) — Structural Defect Warranty: Builder is liable to fix any structural defect or workmanship defect reported within 5 years of handing over possession. No charge to buyer.
+
+BUILDER DELAYS — YOUR RIGHTS (Section 18):
+If builder fails to give possession on promised date:
+OPTION A: Withdraw and get full refund + interest at SBI MCLR + 2% per annum (currently approx. 10%) from date of each payment until refund.
+OPTION B: Continue in project and get monthly interest compensation at same rate until actual possession.
+THE CHOICE IS YOURS — builder cannot force you to choose.
+
+HOW TO FILE RERA COMPLAINT
+
+Step 1: Check builder's RERA registration on your state's RERA portal.
+Step 2: Calculate your dues — refund amount with interest OR monthly compensation.
+Step 3: File complaint on state RERA portal (e.g., maharera.mahaonline.gov.in for Maharashtra, hrera.gov.in for Haryana, rera.rajasthan.gov.in for Rajasthan, etc.).
+Step 4: Pay prescribed filing fee (usually Rs. 1,000 to Rs. 5,000 depending on state and claim amount).
+Step 5: RERA must decide within 60 days.
+Step 6: If RERA order not obeyed, file execution application before RERA/Revenue Recovery.
+
+MISLEADING ADVERTISEMENTS
+
+Section 60 — Builder making false or misleading advertisement about project:
+Penalty up to 5% of estimated project cost.
+File complaint with RERA authority.
+
+ILLEGAL CONSTRUCTION / UNAPPROVED CHANGES
+
+Builder cannot change approved layout plans without consent of 2/3rd allottees.
+Changes to specifications must be with buyer's consent.
+If builder makes unauthorized changes: Complaint to RERA + Local Municipal Authority.
+
+PROPERTY DISPUTES (GENERAL)
+
+Illegal Encroachment on your land/property:
+Criminal trespass under BNS Section 329/331 — File FIR at police station.
+Civil suit for permanent injunction restraining encroachment — File in Civil Court.
+Complaint to Collector/SDM for government land.
+
+Property Title Fraud / Forged Documents:
+BNS Section 316 (Criminal breach of trust) + Section 318 (cheating) — File FIR.
+Civil suit for declaration of title — File in Civil Court.
+If registered document is forged: Complaint to Registrar's office + police.
+
+Landlord-Tenant Disputes:
+Most states have Rent Control Acts protecting tenants from arbitrary eviction and excessive rent hikes.
+Eviction only through Rent Control Court/Civil Court — landlord CANNOT forcibly evict.
+Forcible eviction by landlord = criminal trespass (BNS 329) + wrongful restraint.
+Withholding security deposit without reason: Civil suit for recovery. Also Consumer Forum if services promised with deposit.
+Tenant can approach Rent Controller (usually a magistrate/civil judge) for protection.
+
+Land Acquisition by Government:
+Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act 2013.
+Government must:
+- Give 3-4x market value as compensation.
+- Conduct Social Impact Assessment.
+- Obtain consent of 70-80% affected families for PPP/private projects.
+Disputes about compensation: Special Land Acquisition Court.
+
+Property Registration Issues:
+All property transfers must be registered with Sub-Registrar (Registration Act 1908).
+Unregistered agreements for sale are NOT enforceable as proof of title (but enforceable as contract).
+Stamp duty must be paid — underpayment is deficiency and property documents are impounded.
+
+DOCUMENTS TO PRESERVE IN PROPERTY MATTERS
+- Sale deed / Agreement for sale.
+- Builder-buyer agreement with all annexures.
+- Payment receipts / demand letters / bank transfer records.
+- Allotment letter, possession letter.
+- Approved building plan, RERA registration certificate.
+- Correspondence with builder (emails, WhatsApp — preserve screenshots).
+- Municipal / panchayat approvals.
+
+==========================================================================
+IF YOU ARE THE BUILDER / OPPOSITE PARTY — DEFENSE RIGHTS IN RERA COMPLAINTS
+==========================================================================
+
+YOUR RIGHTS AS A BUILDER OR SELLER:
+- Right to file a written reply within the time specified by RERA authority.
+- Right to cross-examine the complainant.
+- Right to produce your own expert evidence (structural reports, completion certificates, government delay records).
+- Right to appeal RERA orders to the Appellate Tribunal within 60 days.
+
+WHAT THE COMPLAINANT MUST PROVE:
+- That you have a RERA-registered project and they are an allottee in it.
+- That possession was not given by the agreed date, OR the construction is defective, OR there was a material deviation from approved plans.
+- The quantum of loss — they must prove actual loss, not just delay.
+
+COMMON DEFENSES:
+Force majeure (Act of God / Government action): If delay was caused by: government lockdown (COVID), court stay orders, natural disasters, delay in government approvals beyond your control — these constitute force majeure and can be pleaded as defense. Produce documentary proof of these delays.
+Buyer's default: If the buyer himself failed to pay instalments on time, their delay contributed to your construction timeline. Set off buyer's delay against your delay.
+Approved plan compliance: If the complainant alleges deviation from plans, produce sanctioned plans and show the construction is within approved parameters.
+Force majeure under contract: Check if the builder-buyer agreement specifically defines force majeure and covers the cause of delay.
+
+APPEAL ROUTE:
+RERA Authority order → RERA Appellate Tribunal within 60 days → High Court.
+Deposit 30% of penalty amount or Rs. 10 lakh (whichever is less) to file appeal before Appellate Tribunal in most states.
+
+IF FALSELY COMPLAINED AGAINST:
+If a buyer is using RERA to extort or has filed multiple vexatious complaints: Show the Tribunal the pattern and apply for consolidation of all complaints for joint hearing.

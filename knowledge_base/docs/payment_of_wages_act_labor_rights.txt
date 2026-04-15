@@ -1,0 +1,162 @@
+WAGE THEFT & LABOR RIGHTS — PAYMENT OF WAGES ACT AND RELATED LAWS
+===================================================================
+
+OVERVIEW
+Wage theft is one of the most common workplace violations in India. Multiple laws protect workers' right to timely and full payment of wages. The main legislation is the Payment of Wages Act 1936 (amended 2017), along with the Minimum Wages Act 1948, and the new Labour Codes.
+
+PAYMENT OF WAGES ACT 1936 — KEY PROVISIONS
+
+WHO IS COVERED?
+Workers drawing wages up to Rs. 24,000 per month in any factory, railway, or industrial/commercial establishment. The Act ensures:
+- Wages paid on time
+- No unauthorized deductions
+- All authorized deductions are limited
+
+WHEN MUST WAGES BE PAID?
+Section 4 & 5:
+- Establishments with less than 1000 workers: wages paid by 7th of following month
+- Establishments with 1000+ workers: wages paid by 10th of following month
+- On termination/dismissal: within 2 working days
+- Wages must be paid in currency notes, coins, or directly to bank account
+
+WHAT DEDUCTIONS ARE ILLEGAL?
+Only authorized deductions are permitted. Unauthorized deductions = wage theft. Illegal deductions include:
+- Arbitrary fines not covered under the Act
+- Deducting for absence not actually absent
+- Deducting for "tools" or "uniform" without worker's written consent
+- Deducting more than 50% of wages in any month (excluding housing/food advances)
+
+AUTHORIZED DEDUCTIONS ONLY (Section 7):
+- Absence from duty (only days actually absent)
+- Damage/loss caused by worker's negligence (after inquiry, max one month's wages)
+- Accommodation provided by employer
+- Recovery of advances given
+- Income tax
+- PF contributions
+- Court-ordered deductions
+
+MINIMUM WAGES ACT 1948
+Every employer must pay at least the minimum wage fixed by Central or State Government for the scheduled employment. Minimum wages are revised periodically.
+
+If paid below minimum wage:
+- Worker can file complaint with Labour Inspector
+- Employer liable to pay difference + compensation (10x the difference in some states)
+
+HOW TO CLAIM UNPAID WAGES
+
+OPTION 1: COMPLAINT TO PAYMENT OF WAGES AUTHORITY
+Section 15 of PWA:
+- File complaint before Authority (Labour Commissioner/Industrial Tribunal as notified)
+- Must file within 1 year of deduction (courts can condone delay)
+- Authority can direct payment of wages plus 10x the withheld amount as compensation
+- No court fee
+
+COMPLAINT FORMAT FOR LABOUR AUTHORITY:
+
+To,
+The Authority under Payment of Wages Act,
+[Office of Labour Commissioner, District Name]
+
+APPLICATION UNDER SECTION 15, PAYMENT OF WAGES ACT 1936
+
+Applicant: [Name, Address, Phone]
+Employer/Opposite Party: [Company Name, Address, Owner Name if known]
+
+Facts:
+1. I was employed as [designation] with [company] from [date] to [date].
+2. My agreed monthly wage was Rs. [amount].
+3. The employer has not paid wages for [months/period].
+4. Total unpaid amount: Rs. [amount].
+5. I made verbal/written requests on [dates] which were ignored/refused.
+
+Relief Sought:
+1. Direction to employer to pay Rs. [amount] in unpaid wages.
+2. Compensation of Rs. [10x amount] under Section 15(3).
+3. Recovery as arrears of land revenue if employer defaults.
+
+Documents Attached:
+- Appointment letter / salary slip (if available)
+- Bank statements showing non-receipt of salary
+- Any written communication with employer
+- Attendance records (if available)
+
+OPTION 2: COMPLAINT TO LABOUR INSPECTOR
+- Approach nearest Labour Office
+- Labour Inspector has powers to inspect, examine records, take statements
+- Inspector files case on behalf of worker if there is prima facie violation
+- Faster for minimum wages violations
+
+OPTION 3: COMPLAINT UNDER IPC/BNS — CRIMINAL ROUTE
+If employer deducts money under false pretenses or refuses to pay despite court order:
+- Section 406 (Criminal breach of trust) — imprisonment up to 3 years
+- Section 417 (Cheating) — imprisonment up to 1 year
+File FIR at nearest police station.
+
+OPTION 4: CIVIL SUIT
+For amounts beyond PWA limits or where employment relationship is disputed, civil suit in Civil Court.
+
+GRATUITY — PAYMENT OF GRATUITY ACT 1972
+Applicable to establishments with 10+ employees.
+Eligibility: 5 years continuous service (4 years 240 days qualifies in some interpretations).
+Formula: 15 days wages for every year of service.
+Maximum: Rs. 20 lakh.
+Must be paid within 30 days of leaving employment.
+If not paid: complaint to Controlling Authority (Labour Officer) + simple interest.
+
+PROVIDENT FUND — EPF ACT 1952
+Establishments with 20+ employees must contribute to EPF.
+Employee: 12% of basic wages. Employer: 12% (split into EPF + EPS).
+If employer deducting PF but not depositing: criminal offence.
+Complaint to EPFO Regional Office or online at epfindia.gov.in.
+
+MATERNITY BENEFIT ACT 1961 (AMENDED 2017)
+For women employees in establishments with 10+ workers:
+- 26 weeks paid maternity leave (for first two children)
+- 12 weeks for 3rd child onwards
+- No deduction from wages for pre-natal/post-natal care
+Violations: complaint to Inspector of Factories/Labour Inspector.
+
+CONTRACT LABOUR AND MIGRANT WORKERS
+Even contract and migrant workers have full wage protection rights.
+Principal employer (contractor's client) is ultimately liable if contractor does not pay wages.
+Migrant workers can file complaint in destination state or home state.
+
+UNORGANIZED SECTOR WORKERS
+The Unorganised Workers' Social Security Act 2008 covers domestic workers, construction workers, beedi workers, etc.
+State welfare boards exist for many categories — register for benefits.
+Construction workers: register with Building and Other Construction Workers Welfare Board for welfare benefits.
+
+WHISTLEBLOWER PROTECTION
+Workers who complain about wage violations are protected from retaliation.
+Dismissal in retaliation for filing a wage complaint is an unfair labour practice.
+
+==========================================================================
+IF YOU ARE THE EMPLOYER — DEFENSE RIGHTS IN WAGE DISPUTE CLAIMS
+==========================================================================
+
+YOUR RIGHTS AS AN EMPLOYER FACING A WAGE CLAIM:
+- Right to file a written reply before the Payment of Wages Authority.
+- Right to cross-examine the claimant.
+- Right to produce attendance records, salary registers, bank transfer records.
+- Right to appeal any award to the High Court within 30 days.
+
+WHAT THE CLAIMANT MUST PROVE:
+- That an employer-employee relationship existed (not a contractor or self-employed person).
+- The agreed wage amount.
+- That wages were not paid or were wrongfully deducted.
+The claimant must establish the employment relationship — if the person was an independent contractor, the Payment of Wages Act may not apply.
+
+COMMON DEFENSES:
+Wages were paid: Produce bank transfer records, salary slips signed by the claimant, or cash payment receipts countersigned by the employee.
+Legitimate deductions: Show that deductions were authorized under Section 7 of the Act (absence, recovery of advance, PF, tax) with records.
+The claimant is not a "worker" under the Act: If the person was a consultant, contractor, or partner — not a wage-earner — the Act does not apply.
+Wage above Rs. 24,000: The Payment of Wages Act applies to workers drawing up to Rs. 24,000/month. For higher-paid employees, civil courts have jurisdiction.
+Dispute about agreed wage: If the claimant overstates the agreed wage, produce the offer letter, appointment letter, or any written agreement.
+
+PROTECTING YOURSELF FROM FALSE CLAIMS:
+Maintain proper records: Signed attendance registers, salary slips, appointment letters.
+Always pay wages by bank transfer — creates a traceable record.
+If a departing employee is threatening a false claim: Get a full and final settlement deed signed before relieving them.
+
+APPEAL:
+An award by the Payment of Wages Authority can be challenged in High Court by filing an application under Section 17 of the Act. Stay of award can be sought during the appeal.

@@ -1,0 +1,119 @@
+FAMILY LAW — DIVORCE, MAINTENANCE, CHILD CUSTODY
+==================================================
+
+MAINTENANCE UNDER BNSS SECTION 144 (Replaced CrPC Section 125)
+
+WHO CAN CLAIM MAINTENANCE:
+1. Wife unable to maintain herself from husband.
+2. Legitimate or illegitimate children (minor, or adult if disabled) from father.
+3. Illegitimate children from father.
+4. Parents (father or mother) unable to maintain themselves from adult child.
+
+WHERE TO FILE:
+Judicial Magistrate First Class (JMFC) having jurisdiction.
+Jurisdiction: Where respondent resides, OR where they last resided together, OR where claimant currently resides.
+
+PROCEDURE:
+Application → Notice to respondent → Reply within 30 days → Evidence → Order.
+Interim maintenance must be decided within 60 days of notice (new BNSS provision).
+Final order must be reasonably prompt.
+
+ENFORCEMENT:
+If maintenance is not paid, the Magistrate can:
+- Issue warrant for recovery of money.
+- In default, sentence respondent to imprisonment up to 1 month per month of arrears.
+- Attach salary or property of defaulter.
+
+DIVORCE — HINDU MARRIAGE ACT 1955 (For Hindus, Buddhists, Jains, Sikhs)
+
+GROUNDS FOR DIVORCE (Section 13):
+1. Adultery.
+2. Cruelty (physical or mental).
+3. Desertion for 2+ continuous years.
+4. Conversion to another religion.
+5. Mental disorder of incurable nature.
+6. Leprosy (virulent and incurable).
+7. Venereal disease in communicable form.
+8. Renunciation of the world.
+9. Not heard of as alive for 7+ years.
+Additional grounds for wife: Husband's rape/sodomy/bestiality; repudiation of marriage (married before 15 years, exercised right before 18 years); non-resumption of cohabitation after maintenance order.
+
+MUTUAL CONSENT DIVORCE (Section 13B):
+Both spouses jointly petition. Must have lived separately for at least 1 year.
+First motion → 6-month cooling-off period (can be waived by court) → Second motion → Divorce decree.
+Fastest and least adversarial method.
+
+WHERE TO FILE: Family Court (or Civil Court in districts without dedicated Family Court) in district where parties last resided together.
+
+ALIMONY/PERMANENT ALIMONY (Section 25):
+Either spouse can claim permanent alimony. Court considers: income, earning capacity, conduct, other circumstances. Can be paid as lump sum or monthly.
+
+STRIDHAN — WOMAN'S RIGHT:
+All gifts (cash, jewellery, property) received before, during, and after marriage from family, friends, in-laws belong to the wife absolutely. Husband has no right over stridhan. If taken by force: complaint for criminal breach of trust (BNS 316) and also under DV Act for economic abuse.
+
+CHILD CUSTODY (Guardians and Wards Act 1890 + Hindu Minority and Guardianship Act 1956):
+Both parents have equal right to custody. Court decides based on best interests of child.
+For children under 5: Mother usually gets custody.
+Interim custody: Court can order during pendency of divorce proceedings.
+Visitation rights: Non-custodial parent gets scheduled access.
+Where to file: Family Court.
+
+DIVORCE — MUSLIM PERSONAL LAW
+
+Talaq (by husband): Husband pronounces divorce. Triple talaq (instant talaq) is now illegal under The Muslim Women (Protection of Rights on Marriage) Act 2019 — punishable with up to 3 years imprisonment.
+Khula (by wife): Wife initiates divorce by returning mehr to husband.
+Mubarat: Mutual divorce by agreement.
+Talaq-e-Tafwid: Wife exercises delegated divorce right given in nikah-nama.
+Judicial divorce (Dissolution of Muslim Marriages Act 1939): Wife files suit in court on grounds of cruelty, desertion, husband's imprisonment, impotence, insanity, non-maintenance, etc.
+
+Maintenance for Muslim woman post-divorce:
+Muslim Women (Protection of Rights on Divorce) Act 1986 — reasonable provision and maintenance for iddah period. Supreme Court in Shah Bano case affirmed right to maintenance under Section 125 CrPC (now BNSS 144) as well.
+
+DIVORCE — CHRISTIAN (Indian Divorce Act 1869), PARSI (Parsi Marriage and Divorce Act 1936):
+File petition before the relevant court. Grounds and procedures differ. Consult DLSA for free legal guidance.
+
+SPECIAL MARRIAGE ACT 1954 — INTER-RELIGIOUS MARRIAGES:
+Applies to any couple regardless of religion who register marriage under this Act.
+Divorce under Section 27 of the Act — similar grounds as HMA.
+
+DOMESTIC VIOLENCE — CIVIL REMEDY (PWDVA 2005):
+Separate from divorce. Woman can seek:
+- Protection Order (no further violence/contact).
+- Residence Order (right to stay in shared home).
+- Monetary Relief (compensation, maintenance).
+- Custody Order (temporary custody of children).
+File complaint with Protection Officer (free) or Magistrate directly.
+Protection Officers are in every district — find them at the district collectorate.
+
+FREE LEGAL AID FOR FAMILY DISPUTES:
+District Legal Services Authority (DLSA) provides free lawyers for divorce, maintenance, custody cases for persons who cannot afford legal fees.
+Call 15100 (NALSA helpline) or visit your district's DLSA office.
+
+==========================================================================
+IF YOU ARE THE RESPONDENT — DEFENSE RIGHTS IN DIVORCE / MAINTENANCE CASES
+==========================================================================
+
+YOUR RIGHTS AS RESPONDENT:
+- Right to file a written statement within 30 days of receiving summons.
+- Right to cross-examine petitioner and their witnesses.
+- Right to produce evidence, witnesses, financial documents.
+- Right to appeal any Family Court order to the High Court.
+
+WHAT PETITIONER MUST PROVE IN CONTESTED DIVORCE:
+- The specific ground for divorce (cruelty, desertion, adultery, etc.) must be proved with evidence.
+- Cruelty must be of such nature that it is unsafe or unreasonable to expect the petitioner to live with you — not just ordinary matrimonial discord.
+- Desertion requires 2 continuous years of abandonment with intent to desert — temporary separation or departure under compelling circumstances is not desertion.
+
+DEFENSES IN MAINTENANCE CLAIMS (BNSS Section 144):
+Wife living in adultery: If wife is living in adultery, she is NOT entitled to maintenance (BNSS Section 144(4)).
+Wife refusing to live without reasonable cause: If the wife left without justification and refuses to return, maintenance can be denied or reduced.
+Husband has no means: If you genuinely have insufficient income to pay the claimed amount, produce income proof, liabilities, and other dependants.
+Child is in your custody: If children live with you, maintenance claimed for children may be reduced or denied.
+
+MUTUAL CONSENT DIVORCE — OPTION FOR BOTH SIDES:
+Both parties can jointly file for divorce under Section 13B HMA after 1 year of separation. This avoids adversarial proceedings and lengthy litigation. Both parties agree on: property division, custody, alimony — and courts typically grant it in 6 months (cooling-off period can be waived by court).
+
+PROTECTING YOURSELF IN MATRIMONIAL DISPUTES:
+Preserve all financial records showing your income, debts, and assets.
+Document any harassment, false allegations, or provocation by spouse.
+If false dowry/cruelty case filed: Apply for anticipatory bail immediately and file counter-complaint if warranted.

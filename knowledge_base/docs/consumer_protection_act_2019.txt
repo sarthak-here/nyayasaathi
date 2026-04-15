@@ -1,0 +1,178 @@
+CONSUMER PROTECTION ACT 2019 — KEY PROVISIONS
+==============================================
+
+OVERVIEW
+The Consumer Protection Act 2019 replaced the older 1986 Act and significantly strengthened consumer rights in India. It introduced new provisions for e-commerce, product liability, unfair trade practices, and a Central Consumer Protection Authority (CCPA).
+
+WHO IS A CONSUMER?
+Under Section 2(7), a consumer is a person who:
+- Buys any goods for consideration (paid or promised)
+- Hires or avails of any service for consideration
+- Uses goods bought by another person with approval
+- Uses services availed by another person
+
+A person is NOT a consumer if:
+- Goods/services are bought for commercial resale purposes
+- Services are availed for commercial purpose with large scale commercial activities
+
+CONSUMER RIGHTS (Section 2(9))
+1. Right to Safety — protection against hazardous goods and services
+2. Right to Information — about quality, quantity, potency, price of goods/services
+3. Right to Choice — access to a variety of goods/services at competitive prices
+4. Right to be Heard — interests to be considered in appropriate forums
+5. Right to Seek Redressal — against unfair trade practices and exploitation
+6. Right to Consumer Education — awareness about rights and remedies
+
+WHAT ARE UNFAIR TRADE PRACTICES?
+Section 2(47) defines unfair trade practices including:
+- False representation of quality, standard, grade or composition
+- False claim that goods are new when reconditioned or old
+- False representation about sponsorship, approval, or affiliation
+- Making false claim about price of goods/services
+- Giving false warranties about performance, efficacy, length of life
+- Not issuing bills/receipts for goods/services sold
+- Refusing to take back defective goods within 30 days
+
+DEFICIENCY IN SERVICE
+Section 2(11) — deficiency means:
+- Fault, imperfection, shortcoming in quality, nature, manner of performance
+- Inadequacy in service required by law or contract
+Examples: delayed delivery, poor quality service, not honoring warranty, overcharging
+
+WHERE TO FILE A COMPLAINT?
+Complaints are filed based on the value of goods/services and compensation claimed:
+
+DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION (DCDRC):
+- Claims up to Rs. 1 crore
+- Located in every district headquarters
+- File complaint in district where seller resides, works, or has branch, OR where cause of action arose
+
+STATE CONSUMER DISPUTES REDRESSAL COMMISSION (SCDRC):
+- Claims above Rs. 1 crore up to Rs. 10 crore
+- Also hears appeals from DCDRC
+- Located at state capital
+
+NATIONAL CONSUMER DISPUTES REDRESSAL COMMISSION (NCDRC):
+- Claims above Rs. 10 crore
+- Also hears appeals from SCDRC
+- Located in New Delhi
+
+EDAAKHIL — ONLINE COMPLAINT PORTAL
+Website: edaakhil.nic.in
+Consumers can file complaints online, upload documents, pay fees, and track cases.
+
+HOW TO FILE A CONSUMER COMPLAINT?
+Step 1: Send a legal notice to the seller/service provider giving 15 days to resolve
+Step 2: If unresolved, prepare complaint on plain paper or use format
+
+COMPLAINT FORMAT:
+To,
+The President,
+District Consumer Disputes Redressal Commission,
+[District Name]
+
+COMPLAINT UNDER CONSUMER PROTECTION ACT, 2019
+
+Complainant: [Full Name, Address, Phone, Email]
+Opposite Party: [Name of company/seller, address]
+
+FACTS:
+1. [Date and details of purchase/transaction]
+2. [What went wrong — defect, deficiency, fraud]
+3. [Steps taken to resolve with seller and response received]
+
+RELIEF SOUGHT:
+1. Replacement/refund of Rs. [amount]
+2. Compensation for mental agony and harassment of Rs. [amount]
+3. Litigation costs of Rs. [amount]
+
+DOCUMENTS ATTACHED:
+- Invoice/receipt
+- Warranty card
+- Legal notice sent and acknowledgment
+- Correspondence with seller
+- Photos/evidence of defect
+
+I solemnly declare that the contents are true to my knowledge.
+
+[Signature]
+[Name]
+[Date]
+
+FILING FEES (District Commission)
+- Claims up to Rs. 5 lakh: No fee
+- Rs. 5 lakh to Rs. 10 lakh: Rs. 200
+- Rs. 10 lakh to Rs. 20 lakh: Rs. 400
+- Rs. 20 lakh to Rs. 50 lakh: Rs. 1,000
+- Rs. 50 lakh to Rs. 1 crore: Rs. 2,000
+
+TIME LIMIT TO FILE COMPLAINT
+2 years from the date on which cause of action arose. Courts can condone delay if sufficient cause shown.
+
+PRODUCT LIABILITY (Chapter VI)
+New provision in 2019 Act. A product manufacturer/seller is liable for harm caused by a defective product.
+Liability exists when:
+- Product has a manufacturing defect
+- Product deviates from manufacturing specifications
+- Product does not conform to express warranty
+- Product fails to contain adequate instructions for correct use
+
+CENTRAL CONSUMER PROTECTION AUTHORITY (CCPA)
+New body under 2019 Act empowered to:
+- Investigate violations of consumer rights
+- Recall defective goods, order refunds
+- File class action complaints on behalf of consumers
+- Impose penalties on misleading advertisements (up to Rs. 10 lakh for first offence)
+
+E-COMMERCE COMPLAINTS
+The Act specifically covers e-commerce transactions. Online marketplaces must:
+- Display authentic details of sellers
+- Ensure no fake/counterfeit goods are listed
+- Have clear return, refund, and exchange policies
+- Not manipulate prices
+
+COMMON CONSUMER COMPLAINTS
+1. Defective electronic products — mobile phones, appliances
+2. E-commerce — wrong product delivered, refund denied, damaged goods
+3. Insurance — claim rejected, policy mis-sold
+4. Real estate — delayed possession, quality issues
+5. Healthcare — medical negligence, overcharging
+6. Banking — unauthorized debit, hidden charges
+7. Telecom — service disruption, wrongful billing
+8. Education — fee refund, false promises about placement
+
+==========================================================================
+IF YOU ARE THE OPPOSITE PARTY (SELLER/SERVICE PROVIDER) — DEFENSE RIGHTS
+==========================================================================
+
+YOUR RIGHTS AS OPPOSITE PARTY IN CONSUMER COMPLAINT:
+- Right to file a written reply/version within 30 days of receiving notice from the Commission.
+- Right to cross-examine the complainant.
+- Right to produce evidence, expert witnesses, and technical reports.
+- Right to appeal: District Commission → State Commission → National Commission → Supreme Court.
+
+WHAT COMPLAINANT MUST PROVE:
+- That they are a "consumer" (not a commercial reseller).
+- That there was a deficiency in service or defect in goods as defined by the Act.
+- That the deficiency/defect was caused by your negligence or fault — not by misuse, normal wear, or third-party factors.
+- The quantum of loss suffered.
+
+COMMON DEFENSES FOR BUSINESSES:
+Product misuse: If the consumer misused the product contrary to instructions, the defect was caused by them — not a manufacturing defect.
+Normal wear and tear: Products degrade over time. Defects appearing after the warranty period due to use are not your liability.
+Terms and conditions: If the consumer breached contract terms (e.g., returned after the return window), your refusal is justified — show the agreed terms.
+Third-party fault: If the defect was caused by a third party (courier damage, power surge) and not by you, demonstrate this with evidence.
+Complainant is not a consumer: If goods were bought for commercial resale or large-scale commercial activity, the Consumer Protection Act does not apply.
+Service was rendered correctly: Produce service records, inspection reports, photographs, and expert opinions showing the service met contractual and regulatory standards.
+
+LIMITATION / JURISDICTION:
+Complaint must be filed within 2 years — if filed beyond this, apply for dismissal on limitation.
+Jurisdiction is where you have your place of business or where the cause of action arose — challenge if complaint filed in wrong forum.
+
+APPEAL ROUTE:
+District Commission order → Appeal to State Commission within 45 days (deposit 50% of awarded amount or Rs. 25,000, whichever is less).
+State Commission order → National Commission within 30 days.
+NCDRC order → Supreme Court within 30 days.
+
+SETTLEMENT:
+Consumer cases can be settled at any stage. Mediation is now mandatory before the Commission proceeds to hearing. Settling early avoids reputational damage and litigation costs.

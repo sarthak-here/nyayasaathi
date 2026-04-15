@@ -1,0 +1,175 @@
+SCHEDULED CASTES AND SCHEDULED TRIBES (PREVENTION OF ATROCITIES) ACT 1989
+==========================================================================
+(Also known as SC/ST Act or Atrocities Act, amended by Amendment Act 2015 & 2018)
+
+OVERVIEW
+The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act 1989 is a special legislation to prevent crimes against members of SC and ST communities and to provide speedy justice and relief. It creates special offences, special courts, and special police arrangements.
+
+WHO IS PROTECTED?
+Members of communities listed in the Scheduled Castes list (Dalits, including Hindu SC, Buddhist SC, Sikh SC) and Scheduled Tribes list (Adivasis, tribal communities) as notified by the President under Articles 341 and 342 of the Constitution.
+
+WHO CAN BE AN ACCUSED?
+Only a non-SC/ST person can be prosecuted under this Act. If both accused and victim are SC/ST, regular IPC/BNS provisions apply instead.
+
+OFFENCES UNDER THE ACT (Section 3)
+
+HUMILIATION AND SOCIAL EXCLUSION:
+- Forcing an SC/ST person to drink or eat inedible/obnoxious substances
+- Dumping excreta, waste, carcasses, or any other obnoxious substance in premises or neighborhood
+- Garlanding with footwear or parading naked
+- Forcing to do manual scavenging
+- Using abusive language referring to caste
+- Interfering with right to vote
+- Preventing from using public spaces (roads, water sources, cremation grounds, etc.)
+- Compelling to leave house, village, or place of residence
+
+SEXUAL VIOLENCE:
+- Assault or use of force with intent to dishonor
+- Sexual exploitation of SC/ST woman
+
+ECONOMIC AND LAND OFFENCES:
+- Wrongfully occupying or cultivating land belonging to SC/ST
+- Disposing of an SC/ST person's land or premises by deceit, coercion, or threat
+- Compelling to work in forced or bonded labor
+
+ADMINISTRATION AND INSTITUTION OFFENCES:
+- Giving false evidence resulting in conviction or execution of SC/ST person
+- Fabricating false evidence to cause SC/ST person to be convicted
+- Mischief or arson causing damage to property used for worship, burial grounds, or residential premises
+
+NEW OFFENCES ADDED BY 2015 AMENDMENT:
+- Touching an SC/ST person or using gestures of sexual nature
+- Tonsuring of head, removing moustache, or putting footwear garland
+- Garlands/processions involving SC/ST person causing indignity
+- Denying access to irrigation or forest rights
+- Forcing to leave home/village after election
+- Intentional insult or intimidation to humiliate SC/ST person in any place within public view
+- Witchcraft atrocities
+- Social or economic boycott
+
+PUNISHMENT
+Most offences under the Act: imprisonment of 6 months to 5 years + fine.
+Severe offences (murder, rape): life imprisonment or death as per existing IPC/BNS.
+Repeat offences: enhanced punishment.
+
+SPECIAL FEATURES OF THE ACT
+
+NO ANTICIPATORY BAIL (Section 18):
+The Supreme Court has held that anticipatory bail cannot ordinarily be granted to accused in cases under this Act. Police must arrest.
+
+MANDATORY ARREST:
+Arrest of accused is mandatory. Police cannot simply issue notice.
+
+SPECIAL COURTS:
+- Exclusive Special Courts designated in each district for speedy trial
+- Cases must be completed within 2 months
+- Appeals lie to High Court directly
+
+SPECIAL PUBLIC PROSECUTORS:
+Government appoints Special Public Prosecutors for every Special Court.
+
+PRESUMPTION OF GUILT (Section 8):
+If the fact of caste-based humiliation is proved, court shall presume that the accused had the required intention.
+
+HOW TO FILE A COMPLAINT
+
+STEP 1: FILE FIR AT POLICE STATION
+- Approach nearest police station. Cognizable offences under this Act must be registered as FIR.
+- If police refuse to register FIR (common problem), go to:
+  a) Superintendent of Police (SP) of district
+  b) Submit written complaint by registered post to SP
+  c) File complaint before Magistrate under Section 156(3) CrPC/BNSS
+  d) Approach the concerned NHRC/State Human Rights Commission
+
+STEP 2: INSIST ON CORRECT SECTIONS
+The FIR must mention the specific sections of SC/ST Act. Do not let police file only under general IPC sections.
+
+STEP 3: RELIEF AND COMPENSATION
+Victim and witnesses are entitled to:
+- Immediate relief (within 7 days of incident) — for injuries, damage to property
+- Interim relief — medical aid, clothing, food, transport, shelter
+- Rehabilitation — economic and social rehabilitation
+
+COMPENSATION SCHEDULE (Rule 12(4) of 1995 Rules, as amended):
+- Murder: Rs. 8.25 lakh (including Rs. 2 lakh immediate)
+- Rape: Rs. 5 lakh (including Rs. 2 lakh immediate)
+- Grievous hurt: Rs. 2 lakh (including Rs. 50,000 immediate)
+- Damage to property: equal to loss (50% immediate)
+- Caste-based insult in public: Rs. 1 lakh (including Rs. 25,000 immediate)
+
+STEP 4: APPROACH NODAL OFFICER
+Every district has a Nodal Officer for SC/ST Act implementation. Approach if police are uncooperative.
+
+STEP 5: STATE SC/ST COMMISSION
+State Commissions for Scheduled Castes and Scheduled Tribes exist in most states. They can recommend action against erring officials.
+
+STEP 6: NATIONAL COMMISSION FOR SCHEDULED CASTES/TRIBES
+Can investigate complaints, summon officials, make recommendations to government.
+
+COMMON PROBLEMS AND HOW TO TACKLE THEM
+
+PROBLEM: Police refusing to register FIR
+SOLUTION:
+1. Get application received in writing by SI/SHO
+2. Send complaint by speed post/registered post to SP, DM, and SSP
+3. File complaint before Judicial Magistrate — court can direct police to register FIR
+4. Approach NHRC/State Human Rights Commission for intervention
+
+PROBLEM: Accused getting bail despite Section 18
+SOLUTION:
+1. Oppose bail vehemently before Sessions/HC
+2. Cite relevant Supreme Court judgments on non-applicability of anticipatory bail
+3. Approach Special Public Prosecutor
+
+PROBLEM: Delayed investigation
+SOLUTION:
+1. Approach SP with written complaint
+2. File petition before Special Court seeking monitoring
+3. Approach State SC/ST Commission
+
+IMPORTANT HELPLINES
+- National SC Commission: 011-23388999
+- National ST Commission: 011-26733200
+- National Human Rights Commission: 14433
+- State Legal Services Authority for free legal aid
+
+ROLE OF LEGAL SERVICES AUTHORITY
+Free legal representation is available to SC/ST victims at all stages. Contact:
+- District Legal Services Authority (DLSA)
+- Taluka Legal Services Committee
+- State Legal Services Authority
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS IN SC/ST ATROCITIES ACT CASES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent. Do not make any statement to police without a lawyer present.
+- Right to a lawyer immediately upon arrest. DLSA provides free lawyers.
+- No anticipatory bail ordinarily available (Supreme Court ruling) — but regular bail can be applied for after arrest before the Magistrate/Sessions Court.
+
+WHAT PROSECUTION MUST PROVE:
+- That the complainant is a member of a Scheduled Caste or Scheduled Tribe (must be proved by certificate or evidence).
+- That you are NOT a member of SC/ST community (only a non-SC/ST person can be prosecuted under this Act).
+- That you committed the specific offence as listed in Section 3.
+- That the act was committed on the GROUNDS of the victim's caste — a general altercation that has nothing to do with caste does not attract this Act, even between an SC/ST person and a non-SC/ST person.
+
+CRITICAL DEFENSE — CASTE NEXUS REQUIREMENT:
+Supreme Court in Prithvi Raj Chauhan v. Union of India (2020) and other judgments: For an offence to fall under the SC/ST Act, the act must have been committed BECAUSE OF the victim's caste — not merely on a victim who happens to be SC/ST. A dispute over property, money, personal enmity, or business that has no caste angle cannot be prosecuted under this Act.
+If the dispute is about land, money, or personal rivalry with no caste element: This can be a strong defense.
+
+COMMON DEFENSES:
+No caste nexus: The altercation was about a personal, commercial, or property dispute — not triggered by the victim's caste identity.
+False implication in land/property dispute: Complainant using the Act to gain leverage in an unrelated civil dispute. Show the prior history of the dispute.
+Mistaken identity: You were not present at the scene.
+Provocation or retaliation: The complainant themselves provoked or attacked you first.
+
+BAIL (Note: No anticipatory bail normally):
+After arrest, apply for bail before Chief Judicial Magistrate (CJM) or Sessions Court.
+Grounds for bail: Your previous clean record, no flight risk, no tampering with evidence, custodial purpose is served.
+High Court can grant bail in cases where prima facie case is weak or FIR appears malicious.
+
+PROTECTING YOURSELF FROM FALSE CASES:
+If you have a prior land/money dispute with the complainant, document that history.
+Gather evidence of the actual cause of the altercation (property records, payment disputes, prior complaints).
+Apply to High Court to quash FIR if caste nexus is clearly absent and FIR is an abuse of process.

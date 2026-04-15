@@ -1,0 +1,132 @@
+POCSO ACT 2012 — CHILD PROTECTION AND CHILD RIGHTS
+===================================================
+(Protection of Children from Sexual Offences Act, 2012 — amended 2019)
+(Applies to all children under 18 years of age — boys and girls both)
+
+OVERVIEW
+POCSO is a special law protecting children from sexual abuse. It overrides IPC/BNS when both apply to the same offence against a child. Trials are conducted in Special Courts. Child's identity is NEVER disclosed publicly.
+
+OFFENCES UNDER POCSO
+
+Section 4 — Penetrative Sexual Assault:
+Minimum 10 years RI up to life + fine (paid to victim).
+If victim under 16 years: Minimum 20 years up to life imprisonment.
+Cognizable, Non-bailable.
+
+Section 6 — Aggravated Penetrative Sexual Assault:
+By police officer, army/CRPF personnel, public servant, management/staff of child care institution, relative, person in position of authority, gang.
+Minimum 20 years RI up to life imprisonment, or death + fine paid to victim.
+Cognizable, Non-bailable.
+
+Section 8 — Sexual Assault (non-penetrative but sexual touching):
+3 to 5 years + fine. Cognizable, Non-bailable.
+
+Section 10 — Aggravated Sexual Assault (by authority figure, repeat offence, causing injury):
+5 to 7 years + fine. Cognizable, Non-bailable.
+
+Section 12 — Sexual Harassment (non-contact — flashing, showing pornography, making sexual comments to child):
+Up to 3 years + fine. Cognizable, Non-bailable.
+
+Section 14 — Using child for pornographic purposes:
+Up to 5 years (first offence), up to 7 years (repeat) + fine.
+Cognizable, Non-bailable.
+
+MANDATORY REPORTING — SECTION 19 (MOST IMPORTANT PROVISION)
+EVERY PERSON who knows or believes a POCSO offence has been or is being committed MUST report it to the police or Child Welfare Committee (CWC) IMMEDIATELY.
+This includes: teachers, doctors, nurses, family members, neighbours, bystanders — EVERYONE.
+No exception for any profession.
+
+Section 21 — Failure to report is itself a criminal offence:
+Up to 6 months imprisonment or fine, or both.
+
+HOW TO REPORT POCSO
+
+Step 1: Call Child Helpline 1098 (free, 24/7).
+Step 2: File complaint at nearest police station / SJPU (Special Juvenile Police Unit).
+Police MUST register FIR. If police refuse, escalate to SP or Magistrate.
+Step 3: Online report: pocso-mwcd.nic.in (POCSO e-Box).
+Step 4: Child Welfare Committee (CWC) — available in every district.
+
+CHILD'S RIGHTS DURING PROCEEDINGS
+
+Section 24 — Child's statement recorded:
+In presence of parent or trusted person.
+In child-friendly manner — not in uniform, not cross-examined harshly.
+No repeated questioning by police.
+Magistrate records statement at child's residence if needed.
+
+Section 33 — Special Court:
+All POCSO trials in designated Special Courts.
+Camera proceedings — identity of child never disclosed.
+Trial must be completed within 1 year.
+
+Section 35 — Speedy trial target:
+Special Court to complete trial within 1 year of taking cognizance.
+
+Victim compensation:
+Available from State Victim Compensation Fund.
+Apply to DLSA (District Legal Services Authority) regardless of conviction status.
+
+CHILD LABOUR
+
+Child Labour (Prohibition and Regulation) Act 1986 (amended 2016):
+Complete prohibition on employment of children under 14 in any occupation.
+Complete prohibition on employment of children 14-18 in hazardous occupations (mines, explosives, construction, etc.)
+Punishment for employing child: Up to 2 years imprisonment + Rs. 20,000 to Rs. 50,000 fine.
+Repeat offence: Up to 3 years. No option of fine alone for repeat.
+Report to: Labour Inspector, Child Helpline 1098, District Magistrate.
+
+CHILD MARRIAGE
+
+Prohibition of Child Marriage Act 2006:
+Marriage below 18 for girls and 21 for boys is illegal.
+Marriage is VOIDABLE at the option of the minor (not void automatically).
+Punishment for performing/abetting child marriage: Up to 2 years + Rs. 1 lakh fine.
+Helpline: 1098 (Child Helpline).
+The Child Marriage Prohibition Officer in each district can stop a child marriage by injunction.
+
+RIGHT TO EDUCATION (RTE ACT 2009) — SCHOOL ADMISSION
+
+Every child between 6-14 years has a right to free compulsory elementary education.
+25% seats in all private schools reserved for economically weaker section (EWS) children.
+How to apply for EWS seat: Apply to school before academic year starts. If school refuses: Complaint to District Education Officer.
+No school can deny admission to a child.
+No school can expel a student till Class 8.
+Physical punishment by teacher is strictly prohibited — report to school principal, then DEO.
+
+CHILD HELPLINE NUMBERS
+- Child Helpline: 1098 (free, 24/7, all languages)
+- Police Emergency: 112
+- Women Helpline: 181
+- POCSO e-Box: pocso-mwcd.nic.in
+- NCPCR: ncpcr.gov.in | 011-23724301
+
+==========================================================================
+IF YOU ARE THE ACCUSED — DEFENSE RIGHTS IN POCSO CASES
+==========================================================================
+
+YOUR CONSTITUTIONAL RIGHTS:
+- Right to remain silent from the moment of arrest.
+- Right to a lawyer immediately. DLSA provides free lawyers for accused too.
+- No confession made to police is admissible (Article 20(3)).
+
+WHAT PROSECUTION MUST PROVE:
+- The child is under 18 years old (must be proved by birth certificate, school records).
+- The specific act (penetrative assault, sexual assault, harassment) occurred.
+- You committed it — identity beyond reasonable doubt.
+POCSO has a presumption of guilt (Section 29): Once prosecution proves sexual assault occurred and establishes the accused was with the child, court presumes the accused committed it. Burden then shifts to accused to rebut.
+
+COMMON DEFENSES:
+False implication in custody/property disputes: Sadly, POCSO is sometimes misused in bitter family or matrimonial disputes. If child's statement was influenced by adults with motive, challenge this.
+Child's age: If the "child" was actually above 18, POCSO does not apply — produce birth records, school records.
+Alibi: You were not at the location when the offence occurred — phone records, CCTV, witnesses.
+Procedural violations: Child's statement not recorded in child-friendly manner, examined by police in uniform, statement recorded multiple times — all affect evidentiary value.
+Medical evidence: If medical examination shows no signs of assault, this challenges the prosecution's case.
+
+BAIL:
+POCSO offences are non-bailable. Bail is very difficult to obtain given the gravity and the presumption provisions.
+Apply to Sessions Court. Grounds: False implication clearly established, alibi strong, no prior criminal record.
+High Court can grant bail in exceptional cases.
+
+IMPORTANT NOTE ON MANDATORY REPORTING:
+If you failed to report a POCSO offence you knew about (Section 21): This is itself an offence. If you are charged for this, defense is that you did not have knowledge or reasonable belief that the offence was occurring.

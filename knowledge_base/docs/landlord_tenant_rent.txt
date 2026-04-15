@@ -1,0 +1,124 @@
+LANDLORD-TENANT DISPUTES, ILLEGAL EVICTION, RENT LAWS
+=======================================================
+
+OVERVIEW
+Landlord-tenant relationships are primarily governed by state Rent Control Acts. Most states have their own rent laws. Key principles are universal — landlords CANNOT forcibly evict, cannot harass tenants, and cannot enter premises without notice.
+
+TENANT'S FUNDAMENTAL RIGHTS
+
+No forcible eviction without court order:
+A landlord CANNOT physically throw out a tenant, change locks, cut electricity/water, or remove belongings to force eviction — regardless of any dispute.
+Doing so = criminal trespass (BNS Section 329/331) + wrongful restraint + criminal intimidation (BNS 351).
+If landlord does this: File FIR at police station immediately.
+
+Eviction can ONLY happen through:
+1. Rent Controller Court/Civil Court order.
+2. Mutual agreement and voluntary vacation.
+
+GROUNDS FOR LEGAL EVICTION (under most Rent Control Acts):
+1. Non-payment of rent for 2+ months (after written notice).
+2. Subletting without permission.
+3. Using premises for illegal purpose.
+4. Causing damage to the property.
+5. Landlord needing property for bona fide personal use (with notice and compensation in most states).
+6. Demolition/reconstruction (with notice).
+
+RENT INCREASES:
+Landlords cannot arbitrarily increase rent. Most Rent Control Acts limit annual rent increase to 5-10% or link to government formula.
+Rent agreement specifying higher increase may be challenged before Rent Controller.
+
+SECURITY DEPOSIT:
+Security deposit is refundable — landlord must return it within 30-45 days of tenant vacating (varies by state).
+Landlord can only deduct for actual damage beyond normal wear and tear — must provide itemized list.
+If deposit not returned without reason: Civil suit for recovery + Consumer Forum (if residential).
+
+WHAT TO DO IF LANDLORD IS HARASSING YOU
+
+If landlord cuts power/water:
+File FIR for criminal breach under BNS Section 329 + Section 351 (criminal intimidation).
+Get emergency injunction from Civil Court to restore utilities.
+Electricity board complaint for unauthorized disconnection.
+
+If landlord changes locks or removes belongings:
+File FIR for house-trespass (BNS 331) and theft (BNS 303).
+Seek urgent/emergency relief from Civil Court for restoration.
+
+If landlord enters without notice/consent:
+File complaint for criminal trespass (BNS 329).
+Seek injunction from Civil Court.
+
+If landlord threatens you:
+File FIR for criminal intimidation (BNS 351).
+
+HOW TO FILE FOR LEGAL EVICTION — FOR LANDLORDS
+
+Step 1: Send written notice to tenant specifying the reason for eviction and giving 30-60 days (varies by state and reason).
+Step 2: If tenant doesn't vacate, file eviction petition before Rent Controller/appropriate court.
+Step 3: Tenant has right to contest. Court hears both sides.
+Step 4: If eviction decree passed and not obeyed, get execution warrant.
+
+RENT AGREEMENTS AND REGISTRATION
+
+Rent agreements of 11 months: Most common in India. 11-month agreements avoid mandatory registration. Renewable annually.
+Agreements of 12+ months: Must be registered with Sub-Registrar under Registration Act 1908. Stamp duty applicable.
+Unregistered 12+ month agreements cannot be used as evidence in court.
+License vs. Lease: Most urban residential agreements are "leave and license" — this gives tenant fewer protections but landlord can recover possession more easily after notice period.
+
+PAYING GUEST (PG) ACCOMMODATION:
+PG residents have basic consumer rights — right to safety, basic amenities as promised.
+Withholding PG fees, harassment, arbitrary eviction can be challenged at Consumer Forum.
+
+COMMERCIAL TENANTS:
+Commercial tenants have fewer protections than residential tenants in most states.
+Transfer of Property Act 1882 governs in absence of state rent control law.
+Commercial tenants still protected against forcible eviction — must go through court.
+
+SOCIETY/APARTMENT-LEVEL DISPUTES:
+Maintenance fee disputes: Approach cooperative housing society Registrar (state government).
+Society cannot cut water/lift access for non-payment without proper notice and legal process.
+Bye-law violations: Complaint to Registrar of Cooperative Societies.
+
+RELEVANT STATE RENT LAWS (key ones):
+Maharashtra: Maharashtra Rent Control Act 1999.
+Delhi: Delhi Rent Act 1958 / Delhi Rent Control Act.
+Karnataka: Karnataka Rent Act 2001.
+Tamil Nadu: Tamil Nadu Buildings (Lease and Rent Control) Act 1960.
+Gujarat: Gujarat Rent Control Act 1999.
+West Bengal: West Bengal Premises Tenancy Act 1997.
+Note: Contact local DLSA for your state's specific provisions.
+
+DOCUMENTS TENANT SHOULD PRESERVE:
+Rent agreement / leave and license agreement.
+Rent receipts (get receipt for every payment in cash — insist on this).
+Bank transfer records if paying by bank.
+Any written communication with landlord.
+Photographs of property condition at entry (to counter damage claims at exit).
+
+==========================================================================
+IF YOU ARE THE LANDLORD — DEFENSE RIGHTS IN TENANT DISPUTES
+==========================================================================
+
+YOUR RIGHTS AS LANDLORD:
+- Right to evict a tenant through court for non-payment, subletting, illegal use, or bona fide personal need — but ONLY through proper legal process.
+- Right to claim unpaid rent as arrears in Rent Controller Court.
+- Right to damages for any property destroyed or damaged by tenant.
+
+WHAT TENANT MUST PROVE TO RESIST EVICTION:
+- That they have been paying rent (rent receipts are critical).
+- That the eviction ground claimed by landlord does not exist or is false.
+- For "bona fide personal need" evictions: Tenant can challenge whether the landlord genuinely needs the property or is using it as pretext.
+
+COMMON DEFENSES FOR LANDLORDS AGAINST FALSE TENANT CLAIMS:
+Forcible eviction allegation: If tenant claims you forcibly evicted them but you have a court order, produce it. If tenant left voluntarily and is now claiming forced eviction, produce evidence of voluntary vacation.
+Non-payment of rent: Produce rent ledger, demand notices, bank records showing rent was not received.
+Tenant misusing property for illegal purposes: Produce evidence (police complaint, witness statements) of the misuse.
+
+IF TENANT FILES FALSE POLICE COMPLAINT AGAINST YOU:
+Collect evidence showing you did not commit criminal trespass — if you entered your own property with legal authority, document it.
+Apply for anticipatory bail if arrest is threatened.
+Challenge the FIR in High Court if it is based on false facts.
+
+WHEN TENANT CAN BE SUED CRIMINALLY:
+If tenant damages the property wilfully: BNS Section 324 (mischief).
+If tenant refuses to vacate after court order: Contempt of court.
+If tenant threatens or assaults landlord: BNS Section 351/115.
