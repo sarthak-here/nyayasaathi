@@ -7,3 +7,6 @@ langchain-community
 langchain
 openai-whisper
 python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
