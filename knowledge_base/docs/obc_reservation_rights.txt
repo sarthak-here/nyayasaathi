@@ -1,0 +1,113 @@
+RESERVATION RIGHTS IN INDIA — SC, ST, OBC, EWS CATEGORIES
+
+============================
+CONSTITUTIONAL BASIS
+============================
+
+Article 15(4): State can make special provisions for socially and educationally backward classes, SC, and ST (education).
+Article 16(4): State can make provisions for reservation in appointments for any backward class not adequately represented.
+Article 46: State shall promote educational and economic interests of weaker sections, especially SC and ST.
+Article 335: Claims of SC and ST shall be taken into consideration consistently with maintenance of efficiency of administration.
+
+============================
+SCHEDULED CASTES (SC) — RESERVATION RIGHTS
+============================
+
+RESERVATION PERCENTAGES (Central Government):
+- Education (Central Institutions): 15%
+- Government Jobs (Direct Recruitment): 15%
+- Promotions: 15% (Supreme Court upheld in M. Nagaraj case)
+
+IDENTIFICATION:
+SC status is identified by caste and state — not all castes are SC in all states. Verified by Caste Certificate issued by Tahsildar/SDM.
+
+CREAMY LAYER: NO creamy layer for SC/ST — ALL SC/ST persons are entitled to reservation regardless of income or parent's job status. (This is different from OBC).
+
+SC CERTIFICATE FRAUD:
+Obtaining SC/ST certificate fraudulently: Criminal offence. Genuine SC/ST persons deprived: Complaint to SC/ST Commission or High Court.
+
+NATIONAL COMMISSION FOR SCHEDULED CASTES (NCSC):
+Constitutional body. Investigates complaints related to rights of SCs. File complaint at ncsc.nic.in.
+
+============================
+SCHEDULED TRIBES (ST) — RESERVATION RIGHTS
+============================
+
+RESERVATION: 7.5% in Central Government education and employment.
+Forest Rights: See Forest Rights Act 2006 (separate document).
+Fifth and Sixth Schedule protection for tribal areas.
+
+TRIBAL LAND RIGHTS (PESA — Panchayats (Extension to Scheduled Areas) Act 1996):
+In Fifth Schedule areas (tribal areas across 10 states), Gram Sabha has special powers:
+- Approval needed for land acquisition in Scheduled Areas
+- Gram Sabha controls minor forest produce
+- Gram Sabha can regulate money lending to tribals
+- No land acquisition without Gram Sabha consent
+
+ALIENATION OF TRIBAL LAND: In most tribal states, tribals CANNOT sell their land to non-tribals without government permission. Illegal transfers can be cancelled.
+
+NATIONAL COMMISSION FOR SCHEDULED TRIBES (NCST): Constitutional body. File complaints at ncst.gov.in.
+
+============================
+OTHER BACKWARD CLASSES (OBC) — RESERVATION RIGHTS
+============================
+
+RESERVATION: 27% in Central Government education and employment.
+Creamy Layer EXCLUDED from OBC reservation: OBC persons whose parents' income exceeds Rs. 8 lakh per year (revised periodically) or who belong to specified constitutional/higher government positions are in "creamy layer" and NOT entitled to OBC reservation.
+
+CENTRAL OBC LIST: National Commission for Backward Classes (NCBC) recommends inclusion/exclusion of communities in Central OBC list.
+STATE OBC LIST: Separate from Central OBC list. A community may be OBC in one state but not another.
+
+VERIFY OBC STATUS: Central List of OBCs available at ncbc.nic.in.
+OBC Certificate: Issued by competent authority (Tahsildar/SDM) in prescribed format for Central OBC.
+
+NATIONAL COMMISSION FOR BACKWARD CLASSES (NCBC): Constitutional body (2018 amendment). Investigates complaints about rights of backward classes. ncbc.nic.in.
+
+EDUCATIONAL RESERVATIONS (Post-Graduate):
+- All centrally-funded institutions must maintain SC/ST/OBC quotas
+- If seats go unfilled under reserved category: Carry forward for 3 years, then dereservation
+
+============================
+EWS RESERVATION (ECONOMICALLY WEAKER SECTIONS)
+============================
+
+103RD CONSTITUTIONAL AMENDMENT (2019): Added 10% reservation for EWS (Economically Weaker Sections — those not covered by existing reservations) in education and government employment.
+Supreme Court upheld its validity in Janhit Abhiyan v. Union of India (2022) (3:2 majority).
+
+ELIGIBILITY FOR EWS:
+- Family income below Rs. 8 lakh per year from all sources
+- Agricultural land below 5 acres
+- Residential flat below 1,000 sq ft
+- Residential plot below 100 sq yards (municipal) or 200 sq yards (non-municipal)
+- Does NOT apply to SC/ST/OBC (they have their own reservations)
+
+EWS CERTIFICATE: Issued by Tahsildar/Revenue Officer/SDM.
+
+============================
+DISABILITY RESERVATION
+============================
+
+RPWD Act 2016: 4% reservation in government jobs and educational institutions for persons with benchmarked disabilities:
+- 1% each for blindness and low vision
+- 1% for deaf and hard of hearing
+- 1% for locomotor disability including cerebral palsy, leprosy cured, dwarfism, acid attack victims, muscular dystrophy
+
+============================
+PRIVATE SECTOR RESERVATION
+============================
+
+Currently NO mandatory reservation in private sector employment. But:
+- Some states have enacted laws requiring minimum percentage of local residents in private sector jobs (Gujarat, Haryana, AP, etc.)
+- Constitutional validity of such state laws is contested in courts.
+
+============================
+HOW TO GET CERTIFICATES
+============================
+
+Caste/OBC/EWS Certificate:
+Apply at Tahsildar's office or online through state's revenue portal.
+Documents: Aadhaar card, ration card, school leaving certificate (for date/place of birth), old caste certificate of parent if available.
+Processing time: 7-30 days (varies by state).
+
+If certificate is wrongly denied: Appeal to District Collector/SDM. Then High Court.
+Fake certificate: Criminal offence (forgery under BNS + relevant SC/ST Act provisions).

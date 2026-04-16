@@ -1,0 +1,103 @@
+ENVIRONMENT PROTECTION LAWS IN INDIA
+(Environment Protection Act 1986, Air Act 1981, Water Act 1974, Wildlife Protection Act 1972)
+
+============================
+ENVIRONMENT PROTECTION ACT 1986 (EPA)
+============================
+
+The EPA is the umbrella legislation for environmental protection. The Central Government has sweeping powers to take measures to protect and improve the environment.
+
+KEY PROVISIONS:
+
+Section 7 — No person shall discharge any environmental pollutant in excess of prescribed standards.
+
+Section 8 — Hazardous substances must be handled according to prescribed procedures.
+
+Section 15 — PENALTY: Any violation of EPA provisions: Imprisonment up to 5 years and/or fine up to Rs. 1 lakh. For continuing violation: additional fine of Rs. 5,000 per day. If violation continues for 1 year after conviction: imprisonment up to 7 years.
+
+Section 19 — Citizen can file complaint in court for violation of EPA after giving 60 days notice to the Central Government/authorities.
+
+ENVIRONMENTAL IMPACT ASSESSMENT (EIA):
+Under EPA, certain industries, projects, and activities REQUIRE PRIOR ENVIRONMENTAL CLEARANCE (EC) from Ministry of Environment, Forest and Climate Change (MoEFCC) or State Environment Impact Assessment Authority (SEIAA).
+Projects requiring EC include: Mining, thermal power plants, cement plants, large construction projects, airports, highways, coastal development.
+Construction without EC: Illegal, subject to demolition and penalty.
+ANYONE can challenge an EC before National Green Tribunal (NGT).
+
+NATIONAL GREEN TRIBUNAL (NGT ACT 2010):
+NGT is a specialized court for environmental cases. ANY person can file an application before NGT for:
+- Substantial questions of environment
+- Enforcement of legal rights related to environment
+- Relief and compensation for damage to persons and property due to environmental damage
+Filing fee: Very nominal (Rs. 30 for individuals)
+NGT can award compensation, restore environment, impose penalties on polluters.
+NGT has 5 benches: New Delhi (Principal), Bhopal, Pune, Kolkata, Chennai.
+
+============================
+AIR (PREVENTION AND CONTROL OF POLLUTION) ACT 1981
+============================
+
+State Pollution Control Boards (SPCB) regulate air pollution.
+
+Consent to Establish and Consent to Operate: Industries must obtain consent from SPCB before establishing and operating. Industries without consent are illegal.
+
+Standards: SPCB sets standards for emission of air pollutants from industrial plants, vehicles, and other sources.
+
+Common Air Pollution Complaints:
+- Industrial emissions causing respiratory problems
+- Burning of waste/crops (stubble burning)
+- Vehicular pollution
+- Dust from construction
+
+WHERE TO COMPLAIN:
+1. State Pollution Control Board (SPCB) in your state
+2. Central Pollution Control Board (CPCB): cpcb.nic.in
+3. National Green Tribunal (NGT)
+4. Green App: Some states have mobile apps for pollution complaints
+
+VEHICLE EMISSIONS:
+Vehicles must have valid Pollution Under Control (PUC) certificate. Driving without valid PUC: Fine up to Rs. 10,000.
+
+============================
+WATER (PREVENTION AND CONTROL OF POLLUTION) ACT 1974
+============================
+
+Industries cannot discharge effluents into water bodies without consent of SPCB. Standards for discharge are fixed.
+
+PENALTY: Imprisonment 1.5 to 6 years and fine for causing water pollution.
+
+NOISE POLLUTION (Regulation and Control) Rules 2000:
+Day time (6 AM–10 PM): Industrial: 75 dB; Commercial: 65 dB; Residential: 55 dB; Silence zone: 50 dB
+Night time (10 PM–6 AM): Residential: 45 dB; Silence zone: 40 dB
+Loudspeakers at night require permission from authority. Complaint to police, local authority, or PCB.
+
+============================
+WILDLIFE PROTECTION ACT 1972 (Amended 2022)
+============================
+
+PROTECTED SPECIES: Hunting, capturing, poisoning, trapping of any wild animal listed in Schedules I, II, III, IV of the Act is prohibited.
+Schedule I: Highest protection — tiger, lion, elephant, rhino, snow leopard, wolf
+Penalty for hunting Schedule I animal: Imprisonment 3–7 years and fine Rs. 10,000–25,000.
+Repeat offence: Imprisonment 3–7 years (mandatory) and fine Rs. 25,000.
+
+PROTECTED AREAS:
+- National Parks: No human activity permitted. No grazing, no settlement rights.
+- Wildlife Sanctuaries: Limited human activity permitted.
+- Tiger Reserves: Under Project Tiger — highest level of protection.
+
+IVORY, SKINS, HORNS: Possession, sale, transport of any animal body part of protected species is illegal. Possession of ivory: Imprisonment up to 7 years.
+
+TRADE IN WILDLIFE: Any trade in any wild animal or part thereof is prohibited. Report illegal wildlife trade to Wildlife Crime Control Bureau (WCCB): wildlifecrime.gov.in or call 9013010606.
+
+FOREST CONSERVATION ACT 1980:
+No forest land can be diverted for non-forest purposes (mining, industry, highway) without Central Government approval. State government cannot divert forest land without this approval.
+Illegal diversion: NGT can order restoration.
+
+COMPENSATORY AFFORESTATION: For every hectare of forest diverted, compensatory afforestation must be done on equivalent land.
+
+FOREST RIGHTS ACT 2006:
+Scheduled Tribes and Other Traditional Forest Dwellers who have been living in forests for 75 years have legal rights to:
+- Cultivate forest land (up to 4 hectares) they have been cultivating
+- Minor forest produce (tendu leaves, fruits, herbs)
+- Grazing and fishing rights
+- Community forest management rights
+File claims before Gram Sabha → Sub-Divisional Level Committee → District Level Committee.

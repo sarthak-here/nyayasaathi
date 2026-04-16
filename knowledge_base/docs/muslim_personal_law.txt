@@ -1,0 +1,94 @@
+MUSLIM PERSONAL LAW IN INDIA — MARRIAGE, DIVORCE, MAINTENANCE, INHERITANCE
+
+Muslim personal law in India is governed by the Muslim Personal Law (Shariat) Application Act 1937, with key amendments including the Muslim Women (Protection of Rights on Divorce) Act 1986 (amended 2019) and the Muslim Women (Protection of Rights on Marriage) Act 2019.
+
+============================
+MUSLIM MARRIAGE (NIKAH)
+============================
+
+A valid Nikah (marriage) requires:
+1. Offer (Ijab) and Acceptance (Qubool) by both parties in the presence of witnesses
+2. Presence of at least 2 male witnesses (or 1 male and 2 female witnesses in some schools)
+3. Mahr (Dower): A mandatory payment/gift from husband to wife — is the wife's absolute property
+4. Both parties must be of sound mind and not under coercion
+5. Minimum age: Muslim Women (Protection of Rights on Marriage) Act — under-age marriages remain illegal under Prohibition of Child Marriage Act
+
+MAHR (DOWER):
+The wife has the right to demand mahr at any time. Husband cannot refuse to pay mahr. Wife can refuse conjugal rights until prompt mahr is paid (if prompt mahr was agreed). Deferred mahr is payable on dissolution of marriage or death of husband.
+
+REGISTRATION: Marriage registration is governed by state laws. Muslim marriages should be registered under the relevant state Muslim Marriage Registration Act.
+
+POLYGAMY: Muslim males may marry up to 4 wives subject to conditions (equal treatment, financial capacity). Muslim women cannot be in more than one marriage simultaneously.
+
+============================
+DIVORCE (TALAQ)
+============================
+
+TRIPLE TALAQ NOW ILLEGAL (Muslim Women (Protection of Rights on Marriage) Act 2019):
+Instant Triple Talaq (Talaq-e-Biddat) — pronouncing "talaq" three times at once (in person, by phone, SMS, WhatsApp, email) — is now DECLARED VOID AND ILLEGAL by law. The husband is liable for:
+- Imprisonment up to 3 years
+- Fine determined by Magistrate
+- Subsistence allowance to wife and minor children
+
+The wife or her blood relatives can file a complaint. Offence is cognizable and non-bailable.
+
+VALID FORMS OF TALAQ:
+1. Talaq-e-Ahsan: One pronouncement during tuhr (purity), no sexual intercourse during waiting period (iddat) of 3 months/3 menstrual cycles. Revocable during iddat.
+2. Talaq-e-Hasan: Three pronouncements in successive tuhrs without cohabitation. Irrevocable after third.
+
+KHULA (Divorce by Wife):
+Wife can seek divorce by returning mahr or other consideration to husband. Requires husband's consent. If he refuses, wife can approach Qazi or civil court.
+
+FASKH (Judicial Dissolution — Muslim Women (Protection of Rights on Divorce) Act):
+A Muslim woman can approach court to dissolve marriage on grounds of:
+- Husband's whereabouts unknown for 4 years
+- Husband failed to provide maintenance for 2 years
+- Husband sentenced to 7 or more years imprisonment
+- Husband impotent, insane, suffering from leprosy or virulent venereal disease
+- Cruelty (physical/mental, associated with immoral persons, interfering with wife's property, preventing religious practice)
+- Husband has other wives and does not treat equitably
+
+IDDAT (Waiting Period after Divorce):
+- 3 menstrual cycles (or 3 months if post-menopausal)
+- If pregnant: until delivery
+- Death of husband: 4 months and 10 days
+During iddat, husband must provide maintenance (meher deferred becomes payable).
+
+============================
+MAINTENANCE (NAFAQA)
+============================
+
+MAINTENANCE DURING MARRIAGE: Husband has legal duty to maintain wife. Includes food, clothing, lodging.
+
+MAINTENANCE AFTER DIVORCE — MAJOR CHANGE:
+Supreme Court in Mohd. Abdul Samad v. Mohd. Abdul Samad (2024): Section 125 CrPC (now BNSS) applies to Muslim women after divorce equally. A Muslim divorced woman can claim maintenance from ex-husband under Section 125 BNSS even beyond the iddat period, until she remarries.
+
+Muslim Women (Protection of Rights on Divorce) Act 1986: Husband liable to pay maintenance for iddat period + reasonable/fair provision for future. After iddat, maintenance can be claimed from her relatives or Waqf Board.
+
+How to claim maintenance: File petition under Section 125 BNSS in Family Court or Magistrate's Court.
+The court will grant interim maintenance within first hearing typically.
+
+============================
+INHERITANCE (MIRATH)
+============================
+
+Muslim personal law of inheritance applies. Key principles:
+- Male heirs typically get double the share of female heirs of the same class
+- Wife gets 1/8th if children survive, 1/4th if no children
+- Husband gets 1/4th if children survive, 1/2 if no children
+- Daughter gets half the son's share
+- Mother gets 1/6th (with children) or 1/3rd (without)
+
+WILL (WASIYYAT): A Muslim can only bequeath up to 1/3rd of estate by will. The remaining 2/3rd goes by Islamic law of inheritance automatically. Bequest to an heir is invalid without consent of other heirs.
+
+NON-APPLICABILITY: Where parties have opted for Special Marriage Act 1954 — civil law of succession (Indian Succession Act) applies, not Muslim personal law.
+
+CHILDREN'S RIGHTS:
+Muslim father has duty to maintain his minor children. Mother has right to custody (hizanat) of young children (sons up to 7 years, daughters till puberty). Court determines based on welfare of child.
+
+WHERE TO SEEK HELP:
+- All India Muslim Personal Law Board
+- Wakf Board (waqf property disputes)
+- Family Courts (maintenance, divorce, custody)
+- Magistrate's Court (Section 125 BNSS maintenance)
+- High Court (writ petitions for Fundamental Rights violations)

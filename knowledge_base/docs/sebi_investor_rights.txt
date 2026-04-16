@@ -1,0 +1,68 @@
+SECURITIES AND EXCHANGE BOARD OF INDIA (SEBI) ACT 1992 — INVESTOR RIGHTS
+
+SEBI is the regulator of India's securities markets (stock exchanges, mutual funds, stockbrokers, listed companies).
+
+============================
+YOUR RIGHTS AS AN INVESTOR
+============================
+
+RIGHT TO INFORMATION:
+Every listed company must disclose material information that may affect its share price (earnings, mergers, insider events) immediately to stock exchanges. Failure: Insider trading / non-disclosure — SEBI action.
+You have the right to a prospectus (offer document) before any public issue (IPO, FPO). Read the Red Herring Prospectus (RHP) on SEBI website (sebi.gov.in) before investing.
+
+RIGHT TO FAIR MARKETS:
+Insider trading (trading on unpublished price-sensitive information), price manipulation, circular trading, pump and dump — all illegal under SEBI (Prohibition of Insider Trading) Regulations 2015 and SEBI Act.
+
+INVESTOR PROTECTION FUND (IPF):
+BSE and NSE have Investor Protection Funds to compensate investors if a stockbroker defaults. Maximum compensation: Rs. 25 lakh per investor per exchange.
+
+DEMAT ACCOUNT AND TRADING RIGHTS:
+Your shares, mutual funds, and bonds are held in Demat account with NSDL or CDSL (depositories).
+If your shares are lost, stolen, or wrongly transferred: File complaint with Depository (NSDL/CDSL).
+Broker cannot trade in your account without your consent — constitutes fraud.
+Unused Demat accounts: No charges if there are no holdings. SEBI mandated basic services free.
+
+MUTUAL FUNDS:
+Every Mutual Fund scheme must have a Scheme Information Document (SID) and Key Information Memorandum (KIM) — available free on AMC website and AMFI.
+Exit load and expense ratio must be disclosed.
+Direct Plans: Lower expense ratio than Regular Plans (no distributor commission) — invest directly on AMC website or through platforms.
+NAV (Net Asset Value): Calculated and published daily. You can redeem at prevailing NAV.
+
+============================
+COMMON INVESTOR FRAUDS AND PROTECTION
+============================
+
+PUMP AND DUMP: Fraudsters artificially inflate share price through false news, then sell. Investors left holding worthless shares. Never buy penny stocks based on tips or WhatsApp messages.
+
+PONZI SCHEMES: Promise unrealistically high fixed returns. Saradha, Rose Valley, PACL are famous examples. Returns of more than 12-15% in any legitimate investment should raise red flags. Verify any investment scheme on SEBI's website.
+
+UNAUTHORISED INVESTMENT ADVISORS: Only SEBI-registered Investment Advisors can charge fees for investment advice. Check registration at sebi.gov.in before taking paid investment advice.
+
+BINARY OPTIONS / FOREX TRADING SCAMS: Many websites offer forex trading or binary options — often unregulated. SEBI has not authorised forex trading for retail investors except through regulated channels (currency derivatives on NSE/BSE/MSE). Trading on unregulated offshore platforms is illegal.
+
+============================
+HOW TO COMPLAIN
+============================
+
+SEBI SCORES (Securities and Exchange Board of India Complaints Redress System):
+All complaints against listed companies, mutual funds, stockbrokers, portfolio managers:
+File at: scores.sebi.gov.in or SEBI SCORES app
+SEBI forwards complaint to entity, monitors resolution within 21 working days.
+
+Stock Exchange Grievance Mechanism:
+NSE: igrc.nseindia.com | BSE: bseindia.com → Investor Services
+Arbitration: For disputes with broker above Rs. 25 lakh — SMART (NSE) / BIRD (BSE) arbitration.
+
+SEBI ODR Portal (Online Dispute Resolution):
+smartodr.in — For investor-broker disputes. Free, fast, online.
+
+NSDL/CDSL Grievance:
+NSDL: grievances.nsdl.com | CDSL: cdslinda.com
+
+SEBI Helpline: 1800-22-7575 / 1800-266-7575 (toll-free)
+
+Market Surveillance (Insider Trading/Manipulation): Report suspected market manipulation or insider trading to SEBI's Market Intelligence and Surveillance Department (MISD) — sebi.gov.in/sebiweb/whistleblower
+
+WHISTLEBLOWER POLICY: SEBI has a dedicated whistleblower programme where informants can report securities law violations anonymously.
+
+INVESTOR AWARENESS: Attend SEBI-NISM investor education workshops. SEBI's investor education website: investor.sebi.gov.in

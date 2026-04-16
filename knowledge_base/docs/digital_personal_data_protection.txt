@@ -1,0 +1,105 @@
+DIGITAL PERSONAL DATA PROTECTION ACT 2023 (DPDP ACT)
+
+India's first comprehensive data protection law. Governs the processing of digital personal data of Indian citizens (data principals) by data fiduciaries (companies, organisations).
+
+============================
+YOUR RIGHTS AS A DATA PRINCIPAL
+============================
+
+DATA PRINCIPAL: Any individual whose personal data is being processed.
+DATA FIDUCIARY: The entity (company, organisation) that determines the purpose and means of processing your data.
+
+RIGHT TO ACCESS INFORMATION (Section 11):
+You have the right to know:
+- What personal data the fiduciary holds about you
+- A summary of processing activities related to your data
+- Identity of all other fiduciaries and processors to whom your data has been disclosed
+
+RIGHT TO CORRECTION AND ERASURE (Section 12):
+You have the right to:
+- Correct inaccurate or misleading personal data
+- Complete incomplete personal data
+- Update your personal data
+- Erase personal data that is no longer necessary for the original purpose
+
+CONSENT (Section 6):
+Your personal data can only be processed with your FREE, SPECIFIC, INFORMED, UNCONDITIONAL, and UNAMBIGUOUS consent (expressed through a clear affirmative action).
+Consent must be obtained separately for each processing purpose — bundling consent is not allowed.
+You have the RIGHT TO WITHDRAW consent at any time. Withdrawal must be as easy as giving consent.
+The fiduciary must stop processing within a reasonable time after consent is withdrawn.
+
+LEGITIMATE USES (without consent):
+- State functions (government services, public interest)
+- Medical emergencies and public health
+- Legal proceedings
+- Employer processing employee data for employment purposes
+- Mergers, acquisitions, safety purposes
+
+RIGHT TO GRIEVANCE REDRESSAL (Section 13):
+Every data fiduciary must provide a grievance redressal mechanism. Grievance must be addressed within a reasonable period (to be prescribed by rules).
+
+RIGHT TO NOMINATE (Section 14):
+You can nominate any individual to exercise your data rights on your death or incapacity.
+
+============================
+OBLIGATIONS OF DATA FIDUCIARIES
+============================
+
+DATA MINIMISATION: Collect only the personal data necessary for the specified purpose.
+
+PURPOSE LIMITATION: Use personal data only for the specified purpose for which consent was obtained.
+
+STORAGE LIMITATION: Do not retain personal data beyond the period necessary for the stated purpose.
+
+SECURITY SAFEGUARDS: Implement appropriate technical and organisational measures to prevent personal data breach.
+
+BREACH NOTIFICATION: In case of personal data breach, notify:
+1. Data Protection Board of India (DPBI)
+2. Each affected data principal
+within a specified period (to be prescribed in rules).
+
+SIGNIFICANT DATA FIDUCIARIES:
+Large platforms handling massive data volumes, children's data, national security data — designated as Significant Data Fiduciaries with additional obligations (Data Protection Officer, Data Protection Impact Assessment, Data Audits).
+
+============================
+CHILDREN'S DATA
+============================
+
+VERIFIABLE PARENTAL CONSENT required before processing personal data of children (below 18 years).
+Data fiduciaries must ensure they do not process children's data in a manner that harms children's well-being.
+PROHIBITION on:
+- Behavioural monitoring of children
+- Targeted advertising directed at children
+- Tracking of children's location
+
+============================
+DATA PROTECTION BOARD OF INDIA (DPBI)
+============================
+
+The DPBI adjudicates complaints about violations of the DPDP Act.
+Any data principal can file a complaint with DPBI if a data fiduciary:
+- Fails to respond to their request within a reasonable time
+- Processes data without consent or legitimate use
+- Fails to implement security measures (resulting in breach)
+- Fails to notify of breach
+- Processes children's data without parental consent
+
+PENALTIES:
+Personal data breach due to inadequate safeguards: Up to Rs. 250 crore
+Breach of children's data obligations: Up to Rs. 200 crore
+Failure to notify breach: Up to Rs. 200 crore
+Other violations: Up to Rs. 50 crore per instance; up to Rs. 500 crore for repeated violations
+
+HOW TO COMPLAIN (once DPBI is constituted):
+File complaint online with DPBI. Process similar to Consumer Forum.
+
+============================
+EXISTING PROTECTIONS (before DPDP rules notified)
+============================
+
+Right to Privacy (Article 21): Supreme Court in K.S. Puttaswamy v. Union of India (2017) declared right to privacy as a fundamental right. Any violation of privacy by state actors can be challenged in High Court/Supreme Court.
+
+IT Act 2000 (Section 43A): Companies handling sensitive personal data must implement reasonable security practices. Wrongful disclosure of sensitive personal data: Compensation to affected person.
+Sensitive personal data: Passwords, financial data (bank account/credit card), health data, sexual orientation, biometric data.
+
+Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules 2011: Currently applicable to "body corporates" (companies). Stricter obligations for sensitive personal data.

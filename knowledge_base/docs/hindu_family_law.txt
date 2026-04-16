@@ -1,0 +1,107 @@
+HINDU PERSONAL LAW — MARRIAGE, DIVORCE, INHERITANCE, ADOPTION, MAINTENANCE
+(Hindu Marriage Act 1955, Hindu Succession Act 1956, Hindu Adoption and Maintenance Act 1956)
+
+Applies to Hindus, Buddhists, Jains, and Sikhs. Does NOT apply to Muslims, Christians, Parsis (they have separate personal laws).
+
+============================
+HINDU MARRIAGE ACT 1955
+============================
+
+VALID MARRIAGE CONDITIONS (Section 5):
+1. Neither party has a living spouse (monogamy — bigamy is a criminal offence under BNS)
+2. Neither party is of unsound mind
+3. Bridegroom is 21 years or above; Bride is 18 years or above (Prohibition of Child Marriage Act also applies)
+4. Parties are not within prohibited degrees of relationship (sapindas) unless custom permits
+
+REGISTRATION OF MARRIAGE:
+Not mandatory under HMA 1955 at the central level, but many states make it mandatory. Register your marriage with Sub-Registrar for proof. Supreme Court has directed all marriages to be compulsorily registered.
+
+GROUNDS FOR DIVORCE (Section 13):
+Either spouse can file for divorce on grounds of:
+1. Adultery (sexual intercourse with a person other than spouse)
+2. Cruelty (physical or mental — including persistent demands for dowry, denying conjugal rights, false accusations)
+3. Desertion for 2 continuous years without reasonable cause and without consent
+4. Conversion to another religion
+5. Mental disorder of incurable nature
+6. Virulent and incurable form of leprosy (removed by 2019 amendment — no longer a ground)
+7. Venereal disease in communicable form
+8. Renunciation of the world (sannyas)
+9. Not been heard of for 7 years (presumed dead)
+10. No resumption of cohabitation for 1 year after judicial separation decree
+
+ADDITIONAL GROUNDS FOR WIFE ONLY:
+- Husband guilty of rape, sodomy, or bestiality
+- No resumption of cohabitation after maintenance order
+- Repudiation of marriage (marriage solemnized before 15 years when wife was below 15 years)
+
+DIVORCE BY MUTUAL CONSENT (Section 13B):
+Both parties file jointly after separation for at least 1 year. Second motion after 6 months (cooling off period — may be waived by court). Marriage is dissolved on court passing decree.
+
+MAINTENANCE/ALIMONY (Section 24, 25 HMA):
+Interim maintenance during court proceedings: Either spouse (including husband if wife earns more) can claim.
+Permanent alimony: Court considers income, property, conduct of parties. No fixed formula — discretionary.
+
+CHILD CUSTODY:
+Court's paramount consideration is the welfare of the child (not the rights of parents).
+Generally: children below 5 years stay with mother (tender age doctrine).
+Visitation/access rights given to non-custodial parent.
+
+============================
+HINDU SUCCESSION ACT 1956 (Amended 2005)
+============================
+
+MAJOR 2005 AMENDMENT — DAUGHTERS' EQUAL RIGHTS:
+Daughters are now COPARCENERS (co-owners) in ancestral (joint Hindu family/HUF) property — EQUAL to sons. This applies regardless of whether the father was alive or not on 9 September 2005.
+Supreme Court confirmed in Vineeta Sharma v. Rakesh Sharma (2020): daughter's right is by birth.
+
+INTESTATE SUCCESSION (dying without a will) — CLASS I HEIRS:
+All Class I heirs take equal shares simultaneously:
+- Son, Daughter
+- Widow (wife)
+- Mother
+- Son of a pre-deceased son (grandson)
+- Daughter of a pre-deceased son (granddaughter)
+- Widow of pre-deceased son (daughter-in-law)
+- Son of pre-deceased daughter
+- Daughter of pre-deceased daughter
+- Widow of pre-deceased son's pre-deceased son
+
+NOTE: Class II heirs (father, siblings, etc.) only inherit if there are NO Class I heirs.
+
+RIGHTS OF WIDOW (Wife):
+Wife has equal share with sons and daughters in husband's separate property.
+She also has rights in HUF property.
+A widow can remarry and still retain her share she inherited.
+
+STRIDHAN (Woman's own property):
+Property received by woman as gifts (at marriage, from relatives) is her absolute property. She alone can dispose of it. Husband and in-laws have NO rights over stridhan.
+
+WILL (TESTAMENT):
+Any Hindu of sound mind above 18 years can make a will.
+Will must be in writing, signed by testator, and attested by 2 witnesses.
+A Hindu can by will exclude any heir, including daughters and sons.
+Will must be registered for greater legal certainty (not mandatory).
+
+============================
+HINDU ADOPTION AND MAINTENANCE ACT 1956
+============================
+
+ADOPTION:
+A Hindu male/female of sound mind and not a minor can adopt.
+Consent of wife (or wives) required for husband to adopt.
+A Hindu woman can adopt if: unmarried, divorced, or widowed.
+Conditions for adopted child: must be Hindu, below 15 years (unless custom permits older), not already adopted.
+After valid adoption: adoptee gets same rights as natural born child; severs all ties with natural family.
+
+MAINTENANCE (Section 18–23):
+A Hindu wife is entitled to be maintained by her husband during marriage including separation.
+She loses right to maintenance if: she is unchaste, ceases to be Hindu by conversion, or remarries.
+Children (legitimate and illegitimate): entitled to maintenance till majority (18 years); daughters till marriage.
+Aged/infirm parents: entitled to maintenance from adult children with sufficient means.
+Amount of maintenance: decided by court based on income of person liable and needs of claimant.
+
+JOINT HINDU FAMILY (HUF):
+HUF is a body of persons related by blood from a common ancestor.
+HUF property is managed by Karta (eldest male member, or now female after 2005).
+Partition of HUF: Any coparcener (son, daughter) can demand partition.
+After partition: each coparcener gets equal share.

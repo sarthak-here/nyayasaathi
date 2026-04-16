@@ -1,0 +1,123 @@
+INSURANCE LAWS IN INDIA — CONSUMER RIGHTS AND CLAIM REMEDIES
+(Insurance Act 1938, IRDA Act 1999, Motor Vehicles Act 1988)
+
+============================
+YOUR RIGHTS AS AN INSURANCE POLICYHOLDER
+============================
+
+RIGHT TO INFORMATION (Principle of Utmost Good Faith — Uberrimae Fidei):
+Both insurer and insured must disclose all material facts. Insurer must:
+- Explain policy terms clearly
+- Provide free look period
+- Issue policy document within 30 days
+- Give complete Key Feature Document (KFD) in simple language
+
+FREE LOOK PERIOD:
+For life insurance policies: 15 days from receipt of policy document to review and cancel if not satisfied (30 days for electronic policies and policies sold through distance marketing).
+For unit-linked policies: 30 days free look period.
+If cancelled during free look: Premium refunded (after deducting medical exam costs, stamp duty, proportionate risk premium).
+For health policies: 15 days free look period.
+
+NOMINATION:
+Every policyholder has the right to nominate a beneficiary. Nominee receives claim amount on death of insured. INSURER CANNOT refuse to pay claim to nominee without valid legal reason.
+
+Assignment of Policy:
+Policy can be assigned (transferred) to another person or financial institution (for home loan).
+
+============================
+CLAIM SETTLEMENT — YOUR RIGHTS
+============================
+
+LIFE INSURANCE CLAIMS:
+Claim must be decided within 30 days of receiving all required documents.
+If claim requires investigation: Must be completed and claim paid/repudiated within 90 days of receipt of claim.
+If delayed beyond 30 days: Insurer must pay interest at 2% above bank rate from due date of settlement to actual payment date.
+
+HEALTH INSURANCE CLAIMS:
+Cashless hospitalization: Insurance company must respond to cashless request from hospital within 1 hour.
+Reimbursement claim: Must be settled within 30 days of receiving all documents.
+Pre-authorization cannot be denied without valid reason in writing.
+
+MOTOR INSURANCE CLAIMS:
+Survey must be completed within 48 hours of intimation (total loss survey within 72 hours).
+Settlement within 30 days of completion of survey and receipt of all documents.
+
+REPUDIATION (Rejection) OF CLAIM:
+If insurer rejects your claim:
+- They MUST give reasons in writing
+- You must receive the repudiation letter
+- You have the right to challenge the repudiation
+
+GROUNDS INSURER CAN VALIDLY REJECT CLAIM:
+- Non-disclosure of material facts at time of taking policy (health conditions, habits)
+- Policy lapsed (premium not paid)
+- Exclusion clause clearly mentioned in policy applies
+- Fraudulent claim
+
+GROUNDS ON WHICH INSURER CANNOT REJECT:
+- Technicalities not mentioned in policy
+- Procedure not followed by hospital but not policyholder's fault
+- Pre-existing disease exclusion not clearly explained at time of policy sale
+
+============================
+GRIEVANCE REDRESSAL
+============================
+
+STEP 1 — Internal Grievance of Insurance Company:
+Every insurer must have a Grievance Redressal Officer (GRO). File complaint:
+- Online on insurer's portal
+- Email to compliance officer
+- In writing at branch office
+Insurer must acknowledge within 3 working days and resolve within 14 working days.
+Register complaint on Bima Bharosa portal (IRDAI): bimabharosa.irdai.gov.in
+
+STEP 2 — Insurance Ombudsman:
+If grievance not resolved within 30 days OR if not satisfied with insurer's response:
+File complaint with Insurance Ombudsman. FREE, no advocate needed.
+Jurisdictions: 17 Ombudsman offices across India.
+Ombudsman handles: Claims, rejection of claims, premium disputes, policy servicing issues.
+No complaint to Ombudsman if amount in dispute exceeds Rs. 50 lakh.
+Awards by Ombudsman are binding on insurer (if accepted by complainant within 30 days).
+Contact: ioinsuranceombudsman.gov.in / 1800-42-5565
+
+STEP 3 — IRDAI (Insurance Regulatory and Development Authority of India):
+For systemic issues, mis-selling, unfair practices.
+IRDAI Bima Bharosa: 1800-4254-732 (toll free)
+Complaint portal: bimabharosa.irdai.gov.in or igms.irda.gov.in
+
+STEP 4 — Consumer Forum:
+File complaint in District Consumer Disputes Redressal Commission. Can claim deficiency of service + compensation + costs.
+
+============================
+MOTOR THIRD PARTY INSURANCE
+============================
+
+Third party insurance is MANDATORY for all vehicles under Motor Vehicles Act.
+If a third party (pedestrian, other vehicle owner) is injured by your vehicle:
+- Third party can claim compensation from Motor Accident Claims Tribunal (MACT)
+- Your insurance company pays the claim (no cap for bodily injury/death; Rs. 7.5 lakh cap for property damage)
+- You CANNOT be held personally liable for third-party death/injury beyond insurance
+
+If your vehicle is uninsured and causes accident: You are personally liable for all compensation.
+
+MACT CLAIM (if you are the victim of an accident):
+File claim at MACT (Motor Accident Claims Tribunal — constituted under MVA at District Court level).
+No time limit technically, but file as soon as possible.
+Compensation is calculated using Sarla Verma formula (income × multiplier) for loss of income.
+Structured Formula Compensation also available for simplified quick awards.
+
+PM Suraksha Bima Yojana: Rs. 12/year premium — Rs. 2 lakh accidental death/disability cover for bank account holders.
+PM Jeevan Jyoti Bima Yojana: Rs. 436/year — Rs. 2 lakh life cover for bank account holders.
+
+============================
+LIFE INSURANCE — KEY TYPES
+============================
+
+Term Insurance: Pure risk cover. No maturity benefit. Cheapest premium for maximum cover.
+Endowment: Risk cover + savings. Maturity benefit even if no claim.
+ULIP (Unit Linked Insurance Plan): Risk cover + market-linked investment. Subject to market risk.
+Annuity/Pension Plans: Regular income after retirement.
+
+IMPORTANT: NEVER stop paying premium without understanding surrender value implications. Lapsing a life insurance policy before completing 2–3 years loses most premium paid.
+
+AGENT COMMISSION DISCLOSURE: Agent must disclose commission payable on products sold. Mis-selling of insurance products is a violation — report to IRDAI.

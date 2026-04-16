@@ -1,0 +1,96 @@
+CONSTITUTION OF INDIA — FUNDAMENTAL RIGHTS (Part III, Articles 12–35)
+
+The Constitution of India is the supreme law of the land. Any law inconsistent with the Constitution is void to the extent of inconsistency.
+
+ARTICLE 14 — Right to Equality
+Every person has the right to equality before law and equal protection of laws. The State cannot discriminate arbitrarily. If a government authority treats you differently without reasonable classification, you can challenge it.
+Remedy: Writ petition (Article 226 in High Court, Article 32 in Supreme Court).
+
+ARTICLE 15 — Prohibition of Discrimination
+The State cannot discriminate against any citizen on grounds of religion, race, caste, sex, or place of birth in access to shops, restaurants, hotels, public wells, roads, and places of public resort.
+Special provisions for women, children, and socially/educationally backward classes are permitted.
+
+ARTICLE 16 — Equal Opportunity in Public Employment
+Every citizen has equal opportunity in matters of public employment. Reservation for OBC, SC, ST is constitutionally valid.
+
+ARTICLE 17 — Abolition of Untouchability
+Untouchability is abolished. Any enforcement of disability arising from untouchability is an offence punishable under the Protection of Civil Rights Act 1955. FIR can be filed at any police station.
+
+ARTICLE 19 — Freedom of Speech, Assembly, Movement
+Citizens have the right to:
+- Freedom of speech and expression
+- Assemble peaceably without arms
+- Form associations or unions
+- Move freely throughout India
+- Reside and settle anywhere in India
+- Practice any profession or trade
+These rights can be restricted only by law on grounds of sovereignty, security of State, public order, decency, or morality.
+
+ARTICLE 20 — Protection Against Arbitrary Conviction
+- No person can be convicted of any offence not defined as an offence at the time of commission (no ex post facto law)
+- No person can be prosecuted more than once for the same offence (double jeopardy)
+- No person can be compelled to be a witness against themselves (right against self-incrimination)
+
+ARTICLE 21 — Right to Life and Personal Liberty (Most Powerful Right)
+No person shall be deprived of life or personal liberty except according to procedure established by law.
+The Supreme Court has expanded this to include:
+- Right to live with dignity
+- Right to livelihood
+- Right to health
+- Right to education (children 6–14 years, also Article 21A)
+- Right to privacy (K.S. Puttaswamy case, 2017)
+- Right to speedy trial
+- Right to free legal aid
+- Right to a clean environment
+- Right to shelter
+- Right against handcuffing without justification
+Any illegal detention violates Article 21. File habeas corpus (Article 226/32).
+
+ARTICLE 21A — Right to Education
+Children aged 6–14 years have the fundamental right to free and compulsory education (implemented by Right to Education Act 2009).
+
+ARTICLE 22 — Protection Against Arbitrary Arrest and Detention
+- On arrest, you must be informed of the grounds of arrest immediately
+- You have the right to consult and be represented by a lawyer of your choice
+- You must be produced before a Magistrate within 24 hours of arrest (excluding travel time)
+- You cannot be detained in custody beyond 24 hours without Magistrate's order
+- These rights do not apply to enemy aliens or persons detained under Preventive Detention laws
+
+ARTICLE 23 — Prohibition of Traffic in Human Beings and Forced Labour
+Traffic in human beings, begar (forced labour without payment), and similar forced labour are prohibited. Violation is a criminal offence. See also: Bonded Labour System (Abolition) Act 1976.
+
+ARTICLE 24 — Prohibition of Child Labour
+No child below 14 years shall be employed in any factory, mine, or other hazardous employment. See Child Labour (Prohibition and Regulation) Act 1986.
+
+ARTICLE 25–28 — Freedom of Religion
+Every person has freedom of conscience and the right to freely profess, practise, and propagate religion. Subject to public order, morality, and health.
+
+ARTICLE 29–30 — Cultural and Educational Rights
+Minorities (linguistic or religious) have the right to conserve their culture and to establish and administer educational institutions of their choice.
+
+ARTICLE 32 — Right to Constitutional Remedies (The Heart and Soul of the Constitution)
+Every person has the right to move the Supreme Court for enforcement of Fundamental Rights. The Supreme Court can issue:
+- Habeas Corpus: Release an illegally detained person
+- Mandamus: Order a public authority to perform its duty
+- Prohibition: Prohibit an inferior court from exceeding jurisdiction
+- Certiorari: Quash an illegal order of an inferior court
+- Quo Warranto: Challenge an illegal holder of a public office
+Article 226 gives High Courts similar power (and is broader — applies to any legal right, not just fundamental rights).
+
+DIRECTIVE PRINCIPLES OF STATE POLICY (Part IV, Articles 36–51)
+Not enforceable in court but fundamental to governance:
+- Equal pay for equal work (Article 39d)
+- Right to work, education, public assistance (Article 41)
+- Just and humane conditions of work and maternity relief (Article 42)
+- Living wage for workers (Article 43)
+- Free legal aid (Article 39A) — implemented by Legal Services Authorities Act 1987
+
+FUNDAMENTAL DUTIES (Article 51A)
+Citizens have duties to abide by the Constitution, protect sovereignty, promote harmony, protect the environment, develop scientific temper, and safeguard public property.
+
+WRIT JURISDICTION — WHERE TO FILE
+- Supreme Court (Article 32): Fundamental Rights violations only
+- High Court (Article 226): Any legal right violation (broader)
+- Cost: Relatively low court fees; free with legal aid
+
+IMPORTANT: Fundamental Rights are available against the "State" (government bodies, local authorities, statutory bodies, government companies). Private parties are generally not directly bound, though criminal and civil laws apply to them.

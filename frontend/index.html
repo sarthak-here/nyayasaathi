@@ -694,10 +694,10 @@
     <p>Describe your problem in Hindi, English, or Hinglish. NyayaSaathi identifies your rights, the applicable Indian laws, and your next steps — instantly.</p>
 
     <div class="hero-stats">
-      <div class="stat"><div class="stat-num">25+</div><div class="stat-label">Indian Laws Covered</div></div>
+      <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Laws & Provisions</div></div>
+      <div class="stat"><div class="stat-num">64</div><div class="stat-label">Legal Documents</div></div>
       <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Free & Offline</div></div>
       <div class="stat"><div class="stat-num">3</div><div class="stat-label">Languages Supported</div></div>
-      <div class="stat"><div class="stat-num">PDF</div><div class="stat-label">Export Ready Letters</div></div>
     </div>
 
     <div class="quick-actions">
@@ -1056,18 +1056,30 @@ let elapsedStart = 0;
    LEGAL CATEGORIES
 ========================================================= */
 const CATEGORIES = [
-  { icon: '💰', name: 'Wage Theft', count: '3 laws', q: 'My employer has not paid my salary for 3 months' },
-  { icon: '🛍️', name: 'Consumer Fraud', count: '2 laws', q: 'I bought a defective product and the seller refuses to refund' },
+  { icon: '💰', name: 'Wage Theft', count: '4 laws', q: 'My employer has not paid my salary for 3 months' },
+  { icon: '🛍️', name: 'Consumer Fraud', count: '3 laws', q: 'I bought a defective product and the seller refuses to refund' },
   { icon: '📋', name: 'RTI Denial', count: '1 law', q: 'I filed an RTI application but received no response' },
   { icon: '🏠', name: 'Landlord / Rent', count: '2 laws', q: 'My landlord is illegally evicting me without proper notice' },
-  { icon: '👩', name: 'Domestic Violence', count: '2 laws', q: 'My husband is physically abusing me and harassing for dowry' },
-  { icon: '💻', name: 'Cyber Crime', count: '3 laws', q: 'I lost money in an online UPI fraud and the scammer is blackmailing me' },
-  { icon: '🏢', name: 'Workplace Harassment', count: '2 laws', q: 'I am being sexually harassed at my workplace and HR is not acting' },
-  { icon: '🏗️', name: 'Property / RERA', count: '2 laws', q: 'The builder has not delivered my flat and is not refunding money' },
-  { icon: '🚗', name: 'Accident / Motor', count: '2 laws', q: 'I was injured in a road accident caused by another driver' },
-  { icon: '⚕️', name: 'Medical Negligence', count: '2 laws', q: 'A doctor performed wrong surgery on me and the hospital is denying it' },
-  { icon: '🌐', name: 'SC/ST Atrocities', count: '1 law', q: 'I was verbally abused and assaulted due to my caste identity' },
+  { icon: '👩', name: 'Domestic Violence', count: '3 laws', q: 'My husband is physically abusing me and harassing for dowry' },
+  { icon: '💻', name: 'Cyber Crime', count: '4 laws', q: 'I lost money in an online UPI fraud and the scammer is blackmailing me' },
+  { icon: '🏢', name: 'Workplace Harassment', count: '3 laws', q: 'I am being sexually harassed at my workplace and HR is not acting' },
+  { icon: '🏗️', name: 'Property / RERA', count: '3 laws', q: 'The builder has not delivered my flat and is not refunding money' },
+  { icon: '🚗', name: 'Accident / Motor', count: '3 laws', q: 'I was injured in a road accident caused by another driver' },
+  { icon: '⚕️', name: 'Medical Negligence', count: '3 laws', q: 'A doctor performed wrong surgery on me and the hospital is denying it' },
+  { icon: '🌐', name: 'SC/ST Atrocities', count: '2 laws', q: 'I was verbally abused and assaulted due to my caste identity' },
   { icon: '👴', name: 'Senior Citizen', count: '2 laws', q: 'My children are abandoning and not taking care of me as a senior citizen' },
+  { icon: '🏦', name: 'Bank / Loan', count: '4 laws', q: 'The bank is harassing me for loan recovery and has sent goons to my house' },
+  { icon: '⚖️', name: 'Cheque Bounce', count: '1 law', q: 'Someone gave me a cheque that bounced due to insufficient funds' },
+  { icon: '🧾', name: 'EPF / Gratuity', count: '3 laws', q: 'My employer is not depositing my EPF and is refusing to pay gratuity' },
+  { icon: '🌱', name: 'Environment', count: '4 laws', q: 'A factory near my house is releasing toxic smoke and polluting water' },
+  { icon: '📜', name: 'Inheritance', count: '3 laws', q: 'My brothers are denying me my share in the ancestral property after my father died' },
+  { icon: '🚂', name: 'Railways / Flight', count: '2 laws', q: 'The airline denied boarding to me after I had a confirmed ticket' },
+  { icon: '🔒', name: 'Data Privacy', count: '2 laws', q: 'A company is sharing my personal data without my consent' },
+  { icon: '💊', name: 'Drug / NDPS', count: '1 law', q: 'I was arrested with a small quantity of drugs. What are my rights?' },
+  { icon: '📞', name: 'Telecom Spam', count: '2 laws', q: 'I am getting constant spam calls despite DND registration' },
+  { icon: '🎓', name: 'Education Rights', count: '3 laws', q: 'My college is not refunding my fees after I withdrew my admission' },
+  { icon: '🤝', name: 'Bonded Labour', count: '2 laws', q: 'I was given an advance and now forced to work without proper wages' },
+  { icon: '💡', name: 'Electricity', count: '2 laws', q: 'My electricity company sent a hugely inflated bill and is threatening to disconnect' },
 ];
 
 /* =========================================================

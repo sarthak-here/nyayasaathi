@@ -1,0 +1,108 @@
+BHARATIYA NAGARIK SURAKSHA SANHITA (BNSS) 2023 — CRIMINAL PROCEDURE
+(Replaces Code of Criminal Procedure 1973 from July 1, 2024)
+
+The BNSS governs the procedure for investigation, trial, and punishment of criminal offences in India.
+
+ARREST — YOUR RIGHTS (Sections 47–60 BNSS)
+
+Rights on Arrest:
+1. Right to be informed of grounds of arrest immediately (Section 47)
+2. Right to inform a friend, relative, or nominated person of your arrest (Section 48) — police must inform within 12 hours
+3. Right to consult a lawyer of your choice at any stage (Section 50)
+4. Right to be produced before a Magistrate within 24 hours (Section 57)
+5. Right against handcuffing unless person is habitual criminal, previously escaped, or poses danger — must be justified in writing (Section 43)
+6. Right to be examined by a medical officer after arrest if requested (Section 51)
+7. Woman can only be arrested by female police officer. Between 6 PM and 6 AM, arrest requires special permission of Magistrate.
+
+Arrested person's details must be displayed in the police station.
+
+BAIL (Sections 478–501 BNSS)
+
+Regular Bail: Granted by Magistrate or Sessions Court after arrest.
+
+Anticipatory Bail (Section 482): Applied for BEFORE arrest when there is reasonable apprehension of arrest. If granted, police cannot arrest you.
+- Apply in Sessions Court or High Court
+- Court can impose conditions (report to police, surrender passport, etc.)
+- Factors considered: nature of offence, antecedents, possibility of fleeing
+
+Default Bail (Section 479): If police fail to file chargesheet within:
+- 60 days: for offences punishable up to 10 years
+- 90 days: for offences punishable with death/life/10+ years
+You are entitled to bail as a matter of right. File application immediately.
+
+Bail for Bailable Offences: Police or Magistrate MUST grant bail. You cannot be refused.
+
+Bail Conditions: Magistrate may impose conditions — attending police station, not leaving city, surrendering passport.
+
+SUMMONS AND WARRANTS (Sections 63–89 BNSS)
+Summons: Issued to compel attendance in court. Must be served personally.
+Warrant: Can be bailable (bail can be taken) or non-bailable.
+Search Warrant: Police must obtain from Magistrate before searching a premises (except in emergency/hot pursuit).
+
+FIR — FIRST INFORMATION REPORT (Section 173 BNSS)
+- Any person can file an FIR at ANY police station (Zero FIR) regardless of where the offence occurred
+- Police CANNOT refuse to register an FIR for a cognizable offence
+- After registering FIR, police must give free copy to complainant immediately
+- FIR is now mandatory in electronic form
+- If police refuse: write to SP (Superintendent of Police)
+- If still refused: file complaint before Magistrate under Section 175(3)
+- Online FIR: Can be filed on state police portals for non-serious offences
+
+INVESTIGATION (Sections 173–199 BNSS)
+- Police have 60 or 90 days to file chargesheet (challan) depending on offence severity
+- Victim has right to be informed of progress
+- Statement of victims (especially women/children) must be recorded at their residence by female officer
+- Audio-video recording of statement of victim of rape/acid attack is mandatory
+
+TRIAL PROCEDURE
+Magistrate's Trial: For offences punishable up to 3 years (summary trial) or up to 7 years
+Sessions Trial: For serious offences (rape, murder, robbery, etc.)
+
+Plea Bargaining (Sections 289–301 BNSS):
+- Available for offences punishable up to 7 years (not against women/children)
+- Accused pleads guilty, sentence is reduced (minimum 1/4th of minimum punishment)
+- Saves time and resources
+
+Trial Timeline (New in BNSS):
+- Framing of charges: Within 60 days of first hearing
+- Evidence must conclude within 60 days after charges framed
+- Judgment within 45 days of completion of arguments
+- Total target: serious cases to be disposed in 3 years
+
+RIGHTS OF ACCUSED DURING TRIAL
+1. Right to know charges framed against them
+2. Right to cross-examine prosecution witnesses
+3. Right to present defence witnesses
+4. Right to free legal aid if cannot afford lawyer
+5. Right to get copy of FIR, chargesheet, and all documents free of cost
+6. Right to be present at every hearing
+7. Right to appeal against conviction
+
+RIGHTS OF VICTIM AND COMPLAINANT
+1. Right to be informed of progress of investigation
+2. Right to a copy of FIR free of cost
+3. Right to be heard before bail is granted to accused (Section 479)
+4. Right to appeal if magistrate refuses to take cognizance
+5. Right to compensation (Section 396 BNSS) — court can order compensation to victim
+6. Witness protection scheme for vulnerable witnesses
+
+TRIAL IN ABSENTIA (New): Accused absconding for 90+ days can be tried and convicted without their presence.
+
+ELECTRONIC EVIDENCE (New in BNSS)
+Electronic records, including WhatsApp messages, emails, CCTV footage, and call records are admissible as evidence with proper certification.
+
+SUMMONS BY ELECTRONIC MEANS (Section 63): Courts can serve summons via email, WhatsApp, or other electronic means.
+
+APPEALS
+- Against Magistrate's order: Sessions Court
+- Against Sessions Court: High Court
+- Against High Court: Supreme Court (Article 136 — Special Leave Petition)
+- Time limit: 30 days for appeal against conviction (extensions possible)
+
+POLICE ACCOUNTABILITY
+If police torture or use excessive force:
+- File complaint with Superintendent of Police
+- File complaint with State Human Rights Commission
+- File complaint with National Human Rights Commission (NHRC) — nhrc.nic.in
+- File writ petition in High Court
+- File complaint under Section 132 BNS (voluntarily causing hurt by public servant)

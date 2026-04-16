@@ -1,0 +1,96 @@
+GOODS AND SERVICES TAX (GST) — TAXPAYER RIGHTS AND CONSUMER RIGHTS
+(CGST Act 2017, IGST Act 2017, UTGST Act 2017)
+
+============================
+GST BASICS
+============================
+
+GST is a unified indirect tax replacing VAT, Service Tax, Excise Duty, and other taxes. It is a destination-based consumption tax.
+
+GST RATES:
+- 0%: Essential items — fresh food, milk, eggs, vegetables, grains, books, newspapers, education, healthcare
+- 5%: Packaged food, coffee, tea, edible oil, medicines, agarbatti, footwear below Rs. 1,000
+- 12%: Frozen food, fruit juices, non-AC restaurants, mobile phones, certain services
+- 18%: Most services, electronics, cameras, most manufactured goods
+- 28%: Luxury goods, demerit goods — cars, AC, tobacco, aerated drinks, casinos, betting
+
+HSN/SAC: Harmonized System of Nomenclature (for goods) and Service Accounting Code (for services) — every taxable item has a code that determines its GST rate. Tax rate can be verified at gstcouncil.gov.in or GST portal.
+
+============================
+CONSUMER RIGHTS UNDER GST
+============================
+
+RIGHT TO SEE GST ON BILL:
+Every GST-registered business MUST provide a GST invoice showing:
+- GSTIN of the seller
+- Name and address of buyer (if registered) or description "Unregistered" with address
+- HSN/SAC code
+- Rate of GST and amount charged (CGST + SGST or IGST)
+- Total amount payable
+You are paying GST — you have the right to a proper invoice showing the GST component.
+
+RESTAURANTS:
+- Non-AC restaurants: 5% GST (no input tax credit)
+- AC restaurants: 5% GST (no input tax credit since Nov 2017)
+- Hotels above Rs. 7,500/night: 18% GST
+- Restaurants in 5-star hotels: 18% GST
+SERVICE CHARGE is NOT GST — it is separate and OPTIONAL (CCPA Guidelines 2022). You can refuse service charge.
+
+OVERCHARGING GST:
+If a business charges GST at a higher rate than applicable:
+Report to NAA (National Anti-Profiteering Authority — now merged with Competition Commission of India from April 2024) if business is NOT passing on benefits of tax reduction to consumers (anti-profiteering).
+Complaint portal: antigraft.nic.in
+
+INPUT TAX CREDIT (ITC):
+Businesses can claim credit of GST paid on inputs/services against GST payable on their output. This prevents cascading effect (tax on tax).
+Consumers benefit as businesses pay GST only on the "value added" — not on the full price at each stage.
+
+============================
+GST REGISTRATION AND COMPLIANCE
+============================
+
+MANDATORY REGISTRATION:
+If your turnover exceeds Rs. 40 lakh (goods) / Rs. 20 lakh (services) / Rs. 10 lakh (special category states), you MUST register under GST.
+Below threshold: Voluntary registration is possible.
+e-Commerce sellers must register regardless of turnover.
+
+GST RETURN FILING:
+GSTR-1: Monthly/quarterly return for outward supplies (sales). Filing by 11th of next month (monthly) or 13th after quarter end.
+GSTR-3B: Monthly summary return. Due by 20th of next month.
+GSTR-9: Annual return. Due by December 31.
+Late filing: Rs. 50/day (CGST + SGST) penalty. Rs. 20/day for nil return.
+
+============================
+GST AUDIT AND SCRUTINY
+============================
+
+GST NOTICE — YOUR RIGHTS:
+If you receive a GST notice (Section 61, 73, 74):
+- Section 61: Scrutiny of returns — reply within 30 days with explanation
+- Section 73: Tax demand (not fraud) — pay within 30 days to avoid penalty; or contest
+- Section 74: Tax demand + allegation of fraud — more serious; 15% deposit mandated for interim stay on proceedings
+
+DRC-01: Official demand notice. Must respond within the time specified.
+Pre-show cause notice consultation: GST officers must allow consultation before issuing formal demand notice (in many cases).
+
+APPEAL:
+Against GST officer's order: Appeal before GST Appellate Authority within 3 months.
+Against Appellate Authority: GST Appellate Tribunal (GSTAT) — being constituted.
+Against Tribunal: High Court on questions of law.
+Against High Court: Supreme Court.
+
+VOLUNTARY PAYMENT: If you pay the tax + interest + 15% penalty before the notice, the proceedings are dropped. This is the easiest way to resolve disputes.
+
+GST REFUND:
+Export of goods/services: Zero-rated; GST paid as input refunded.
+Excess tax paid: Refund application in Form RFD-01 on GST portal.
+If refund not granted within 60 days: Interest at 6% from 61st day.
+
+============================
+WHERE TO RESOLVE GST ISSUES
+============================
+
+GST Portal: gst.gov.in — File returns, pay taxes, track refunds.
+GST Helpline: 0120-4888-999 / 1800-103-4786
+GST Seva Kendras: Physical GST facilitation centres in most cities.
+GST Grievance Portal: selfservice.gstsystem.in

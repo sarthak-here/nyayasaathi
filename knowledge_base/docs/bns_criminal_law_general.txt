@@ -1,0 +1,108 @@
+BHARATIYA NYAYA SANHITA (BNS) 2023 — GENERAL CRIMINAL LAW
+(Replaces Indian Penal Code 1860 from July 1, 2024)
+
+The BNS is the primary criminal law of India covering offences against the body, property, public order, and the state.
+
+OFFENCES AGAINST THE HUMAN BODY
+
+Section 100 BNS — Culpable Homicide (not amounting to murder)
+Causing death with intention to cause death or grievous hurt, but without premeditation. Punishment: Imprisonment up to life, or up to 10 years, and fine.
+
+Section 101 BNS — Murder
+Culpable homicide is murder if done with intention to cause death, or with knowledge that the act will likely cause death. Punishment: Death or life imprisonment, and fine.
+Exception: Grave and sudden provocation reduces murder to culpable homicide (not murder).
+
+Section 115 BNS — Grievous Hurt
+Causing fracture or dislocation of bone, permanent damage to sight/hearing, permanent disfigurement, or endangering life. Punishment: Up to 7 years imprisonment and fine.
+
+Section 118 BNS — Voluntarily Causing Hurt
+Causing bodily pain, disease, or infirmity. Punishment: Up to 1 year or fine up to Rs. 10,000 or both.
+
+Section 126 BNS — Wrongful Restraint
+Preventing a person from proceeding in any direction they have a right to go. Punishment: Up to 1 month, or fine up to Rs. 5,000.
+
+Section 127 BNS — Wrongful Confinement
+Restraining a person to a bounded area. Punishment: Up to 1 year, or fine up to Rs. 5,000. If for 3 or more days: up to 2 years.
+
+Section 131 BNS — Assault
+Making any gesture or preparation causing apprehension of criminal force being used. Punishment: Up to 3 months or fine up to Rs. 5,000.
+
+Section 140 BNS — Criminal Force and Assault to Outrage Modesty
+Assault or criminal force to any person, intending to outrage or knowing it likely to outrage the modesty of that person. Punishment: Up to 2 years, or fine, or both.
+
+OFFENCES AGAINST PROPERTY
+
+Section 303 BNS — Theft
+Dishonestly taking any movable property out of the possession of any person without consent. Punishment: Up to 3 years, or fine, or both.
+Theft of goods worth over Rs. 5 lakh: up to 7 years.
+
+Section 304 BNS — Robbery (Theft with force or threat)
+When committing theft, the offender causes or attempts death, hurt, or wrongful restraint. Punishment: Up to 10 years and fine. If armed: up to life.
+
+Section 308 BNS — Dacoity (Robbery by 5 or more persons)
+Punishment: Up to life or death in cases of murder during dacoity.
+
+Section 316 BNS — Cheating
+Dishonestly inducing a person to deliver property or to do something they would not otherwise do. Punishment: Up to 3 years, or fine, or both.
+Cheating and dishonestly inducing delivery of property: up to 7 years and fine.
+
+Section 318 BNS — Cheating by Impersonation
+Pretending to be someone else to deceive. Punishment: Up to 3 years and fine.
+
+Section 324 BNS — Mischief
+Damaging or destroying property. Punishment: Up to 3 months or fine.
+If value exceeds Rs. 20 lakh: up to 5 years.
+
+Section 329 BNS — Criminal Trespass
+Entering property to commit an offence or to intimidate, insult, or annoy. Punishment: Up to 3 months or fine up to Rs. 5,000 or both.
+
+Section 331 BNS — House Trespass
+Criminal trespass in a building, tent, or vessel used as human dwelling. Punishment: Up to 1 year or fine up to Rs. 10,000.
+
+FRAUD AND DOCUMENT OFFENCES
+
+Section 336 BNS — Forgery
+Making a false document with intent to cause damage or injury. Punishment: Up to 2 years and fine.
+Forgery of court records/public registers: up to 7 years.
+
+Section 340 BNS — Using Forged Document
+Using as genuine a document known to be forged. Same punishment as forgery.
+
+ORGANISED CRIME AND TERRORISM (New in BNS)
+
+Section 111 BNS — Organised Crime
+Continuing unlawful activity by a syndicate — kidnapping, extortion, land grabbing, contract killing. Punishment: 5 years to life; death if causes death.
+
+Section 113 BNS — Terrorism
+Acts causing death, danger to property, threat to national security. Punishment: Death or life imprisonment.
+
+SEDITION REPLACED
+
+Section 152 BNS replaces Section 124A IPC (Sedition). It criminalises acts that endanger sovereignty, unity, and integrity of India. Pure criticism of government is NOT sedition.
+
+ABETMENT AND ATTEMPT
+
+Section 45 BNS — Abetment
+Instigating, conspiring, or aiding in commission of an offence. Punishment: Same as the offence abetted.
+
+Section 62 BNS — Attempt
+Attempting to commit an offence and failing. Punishment: Half the maximum punishment for the completed offence.
+
+RIGHT OF PRIVATE DEFENCE (Sections 34–44 BNS)
+Every person has the right to defend their body and property against any offence. The right extends to causing death only when facing:
+- Assault reasonably causing death or grievous hurt
+- Rape or kidnapping
+- Wrongful confinement
+- Acid attack
+The right does not extend beyond what is necessary to repel the attack.
+
+HOW TO FILE A COMPLAINT UNDER BNS
+1. Go to the nearest police station and file an FIR (First Information Report)
+2. If police refuse to register FIR: send complaint by post to SP (Superintendent of Police)
+3. If still no action: file complaint under Section 175(3) BNSS before a Magistrate
+4. Magistrate can direct police to register FIR
+5. Zero FIR: Can be registered at ANY police station regardless of jurisdiction
+
+COGNIZABLE vs NON-COGNIZABLE OFFENCES
+- Cognizable (police can arrest without warrant): murder, robbery, rape, theft above certain value
+- Non-cognizable (police need Magistrate's permission to arrest): assault, defamation, cheating below threshold

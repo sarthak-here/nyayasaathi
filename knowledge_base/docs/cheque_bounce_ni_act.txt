@@ -1,0 +1,89 @@
+NEGOTIABLE INSTRUMENTS ACT 1881 — CHEQUE BOUNCE (Section 138–142)
+
+Cheque dishonour (bounce) is both a civil wrong and a criminal offence in India. Section 138 NI Act makes it a criminal offence punishable with imprisonment up to 2 years or fine up to twice the cheque amount, or both.
+
+WHEN IS CHEQUE BOUNCE AN OFFENCE?
+A cheque is "dishonoured" (bounced) when:
+1. The account has insufficient funds
+2. The amount exceeds the arrangement
+3. The account is closed or frozen
+4. Payment stopped by drawer
+
+NOTE: Cheque bounce is an offence ONLY if the cheque was given for discharge of a legally enforceable debt or liability. Post-dated cheques given as security may not attract Section 138 in all cases.
+
+PROCEDURE TO FILE A CASE — STEP BY STEP
+
+Step 1: Receive Memo/Return from Bank
+When the bank returns (dishonours) the cheque, get the return memo specifying the reason for dishonour. Keep this carefully — it is crucial evidence.
+
+Step 2: Send Legal Notice within 30 Days
+Within 30 days of receiving the dishonour memo, send a WRITTEN LEGAL NOTICE to the drawer (person who gave the cheque) by registered post/speed post demanding payment.
+The notice must:
+- State the cheque details (number, date, amount, bank)
+- State that the cheque was dishonoured
+- Demand payment within 15 days of receipt of notice
+
+Step 3: Wait 15 Days
+Give the drawer 15 days from receipt of the notice to make payment.
+
+Step 4: File Complaint within 30 Days of Expiry of Notice Period
+If no payment is made within 15 days, file a criminal complaint under Section 138 NI Act before the Judicial Magistrate (First Class) within 30 days of expiry of the notice period.
+The complaint must be filed where:
+- The cheque was presented for payment (bank branch where you deposited it), OR
+- Where the cheque was drawn (drawer's bank), OR
+- Where the payee conducts business
+
+JURISDICTION (after 2015 Amendment): Case is filed where the bank branch of the PAYEE (the person who received the cheque) is located.
+
+EVIDENCE REQUIRED
+1. Original dishonoured cheque
+2. Bank return memo / dishonour memo
+3. Legal notice sent (copy + registered post receipt)
+4. Acknowledgment of receipt of notice by accused (or track report showing delivery/refusal)
+5. Account statement showing the cheque amount owed
+
+PUNISHMENT IF CONVICTED
+- Imprisonment up to 2 years, OR
+- Fine up to twice the cheque amount, OR
+- Both imprisonment and fine
+Court typically orders payment of the cheque amount to the complainant.
+
+LIMITATION PERIOD
+The complaint must be filed within 30 days of expiry of 15-day notice period. Missing this deadline is fatal — the case becomes time-barred.
+
+INTERIM COMPENSATION (Section 143A NI Act)
+Court can order accused to pay up to 20% of the cheque amount as interim compensation during trial. If accused acquitted, complainant must refund it.
+
+APPEAL (Section 148): Appellate court must order deposit of minimum 20% of fine awarded before hearing appeal. This prevents frivolous appeals.
+
+COMPOUNDING OF OFFENCE
+Cheque bounce cases can be settled (compounded) between parties at any stage with court permission. Drawer pays full cheque amount + interest + costs. Case gets quashed.
+Lok Adalat: Fastest way to settle. Go to Lok Adalat through district court — settlement is final, no appeal, no court fees.
+
+CIVIL REMEDY IN ADDITION
+You can ALSO file a civil suit for recovery of money (Section 6 of Limitation Act — 3 year limitation period) in addition to the criminal complaint. These run simultaneously.
+
+MULTIPLE CHEQUES
+If multiple cheques from same drawer bounce, file separate complaints for each cheque — each is a separate offence.
+
+DEFENCES AVAILABLE TO ACCUSED
+1. Cheque was given as security, not for debt repayment
+2. Debt was not legally enforceable
+3. Notice was not properly served
+4. Complaint filed after limitation period
+5. Amount on cheque was altered
+6. Stop payment was for valid reason (fraud/coercion by payee)
+
+IF YOU ARE THE ACCUSED (drawer)
+1. Check if notice was properly served (address, registered post)
+2. Check if complaint was filed within limitation period
+3. Offer to pay and seek compounding — courts encourage settlement
+4. Apply for bail immediately — offence is bailable
+5. Explore Lok Adalat for faster settlement
+
+IMPORTANT NUMBERS TO KNOW
+- Section 138: Main offence — cheque dishonour for insufficient funds
+- Section 141: Company cheques — directors/officers also liable if they were in charge of business
+- Section 142: Cognizance only on complaint by payee/holder
+- Section 143A: Interim compensation order by trial court
+- Section 148: Mandatory deposit on appeal

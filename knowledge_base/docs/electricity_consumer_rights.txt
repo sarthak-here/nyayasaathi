@@ -1,0 +1,103 @@
+ELECTRICITY ACT 2003 — CONSUMER RIGHTS AND REMEDIES
+
+The Electricity Act 2003 governs generation, transmission, distribution, and trading of electricity in India.
+
+============================
+YOUR RIGHTS AS AN ELECTRICITY CONSUMER
+============================
+
+RIGHT TO NEW CONNECTION:
+Every consumer has the right to a new electricity connection within:
+- 7 days in urban areas (LT connection — low tension, domestic/commercial)
+- 30 days in rural areas
+Distributor CANNOT refuse connection without valid reason. If refused or delayed: file complaint with State Electricity Regulatory Commission (SERC).
+
+RIGHT TO METERED SUPPLY:
+Every consumer has the right to metered supply. Charging flat rates (unmetered) without agreement is irregular.
+Smart meters are being deployed — you cannot be compelled to bear cost of smart meter (it is DISCOm's asset).
+
+BILLING RIGHTS:
+1. Bill must be based on actual meter reading, not estimated reading (except in cases of inaccessibility)
+2. If estimated bill is raised: it must be reconciled in the next bill on actual reading
+3. Bill must be delivered at least 7 days before payment due date
+4. Consumer can inspect meter reading and request re-testing of meter
+5. Disputed bill: You can pay the undisputed portion while the dispute is pending — DISCOm CANNOT disconnect supply for the disputed amount
+
+METER TESTING:
+If you suspect the meter is faulty (running fast):
+1. Request meter testing from DISCOM in writing
+2. DISCOM must test within 15 days
+3. If found defective: Bill recalculated and excess charged amount refunded
+4. You can also apply for testing before Electrical Inspector (government officer)
+
+SUPPLY QUALITY:
+You are entitled to supply at the declared voltage (230V for single phase, 415V for three phase) within +/- 6% variation.
+Frequent low-voltage, high-voltage, or power cuts: Complaint to DISCOM + SERC.
+Compensation for damage to appliances due to voltage fluctuation: File complaint with DISCOM and Consumer Forum.
+
+DISCONNECTION — RULES:
+DISCOM can disconnect supply only:
+- For non-payment of electricity bills after due notice of 15 days
+- For theft of electricity
+- For dangerous conditions
+- For breach of supply conditions
+
+CANNOT disconnect:
+- During night hours (5 PM to 7 AM) — Rule under many State Codes
+- For disputed amount while dispute is pending
+- Without giving proper notice
+- For outstanding dues of previous occupant (new occupant is not liable)
+
+RECONNECTION: After disconnection for non-payment, DISCOM must reconnect within 24 hours of payment of dues + reconnection charges.
+
+THEFT OF ELECTRICITY (Section 135, 138 Electricity Act):
+If electricity theft is detected:
+Assessment of electrical units consumed illegally + penalty (typically 2x the tariff for assessed units).
+Imprisonment up to 3 years and fine up to Rs. 10 lakh.
+If you are falsely accused of theft: Contest the assessment before the Special Court (Electricity).
+
+LOAD SHEDDING / OUTAGES:
+Planned outages must be notified in advance (at least 24 hours in most states).
+Unplanned outages compensation: Some states have compensation regulations — check your state SERC tariff order.
+
+============================
+TARIFF AND BILLING DISPUTES
+============================
+
+EXCESS BILLING:
+If you receive a hugely inflated bill (say 10x normal):
+1. First check if meter is tampered or has been read correctly
+2. Request physical re-inspection of meter
+3. Pay only the average of last 6 months' bills as undisputed amount
+4. File formal grievance with DISCOM grievance cell
+5. Approach Assistant Engineer / Executive Engineer of DISCOM
+6. File complaint with State Electricity Ombudsman (most states have this)
+7. File complaint with Consumer Forum
+
+SOLAR NET METERING:
+If you install rooftop solar panels, you are entitled to net metering (feed excess power to grid and get credit/payment). DISCOM CANNOT unreasonably refuse to install net meter or connect solar system.
+
+============================
+WHERE TO COMPLAIN
+============================
+
+DISCOM Grievance:
+1. Sub-Division office → Division office → Circle office
+2. Online portal of your state DISCOM (BESCOM, MSEDCL, TPDDL, etc.)
+3. Call centre of DISCOM
+
+State Electricity Ombudsman:
+If DISCOM does not resolve within 30 days, approach State Electricity Ombudsman. The Ombudsman is quasi-judicial and orders are binding. Free process.
+
+State Electricity Regulatory Commission (SERC):
+File complaint for regulatory violations. Each state has its SERC (e.g., MERC for Maharashtra, DERC for Delhi, KERC for Karnataka).
+
+Consumer Forum:
+For compensation for deficient service or unfair trade practice by electricity company. File in appropriate Consumer Forum based on compensation claimed.
+
+ELECTRICITY SUPPLY CODE:
+Each state has an Electricity Supply Code / Distribution Code that specifies detailed rights of consumers. Available on SERC website. Know your state's code.
+
+NATIONAL ELECTRICITY OMBUDSMAN: For inter-state disputes.
+
+CENTRAL ELECTRICITY REGULATORY COMMISSION (CERC): For inter-state transmission and other regulatory matters. cerc.gov.in.

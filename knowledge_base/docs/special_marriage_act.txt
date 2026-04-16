@@ -1,0 +1,87 @@
+SPECIAL MARRIAGE ACT 1954 — INTER-RELIGION AND CIVIL MARRIAGE
+
+The Special Marriage Act 1954 (SMA) allows any two persons to marry regardless of religion, caste, or community. It is a secular marriage law applicable to all citizens of India.
+
+============================
+WHO CAN MARRY UNDER SMA
+============================
+
+Any two persons (including inter-faith, inter-caste, or same religious community couples who do not wish religious ceremonies) can marry under the SMA provided:
+1. Bridegroom has completed 21 years of age; Bride has completed 18 years of age
+2. Neither party has a living spouse
+3. Both parties are of sound mind
+4. Parties are not within prohibited degrees of relationship (unless their personal law permits or custom sanctions it)
+
+SMA is particularly important for:
+- Hindu-Muslim marriages
+- Hindu-Christian marriages
+- Hindu-Sikh marriages (though Anand Marriage Act exists for Sikhs)
+- Any inter-faith marriage
+- Couples who want a civil marriage without religious ceremonies
+
+============================
+PROCEDURE FOR MARRIAGE UNDER SMA
+============================
+
+Step 1: Notice of Intended Marriage (Section 5)
+- Give notice in writing to the Marriage Officer of the district where at least one party has resided for at least 30 days before the notice date.
+- Fill Form I (Notice of Marriage).
+- Documents required: Address proof (30-day residence), birth certificate/age proof, passport-size photos, ID proof, and affidavit.
+- Notice is entered in Marriage Notice Book (open to public for inspection).
+
+Step 2: Publication of Notice
+- Notice is displayed on notice board of Marriage Officer's office.
+- Copies sent to Marriage Officer of other party's district if different.
+- Publication period: 30 days (objection period).
+
+IMPORTANT — THE 30-DAY NOTICE CONTROVERSY:
+The 30-day public notice period has been criticized as creating a window for family members or third parties to object to the marriage (and even locate the couple and harass them). Several High Courts (Allahabad, MP) have held that couples cannot be compelled to give 30-day advance public notice if they fear for their safety. In case of safety concerns, couples should inform the Marriage Officer and also approach the police/court for protection.
+
+Step 3: Objection Period (Section 7)
+- Any person can object within 30 days on grounds that the marriage violates SMA conditions.
+- Marriage Officer inquires into objection (up to 30 days) and decides.
+- If objection overruled: Marriage proceeds.
+- If objection upheld: Marriage refused. Can appeal to District Court.
+- Frivolous objections (based on caste/religion alone) CANNOT be entertained — SMA does not make religion a ground for objection.
+
+Step 4: Solemnization of Marriage (Section 12)
+- Marriage solemnized by Marriage Officer in the presence of 3 witnesses.
+- Parties sign declaration in Form II.
+- Certificate of Marriage issued immediately.
+
+MARRIAGE OFFICER: Sub-Divisional Magistrate (SDM) in most states. Some states have designated special Marriage Officers.
+
+============================
+LEGAL CONSEQUENCES OF SMA MARRIAGE
+============================
+
+Succession: Married under SMA → Indian Succession Act 1925 applies (not personal law like Hindu Succession Act). Useful for inter-religion couples.
+
+Divorce under SMA: Grounds under Section 27 are broadly similar to Hindu Marriage Act (adultery, cruelty, desertion, mental disorder, etc.) plus some additional grounds.
+Divorce by Mutual Consent: After 1 year separation, both file application jointly.
+
+Maintenance: Maintenance to wife and children under SMA (Section 36, 37) — similar to CrPC/BNSS Section 125.
+
+============================
+COURT MARRIAGE — PROTECTION AND SAFETY
+============================
+
+Protection Petition:
+Couples who fear family opposition or honour-based violence can:
+1. File a Writ Petition in High Court seeking protection order BEFORE the marriage
+2. Approach Superintendent of Police for police protection
+3. Some High Courts have 24-hour helplines for such couples
+4. After marriage: Certified copy of Marriage Certificate is the best proof of marriage
+
+Self-Respect Marriage (Tamil Nadu and some other states): Some states allow marriages without priest or religious ceremony under state-specific acts. No registration required separately — Registrar of Marriages registers it.
+
+REGISTRATION OF MARRIAGES:
+All marriages (Hindu, Christian, Muslim, SMA) should be registered. Registration provides legal proof and helps in:
+- Passport applications
+- Spouse visa
+- Insurance claims
+- Property and inheritance matters
+- Prevention of child marriage
+
+CONVERSION FOR MARRIAGE:
+SMA avoids the need to convert religion for marriage. However, if a Hindu-Muslim couple marry under Hindu Marriage Act after conversion, they have done so voluntarily. Coerced conversion for marriage: Complaint under state anti-conversion laws (UP, MP, Gujarat, etc.) and BNS Section 69 (sexual intercourse by deceitful means).

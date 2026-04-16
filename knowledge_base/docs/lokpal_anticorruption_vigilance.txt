@@ -1,0 +1,104 @@
+LOKPAL AND LOKAYUKTAS ACT 2013, PREVENTION OF CORRUPTION ACT 1988 — FIGHTING CORRUPTION
+
+============================
+PREVENTION OF CORRUPTION ACT 1988 (AMENDED 2018)
+============================
+
+BRIBERY OF PUBLIC SERVANT:
+Section 7 PC Act: Any public servant who accepts or obtains a bribe (gratification other than legal remuneration) for doing or forbearing to do an official act is guilty. Punishment: 3 to 7 years imprisonment + fine.
+
+Section 7A: Taking bribe on behalf of public servant by a third party — same punishment.
+
+BRIBERY BY PRIVATE PERSONS:
+Section 8 PC Act (2018 Amendment): Any person who gives or promises or offers bribe to a public servant is ALSO guilty. Punishment: Up to 7 years + fine.
+EXCEPTION: If the person was compelled to give bribe AND reports the matter to law enforcement within 7 days — they are PROTECTED from prosecution. This is the key provision to encourage reporting.
+
+COMMERCIAL BRIBERY:
+Giving bribe to obtain an undue advantage in a business transaction — also covered (2018 amendment aligns India with UN Convention Against Corruption).
+
+CRIMINAL MISCONDUCT:
+A public servant who possesses assets disproportionate to known sources of income is presumed to have committed criminal misconduct. Reversal of burden of proof — accused must explain how they acquired the assets.
+
+INVESTIGATING AGENCIES:
+Central Vigilance Commission (CVC): Supervises vigilance of central government.
+Central Bureau of Investigation (CBI): Investigates serious corruption cases (central government employees, public sector enterprises). CBI needs state government permission to investigate state government employees.
+State ACB (Anti-Corruption Bureau): Investigates state government corruption. Each state has its own ACB.
+Enforcement Directorate (ED): Investigates money laundering angle of corruption.
+
+TRAP CASES:
+ACB/CVC conducts trap operations — marked currency given to complainant to bribe the official. After the bribe is given, CBI/ACB officers apprehend the official with the bribe money. Phenolphthalein powder on the money turns hands/clothes blue/purple on reaction.
+Process: Complaint to ACB/CVC → Verification → Trap operation → Arrest → Prosecution.
+
+============================
+LOKPAL AND LOKAYUKTAS ACT 2013
+============================
+
+LOKPAL: A national anti-corruption ombudsman. Lokpal of India is headed by a Chairperson (retired Chief Justice or Judge of Supreme Court or eminent person) and up to 8 Members.
+
+JURISDICTION OF LOKPAL:
+- Prime Minister (with restrictions and safeguards)
+- Union Ministers
+- Members of Parliament
+- Officers of central government (Groups A, B, C, D)
+- Chairpersons, Members, Officers of Central Public Authorities
+- Any person involved in alleged offences of public servants under PC Act
+
+WHO CAN COMPLAIN TO LOKPAL:
+Any person can file a complaint against the above. File complaint online at lokpal.nic.in.
+Complaint must be made within 7 years of commission of the offence.
+Frivolous/false complaints: Complainant can face prosecution.
+
+LOKAYUKTA (STATE LEVEL):
+Each state has a Lokayukta — equivalent of Lokpal at state level — to investigate corruption of state government employees and ministers. Jurisdiction and powers vary by state.
+
+WHISTLE BLOWERS PROTECTION ACT 2014:
+Any person can make a "public interest disclosure" (whistleblowing complaint) about corruption or wilful misuse of power/discretion by a public servant.
+FILE WITH: Central Vigilance Commission (central employees), state vigilance commission (state employees).
+PROTECTION: Identity of whistleblower is kept confidential. Victimisation of whistleblower (dismissal, transfer, harassment) — punishable with imprisonment up to 3 years and fine up to Rs. 50,000. Court/CVC can direct immediate protection.
+Complaint to Lokpal also has whistleblower protection.
+
+============================
+WHERE TO REPORT CORRUPTION
+============================
+
+Central Government Corruption:
+- CVC (Central Vigilance Commission): cvc.gov.in — File online complaint / call 1800-11-0180
+- CBI: cbi.gov.in — serious corruption, online complaint form
+- Lokpal: lokpal.nic.in
+- PM Grievance Portal (CPGRAMS): pgportal.gov.in
+
+State Government Corruption:
+- State Anti-Corruption Bureau (ACB) — every state
+- State Lokayukta
+- Chief Minister's Grievance Cell
+
+Police Corruption:
+- State Human Rights Commission
+- National Human Rights Commission (nhrc.nic.in)
+- NHRC Helpline: 14433
+- Internal Complaints Committee of Police
+
+Judicial Corruption:
+- Cannot directly be reported to CBI without High Court permission
+- Complaint to Chief Justice of respective High Court
+- Supreme Court: Can entertain complaints about High Court judges
+
+RIGHT TO INFORMATION (RTI) AS ANTI-CORRUPTION TOOL:
+RTI is the most powerful tool for an ordinary citizen to expose corruption. Ask for:
+- File notings on decisions
+- Inspection of documents
+- List of beneficiaries
+- Expenditure details
+- Meeting records
+This forces transparency and accountability. See also: rti_act_2005.txt
+
+============================
+PUNISHMENTS SUMMARISED
+============================
+
+Taking bribe (public servant): 3-7 years + fine
+Giving bribe (private person): Up to 7 years + fine (but protected if reported within 7 days of compulsion)
+Assets disproportionate to income: 4-10 years + fine
+Habitual offender (PC Act): Minimum 5 years, up to 10 years
+Criminal misconduct (Section 13): 4-10 years + fine
+False complaint to Lokpal: Up to 1 year + fine (discourages frivolous complaints)

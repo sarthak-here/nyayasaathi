@@ -1,0 +1,90 @@
+TELECOM CONSUMER RIGHTS IN INDIA
+(TRAI Act 1997, TRAI Regulations, Telecom Commercial Communications Customer Preference Regulations)
+
+============================
+YOUR RIGHTS AS A TELECOM CONSUMER
+============================
+
+RIGHT TO QUALITY OF SERVICE (QoS):
+TRAI (Telecom Regulatory Authority of India) sets mandatory Quality of Service benchmarks for all telecom operators:
+- Call drop rate: Maximum 2% (operators exceeding this face penalty)
+- Call setup success rate: Minimum 95%
+- 4G/5G network performance benchmarks
+- Broadband speed: Minimum guaranteed speed must be disclosed; actual average speed must be published monthly
+
+CALL DROPS:
+You have the right to quality service. If call drop rate is high: TRAI can penalise operator. You can complain to TRAI.
+
+RIGHT TO INFORMATION:
+Telecom operators must publish all tariff plans clearly on their website.
+No hidden charges — all charges must be disclosed upfront.
+Detailed bill showing all charges must be available (paper bill on request, digital bill by default).
+
+SIM CARD RIGHTS:
+SIM card is linked to your Aadhaar. Multiple SIMs can be issued on same Aadhaar (different operators).
+If SIM is lost/stolen: Immediately call operator to block the SIM. File police complaint.
+SIM swap fraud (someone gets duplicate SIM on your number to access your OTPs): Call operator's fraud helpline immediately, cybercrime.gov.in.
+
+MOBILE NUMBER PORTABILITY (MNP):
+You have the RIGHT to change your telecom operator while keeping the same mobile number. Porting is free. Process: SMS "PORT <Your 10-digit mobile number>" to 1900. You receive a Unique Porting Code (UPC). Submit at new operator's store. Porting completed within 7 days.
+Operator CANNOT refuse porting except for outstanding dues or pending complaint.
+
+RIGHT AGAINST UNSOLICITED COMMERCIAL COMMUNICATIONS (SPAM):
+Register for DND (Do Not Disturb): Send SMS "START 0" to 1909 (fully blocked — no commercial calls/SMS) or select specific categories to block.
+Report spam: SMS "COMPLAIN <operator code> <date and time of call> <telemarketer number>" to 1909.
+After DND registration (within 30 days): Receiving unsolicited commercial communication is violation. Telemarketer can be blacklisted.
+
+BROADBAND AND INTERNET RIGHTS:
+Net Neutrality in India: TRAI has mandated net neutrality. ISPs cannot:
+- Block any website or online service (without government order)
+- Throttle (slow down) specific websites or services
+- Charge differently for different websites (no "fast lanes")
+Violation of net neutrality: Complaint to TRAI.
+
+FAIR USAGE POLICY (FUP):
+Internet plans often have FUP. After exhausting high-speed data, speed reduces (not blocked). This must be disclosed clearly in plan details.
+
+============================
+COMPLAINT REDRESSAL
+============================
+
+STEP 1 — TELECOM OPERATOR COMPLAINT:
+Call customer care → Register complaint → Get complaint number.
+Timelines for resolution (TRAI mandated):
+- Fault repair: Within 3 working days (fixed line); 5 days (broadband)
+- Billing disputes: Within 4 weeks
+- Service disconnection without reason: Within 24 hours reconnection
+
+STEP 2 — APPELLATE AUTHORITY:
+If complaint not resolved within timelines OR if unsatisfied with resolution:
+Approach Appellate Authority of the operator (each operator must have one) within 3 months of original complaint.
+
+STEP 3 — TRAI/TDSAT:
+TRAI: Complaint about tariff, quality of service, spam calls — directly to TRAI website (trai.gov.in) or Consumer Portal.
+Telecom Disputes Settlement and Appellate Tribunal (TDSAT): For disputes between subscriber and operator exceeding Rs. 50 lakh or matters of national importance.
+
+STEP 4 — Consumer Forum:
+File complaint in District Consumer Forum for deficiency of service and compensation.
+
+============================
+LANDLINE AND BROADBAND RIGHTS
+============================
+
+BSNL/MTNL (Public Sector):
+Complaints: 198 (fault repair), 1500 (general)
+Online: bsnl.co.in → My Account → Complaint
+
+Broadband fault repair timeline: 3 days. If not repaired: You are entitled to refund of proportionate subscription charges for downtime.
+
+============================
+OTT AND INTERNET PLATFORMS
+============================
+
+Over-The-Top (OTT) services (WhatsApp, Zoom, Netflix, etc.) are regulated separately under IT Act / MIB guidelines, not TRAI for voice/data. However, net neutrality protects them from being blocked/throttled by ISPs.
+
+MESSAGING APP PRIVACY: WhatsApp, Telegram etc. are subject to Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021. They must:
+- Appoint India-based Grievance Officer
+- Respond to grievances within 15 days
+- Significant Social Media Intermediaries (>5 million users) must also enable traceability of first originator of message if ordered by court/government
+
+STREAMING CONTENT GRIEVANCES: OTT platforms must have a grievance redressal mechanism and content classification. Complaints: Contact platform's Grievance Officer → Level 2: Self-Regulatory Organisation → Level 3: Inter-Departmental Committee (MIB).

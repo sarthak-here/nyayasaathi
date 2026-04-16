@@ -1,0 +1,118 @@
+INTELLECTUAL PROPERTY RIGHTS IN INDIA
+(Trade Marks Act 1999, Copyright Act 1957, Patents Act 1970, Designs Act 2000, Geographical Indications Act 1999)
+
+============================
+TRADE MARKS ACT 1999
+============================
+
+A trademark is a sign (word, logo, shape, sound, colour) that distinguishes goods/services of one person from those of others.
+
+REGISTRATION:
+Apply online at ipindia.gov.in (Intellectual Property India). Processing: 12–18 months typically.
+Classes: 45 classes (Nice Classification) — file in class(es) relevant to your goods/services.
+Duration: 10 years, renewable indefinitely every 10 years.
+
+RIGHTS OF TRADEMARK OWNER:
+- Exclusive right to use the mark for registered goods/services
+- Right to sue for infringement (use of identical/similar mark for same/similar goods)
+- Right to seek injunction (stop the infringer), damages, and account of profits
+- Right to use ® symbol (only after registration)
+- TM symbol can be used even before registration (on pending application)
+
+INFRINGEMENT (Section 29):
+Using a mark identical or deceptively similar to a registered trademark without permission.
+Penalty (Criminal): Imprisonment 6 months to 3 years; fine Rs. 50,000 to Rs. 2 lakh.
+Civil remedy: Injunction, damages, delivery-up of infringing goods.
+
+PASSING OFF:
+Even unregistered marks can be protected under the common law tort of passing off — if you have goodwill and reputation, and another person falsely represents their goods as yours.
+
+WELL-KNOWN MARKS: Marks like Tata, Amul, Reliance are declared "well-known" — protected across all classes. No one can register or use a deceptively similar mark even for unrelated goods.
+
+DOMAIN NAME DISPUTES:
+WIPO Arbitration Center and IN Registry (.in domain) handle cybersquatting disputes.
+
+============================
+COPYRIGHT ACT 1957 (Amended 2012)
+============================
+
+Copyright protects original literary, dramatic, musical, and artistic works; cinematographic films; and sound recordings.
+
+AUTOMATIC PROTECTION: Copyright arises the moment an original work is created. NO REGISTRATION REQUIRED. However, registration (at Copyright Office, New Delhi) creates presumptive proof of ownership.
+
+DURATION:
+- Literary, dramatic, musical, artistic works: Author's lifetime + 60 years
+- Cinematographic films and sound recordings: 60 years from publication
+- Government works: 60 years from publication
+
+RIGHTS OF COPYRIGHT OWNER:
+- Reproduce the work (print, photocopy, digital copies)
+- Issue copies to the public (sale, rental)
+- Perform/broadcast the work
+- Translate or adapt the work
+- Make cinematographic film
+
+INFRINGEMENT:
+Copying, reproducing, distributing, or performing a copyrighted work without licence.
+Civil remedy: Injunction + damages + accounts of profits
+Criminal: Imprisonment up to 3 years; fine Rs. 50,000 to Rs. 2 lakh.
+
+FAIR USE / FAIR DEALING (Section 52):
+Not infringement to use work for:
+- Private or personal use (research, study)
+- Criticism or review (with acknowledgment)
+- Reporting current events (newspapers, TV)
+- Judicial proceedings
+- Educational purposes (classroom teaching)
+
+MORAL RIGHTS (Section 57):
+Author retains the right to claim authorship and object to any distortion/mutilation of work that would harm their reputation — EVEN AFTER SELLING COPYRIGHT.
+
+MUSIC ROYALTIES:
+Radio stations, streaming platforms, event organizers must pay royalties to copyright owners. Copyright Societies (IPRS for music, PPL for sound recordings) collect and distribute royalties.
+If platform/event uses your music without permission: Send legal notice + file complaint with Copyright Office.
+
+============================
+PATENTS ACT 1970 (Amended 2005)
+============================
+
+A patent grants the inventor exclusive rights to make, use, and sell the invention for 20 years.
+
+WHAT IS PATENTABLE:
+New invention + Inventive step (non-obvious) + Industrial application.
+
+WHAT CANNOT BE PATENTED:
+- Discoveries of natural phenomena or abstract theories
+- Mathematical methods, business methods, mental acts
+- Computer programs per se (software patents are controversial in India)
+- Mere discovery of a new form of a known substance (without enhanced efficacy — Section 3(d) blocks ever-greening of drug patents)
+- Agricultural/horticultural methods
+- Medical treatment methods
+
+COMPULSORY LICENCE (Section 84):
+After 3 years of patent grant, any person can apply for compulsory licence if:
+- Reasonable requirements of public are not being met
+- Patented invention is not available at reasonably affordable price
+- Patented invention is not worked in India
+Notable example: Natco Pharma v. Bayer Corporation (2012) — compulsory licence for cancer drug Nexavar.
+
+GEOGRAPHIC INDICATIONS (GI):
+Products with specific geographical origin and qualities attributable to that origin.
+Examples: Darjeeling Tea, Basmati Rice, Chanderi Saree, Kanchipuram Silk, Alphonso Mango.
+GI tags are registered with GI Registry (Chennai). Producer groups can register. Prevents misuse by outsiders.
+
+============================
+DESIGNS ACT 2000
+============================
+
+Protects the visual appearance (shape, configuration, pattern, ornament, or composition of lines or colours) of an article.
+Registration: 10 years + 5 year renewal = 15 years maximum.
+Industrial designs (furniture, textiles, electronics appearance) protected. Pure art is copyright.
+
+WHAT TO DO IF YOUR IP IS STOLEN:
+1. Document ownership — timestamps, records, registered certificates
+2. Send cease and desist letter to infringer
+3. File complaint with police for criminal action
+4. File civil suit for injunction and damages in District Court / High Court
+5. For online infringement: File DMCA/notice with platform (YouTube, Amazon, etc.)
+6. Customs: Record trademark with Customs authorities — they can seize infringing imports

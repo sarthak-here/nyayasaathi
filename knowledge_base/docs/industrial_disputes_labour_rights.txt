@@ -1,0 +1,106 @@
+INDUSTRIAL DISPUTES ACT 1947 — RETRENCHMENT, LAYOFF, CLOSURE, TERMINATION RIGHTS
+
+This law governs resolution of industrial disputes between employers and workers, and protects workers against unfair dismissal.
+
+DEFINITIONS:
+- Workman: Any person employed in skilled, unskilled, manual, operational, technical, clerical, or supervisory work earning up to Rs. 25,000/month (for certain provisions). Managers and supervisors above this limit are excluded.
+- Industry: Any business, trade, undertaking, or calling of employers including services.
+
+RETRENCHMENT (Section 25F) — UNLAWFUL UNLESS:
+Retrenchment means termination of service of a workman for any reason (other than disciplinary action, retirement, or end of fixed-term contract).
+
+Before retrenching a workman who has completed 1 year of continuous service, employer MUST:
+1. Give 1 month's written notice OR pay 1 month wages in lieu of notice
+2. Pay retrenchment compensation: 15 days average pay for every completed year of service
+3. Seek prior permission from appropriate government if 100+ workers (Section 25N)
+4. Follow "last in, first out" principle — junior employees retrenched first
+
+If retrenchment is without following procedure: It is void and illegal. Worker entitled to reinstatement with full back wages.
+
+LAYOFF (Section 25C):
+Temporary inability of employer to give employment due to shortage of material, power, or breakdown of machinery.
+
+Layoff Compensation:
+- 50% of basic wages + dearness allowance per day for all days of layoff (excluding weekly holidays)
+- First 45 days in a year: compensation mandatory
+- After 45 days: employer may either pay layoff compensation or retrench
+
+Worker is NOT entitled to layoff compensation if they:
+- Refuse alternative employment in same establishment
+- Do not present themselves at the workplace during the normal working hours every day
+- Work in an establishment with less than 50 workers
+
+CLOSURE (Section 25O):
+Employer must give 3 months' notice to appropriate government and workers before closure of establishment with 100+ workers, and seek permission.
+If closure is illegal (no permission): workers entitled to 45 days' average wages per year of service.
+
+STANDING ORDERS (Industrial Employment (Standing Orders) Act 1946):
+Establishments with 100+ workers must have certified Standing Orders defining conditions of employment. These must specify:
+- Classification of workers
+- Hours of work, holidays, pay days
+- Shift working
+- Attendance, leave rules
+- Termination, suspension, dismissal procedures
+
+UNFAIR LABOUR PRACTICES (Fifth Schedule IDA):
+Employer cannot:
+- Restrain workers from joining trade unions
+- Threaten workers with dismissal for union activity
+- Discharge workers for legitimate union activity
+- Establish employer-sponsored unions to interfere with workers' right to organize
+- Grant preferential treatment to one union
+- Recruit workers during a legal strike
+
+DISCIPLINARY PROCEEDINGS — DOMESTIC ENQUIRY:
+Before dismissal for misconduct, employer must:
+1. Issue charge sheet specifying the charge
+2. Give worker reasonable time (at least 48 hours) to reply
+3. Conduct a domestic enquiry with enquiry officer
+4. Give worker opportunity to be heard and cross-examine witnesses
+5. Receive enquiry report
+6. Pass speaking order (reasoned order) of dismissal
+
+If enquiry is not conducted fairly: Dismissal is illegal. Worker can claim reinstatement + back wages.
+
+MISCONDUCT WARRANTING DISMISSAL:
+- Theft, fraud, dishonesty
+- Willful damage to employer's property
+- Assault on fellow worker or supervisor
+- Habitual absence or habitual late coming after warning
+- Habitual neglect of duty
+- Strikes in violation of notice period
+
+DISPUTE RESOLUTION MACHINERY:
+1. Conciliation: Labour Conciliation Officer (free) tries to reach settlement. Most disputes settled here.
+2. Labour Court: For individual rights disputes (wrongful termination, wages)
+3. Industrial Tribunal: For collective interest disputes (wages, service conditions, hours)
+4. National Industrial Tribunal: National importance disputes
+5. Arbitration: Both parties can refer dispute to mutually agreed arbitrator
+
+RELIEF AVAILABLE:
+- Reinstatement with full back wages
+- Compensation in lieu of reinstatement
+- Payment of dues (retrenchment compensation, notice pay, gratuity)
+
+TIME LIMIT: Claim must be raised within 3 years of the cause of dispute.
+
+HOW TO FILE COMPLAINT:
+1. File complaint with Regional Labour Commissioner / Deputy Labour Commissioner
+2. Government refers dispute to Labour Court if conciliation fails
+3. Worker can directly approach Labour Court for certain disputes (wrongful dismissal)
+
+TRADE UNIONS ACT 1926:
+Workers have the right to form and join trade unions. Minimum 7 workers can register a trade union with Registrar of Trade Unions. Registered unions have legal status, can own property, enter into collective bargaining agreements.
+
+RIGHT TO STRIKE:
+Strike is a collective stoppage of work. Legal conditions:
+- Give 14 days' notice before strike (42 days in public utility services like transport, power, health)
+- Strike during pendency of conciliation/tribunal proceedings is illegal
+- Illegal strike: Workers forfeit wages and can be dismissed
+
+PAYMENT OF BONUS ACT 1965:
+Every employer must pay ANNUAL BONUS to employees earning up to Rs. 21,000/month (basic + DA).
+- Minimum bonus: 8.33% of annual wages (irrespective of profit or loss)
+- Maximum bonus: 20% of annual wages
+- Payable within 8 months of closing of financial year
+- Eligible after completing 30 working days in the year

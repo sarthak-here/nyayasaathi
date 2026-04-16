@@ -1,0 +1,93 @@
+PREVENTION OF MONEY LAUNDERING ACT 2002 (PMLA) AND BENAMI TRANSACTIONS (PROHIBITION) ACT 1988
+
+============================
+PREVENTION OF MONEY LAUNDERING ACT 2002 (PMLA)
+============================
+
+Money laundering means projecting or claiming proceeds of crime as untainted property. PMLA punishes those who generate, acquire, use, possess, transfer, or conceal proceeds of scheduled offences.
+
+SCHEDULED OFFENCES (predicate offences that generate proceeds):
+- Drug trafficking (NDPS Act)
+- Kidnapping for ransom
+- Robbery, dacoity
+- Murder, extortion
+- Counterfeiting currency
+- Fraud, cheating under IPC/BNS
+- Corruption (Prevention of Corruption Act)
+- Smuggling (Customs Act)
+- Human trafficking
+- Terrorist financing (UAPA)
+- Securities fraud (SEBI Act)
+
+PUNISHMENT: Rigorous imprisonment 3 to 7 years (up to 10 years for drug-related money laundering) AND fine.
+
+ENFORCEMENT DIRECTORATE (ED):
+ED is the primary agency that investigates PMLA cases. ED can:
+- Record statements (under oath — admissible as evidence, unlike police statement)
+- Attach (provisionally) property believed to be proceeds of crime — WITHOUT court order
+- Freeze bank accounts
+- Search and seize documents
+
+PROVISIONAL ATTACHMENT:
+ED can provisionally attach property for up to 180 days (extendable with PMLA Adjudicating Authority approval).
+Challenge attachment before Adjudicating Authority (PMLA) within 180 days.
+Appeal to PMLA Appellate Tribunal.
+Further appeal to High Court.
+
+BAIL — DIFFICULT:
+Like NDPS Act, Section 45 PMLA makes bail very restrictive for offences punishable with 3+ years. Court must be satisfied:
+1. Person is not guilty on reasonable grounds
+2. Person will not commit any offence while on bail
+
+BURDEN OF PROOF REVERSAL:
+In PMLA cases, once prosecution proves the accused had possession of proceeds of crime, the ACCUSED must prove the property is not proceeds of crime. This reversal of burden is constitutional (upheld by Supreme Court).
+
+ED SUMMONS:
+If ED sends summons under Section 50 PMLA, you MUST appear. Failure to appear: punishable with fine and imprisonment.
+Your statement given to ED is admissible evidence (unlike statement to police under BNSS).
+
+RIGHTS WHEN SUMMONED BY ED:
+1. Right to bring a lawyer for consultation (though lawyer may not be present during actual recording of statement)
+2. Right not to be arrested without arrest memo
+3. Right to be informed of grounds of arrest
+4. Right to medical examination
+5. Right to be produced before Special Court within 24 hours
+6. Right to file for bail before Special Court (PMLA court)
+
+============================
+BENAMI TRANSACTIONS (PROHIBITION) AMENDMENT ACT 2016
+============================
+
+BENAMI TRANSACTION: A transaction where property is transferred to one person (benamidar) but consideration is paid by another (beneficial owner). Property held in the name of spouse, relative, or any other person to hide actual ownership.
+
+EXAMPLES:
+- Buying property in wife's/parent's/friend's name with your own money to avoid taxes
+- Depositing black money in a relative's bank account
+- Shell companies holding assets on behalf of real owners
+
+WHAT IS PROHIBITED:
+Any person who enters into a benami transaction, or is a benamidar, or finances a benami transaction is guilty.
+
+PUNISHMENT:
+Rigorous imprisonment 1 to 7 years AND fine up to 25% of fair market value of the property.
+False information in proceedings: Rigorous imprisonment 6 months to 5 years AND fine up to 10% of fair market value.
+
+CONFISCATION: The benami property can be confiscated by the government. The benamidar CANNOT claim the property. The beneficial owner CANNOT claim the property. Both lose it.
+
+INVESTIGATION: Initiating Officer (Income Tax Department) investigates. Can issue provisional attachment of benami property.
+Adjudicating Authority considers the case and can confirm attachment.
+Appellate Tribunal (Benami) hears appeals.
+
+WHAT IS NOT BENAMI:
+1. Property held by a Karta of HUF for the benefit of HUF
+2. Property held by trustee in his own name as trustee for benefit of another under a trust
+3. Property held jointly — if the person holding has paid consideration from their known income sources
+4. Property purchased in the name of spouse/children from disclosed income
+
+NO INFORMER REWARD: Unlike income tax, no reward for informers under Benami Act.
+
+RECENT ENFORCEMENT:
+ED and Income Tax Department jointly investigate benami properties. Major crackdowns post-2016. Properties worth thousands of crores have been attached.
+
+VOLUNTARY DISCLOSURE:
+If you suspect you have benami property issues, consult a tax lawyer immediately. There is no voluntary disclosure scheme under Benami Act (unlike income tax).

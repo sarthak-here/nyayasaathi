@@ -1,0 +1,94 @@
+DEFAMATION, PRIVACY, AND MEDIA LAW IN INDIA
+(BNS Sections 356-357, IT Act, Press Council Act 1978)
+
+============================
+DEFAMATION (BNS SECTION 356)
+============================
+
+DEFINITION: Making or publishing any imputation concerning any person intending to harm, or knowing that it will harm, the reputation of that person.
+
+FORMS OF DEFAMATION:
+Libel: Written/printed/broadcast defamatory statement.
+Slander: Spoken defamatory statement.
+(India treats both as criminal offences under BNS, unlike UK where slander is generally not criminal.)
+
+CRIMINAL DEFAMATION (BNS Section 356):
+Punishment: Imprisonment up to 2 years OR fine OR both.
+Non-cognizable, non-bailable, compoundable. Must be filed by victim; police cannot take suo motu action.
+File complaint before Magistrate.
+
+CIVIL DEFAMATION:
+File civil suit in District Court for damages (compensation). No imprisonment — only monetary damages awarded.
+Civil and criminal proceedings can run simultaneously.
+
+WHAT IS NOT DEFAMATION (Exceptions under BNS Section 356):
+1. True statement published for public good
+2. Fair and accurate report of court proceedings
+3. Fair comment on public acts of public servants
+4. Fair criticism of published works (books, films, etc.)
+5. Merited censure by a person with authority over another
+6. Accusation made in good faith to authorised person
+7. Opinion expressed by a person on another's conduct in a case in which he has interest
+8. Warning given in good faith
+
+KEY: Truth is an absolute defence in criminal defamation (provided it was for public good).
+Key case: Subramanian Swamy v. Union of India (2016) — Supreme Court upheld validity of criminal defamation.
+
+ONLINE DEFAMATION:
+Defamatory posts, tweets, WhatsApp messages — criminal under BNS Section 356 + IT Act Section 66A (struck down) but civil liability remains under IT Act Section 66E (privacy violation) and tort law.
+Platform (Twitter, Facebook) can be required to take down defamatory content on court order.
+Defamatory content removal: File complaint with platform's Grievance Officer → court order for takedown → cybercrime cell if anonymous.
+
+============================
+CONTEMPT OF COURT
+============================
+
+CONTEMPT OF COURTS ACT 1971:
+
+Civil Contempt: Willful disobedience of any judgment, decree, direction, order, writ of a court. Punishment: Imprisonment up to 6 months + fine up to Rs. 2,000.
+
+Criminal Contempt: Publication of any matter that: scandalizes or tends to scandalize any court; prejudices any judicial proceeding; or interferes with or obstructs administration of justice.
+Punishment: Imprisonment up to 6 months + fine up to Rs. 2,000.
+
+Defenses: Truth (in public interest) is a valid defence for criminal contempt.
+"Fair comment" on judicial proceedings after conclusion is permissible.
+
+Scandalizing the Court: Social media posts attacking judges personally, making false allegations about judicial conduct — can attract criminal contempt.
+
+============================
+PRESS FREEDOM AND MEDIA RIGHTS
+============================
+
+PRESS COUNCIL OF INDIA ACT 1978:
+Press Council of India (PCI) is a statutory body that:
+- Adjudicates complaints against the press (newspapers, magazines) for inaccurate reporting, sensationalism, paid news, etc.
+- Can warn or censure a publication
+- Cannot impose fines or imprisonment
+- Complaints filed by: Aggrieved persons OR the Council suo motu
+
+FOR ELECTRONIC MEDIA (TV channels, news portals):
+No equivalent of Press Council. Governed by:
+- News Broadcasters and Digital Association (NBDA) — self-regulatory body
+- Ministry of Information and Broadcasting (MIB)
+- Press Information Bureau (PIB): Accreditation and fact-checking
+- IT Rules 2021: News publishers must follow Code of Ethics; must have Grievance Officer; Level II: Self-Regulatory Body; Level III: Government body
+
+RIGHT OF REPLY: You have the right to demand publication of a correction or reply from a newspaper/broadcaster that published something inaccurate/defamatory about you. File complaint with PCI/NBDA if refused.
+
+PAID NEWS: Publishing news reports as paid advertisements without disclosure is violation of electoral law and press ethics. Complaint to Election Commission (during elections) or PCI.
+
+JOURNALIST PROTECTION:
+No specific national journalist protection law, but:
+- Assaulting journalists: BNS provisions apply
+- Attacking journalists for their work: Additional offence under some state laws
+- Press Freedom: Protected under Article 19(1)(a) — Freedom of Expression
+- Journalists cannot be compelled to reveal sources (shield law is evolving in India)
+
+============================
+RIGHT TO PRIVACY IN MEDIA
+============================
+
+PRIVACY PROTECTION:
+Publication of private photographs/videos of a person without consent: Violation of privacy (Article 21), IT Act Section 66E, and potential defamation.
+Publishing personal details (phone number, address) of private persons that leads to harassment: IT Act + civil liability.
+REVENGE PORN (non-consensual intimate image sharing): BNS Section 77 (voyeurism), IT Act Section 67 (obscene content), and Section 67A (sexually explicit content). Complaint to cyber crime cell.

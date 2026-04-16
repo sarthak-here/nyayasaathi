@@ -1,0 +1,106 @@
+EMPLOYEES' PROVIDENT FUND ACT 1952 (EPF), EMPLOYEES' STATE INSURANCE ACT 1948 (ESI), AND PAYMENT OF GRATUITY ACT 1972
+
+These three laws are core labour welfare laws protecting employees in India.
+
+============================
+EMPLOYEES' PROVIDENT FUND (EPF)
+============================
+
+APPLICABILITY: Applies to establishments with 20 or more employees.
+
+CONTRIBUTION RATES:
+- Employee contributes: 12% of basic salary + dearness allowance
+- Employer contributes: 12% of basic salary (3.67% goes to EPF, 8.33% goes to EPS — Employee Pension Scheme)
+- Maximum salary cap for mandatory EPF: No ceiling (since 2014 amendment); employees above Rs. 15,000/month basic salary can opt out.
+
+YOUR EPF RIGHTS:
+1. Employer MUST deduct and deposit EPF every month before the 15th of next month
+2. Employee can check their EPF balance on EPFO portal (epfindia.gov.in) or UMANG app using UAN (Universal Account Number)
+3. EPF account is portable — UAN remains same even if you change jobs
+4. Employer must activate your UAN and link it to your Aadhaar
+
+WITHDRAWAL RULES:
+- Full withdrawal: After 2 months of unemployment (reduced from earlier 1 year)
+- Partial withdrawal (advance): Allowed for marriage (50%), education, medical, home purchase/construction/renovation, disability
+- After retirement (58 years): Full withdrawal with pension
+- Death: Nominee gets full EPF + EPS + EDLI insurance (up to Rs. 7 lakh)
+
+EPF PENSION (EPS):
+- After 10 years of service, entitled to monthly pension from EPFO
+- Minimum pension: Rs. 1,000/month
+- Pension starts at age 58 (early pension at 50 with reduced amount)
+
+IF EMPLOYER DOES NOT DEPOSIT EPF:
+This is a criminal offence under Section 14 EPF Act — imprisonment up to 3 years and fine.
+1. File complaint online at epfindia.gov.in or call helpline 1800-118-005
+2. File complaint with Regional Provident Fund Commissioner (RPFC)
+3. RPFC can attach employer's property and auction to recover dues
+4. Employee continues to earn interest even if employer doesn't deposit
+
+FORM 31 (Advance), FORM 19 (Final Settlement), FORM 10C (Pension), FORM 10D (Monthly Pension) — claim online via UAN portal.
+
+============================
+EMPLOYEES' STATE INSURANCE (ESI)
+============================
+
+APPLICABILITY: Establishments with 10 or more employees (some states: 20) where employees earn up to Rs. 21,000/month (Rs. 25,000 for disabled persons).
+
+CONTRIBUTION:
+- Employee: 0.75% of wages
+- Employer: 3.25% of wages
+
+ESI BENEFITS — YOUR RIGHTS:
+1. Medical Benefit: Free medical treatment for employee AND family (spouse, children, parents) at ESI hospitals and dispensaries — no limit
+2. Sickness Benefit: 70% of daily wages for up to 91 days per year during certified illness
+3. Extended Sickness Benefit: For 34 specified long-term diseases (TB, cancer, etc.) — up to 2 years at 80% of wages
+4. Maternity Benefit: Full wages for 26 weeks maternity leave (employees registered under ESI)
+5. Disablement Benefit: Permanent partial/total disablement due to employment injury — monthly pension for life
+6. Dependants' Benefit: Monthly pension to dependants (widow, children) of deceased employee
+7. Funeral Expenses: Rs. 15,000 to family on death of insured person
+8. Unemployment Allowance (RGSKKY): Under Rajiv Gandhi Shramik Kalyan Yojana, up to 24 months cash relief if retrenched/laid off
+
+IF EMPLOYER DOESN'T REGISTER OR CONTRIBUTE:
+File complaint with Regional Director, ESIC (Employee State Insurance Corporation).
+ESIC can recover as arrears of land revenue. Employer faces prosecution.
+Helpline: 1800-11-2526
+
+============================
+PAYMENT OF GRATUITY ACT 1972
+============================
+
+APPLICABILITY: Establishments with 10 or more employees. Once applicable, remains applicable even if below 10 employees later.
+
+ELIGIBILITY: Every employee who has worked for MINIMUM 5 CONTINUOUS YEARS (except in case of death or disablement, where gratuity is paid regardless of years served).
+
+CALCULATION:
+Gratuity = (Last drawn basic salary + DA) × 15/26 × Number of years of service
+- 15 days salary per completed year of service
+- 26 is the number of working days per month
+- Fraction of year more than 6 months is rounded up to full year
+- Maximum gratuity: Rs. 20 lakh (for private sector; no cap for government employees)
+
+WHEN IS GRATUITY PAID?
+- On superannuation (retirement)
+- On resignation after 5 years
+- On death (paid to nominee/legal heir — no 5-year requirement)
+- On disablement (no 5-year requirement)
+- On termination after 5 years
+
+PAYMENT TIMELINE: Gratuity must be paid within 30 days of it becoming due.
+If delayed: Simple interest at rate notified by government from the due date.
+
+DISPUTE RESOLUTION:
+1. File application to Controlling Authority (Labour Commissioner) under Section 7(4) within 60 days
+2. Controlling Authority summons employer and passes award
+3. Appeal to Appellate Authority (District Judge) within 60 days
+4. Further appeal to High Court
+
+TAX TREATMENT:
+Gratuity received from government: Fully exempt from tax
+Private sector: Exempt up to Rs. 20 lakh
+
+FORFEITURE OF GRATUITY: Employer can forfeit (wholly or partially) gratuity only if employee is terminated for:
+- Moral turpitude or wilful omission causing damage/loss (up to extent of damage)
+- Violence, disorderly conduct
+
+NOMINATION: Employee must submit Form F (nomination) to employer to nominate beneficiary for gratuity in case of death.

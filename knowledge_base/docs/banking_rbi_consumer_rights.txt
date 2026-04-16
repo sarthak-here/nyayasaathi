@@ -1,0 +1,108 @@
+BANKING CONSUMER RIGHTS IN INDIA
+(Banking Regulation Act 1949, RBI Guidelines, Banking Ombudsman Scheme 2021)
+
+============================
+YOUR RIGHTS AS A BANK CUSTOMER
+============================
+
+BASIC SAVINGS BANK ACCOUNT (BSBA) / JAN DHAN:
+Every individual is entitled to a Basic Savings Bank Deposit (BSBD) account at any bank branch.
+BSBD Account features:
+- No minimum balance requirement
+- 4 withdrawals per month (ATM + branch combined) — free
+- No charges for not maintaining minimum balance
+- Debit card (RuPay) provided free
+Banks CANNOT refuse to open a BSBD account for an eligible person.
+
+MINIMUM BALANCE CHARGES:
+If your account requires a minimum balance (non-BSBD account):
+- Charges must be notified in advance (at least 30 days notice before levying new/revised charges)
+- Charges must be proportionate — if balance is 25% below minimum, charge cannot be levied on full minimum
+- Banks cannot arbitrarily levy charges for SMS, cheque book, ATM card — must be disclosed upfront
+
+FREE SERVICES (RBI Mandated):
+- Cash deposits at any branch: No charge up to certain limit
+- NEFT and RTGS transactions: No charge (since January 2020 — bank cannot charge)
+- Savings account maintenance: Up to 5 free transactions per month at own bank ATM; 3 free at other bank ATMs in metro, 5 in non-metro (beyond which Rs. 21 per transaction is the cap)
+
+LOAN RIGHTS:
+- Right to know reason for rejection of loan application
+- Right to receive a written sanction letter with terms and conditions before accepting loan
+- Right to pre-payment of loan without penalty (floating rate loans under RBI guidelines — no prepayment penalty for individuals)
+- Right to a copy of all loan documents (loan agreement, hypothecation deed, mortgage deed)
+- Right to receive NOC and release of all original property documents within 30 days of full loan repayment
+- Limitation to recover loan: 3 years from date of default (Limitation Act) — but bank can still invoke SARFAESI
+
+SARFAESI ACT (SECURITIZATION AND RECONSTRUCTION OF FINANCIAL ASSETS AND ENFORCEMENT OF SECURITY INTEREST ACT 2002):
+Banks can seize and auction property without going to court for defaults.
+Your rights under SARFAESI:
+- Must receive 60-day demand notice before action
+- Right to make representation within 30 days of demand notice
+- Right to apply to Debts Recovery Tribunal (DRT) within 30 days of possession notice
+- Right to demand accounts statement from bank
+- Right to surplus sale proceeds after bank's dues
+
+CREDIT SCORE:
+You have the right to get 1 free credit report per year from each Credit Information Bureau (CIBIL, Experian, CRIF High Mark, Equifax).
+Dispute wrong entries on CIBIL: Contact CIBIL and file dispute online. Bank must respond within 30 days.
+
+DIGITAL BANKING FRAUD:
+If unauthorized transaction occurs in your account:
+- Report to bank IMMEDIATELY (same day ideally, within 3 days at most)
+- File complaint at cybercrime.gov.in and call 1930 (cyber crime helpline)
+Limited liability — RBI circular (Customer Protection):
+- Zero liability if: You report BEFORE the transaction is discovered or same day, AND it is the bank's fault (system breach, third-party breach without your negligence)
+- Maximum liability Rs. 5,000–Rs. 25,000 if: You report within 4–7 working days, depending on account type
+- Full liability on customer only if: Customer's negligence caused the fraud AND reported late (after 7 working days)
+BANKS CANNOT REFUSE LIABILITY if you have followed these guidelines. Bank must credit (shadow reversal) within 10 working days of reporting.
+
+BANK LOCKER:
+RBI Revised Guidelines (2022):
+- Banks must give locker agreement with terms; can't impose arbitrary charges
+- Bank's liability for loss of locker contents due to bank negligence/fire/theft: 100 times annual locker rent
+- Bank cannot link locker allotment to any product purchase (like FD) — it is illegal
+- Waiting list must be maintained transparently
+
+NOMINATION:
+Every bank account holder should nominate a nominee. Nominee receives the amount in the account on death of account holder. Banks must pay to nominee within 15 days of receiving death certificate + nomination documents.
+Without nomination: Legal heir certificate/succession certificate required (delays matter).
+
+============================
+BANKING OMBUDSMAN SCHEME 2021 (Now RBI Integrated Ombudsman Scheme 2021)
+============================
+
+Free complaint resolution for bank customers.
+
+COMPLAINTS ACCEPTED:
+- Non-payment or delay in payment of cheque, draft, bill
+- Non-acceptance of small coins without sufficient cause
+- Non-payment or delay in payment of remittance
+- Delay in credit of proceeds of cheque, bill
+- Internet banking / mobile banking issues
+- Debit / credit card complaints
+- Pre-payment penalty charged illegally
+- Failure to close account within 5 working days
+- Harassment or intimidation by recovery agents
+- Non-compliance with RBI fair practice code
+- Wrongful charges on accounts
+
+PROCESS:
+1. First: File complaint with bank's grievance cell (written).
+2. Wait 30 days. If not resolved or unsatisfied: File complaint with RBI Ombudsman.
+3. File online at cms.rbi.org.in or call 14448.
+4. Complaints are resolved typically within 30–45 days.
+5. Ombudsman award up to Rs. 20 lakh is binding on the bank.
+6. Compensation for harassment up to Rs. 1 lakh additionally.
+
+RECOVERY AGENT HARASSMENT:
+Banks/NBFCs use recovery agents. These agents CANNOT:
+- Harass you or your family members
+- Make false or misleading representations
+- Call before 8 AM or after 7 PM
+- Contact your employer or relatives without your consent (except for reference/verification)
+- Use intimidating or threatening language
+- Physically intimidate or harm
+If any of these occur: Complain to RBI Ombudsman; file police complaint under BNS for criminal intimidation.
+
+RBI REGULATIONS ON WILFUL DEFAULTERS:
+Large borrowers who deliberately don't repay despite ability are declared "wilful defaulters" and cannot get new bank loans from any bank in India. Their names are published.

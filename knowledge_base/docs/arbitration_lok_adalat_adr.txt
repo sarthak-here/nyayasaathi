@@ -1,0 +1,111 @@
+ARBITRATION, LOK ADALAT, MEDIATION — ALTERNATIVE DISPUTE RESOLUTION IN INDIA
+(Arbitration and Conciliation Act 1996, Legal Services Authorities Act 1987, Mediation Act 2023)
+
+============================
+LOK ADALAT — FREE AND FAST JUSTICE
+============================
+
+Lok Adalat (People's Court) is the most accessible form of alternative dispute resolution in India. It is FREE OF COST and has no court fees. Settlement reached is FINAL and BINDING like a court decree — and is NOT APPEALABLE.
+
+WHAT TYPES OF CASES CAN GO TO LOK ADALAT:
+- Motor accident compensation claims
+- Labour disputes
+- Disputes relating to public utility services (electricity, water, telephone)
+- Compoundable criminal offences (offences that can be settled between parties)
+- Matrimonial disputes (except divorce)
+- Land acquisition disputes
+- Cheque bounce cases (Section 138 NI Act)
+- Disputes in pre-litigation stage (before filing in court)
+- Bank loan recovery disputes
+- Consumer disputes
+
+IMPORTANT: Lok Adalat can settle cases BEFORE they reach court AND cases that are ALREADY pending in court.
+
+HOW TO APPROACH LOK ADALAT:
+1. Contact District Legal Services Authority (DLSA) in your district
+2. File application requesting referral to Lok Adalat
+3. Both parties must agree to go to Lok Adalat
+4. Lok Adalat members (retired judges, advocates, social workers) facilitate settlement
+5. If agreement is reached: Award passed. No appeal possible. Court fees refunded.
+6. If no agreement: Case goes back to court. No disadvantage.
+
+PERMANENT LOK ADALAT (for Public Utility Services):
+Handles disputes relating to electricity, water supply, transport, postal services, insurance, hospitals. Can pass an award even WITHOUT consent of both parties (unlike regular Lok Adalat) if matter is not about an offence.
+
+NATIONAL LOK ADALAT: Held periodically (usually monthly) at all court levels across India simultaneously. Large number of cases settled in a single day.
+
+BENEFITS OF LOK ADALAT:
+- No court fee (full refund of court fee if case referred from court)
+- No appeal — settlement is final
+- Quick resolution (same day in many cases)
+- Parties participate directly
+- Relationship-preserving (not adversarial)
+- Settlement is enforceable as a court decree
+
+============================
+MEDIATION ACT 2023
+============================
+
+India's first dedicated mediation law. Provides for court-annexed mediation and institutional mediation.
+
+PRE-LITIGATION MEDIATION (Section 5): Parties SHOULD try mediation before filing civil or commercial disputes in court. Not strictly mandatory but encouraged.
+
+WHO CAN MEDIATE: Registered mediators. Mediation Council of India to be established.
+
+MEDIATED SETTLEMENT AGREEMENT: Signed by parties + mediator. Enforceable as a court decree after registration.
+
+ONLINE MEDIATION: Allowed under Mediation Act 2023.
+
+WHAT CANNOT BE MEDIATED:
+- Criminal cases (except those that can be compounded)
+- Cases involving rights of third parties
+- Public interest matters
+- Cases where fraud is alleged
+
+CONFIDENTIALITY: Mediation proceedings are confidential. Statements made during mediation CANNOT be used as evidence in court.
+
+============================
+ARBITRATION AND CONCILIATION ACT 1996
+============================
+
+Arbitration is a private dispute resolution where parties agree to refer their dispute to an arbitrator (instead of a court). The arbitral award is enforceable like a court decree.
+
+ARBITRATION AGREEMENT: Must be in writing (in the contract or separately). Once agreed, parties cannot approach court (except for enforcement/challenge of award).
+
+ARBITRATOR: Agreed upon by parties. If no agreement: Appointment by Supreme Court/High Court designated institution or the institution specified in contract.
+
+DOMESTIC ARBITRATION (Part I):
+Arbitral award challenged within 3 months before court under Section 34 on limited grounds (patent illegality, public policy violation, fraud, corruption).
+
+INTERNATIONAL COMMERCIAL ARBITRATION:
+Award challenged under Section 48 (limited grounds — public policy violation mainly).
+Parties can choose foreign law and foreign seat of arbitration.
+
+INSTITUTIONAL ARBITRATION: Mumbai Centre for International Arbitration (MCIA), Indian Council of Arbitration (ICA), Delhi International Arbitration Centre (DIAC), and international bodies (ICC, SIAC, LCIA) are commonly used.
+
+FAST TRACK ARBITRATION (Section 29B): For disputes below Rs. 1 crore. Single arbitrator. Award in 6 months. Documents-only process (no oral hearings).
+
+EMERGENCY ARBITRATION: Some institutions allow emergency arbitrator to pass urgent orders before full tribunal is constituted.
+
+ENFORCEMENT OF FOREIGN AWARD:
+Awards from countries under New York Convention (most countries including UK, USA, Singapore, UAE) are enforceable in India as a decree.
+
+============================
+CONCILIATION
+============================
+
+Conciliation involves a third-party (conciliator) facilitating resolution but not imposing a solution. Less formal than arbitration. Settlement agreement signed by parties is binding.
+Useful for commercial disputes where parties want to preserve their business relationship.
+
+============================
+CONSUMER DISPUTE RESOLUTION (CONSUMER PROTECTION ACT 2019)
+============================
+
+Mediation in Consumer Disputes:
+Consumer commissions can refer cases to mediation. If mediated settlement reached: Commission confirms it as order.
+If mediation fails: Commission proceeds with adjudication.
+
+Online Dispute Resolution (ODR) for e-commerce complaints: Emerging framework under e-commerce rules.
+
+GRAM NYAYALAYA (Village Courts):
+Gram Nyayalayas Act 2008: Mobile courts at the grass-root level for civil and criminal cases of villages. Presided over by Nyayadhikari (First Class Judicial Magistrate). Approach for quick resolution of local disputes.

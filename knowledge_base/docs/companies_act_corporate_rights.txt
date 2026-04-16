@@ -1,0 +1,115 @@
+COMPANIES ACT 2013 — SHAREHOLDER RIGHTS, DIRECTOR DUTIES, AND CORPORATE COMPLAINTS
+
+============================
+TYPES OF COMPANIES
+============================
+
+Private Limited Company: 2–200 shareholders, cannot invite public to subscribe shares, name ends with "Private Limited."
+Public Limited Company: Minimum 7 shareholders, can invite public, listed on stock exchange, name ends with "Limited."
+One Person Company (OPC): Single owner company — minimum 1 director, 1 shareholder (same person).
+Limited Liability Partnership (LLP): Hybrid of company and partnership. Partners have limited liability.
+
+============================
+SHAREHOLDER RIGHTS (Companies Act 2013)
+============================
+
+ANNUAL GENERAL MEETING (AGM):
+Every company must hold AGM within 6 months of financial year end (by September 30 for companies with March 31 year-end).
+You have the right to attend AGM, vote on resolutions, and receive notice 21 days in advance.
+AGM can be attended through video conferencing (post-COVID norm made permanent).
+
+RIGHT TO VOTE:
+Every shareholder has the right to vote — one vote per share (equity). This is a fundamental right.
+Postal ballot: For certain special resolutions, voting is through postal ballot / e-voting.
+Proxy: You can appoint any person as your proxy to attend and vote at a general meeting.
+
+DIVIDEND:
+Once declared, dividend must be paid within 30 days. If unpaid for 7 years, dividend goes to Investor Education and Protection Fund (IEPF). You can still claim from IEPF.
+Interim dividend: Board can declare anytime.
+Companies cannot declare dividend if they have unpaid dividend for 2 or more years.
+
+INSPECTION OF REGISTERS:
+Every shareholder has the right to inspect (free of cost) at the registered office:
+- Register of Members (shareholders list)
+- Register of Directors
+- Minutes of General Meetings
+- Financial statements and Annual Report
+
+RIGHT TO INFORMATION:
+Company must send Annual Report, financial statements, auditor's report, and Board's report to every shareholder before AGM.
+Right to receive copy of memorandum and articles of association on request.
+
+MINORITY SHAREHOLDER PROTECTION:
+
+Section 241 — Oppression and Mismanagement:
+If the affairs of the company are being conducted in a manner prejudicial to public interest OR oppressive to any member(s), any shareholder holding at least 10% of shares (or 100 members) can file a petition before the National Company Law Tribunal (NCLT).
+NCLT can: Regulate conduct of company's affairs; purchase shares of minority by majority; remove directors; wind up the company.
+
+Class Action Suit (Section 245):
+100 members or members holding 10% of shares can file class action against company/directors/auditors for:
+- Improper conduct of company affairs
+- Misleading statements in prospectus/financial statements
+- Declaration of dividend from reserves without profit
+
+NCLT (National Company Law Tribunal):
+Quasi-judicial body handling corporate disputes, insolvency, oppression and mismanagement, winding up. Located in 16 cities across India.
+
+============================
+DIRECTOR DUTIES AND LIABILITY
+============================
+
+Directors owe fiduciary duties to the company and its shareholders:
+- Act in good faith in the best interests of the company
+- Not to derive undue personal advantage
+- Not to be involved in situations where there is a conflict of interest
+- Disclose interest in any contract or arrangement
+
+INDEPENDENT DIRECTORS: Listed companies and certain large companies must have at least 1/3rd of board as independent directors (no pecuniary relationship with company).
+
+DIRECTOR DISQUALIFICATION (Section 164):
+A person cannot be director if:
+- Convicted of offence involving moral turpitude — 5 year disqualification
+- Order passed for winding up
+- Failed to pay calls on shares for 6 months
+- Director of a company that has failed to file financial statements or annual returns for 3 consecutive years
+- Director of a company that has failed to repay deposit, debenture, or dividend for 1 year
+
+PERSONAL LIABILITY OF DIRECTORS:
+Generally directors are not personally liable for company debts (limited liability).
+EXCEPTIONS: Directors can be personally liable for:
+- Fraudulent trading (business conducted with intent to defraud creditors)
+- Wrongful trading (continuing business when insolvent, knowing no reasonable prospect of avoiding insolvency)
+- Personal guarantees given to banks/lenders
+- Statutory dues not deposited (like TDS, EPF — directors are personally liable)
+
+============================
+INSOLVENCY AND BANKRUPTCY CODE 2016 (IBC)
+============================
+
+IBC provides for insolvency resolution of companies, LLPs, and individuals.
+
+CORPORATE INSOLVENCY RESOLUTION PROCESS (CIRP):
+A creditor (financial or operational) can initiate CIRP if company has defaulted on payment of Rs. 1 crore or more.
+File application before NCLT. Process must be completed in 180 days (extendable by 90 days with NCLT approval).
+
+RESOLUTION PLAN:
+Resolution Professional (RP) runs the company during CIRP. Committee of Creditors (CoC) approves a resolution plan (like a buyer/investor taking over and paying creditors).
+
+LIQUIDATION:
+If no resolution plan is approved, company goes into liquidation. Assets sold and proceeds distributed in order: Insolvency resolution costs > Secured creditors > Unsalary employee dues (24 months) > Unsecured creditors > Government dues > Preference shareholders > Equity shareholders.
+
+PERSONAL INSOLVENCY:
+Individuals and firms with defaults above Rs. 1,000 can file for insolvency. Process handled by Debt Recovery Tribunal (DRT).
+Fresh start process for individuals with income below Rs. 60,000/year and assets below Rs. 20,000 — can get debts of up to Rs. 35,000 discharged.
+
+============================
+WHERE TO COMPLAIN
+============================
+
+Company law violations:
+- Registrar of Companies (RoC) in your state — mca.gov.in
+- Ministry of Corporate Affairs (MCA) — mca.gov.in (Companies portal)
+- NCLT (National Company Law Tribunal) — www.nclt.gov.in
+- Serious Fraud Investigation Office (SFIO) — for large corporate frauds
+- Securities and Exchange Board of India (SEBI) — for listed company violations — sebi.gov.in
+- SEBI SCORES portal (scores.sebi.gov.in) — investor complaints against listed companies

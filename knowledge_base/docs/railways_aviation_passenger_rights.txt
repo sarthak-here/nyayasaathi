@@ -1,0 +1,101 @@
+RAILWAYS AND AVIATION PASSENGER RIGHTS IN INDIA
+(Railways Act 1989, Carriage by Air Act 1972, DGCA Regulations)
+
+============================
+RAILWAYS — PASSENGER RIGHTS
+============================
+
+TICKET AND BOOKING RIGHTS:
+Every passenger is entitled to a confirmed seat/berth ticket or waitlisted ticket that becomes confirmed on chart preparation. Tatkal quota: Book 1 day before journey with higher fare; confirmed.
+RAC (Reservation Against Cancellation): Entitled to sit (sharing berth with another RAC passenger). If other RAC passenger doesn't travel, get full berth.
+
+REFUND ON CANCELLATION:
+Confirmed ticket:
+- More than 48 hours before departure: Cancellation charge Rs. 60–180 (class-wise) or 25% of fare (whichever is higher, subject to min charges)
+- 12–48 hours before: 25% of fare (min charges apply)
+- Within 12 hours to up to 4 hours before: 50% of fare
+- After chart preparation (but before departure): Go to TDR (Ticket Deposit Receipt) — file within 30 minutes before departure, claim refund
+Waitlisted/RAC ticket: Automatic refund minus clerkage (small fee) if not confirmed; no refund after charting if waitlisted.
+
+TDR (Ticket Deposit Receipt): File TDR for:
+- Train cancelled
+- Train running more than 3 hours late and you don't want to travel
+- Train not running to scheduled destination
+- Accommodation not provided to which entitled
+- Passenger fell ill during journey (partial refund)
+TDR can be filed online on IRCTC up to 72 hours after scheduled departure.
+
+TRAIN RUNNING LATE COMPENSATION:
+If train is late by 3 hours or more, passengers can file TDR for refund of full fare (if they choose not to board/complete journey). No automatic financial compensation for delay, but TDR refund is your right.
+
+LUGGAGE RIGHTS:
+Free luggage allowance (in compartment): Sleeper 40kg, AC 3-tier 40kg, AC 2-tier 50kg, AC First Class 70kg.
+Excess luggage: Must be booked as luggage; charged per kg.
+If luggage is lost or damaged: File claim with Chief Commercial Manager of Railway zone within 6 months.
+
+FOOD AND WATER:
+Indian Railways must provide clean drinking water at all stations.
+Food sold on trains and platforms: Must be priced as per Railway Board schedule; overcharging is an offence.
+Complain if overcharged: Call Rail Madad helpline 139 or RailMadad app.
+
+CLEANLINESS AND COACH CONDITION:
+File complaint for dirty coaches, non-working toilets, no water: Rail Madad app/139.
+
+HARASSMENT BY RAILWAY STAFF:
+File complaint with Station Master → Divisional Railway Manager → Zonal Railway Headquarters.
+RPF (Railway Protection Force) handles safety and security.
+GRP (Government Railway Police) handles law and order / criminal offences.
+
+RIGHTS OF SENIOR CITIZENS:
+- Lower berths reserved for senior citizens (60+ years) and women above 45 years in Sleeper, 3AC, 2AC
+- 40% concession for senior citizens (male 60+, female 58+) in all train classes
+
+RIGHTS OF DISABLED PASSENGERS:
+- 2 berths reserved in Sleeper and AC 3-tier for disabled persons in every train
+- 75% concession for blind, deaf-mute, orthopaedically disabled persons
+- Escort (attendant) also gets concession
+
+COMPENSATION FOR ACCIDENT:
+If you are injured in a railway accident (collision, derailment), you are entitled to compensation WITHOUT PROVING NEGLIGENCE under Railways Act Section 124 and Railway Accidents and Untoward Incidents (Compensation) Rules 1990.
+- Death: Rs. 8 lakh (enhanced from time to time)
+- Permanent disability: Up to Rs. 8 lakh
+- Grievous hurt: Up to Rs. 8 lakh (proportionate)
+Claim filed before Railway Claims Tribunal (RCT) within 1 year.
+
+Suicide, trespass on railway track: Not covered under no-fault liability.
+
+============================
+AVIATION — PASSENGER RIGHTS
+============================
+
+GOVERNED BY: Carriage by Air Act 1972 (Montreal Convention) and DGCA (Directorate General of Civil Aviation) Circular.
+
+DELAY RIGHTS (DGCA Circular on Denied Boarding, Cancellation, Delay):
+
+Flight Delay (within India):
+- 2 hours or more delay: Meal voucher/refreshments, alternate flight / refund
+- 4–6 hours delay: Snacks and meals
+- 6–24 hours (domestic): Either full refund OR alternate flight on same route + free hotel stay (for departures between 8 PM and 3 AM)
+- 24+ hours delay: Full refund
+
+Flight Cancellation:
+- If airline cancels with less than 2 weeks notice: Full refund OR alternate flight
+- If cancellation is informed 2 weeks or more before: No compensation, but alternate flight or refund
+
+Denied Boarding (Overbooking):
+If you are denied boarding INVOLUNTARILY (airline's fault):
+- For alternate flight arriving within 1 hour: 200% of basic fare (max Rs. 10,000)
+- Within 1–4 hours: 400% of basic fare (max Rs. 20,000)
+- After 4+ hours: 400% of basic fare (no cap for international)
++ Full refund of unused ticket
+
+LOST OR DAMAGED BAGGAGE:
+Montreal Convention limits:
+Domestic: Rs. 350/kg for checked baggage (or actual value if declared)
+International: Up to SDR 1,288 (approximately Rs. 1.35 lakh) per passenger for checked baggage
+Claim immediately at airport; file Property Irregularity Report (PIR).
+
+WHERE TO COMPLAIN:
+Airlines: First to airline's grievance cell.
+DGCA: Complaint through Air Sewa portal (airsewa.gov.in) or call 1800-11-1311 (toll free).
+Consumer Forum: For deficiency of service + compensation.

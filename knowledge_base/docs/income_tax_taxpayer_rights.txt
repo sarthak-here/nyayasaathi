@@ -1,0 +1,81 @@
+INCOME TAX ACT 1961 — TAXPAYER RIGHTS AND REMEDIES
+
+THE TAXPAYER'S CHARTER (Adopted 2020):
+The Income Tax Department has adopted a Taxpayer's Charter that gives every taxpayer the following rights:
+1. Right to be treated with fairness, courtesy, and respect
+2. Right to expect competency of tax officials
+3. Right to receive timely decisions
+4. Right to privacy and confidentiality
+5. Right to appeal against decisions
+6. Right to certainty
+7. Right to complete and accurate information
+8. Right to a fair and just tax system
+
+TAX SLABS (Assessment Year 2025-26, New Tax Regime — default):
+Income up to Rs. 3,00,000: Nil
+Rs. 3,00,001 to Rs. 7,00,000: 5%
+Rs. 7,00,001 to Rs. 10,00,000: 10%
+Rs. 10,00,001 to Rs. 12,00,000: 15%
+Rs. 12,00,001 to Rs. 15,00,000: 20%
+Above Rs. 15,00,000: 30%
+Rebate under Section 87A: No tax if total income up to Rs. 7 lakh (new regime).
+
+OLD TAX REGIME (Optional):
+Up to Rs. 2.5 lakh: Nil; Up to Rs. 5 lakh: 5%; Up to Rs. 10 lakh: 20%; Above Rs. 10 lakh: 30%.
+Old regime allows deductions: Section 80C (up to Rs. 1.5 lakh), 80D (health insurance), HRA, LTA, home loan interest.
+
+FILING INCOME TAX RETURN (ITR):
+Deadline: July 31 of the assessment year (for non-audit cases).
+Belated return: Can be filed till December 31 with late fee Rs. 5,000 (Rs. 1,000 if income below Rs. 5 lakh).
+Forms: ITR-1 (Sahaj) for salaried with income up to Rs. 50 lakh; ITR-2 for capital gains; ITR-3 for business income; ITR-4 (Sugam) for presumptive business income.
+File online: incometax.gov.in
+
+TDS — TAX DEDUCTED AT SOURCE:
+Your employer, bank, or any payer must deduct TDS from payments above threshold and deposit it with government.
+View your TDS on Form 26AS (available on income tax portal) and Annual Information Statement (AIS).
+If excess TDS deducted: Claim refund in ITR.
+
+NOTICE FROM INCOME TAX DEPARTMENT — YOUR RIGHTS:
+Section 143(1): Intimation for income/deduction mismatch. Can be corrected online.
+Section 143(2): Scrutiny notice — department wants to examine your return in detail. Respond within time specified.
+Section 148: Notice for income escaping assessment (income you didn't disclose). Respond within 30 days.
+Section 156: Demand notice — tax due. You can pay or appeal.
+
+ALWAYS RESPOND TO NOTICES within due date. Ignoring notices can lead to ex-parte assessment (tax assessed without your input) and penalties.
+
+RIGHT TO APPEAL:
+If you disagree with assessment:
+1. Commissioner of Income Tax (Appeals) [CIT(A)]: File within 30 days of service of order. File online on e-filing portal.
+2. Income Tax Appellate Tribunal (ITAT): Second appeal within 60 days of CIT(A) order. No court fee.
+3. High Court: On substantial question of law only.
+4. Supreme Court: Final appeal.
+
+DISPUTE RESOLUTION SCHEME:
+- Vivad se Vishwas Scheme (2024): Settle pending tax disputes by paying disputed tax (no penalty/interest in many cases). Check current scheme status.
+
+PENALTIES:
+Section 234F: Late filing of ITR — Rs. 1,000 (income below Rs. 5 lakh) or Rs. 5,000.
+Section 271(1)(c): Concealment of income — 100% to 300% of tax evaded.
+Section 276C: Wilful attempt to evade tax — imprisonment 3 months to 7 years.
+Section 270A: Under-reporting income — 50% penalty; mis-reporting — 200% penalty.
+
+TAN (Tax Deduction Account Number):
+Every entity deducting TDS must have TAN. File complaint on incometaxindiaefiling.gov.in if employer not deducting/depositing TDS.
+
+PAN (Permanent Account Number):
+Mandatory for income above Rs. 2.5 lakh, bank accounts, property transactions, vehicles, foreign travel. Apply online at NSDL/UTIITSL. Lost PAN: Apply for duplicate.
+
+REFUND:
+If ITR shows refund, it is credited to bank account linked to PAN within 20-45 days of ITR processing. Check status on incometax.gov.in. If delayed beyond 3 months: Claim interest at 6% per annum under Section 244A.
+
+INCOME TAX OMBUDSMAN:
+Grievances against tax department officials: Complain to Principal Commissioner of Income Tax or on e-filing portal. Ombudsman scheme available in major cities.
+
+FORM 16 / FORM 16A:
+Employer MUST provide Form 16 (TDS certificate for salary) by June 15 each year. If employer doesn't provide, file complaint with jurisdictional tax officer. Form 16A: TDS certificate for non-salary payments.
+
+SECTION 80C DEDUCTIONS (Old Regime):
+Up to Rs. 1.5 lakh deduction for: PPF, EPF, Life insurance premium, ELSS (mutual funds), NSC, 5-year bank FD, home loan principal repayment, SSY (Sukanya Samriddhi Yojana), tuition fees.
+Section 80D: Health insurance premium up to Rs. 25,000 (Rs. 50,000 for senior citizens).
+Section 24(b): Home loan interest up to Rs. 2 lakh deduction (self-occupied property).
+Section 80G: Donations to approved charitable institutions — 50% or 100% deduction.

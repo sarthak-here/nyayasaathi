@@ -1,0 +1,97 @@
+TRANSFER OF PROPERTY ACT 1882 AND REGISTRATION ACT 1908 — PROPERTY TRANSACTIONS
+
+============================
+TRANSFER OF PROPERTY ACT 1882
+============================
+
+SALE OF PROPERTY:
+A "Sale" is the transfer of ownership in exchange for a price. For immovable property worth Rs. 100 or more: Sale must be by registered sale deed (Section 54 TPA). Unregistered sale deed of immovable property is not valid in law.
+
+AGREEMENT TO SELL:
+A contract to sell property in future on certain terms. Buyer can sue for specific performance if seller backs out (Specific Relief Act 1963 — Section 10). Compulsory registration of Agreement to Sell above certain amounts — varies by state.
+Stamp duty must be paid on Agreement to Sell (varies by state, typically 1-5% of market value or actual consideration whichever is higher).
+
+GIFT OF PROPERTY:
+A gift of immovable property must be in writing (Gift Deed), registered, and accepted by the donee. CANNOT be revoked (except in cases of fraud, undue influence, or specific conditions).
+Gift to a close relative (blood relation, spouse): Reduced stamp duty in many states.
+
+MORTGAGE:
+Security interest created on property for a loan.
+Types: Simple mortgage (no possession transfer), mortgage by deposit of title deeds (equitable mortgage — for bank loans by depositing original title documents), English mortgage, usufructuary mortgage.
+Mortgagor's right: Redeem the mortgage (pay back loan and get property back — no condition in deed can extinguish this right).
+Mortgagee's (lender) right: Foreclose or sell property if loan not repaid.
+
+LEASE:
+Transfer of right to enjoy property for a fixed time or in perpetuity, for consideration (rent).
+Lease above 11 months must be registered (otherwise treated as month-to-month tenancy).
+Most residential leases are done as 11-month Leave & Licence agreements (not leases) to avoid rent control protection for tenant.
+
+EASEMENTS:
+Right to use another's property (right of way, right to light and air). Easements by prescription (long use — 20 years) are recognized. Owner cannot block an easement right once acquired.
+
+============================
+REGISTRATION ACT 1908 — WHAT MUST BE REGISTERED
+============================
+
+COMPULSORY REGISTRATION (Section 17):
+These documents are VOID if not registered:
+- Sale deed for immovable property worth Rs. 100 or more
+- Gift deed for immovable property
+- Lease deed for more than 1 year
+- Documents creating rights, title or interest in immovable property
+
+OPTIONAL REGISTRATION (Section 18):
+These documents may be registered:
+- Wills (highly recommended for safety)
+- Agreement to sell
+- Lease below 1 year
+- Powers of Attorney
+
+PROCESS FOR REGISTRATION:
+1. Prepare the deed (sale deed, gift deed, etc.) on stamp paper (value as per stamp duty)
+2. Pay stamp duty (state government — varies 4-10% of market value/consideration)
+3. Appear before Sub-Registrar's office with both parties and 2 witnesses
+4. Present original document + ID proof of all parties
+5. Biometric verification (thumb impression, photo)
+6. Document registered and returned with seal
+
+STAMP DUTY:
+State subject — varies significantly. E.g., Maharashtra: 6% for men, 5% for women buyers. Karnataka: 5-6.5%. Delhi: 6% for men, 4% for women. Gujarat: 4.9%.
+Pay correct stamp duty — underpaid stamp duty can lead to document being impounded.
+Online stamp duty payment: Available in most states (e-GRAS, SHCIL, iGR, etc.)
+
+ENCUMBRANCE CERTIFICATE (EC):
+Certificate from Sub-Registrar showing all registered transactions on a property (mortgages, liens, transfers). Apply for EC for past 30 years before buying property. This shows if property has any existing charges.
+
+TITLE VERIFICATION:
+Before buying property:
+1. Check original title documents (chain of title going back 30 years)
+2. Obtain Encumbrance Certificate
+3. Check no court cases/litigation on the property (court records, High Court website)
+4. Check land revenue records (Pahani/Jamabandi/Record of Rights — RoR) for agricultural land
+5. Verify approved plan from local authority for buildings
+6. Verify RERA registration for under-construction projects
+
+============================
+PROPERTY DISPUTE REMEDIES
+============================
+
+FRAUDULENT SALE (Selling same property to multiple buyers):
+Criminal complaint under BNS (cheating) + civil suit for declaration of title.
+Section 420 BNS (cheating): Imprisonment up to 7 years.
+
+FORGED DOCUMENTS:
+If someone has sold your property using forged documents:
+1. File FIR immediately
+2. File caveat in Sub-Registrar's office
+3. File suit for declaration of title and cancellation of fraudulent deed in civil court
+
+CAVEAT:
+Anyone expecting property dispute can file a caveat in court so that no order is passed without hearing them. File at the relevant civil court.
+
+LIMITATION PERIOD:
+Suit for recovery of immovable property: 12 years from date of dispossession (Limitation Act 1963, Article 65).
+Suit for specific performance of sale agreement: 3 years from date fixed for performance or breach.
+
+PARTITION SUIT:
+Co-owners (heirs) can file a partition suit in civil court to divide jointly-held property. Court passes preliminary decree determining shares, then final decree directing division.
