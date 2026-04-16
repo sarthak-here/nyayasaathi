@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from dotenv import load_dotenv
 load_dotenv()
 
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse, FileResponse
@@ -27,10 +28,24 @@ from core.legal_agent import LegalAgent, extract_json
 from core.letter_generator import generate_letter_stream, generate_letter
 from core.pdf_export import export_to_pdf
 
+# Instantiate early so lifespan can reference it
+agent = LegalAgent()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Pre-warm the embedding model and ChromaDB at startup so first request is instant."""
+    print("[NyayaSaathi] Loading embedding model and ChromaDB... ", end="", flush=True)
+    agent._init_db()
+    print("ready.")
+    yield
+
+
 app = FastAPI(
     title="NyayaSaathi API",
     description="Free Legal Assistant for India — Powered by Gemma 4 (Offline)",
     version="1.0.0",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
@@ -39,8 +54,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-agent = LegalAgent()
 
 # ---------------------------------------------------------------------------
 # Request / Response models

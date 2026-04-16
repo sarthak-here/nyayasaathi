@@ -377,8 +377,35 @@
       display: flex; align-items: center; gap: 10px;
       padding: 14px; background: rgba(59,130,246,.08);
       border: 1px solid rgba(59,130,246,.2); border-radius: 10px;
-      color: var(--blue); font-size: .85rem; margin-bottom: 14px;
+      color: var(--blue); font-size: .85rem; margin-bottom: 10px;
     }
+    .stream-box {
+      background: var(--navy); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px 16px;
+      font-size: .8rem; font-family: 'Courier New', monospace;
+      color: var(--text-2); line-height: 1.6;
+      min-height: 80px; max-height: 220px; overflow-y: auto;
+      white-space: pre-wrap; word-break: break-word;
+      margin-bottom: 10px;
+    }
+    .stream-box .cursor {
+      display: inline-block; width: 8px; height: 14px;
+      background: var(--blue); margin-left: 2px; vertical-align: middle;
+      animation: blink .7s steps(1) infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    .phase-row {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .phase-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .phase-pill {
+      padding: 3px 10px; border-radius: 20px; font-size: .72rem; font-weight: 600;
+      background: var(--navy-3); border: 1px solid var(--border); color: var(--text-3);
+    }
+    .phase-pill.active { background: rgba(59,130,246,.15); border-color: var(--blue); color: var(--blue); }
+    .phase-pill.done   { background: rgba(16,185,129,.12); border-color: var(--green); color: var(--green); }
+    .elapsed { font-size: .72rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
 
     /* =========================================================
        RESULT DISPLAY
@@ -779,11 +806,19 @@
 
         <!-- Thinking state -->
         <div id="thinkingState" class="hidden">
+          <div class="phase-row">
+            <div class="phase-pills">
+              <span class="phase-pill" id="ph1">Retrieving laws</span>
+              <span class="phase-pill" id="ph2">Reading context</span>
+              <span class="phase-pill" id="ph3">Drafting analysis</span>
+            </div>
+            <span class="elapsed" id="elapsedTimer">0s</span>
+          </div>
           <div class="thinking-block">
             <div class="spinner"></div>
             <span id="thinkingText">Analyzing your situation...</span>
           </div>
-          <div id="streamPreview" style="font-size:.78rem;color:var(--text-3);font-family:monospace;max-height:100px;overflow:hidden;"></div>
+          <div class="stream-box" id="streamPreview"><span class="cursor"></span></div>
         </div>
 
         <!-- Result -->
@@ -811,8 +846,25 @@
 
           <div class="btn-row">
             <button class="btn btn-ghost" onclick="copyAnalysis()"><i class="fa fa-copy"></i> Copy</button>
-            <button class="btn btn-success" id="genLetterBtn" onclick="scrollToLetter()" style="display:none">
-              <i class="fa fa-file-lines"></i> Generate Letter
+          </div>
+
+          <!-- Next step CTA -->
+          <div id="nextStepBanner" style="
+            margin-top:18px; padding:16px 18px;
+            background: linear-gradient(135deg, rgba(16,185,129,.1), rgba(16,185,129,.05));
+            border: 1px solid rgba(16,185,129,.3); border-radius: 12px;
+            display:flex; align-items:center; justify-content:space-between; gap:12px;
+          ">
+            <div>
+              <div style="font-weight:700;font-size:.9rem;color:var(--green);margin-bottom:3px;">
+                <i class="fa fa-circle-check"></i> Analysis complete — next step
+              </div>
+              <div style="font-size:.78rem;color:var(--text-2);">
+                Generate a formal complaint letter ready to submit to authorities.
+              </div>
+            </div>
+            <button class="btn btn-success" onclick="scrollToLetter()" style="flex-shrink:0;white-space:nowrap;">
+              <i class="fa fa-file-signature"></i> Write My Letter &darr;
             </button>
           </div>
         </div>
@@ -997,6 +1049,8 @@ let currentAnalysis = null;
 let isRecording = false;
 let mediaRecorder = null;
 let audioChunks = [];
+let elapsedInterval = null;
+let elapsedStart = 0;
 
 /* =========================================================
    LEGAL CATEGORIES
@@ -1202,6 +1256,9 @@ async function analyzeCase() {
   btn.disabled = true;
   btn.innerHTML = '<div class="spinner"></div> Analyzing...';
 
+  startElapsed();
+  setPhase(1);
+
   try {
     const response = await fetch(`${API}/api/analyze/stream`, {
       method: 'POST',
@@ -1214,6 +1271,7 @@ async function analyzeCase() {
     const reader = response.body.getReader();
     const decoder = new TextDecoder();
     let buffer = '';
+    let tokenCount = 0;
 
     while (true) {
       const { done, value } = await reader.read();
@@ -1229,8 +1287,12 @@ async function analyzeCase() {
         try {
           const evt = JSON.parse(raw);
           if (evt.type === 'token') {
-            document.getElementById('streamPreview').textContent += evt.text;
+            tokenCount++;
+            if (tokenCount === 1) setPhase(2);
+            if (tokenCount === 10) setPhase(3);
+            appendStreamToken(evt.text);
           } else if (evt.type === 'result') {
+            stopElapsed();
             showResult(evt.data, situation);
           }
         } catch { /* ignore */ }
@@ -1248,6 +1310,7 @@ async function analyzeCase() {
       const data = await res.json();
       showResult(data, situation);
     } catch (err2) {
+      stopElapsed();
       showThinking('Backend not reachable. Please start the API server.', true);
       console.error(err2);
     }
@@ -1255,6 +1318,44 @@ async function analyzeCase() {
     btn.disabled = false;
     btn.innerHTML = '<i class="fa fa-magnifying-glass"></i> Analyze My Situation';
   }
+}
+
+/* =========================================================
+   STREAM TOKEN DISPLAY
+========================================================= */
+function appendStreamToken(text) {
+  const box = document.getElementById('streamPreview');
+  // Remove cursor, append text, re-add cursor
+  const cursor = box.querySelector('.cursor');
+  if (cursor) cursor.remove();
+  box.appendChild(document.createTextNode(text));
+  const cur = document.createElement('span');
+  cur.className = 'cursor';
+  box.appendChild(cur);
+  box.scrollTop = box.scrollHeight;
+}
+
+function setPhase(n) {
+  ['ph1','ph2','ph3'].forEach((id, i) => {
+    const el = document.getElementById(id);
+    el.className = 'phase-pill' + (i + 1 < n ? ' done' : i + 1 === n ? ' active' : '');
+  });
+}
+
+function startElapsed() {
+  elapsedStart = Date.now();
+  document.getElementById('elapsedTimer').textContent = '0s';
+  clearInterval(elapsedInterval);
+  elapsedInterval = setInterval(() => {
+    const s = Math.round((Date.now() - elapsedStart) / 1000);
+    document.getElementById('elapsedTimer').textContent = `${s}s`;
+  }, 1000);
+}
+
+function stopElapsed() {
+  clearInterval(elapsedInterval);
+  const s = Math.round((Date.now() - elapsedStart) / 1000);
+  document.getElementById('elapsedTimer').textContent = `Done in ${s}s`;
 }
 
 /* =========================================================
@@ -1291,13 +1392,8 @@ function showResult(data, situation) {
   ).join('');
 
   // Show/hide letter button
-  const canLetter = data.can_generate_letter;
-  document.getElementById('genLetterBtn').style.display = canLetter ? 'inline-flex' : 'none';
-
-  // Show letter section
-  if (canLetter) {
-    document.getElementById('letterSection').classList.add('visible');
-  }
+  // Always show the letter section after any successful analysis
+  document.getElementById('letterSection').classList.add('visible');
 
   // Hide thinking, show result
   document.getElementById('thinkingState').classList.add('hidden');
@@ -1320,7 +1416,8 @@ function showThinking(msg, isError = false) {
   document.getElementById('resultContent').classList.remove('visible');
   document.getElementById('thinkingState').classList.remove('hidden');
   document.getElementById('thinkingText').textContent = msg;
-  document.getElementById('streamPreview').textContent = '';
+  document.getElementById('streamPreview').innerHTML = '<span class="cursor"></span>';
+  setPhase(0);
   if (isError) {
     document.getElementById('thinkingText').style.color = 'var(--red)';
   } else {
@@ -1499,7 +1596,18 @@ function setProgress(active) {
    SCROLL TO LETTER
 ========================================================= */
 function scrollToLetter() {
-  document.getElementById('letterSection').scrollIntoView({ behavior: 'smooth' });
+  document.getElementById('letterSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // Pulse the name field so the user knows where to start
+  setTimeout(() => {
+    const nameField = document.getElementById('userName');
+    nameField.focus();
+    nameField.style.borderColor = 'var(--green)';
+    nameField.style.boxShadow = '0 0 0 3px rgba(16,185,129,.2)';
+    setTimeout(() => {
+      nameField.style.borderColor = '';
+      nameField.style.boxShadow = '';
+    }, 2000);
+  }, 600);
 }
 
 /* =========================================================
