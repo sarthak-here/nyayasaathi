@@ -8,7 +8,7 @@ NyayaSaathi is a **100% offline legal aid assistant** built for underserved Indi
 ## What It Does
 
 - **Understands your situation** in plain Hindi, English, or Hinglish
-- **Identifies applicable Indian laws** — RTI, Consumer Protection, Domestic Violence Act, SC/ST Atrocities Act, Payment of Wages Act, and more
+- **Identifies applicable Indian laws** — 500+ laws & provisions covering criminal law, labour rights, consumer protection, family law, property, cyber crimes, and more (see full list below)
 - **Explains your rights** in simple language anyone can understand
 - **Drafts formal complaint letters** ready to submit to authorities
 - **Exports to PDF** for immediate physical submission
@@ -74,7 +74,7 @@ Open `http://localhost:7860`
 ```
 nyayasaathi/
 ├── knowledge_base/
-│   ├── docs/                # 25+ Indian legal text files
+│   ├── docs/                # 500+ Indian laws & provisions across 63 legal domains
 │   └── build_kb.py          # Indexes docs into ChromaDB
 ├── core/
 │   ├── legal_agent.py       # RAG pipeline + Gemma 4 analysis
@@ -143,6 +143,100 @@ The FastAPI server exposes these endpoints (docs at `/docs`):
 | POST | `/api/letter/stream` | Complaint letter generation (streaming SSE) |
 | POST | `/api/pdf` | Export letter to PDF download |
 | POST | `/api/transcribe` | Voice-to-text via Whisper |
+
+---
+
+## Covered Legal Domains
+
+NyayaSaathi's knowledge base spans **500+ laws & provisions** across these domains:
+
+**Criminal Law (BNS/BNSS)**
+- BNS — Assault, Intimidation & Public Order
+- BNS — Crimes Against Women
+- BNS — Criminal Law (General)
+- BNS — Property Crimes & Fraud
+- BNSS — Criminal Procedure
+
+**Labour & Employment**
+- Payment of Wages Act
+- Industrial Disputes & Labour Rights
+- EPF, ESI & Gratuity
+- Maternity & Equal Remuneration
+- Bonded, Child & Forced Labour
+- Child Labour & Juvenile Justice
+- MGNREGA & Food Security
+
+**Consumer & Financial Rights**
+- Consumer Protection Act 2019
+- Banking & RBI Consumer Rights
+- Banking & Financial Fraud / UPI
+- Insurance Consumer Rights
+- Cheque Bounce & NI Act
+- GST & Indirect Tax Rights
+- Income Tax & Taxpayer Rights
+- SEBI & Investor Rights
+- PMLA & Money Laundering / Benami
+
+**Property & Housing**
+- RERA & Real Estate
+- Landlord-Tenant & Rent
+- Land Acquisition & Property Rights
+- Property Transfer & Registration
+
+**Family & Personal Law**
+- Family Law — Divorce & Maintenance
+- Domestic Violence Act 2005
+- Dowry Harassment & 498A
+- POCSO — Child Rights
+- Hindu Family Law
+- Muslim Personal Law
+- Special Marriage Act
+- Senior Citizen Rights
+
+**Civil Rights & Constitution**
+- Constitution & Fundamental Rights
+- RTI Act 2005
+- SC/ST Atrocities Act
+- OBC & Reservation Rights
+- Disability Rights (RPWD)
+- Right to Education
+- Right to Education — Higher Education
+
+**Cyber & Digital**
+- Cyber Crimes & IT Act
+- Digital Personal Data Protection
+- Defamation, Privacy & Media Law
+- Telecom Consumer Rights
+
+**Health & Safety**
+- POSH — Workplace Harassment
+- Medical Negligence & Patient Rights
+- Mental Health Act
+- Acid Attack & Stalking Laws
+- NDPS & Drug Laws
+
+**Infrastructure & Transport**
+- Motor Vehicles & Accidents
+- Railways & Aviation Passenger Rights
+- Electricity Consumer Rights
+
+**Environment & Food**
+- Environment Protection Laws
+- Food Safety & FSSAI
+- Food, Environment & Noise
+
+**Business & IP**
+- Companies Act & Corporate Rights
+- Intellectual Property, Trademark & Copyright
+- Arbitration, Lok Adalat & ADR
+
+**Other**
+- Corruption & Bribery
+- Lokpal & Anti-Corruption / Vigilance
+- Arms, Explosives & Self-Defence
+- Passport, Visa & Foreigners
+- Public Harassment & Criminal Intimidation
+- Legal Aid, Bail Rights & Accused Rights
 
 ---
 
