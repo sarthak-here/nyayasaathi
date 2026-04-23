@@ -1,4 +1,9 @@
 # NyayaSaathi — Your Free Legal Assistant
+> **[System Design](./systemdesign.md)** - Architecture, data flow, and how it works end-to-end
+
+---
+
+
 ### न्याय साथी — आपका मुफ्त कानूनी सहायक
 
 NyayaSaathi is a **100% offline legal aid assistant** built for underserved Indians who cannot afford legal counsel. Powered by **Gemma 4 via Ollama**, it runs entirely on your local machine — your data never leaves your device.
