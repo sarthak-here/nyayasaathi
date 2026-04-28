@@ -615,6 +615,150 @@
     /* =========================================================
        FOOTER
     ========================================================= */
+    /* =========================================================
+       LEGAL LIBRARY OVERLAY
+    ========================================================= */
+    .lib-overlay {
+      position: fixed; inset: 0; z-index: 400;
+      background: rgba(5,13,31,.96);
+      backdrop-filter: blur(8px);
+      display: none; flex-direction: column;
+      animation: libFadeIn .25s ease;
+    }
+    .lib-overlay.open { display: flex; }
+    @keyframes libFadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .lib-topbar {
+      display: flex; align-items: center; gap: 14px;
+      padding: 18px 28px; border-bottom: 1px solid var(--border);
+      background: var(--navy-2); flex-shrink: 0;
+    }
+    .lib-back {
+      background: var(--navy-3); border: 1px solid var(--border);
+      color: var(--text-2); padding: 8px 16px; border-radius: 8px;
+      cursor: pointer; font-size: .85rem; font-weight: 600;
+      display: flex; align-items: center; gap: 6px; transition: all .15s;
+      font-family: inherit;
+    }
+    .lib-back:hover { color: var(--text); border-color: var(--text-3); }
+    .lib-topbar h2 { font-size: 1.15rem; font-weight: 800; }
+    .lib-topbar .lib-cat-icon { font-size: 1.6rem; }
+
+    .lib-body {
+      flex: 1; overflow-y: auto;
+      display: grid; grid-template-columns: 300px 1fr;
+      gap: 0;
+    }
+    @media (max-width: 768px) { .lib-body { grid-template-columns: 1fr; } }
+
+    /* Left sidebar — law list */
+    .lib-sidebar {
+      border-right: 1px solid var(--border);
+      background: var(--navy-2); padding: 20px;
+      overflow-y: auto;
+    }
+    .lib-sidebar h4 { font-size: .75rem; color: var(--text-3); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; }
+    .lib-law-btn {
+      display: flex; align-items: center; gap: 10px;
+      width: 100%; text-align: left;
+      padding: 11px 14px; border-radius: 10px;
+      border: 1px solid transparent;
+      background: transparent; color: var(--text-2);
+      cursor: pointer; font-size: .85rem; font-family: inherit;
+      transition: all .15s; margin-bottom: 6px;
+    }
+    .lib-law-btn:hover { background: var(--card); border-color: var(--border); color: var(--text); }
+    .lib-law-btn.active { background: rgba(59,130,246,.1); border-color: var(--blue); color: var(--text); }
+    .lib-law-btn .lb-icon { font-size: 1rem; flex-shrink: 0; }
+    .lib-law-btn .lb-year { font-size: .7rem; color: var(--text-3); margin-left: auto; white-space: nowrap; }
+
+    /* Right content */
+    .lib-content { padding: 28px; overflow-y: auto; }
+
+    .lib-law-header {
+      display: flex; align-items: flex-start; gap: 14px; margin-bottom: 24px;
+    }
+    .lib-law-badge {
+      min-width: 50px; height: 50px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--blue-d), var(--blue));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; flex-shrink: 0;
+    }
+    .lib-law-title { font-size: 1.2rem; font-weight: 800; margin-bottom: 4px; }
+    .lib-law-subtitle { font-size: .82rem; color: var(--text-2); }
+
+    .lib-section-title {
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--saffron); font-weight: 700; margin: 22px 0 10px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .lib-section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    .lib-sections-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 10px; margin-bottom: 6px;
+    }
+    .lib-sec-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px 16px;
+      transition: border-color .15s;
+    }
+    .lib-sec-card:hover { border-color: var(--blue); }
+    .lib-sec-num { font-size: .72rem; color: var(--blue); font-weight: 700; margin-bottom: 4px; }
+    .lib-sec-name { font-size: .88rem; font-weight: 600; margin-bottom: 5px; }
+    .lib-sec-desc { font-size: .78rem; color: var(--text-2); line-height: 1.55; }
+    .lib-sec-penalty { font-size: .72rem; color: var(--red); margin-top: 6px; font-weight: 600; }
+
+    .lib-example {
+      background: var(--navy-2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 18px; margin-bottom: 12px;
+    }
+    .lib-example-q {
+      font-size: .88rem; font-weight: 600; color: var(--saffron-l);
+      margin-bottom: 10px; line-height: 1.5;
+    }
+    .lib-example-q::before { content: '"'; }
+    .lib-example-q::after  { content: '"'; }
+    .lib-example-steps { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .lib-example-step {
+      display: flex; align-items: flex-start; gap: 8px;
+      font-size: .8rem; color: var(--text-2); line-height: 1.5;
+    }
+    .lib-step-num {
+      min-width: 20px; height: 20px; border-radius: 50%;
+      background: var(--green-d); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .65rem; font-weight: 700; flex-shrink: 0; margin-top: 1px;
+    }
+    .lib-use-btn {
+      margin-top: 12px; display: inline-flex; align-items: center; gap: 6px;
+      padding: 7px 16px; border-radius: 8px;
+      background: rgba(16,185,129,.12); border: 1px solid rgba(16,185,129,.25);
+      color: var(--green); font-size: .8rem; font-weight: 600;
+      cursor: pointer; transition: all .15s; font-family: inherit;
+    }
+    .lib-use-btn:hover { background: rgba(16,185,129,.25); }
+
+    .lib-remedies { display: flex; flex-direction: column; gap: 8px; }
+    .lib-remedy {
+      display: flex; align-items: flex-start; gap: 10px;
+      padding: 10px 12px; background: var(--card);
+      border: 1px solid var(--border); border-radius: 8px; font-size: .82rem;
+    }
+    .lib-remedy-icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+    .lib-remedy-text { line-height: 1.5; color: var(--text-2); }
+    .lib-remedy-text strong { color: var(--text); }
+
+    .lib-helplines {
+      display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px;
+    }
+    .lib-helpline {
+      padding: 6px 14px; border-radius: 20px;
+      background: var(--navy-3); border: 1px solid var(--border);
+      font-size: .78rem; display: flex; align-items: center; gap: 6px;
+    }
+    .lib-helpline strong { color: var(--saffron); font-family: monospace; }
+
     footer {
       border-top: 1px solid var(--border); padding: 24px;
       text-align: center; color: var(--text-3); font-size: .78rem;
@@ -647,6 +791,181 @@
     .tag { font-size: .7rem; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
     .tag-green { background: rgba(16,185,129,.15); color: var(--green); }
     .tag-red   { background: rgba(239,68,68,.15); color: var(--red); }
+
+    /* =========================================================
+       PAGE TABS (Legal Aid / File ITR)
+    ========================================================= */
+    .nav-tabs { display: flex; gap: 4px; }
+    .nav-tab {
+      padding: 6px 16px; border-radius: 8px; font-size: .82rem; font-weight: 600;
+      border: 1px solid transparent; cursor: pointer; transition: all .2s;
+      background: transparent; color: var(--text-2);
+    }
+    .nav-tab:hover { background: rgba(255,255,255,.06); color: var(--text); }
+    .nav-tab.active { background: rgba(245,158,11,.15); color: var(--saffron); border-color: rgba(245,158,11,.3); }
+
+    /* =========================================================
+       ITR PAGE
+    ========================================================= */
+    .itr-hero {
+      padding: 56px 24px 36px; text-align: center; max-width: 800px; margin: 0 auto;
+    }
+    .itr-hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.2;
+      background: linear-gradient(135deg, #fff 30%, #34d399 80%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      margin-bottom: 10px;
+    }
+    .itr-hero p { color: var(--text-2); font-size: 1rem; max-width: 540px; margin: 0 auto 28px; }
+    .itr-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(52,211,153,.12); border: 1px solid rgba(52,211,153,.25);
+      color: #34d399; padding: 5px 14px; border-radius: 20px;
+      font-size: .78rem; font-weight: 600; margin-bottom: 20px;
+    }
+
+    .itr-panel { max-width: 1000px; margin: 0 auto; padding: 0 24px 60px; }
+
+    .itr-tabs { display: flex; gap: 8px; margin-bottom: 24px; }
+    .itr-tab-btn {
+      flex: 1; padding: 12px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text-2); cursor: pointer;
+      font-size: .85rem; font-weight: 600; transition: all .2s; text-align: center;
+    }
+    .itr-tab-btn:hover { border-color: var(--green); color: var(--text); }
+    .itr-tab-btn.active { background: rgba(52,211,153,.1); border-color: #34d399; color: #34d399; }
+
+    .itr-section { display: none; }
+    .itr-section.active { display: block; }
+
+    .itr-form-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;
+    }
+    @media (max-width: 600px) { .itr-form-grid { grid-template-columns: 1fr; } }
+
+    .itr-input-group label {
+      display: block; font-size: .8rem; font-weight: 600; color: var(--text-2);
+      margin-bottom: 6px;
+    }
+    .itr-input-group input, .itr-input-group select {
+      width: 100%; padding: 10px 14px; border-radius: 8px;
+      background: var(--navy-3); border: 1px solid var(--border);
+      color: var(--text); font-size: .9rem; outline: none; transition: border .2s;
+    }
+    .itr-input-group input:focus, .itr-input-group select:focus {
+      border-color: #34d399; box-shadow: 0 0 0 2px rgba(52,211,153,.15);
+    }
+    .itr-input-group .hint { font-size: .72rem; color: var(--text-3); margin-top: 4px; }
+    .rupee-prefix { position: relative; }
+    .rupee-prefix::before {
+      content: '₹'; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+      color: var(--text-3); font-size: .9rem;
+    }
+    .rupee-prefix input { padding-left: 28px; }
+
+    .itr-section-label {
+      font-size: .75rem; font-weight: 700; color: var(--saffron);
+      text-transform: uppercase; letter-spacing: .08em;
+      margin: 20px 0 12px; padding-bottom: 6px;
+      border-bottom: 1px solid rgba(245,158,11,.2);
+    }
+
+    .csv-drop {
+      border: 2px dashed var(--border); border-radius: 12px;
+      padding: 40px 24px; text-align: center; cursor: pointer;
+      transition: all .2s; background: var(--card);
+    }
+    .csv-drop:hover, .csv-drop.drag-over {
+      border-color: #34d399; background: rgba(52,211,153,.05);
+    }
+    .csv-drop .drop-icon { font-size: 2.5rem; margin-bottom: 12px; }
+    .csv-drop p { color: var(--text-2); font-size: .9rem; }
+    .csv-drop .drop-sub { font-size: .78rem; color: var(--text-3); margin-top: 6px; }
+    #csvFileInput { display: none; }
+
+    .csv-preview {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 16px; margin-top: 16px; max-height: 220px; overflow-y: auto;
+    }
+    .csv-preview-title { font-size: .8rem; font-weight: 600; margin-bottom: 10px; color: var(--text-2); }
+    .csv-row {
+      display: grid; grid-template-columns: 1.2fr 2.5fr 1fr; gap: 10px;
+      font-size: .78rem; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,.04);
+    }
+    .csv-row.header { color: var(--text-3); font-weight: 600; }
+    .csv-row .cr { color: var(--green); }
+
+    /* =========================================================
+       ITR RESULTS
+    ========================================================= */
+    .itr-results { display: none; margin-top: 28px; }
+    .itr-results.show { display: block; }
+
+    .itr-result-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;
+    }
+    @media (max-width: 700px) { .itr-result-grid { grid-template-columns: 1fr; } }
+
+    .itr-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 20px;
+    }
+    .itr-card.highlight-green { border-color: rgba(52,211,153,.4); background: rgba(52,211,153,.06); }
+    .itr-card.highlight-blue  { border-color: rgba(59,130,246,.4); background: rgba(59,130,246,.05); }
+    .itr-card-title { font-size: .75rem; font-weight: 600; color: var(--text-3); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px; }
+    .itr-card-value { font-size: 1.6rem; font-weight: 800; color: var(--text); }
+    .itr-card-sub   { font-size: .8rem; color: var(--text-2); margin-top: 6px; line-height: 1.5; }
+
+    .regime-compare {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      overflow: hidden; margin-bottom: 20px;
+    }
+    .regime-compare-header {
+      padding: 14px 20px; background: var(--card-2); border-bottom: 1px solid var(--border);
+      font-weight: 700; font-size: .9rem;
+    }
+    .regime-row {
+      display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 12px;
+      padding: 12px 20px; border-bottom: 1px solid rgba(255,255,255,.04);
+      font-size: .85rem;
+    }
+    .regime-row.header { font-size: .75rem; color: var(--text-3); font-weight: 600; }
+    .regime-row.best   { background: rgba(52,211,153,.06); }
+    .regime-val { font-weight: 700; }
+    .regime-val.green  { color: var(--green); }
+    .regime-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      background: rgba(52,211,153,.15); color: #34d399;
+      padding: 2px 8px; border-radius: 10px; font-size: .7rem; font-weight: 700;
+    }
+
+    .deductions-list { list-style: none; }
+    .deductions-list li {
+      display: flex; align-items: center; gap: 8px;
+      padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,.04);
+      font-size: .85rem; color: var(--text-2);
+    }
+    .deductions-list li:last-child { border-bottom: none; }
+    .deductions-list li i { color: var(--green); width: 16px; }
+
+    .guidance-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 20px; margin-bottom: 20px;
+    }
+    .guidance-box-title {
+      font-size: .85rem; font-weight: 700; margin-bottom: 14px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .guidance-content { font-size: .87rem; color: var(--text-2); line-height: 1.75; white-space: pre-wrap; }
+
+    .itr-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-green {
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: #fff; border: none; padding: 11px 24px;
+      border-radius: 10px; font-size: .88rem; font-weight: 700; cursor: pointer;
+      transition: all .2s; display: flex; align-items: center; gap: 8px;
+    }
+    .btn-green:hover { opacity: .9; transform: translateY(-1px); }
   </style>
 </head>
 <body>
@@ -669,6 +988,10 @@
         <span class="brand-hi">न्याय साथी</span>
       </div>
     </a>
+    <div class="nav-tabs">
+      <button class="nav-tab active" id="tabLegal" onclick="switchPage('legal')">⚖️ Legal Aid</button>
+      <button class="nav-tab" id="tabITR" onclick="switchPage('itr')">📋 File ITR</button>
+    </div>
     <div class="nav-actions">
       <div class="status-dot" id="statusDot">
         <div class="dot" id="statusDotCircle"></div>
@@ -678,6 +1001,9 @@
       <button class="nav-pill emergency" onclick="openEmergency()"><i class="fa fa-phone-alt"></i> Emergency</button>
     </div>
   </nav>
+
+  <!-- ===== LEGAL AID PAGE ===== -->
+  <div id="legal-page">
 
   <!-- ===== LEGAL TIPS TICKER ===== -->
   <div class="ticker-bar">
@@ -968,6 +1294,271 @@
     </div>
   </footer>
 
+  </div><!-- /legal-page -->
+
+  <!-- ===== ITR FILING PAGE ===== -->
+  <div id="itr-page" style="display:none">
+
+    <section class="itr-hero">
+      <div class="itr-badge"><i class="fa fa-file-invoice"></i> Free · Offline · India AY 2025-26</div>
+      <h1>File Your Income Tax Return</h1>
+      <p>Upload your bank statement or enter income details. NyayaSaathi finds your best ITR form, compares Old vs New regime, and generates a step-by-step filing guide.</p>
+    </section>
+
+    <div class="itr-panel">
+
+      <!-- Input tabs -->
+      <div class="itr-tabs">
+        <button class="itr-tab-btn active" id="uploadTabBtn" onclick="switchItrTab('upload')">
+          <i class="fa fa-upload"></i> Upload Bank Statement
+        </button>
+        <button class="itr-tab-btn" id="manualTabBtn" onclick="switchItrTab('manual')">
+          <i class="fa fa-pen-to-square"></i> Enter Details Manually
+        </button>
+      </div>
+
+      <!-- Upload tab -->
+      <div class="itr-section active" id="uploadTab">
+        <div class="csv-drop" id="csvDrop" onclick="document.getElementById('csvFileInput').click()"
+             ondragover="itrDragOver(event)" ondragleave="itrDragLeave(event)" ondrop="itrDrop(event)">
+          <div class="drop-icon">📄</div>
+          <p>Drop your bank statement CSV here, or click to browse</p>
+          <div class="drop-sub">Supports SBI, HDFC, ICICI, Axis, Kotak and most Indian bank CSV exports</div>
+        </div>
+        <input type="file" id="csvFileInput" accept=".csv" onchange="parseBankCSV(this.files[0])">
+
+        <div class="csv-preview hidden" id="csvPreview">
+          <div class="csv-preview-title"><i class="fa fa-table" style="color:var(--green)"></i> Detected Credit Entries</div>
+          <div id="csvRows"></div>
+          <div style="margin-top:12px;font-size:.8rem;color:var(--saffron)">
+            <i class="fa fa-circle-info"></i> Total annual credits from statement:
+            <strong id="csvTotalCredit">₹0</strong> — set below as your income type.
+          </div>
+        </div>
+
+        <div class="itr-section-label" style="margin-top:24px">Classify Your Income (from bank statement)</div>
+        <div class="itr-form-grid">
+          <div class="itr-input-group">
+            <label>Salary / Pension Income</label>
+            <div class="rupee-prefix"><input type="number" id="up_salary" placeholder="0" min="0"></div>
+          </div>
+          <div class="itr-input-group">
+            <label>Business / Freelance Income</label>
+            <div class="rupee-prefix"><input type="number" id="up_business" placeholder="0" min="0"></div>
+          </div>
+          <div class="itr-input-group">
+            <label>Capital Gains (stocks / property)</label>
+            <div class="rupee-prefix"><input type="number" id="up_capgains" placeholder="0" min="0"></div>
+          </div>
+          <div class="itr-input-group">
+            <label>Other Income (interest / rent / etc.)</label>
+            <div class="rupee-prefix"><input type="number" id="up_other" placeholder="0" min="0"></div>
+          </div>
+        </div>
+        <div class="itr-section-label">Your Details</div>
+        <div class="itr-form-grid">
+          <div class="itr-input-group">
+            <label>Full Name</label>
+            <input type="text" id="up_name" placeholder="As on PAN card">
+          </div>
+          <div class="itr-input-group">
+            <label>PAN Number <span style="color:var(--text-3)">(optional)</span></label>
+            <input type="text" id="up_pan" placeholder="ABCDE1234F" maxlength="10" style="text-transform:uppercase">
+          </div>
+        </div>
+        <button class="btn btn-green btn-full" style="width:100%;justify-content:center;margin-top:8px" onclick="analyzeITR('upload')">
+          <i class="fa fa-calculator"></i> Analyze & Find Best ITR
+        </button>
+      </div>
+
+      <!-- Manual entry tab -->
+      <div class="itr-section" id="manualTab">
+        <div class="itr-section-label">Income Sources (Annual)</div>
+        <div class="itr-form-grid">
+          <div class="itr-input-group">
+            <label>Salary / Pension</label>
+            <div class="rupee-prefix"><input type="number" id="mn_salary" placeholder="0" min="0"></div>
+            <div class="hint">As per Form 16 / Payslips</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Business / Professional Income</label>
+            <div class="rupee-prefix"><input type="number" id="mn_business" placeholder="0" min="0"></div>
+          </div>
+          <div class="itr-input-group">
+            <label>Capital Gains</label>
+            <div class="rupee-prefix"><input type="number" id="mn_capgains" placeholder="0" min="0"></div>
+            <div class="hint">Shares, mutual funds, property sale</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Other Income</label>
+            <div class="rupee-prefix"><input type="number" id="mn_other" placeholder="0" min="0"></div>
+            <div class="hint">Interest, rent, dividends, etc.</div>
+          </div>
+        </div>
+
+        <div class="itr-section-label">Deductions (Old Regime)</div>
+        <div class="itr-form-grid">
+          <div class="itr-input-group">
+            <label>Section 80C (max ₹1.5L)</label>
+            <div class="rupee-prefix"><input type="number" id="mn_80c" placeholder="0" min="0" max="150000"></div>
+            <div class="hint">PPF, ELSS, LIC, EPF, NSC, FD, tuition</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Section 80D — Health Insurance (max ₹50K)</label>
+            <div class="rupee-prefix"><input type="number" id="mn_80d" placeholder="0" min="0" max="50000"></div>
+          </div>
+          <div class="itr-input-group">
+            <label>HRA Exemption</label>
+            <div class="rupee-prefix"><input type="number" id="mn_hra" placeholder="0" min="0"></div>
+            <div class="hint">House Rent Allowance (salaried only)</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Home Loan Interest — Sec 24(b) (max ₹2L)</label>
+            <div class="rupee-prefix"><input type="number" id="mn_hl" placeholder="0" min="0" max="200000"></div>
+          </div>
+        </div>
+
+        <div class="itr-section-label">Additional Details</div>
+        <div class="itr-form-grid">
+          <div class="itr-input-group">
+            <label>Full Name</label>
+            <input type="text" id="mn_name" placeholder="As on PAN card">
+          </div>
+          <div class="itr-input-group">
+            <label>PAN <span style="color:var(--text-3)">(optional)</span></label>
+            <input type="text" id="mn_pan" placeholder="ABCDE1234F" maxlength="10" style="text-transform:uppercase">
+          </div>
+          <div class="itr-input-group">
+            <label>House Properties Owned</label>
+            <select id="mn_houses">
+              <option value="1">1 — Self Occupied</option>
+              <option value="2">2 or more</option>
+            </select>
+          </div>
+          <div class="itr-input-group">
+            <label>Business Type</label>
+            <select id="mn_biztype">
+              <option value="none">No business income</option>
+              <option value="presumptive">Presumptive (Sec 44AD/44ADA)</option>
+              <option value="regular">Regular books of accounts</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="btn btn-green btn-full" style="width:100%;justify-content:center;margin-top:8px" onclick="analyzeITR('manual')">
+          <i class="fa fa-calculator"></i> Analyze & Find Best ITR
+        </button>
+      </div>
+
+      <!-- Loading state -->
+      <div id="itrLoading" class="hidden" style="padding:32px;text-align:center">
+        <div class="thinking-block" style="display:inline-flex">
+          <div class="spinner"></div>
+          <span>Calculating your tax and generating filing guide…</span>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="itr-results" id="itrResults">
+        <div class="divider"></div>
+        <div class="itr-section-label"><i class="fa fa-chart-bar"></i> Your ITR Analysis</div>
+
+        <div class="itr-result-grid">
+          <div class="itr-card highlight-green">
+            <div class="itr-card-title">Recommended ITR Form</div>
+            <div class="itr-card-value" id="resForm">—</div>
+            <div class="itr-card-sub" id="resFormReason"></div>
+          </div>
+          <div class="itr-card highlight-blue">
+            <div class="itr-card-title">Best Tax Regime</div>
+            <div class="itr-card-value" id="resRegime">—</div>
+            <div class="itr-card-sub" id="resRegimeSub"></div>
+          </div>
+          <div class="itr-card">
+            <div class="itr-card-title">Total Annual Income</div>
+            <div class="itr-card-value" id="resTotalIncome">—</div>
+            <div class="itr-card-sub">Gross before deductions</div>
+          </div>
+          <div class="itr-card">
+            <div class="itr-card-title">Tax Payable (Recommended Regime)</div>
+            <div class="itr-card-value" id="resTax">—</div>
+            <div class="itr-card-sub" id="resTaxNote"></div>
+          </div>
+        </div>
+
+        <!-- Regime comparison -->
+        <div class="regime-compare">
+          <div class="regime-compare-header"><i class="fa fa-scale-balanced" style="color:var(--saffron)"></i> Old Regime vs New Regime</div>
+          <div class="regime-row header">
+            <div>Detail</div><div>Old Regime</div><div>New Regime</div>
+          </div>
+          <div class="regime-row">
+            <div>Deductions Allowed</div>
+            <div class="regime-val" id="cmpOldDed">—</div>
+            <div class="regime-val" id="cmpNewDed">—</div>
+          </div>
+          <div class="regime-row">
+            <div>Taxable Income</div>
+            <div class="regime-val" id="cmpOldTaxable">—</div>
+            <div class="regime-val" id="cmpNewTaxable">—</div>
+          </div>
+          <div class="regime-row" id="bestRegimeRow">
+            <div>Tax + Cess (4%)</div>
+            <div class="regime-val" id="cmpOldTax">—</div>
+            <div class="regime-val" id="cmpNewTax">—</div>
+          </div>
+        </div>
+
+        <!-- Applicable deductions -->
+        <div class="itr-card" id="dedCard" style="margin-bottom:20px;display:none">
+          <div class="itr-card-title" style="margin-bottom:12px"><i class="fa fa-receipt" style="color:var(--saffron)"></i> Deductions You Can Claim (Old Regime)</div>
+          <ul class="deductions-list" id="dedList"></ul>
+        </div>
+
+        <!-- Filing guidance -->
+        <div class="guidance-box">
+          <div class="guidance-box-title">
+            <i class="fa fa-list-check" style="color:var(--green)"></i> Step-by-Step Filing Guide
+          </div>
+          <div class="guidance-content" id="guidanceContent">Loading…</div>
+        </div>
+
+        <!-- Important notice -->
+        <div class="card" style="border-color:rgba(245,158,11,.3);background:rgba(245,158,11,.05);margin-bottom:20px;padding:16px 20px">
+          <div style="font-size:.82rem;line-height:1.7;color:var(--text-2)">
+            <i class="fa fa-triangle-exclamation" style="color:var(--saffron)"></i>
+            <strong style="color:var(--saffron)"> Deadline:</strong> July 31, 2025 for AY 2025-26 (non-audit cases).
+            Late filing fee: ₹1,000 (income ≤ ₹5L) or ₹5,000 under Section 234F.
+            Always verify pre-filled data on incometax.gov.in against your Form 26AS and AIS before submitting.
+          </div>
+        </div>
+
+        <div class="itr-actions">
+          <button class="btn btn-green" onclick="downloadITRSummary()">
+            <i class="fa fa-file-pdf"></i> Download Summary PDF
+          </button>
+          <button class="btn btn-ghost" onclick="resetITR()">
+            <i class="fa fa-rotate-left"></i> Start Over
+          </button>
+        </div>
+      </div>
+
+    </div><!-- /itr-panel -->
+
+    <footer>
+      <div style="margin-bottom:8px;">
+        <strong>NyayaSaathi</strong> — ITR Advisor &nbsp;|&nbsp; For AY 2025-26 &nbsp;|&nbsp;
+        Calculations based on Income Tax Act 1961 &nbsp;|&nbsp; 100% Offline
+      </div>
+      <div>
+        This tool provides <em>tax information</em>, not professional advice.
+        For complex cases, consult a <strong>CA</strong> or use the official
+        <a href="https://www.incometax.gov.in" target="_blank">incometax.gov.in</a> portal.
+      </div>
+    </footer>
+
+  </div><!-- /itr-page -->
+
 </div><!-- /page-wrap -->
 
 <!-- ===== HISTORY SIDEBAR ===== -->
@@ -1031,6 +1622,32 @@
       </div>
     </div>
     <button class="btn btn-ghost emer-close btn-full" onclick="closeEmergency()"><i class="fa fa-xmark"></i> Close</button>
+  </div>
+</div>
+
+<!-- ===== LEGAL LIBRARY OVERLAY ===== -->
+<div class="lib-overlay" id="libOverlay">
+  <div class="lib-topbar">
+    <button class="lib-back" onclick="closeLibrary()">
+      <i class="fa fa-arrow-left"></i> All Categories
+    </button>
+    <div style="display:flex;align-items:center;gap:10px;flex:1;justify-content:center">
+      <span class="lib-cat-icon" id="libCatIcon"></span>
+      <span class="lib-cat-title" id="libCatTitle" style="font-size:1.1rem;font-weight:800"></span>
+    </div>
+    <div style="width:120px"></div>
+  </div>
+  <div class="lib-body">
+    <div class="lib-sidebar">
+      <h4>Laws in this category</h4>
+      <div id="libSidebar"></div>
+    </div>
+    <div class="lib-content" id="libContent">
+      <div style="padding:60px;text-align:center;color:var(--text-3)">
+        <i class="fa fa-book-open" style="font-size:3rem;margin-bottom:12px;display:block;opacity:.3"></i>
+        Select a law from the left panel
+      </div>
+    </div>
   </div>
 </div>
 
@@ -1164,11 +1781,7 @@ function buildCategories() {
 }
 
 function loadCategory(idx) {
-  const cat = CATEGORIES[idx];
-  document.getElementById('situationInput').value = cat.q;
-  updateCharCount(document.getElementById('situationInput'));
-  document.querySelectorAll('.cat-card').forEach((c, i) => c.classList.toggle('active', i === idx));
-  document.getElementById('situationInput').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  openLibrary(idx);
 }
 
 /* =========================================================
@@ -1738,6 +2351,782 @@ function showToast(msg, isError = false) {
 }
 
 /* =========================================================
+   LEGAL LIBRARY DATA
+========================================================= */
+const LEGAL_LIBRARY = [
+  /* 0 — Wage Theft */
+  {
+    icon: '💰', name: 'Wage Theft',
+    laws: [
+      {
+        name: 'Payment of Wages Act, 1936', year: 1936,
+        sections: [
+          { sec: 'Section 5', name: 'Time of Payment', desc: 'Employer must pay wages within 7 days after the wage period ends (10 days if >1000 employees).', penalty: 'Fine Rs. 1,500–7,500 per violation' },
+          { sec: 'Section 7', name: 'Deductions Allowed', desc: 'Only authorised deductions permitted — PF, ESI, damage caused by employee, absence from duty.', penalty: 'Illegal deduction = recovery + 10x compensation' },
+          { sec: 'Section 15', name: 'Claim Authority', desc: 'Aggrieved worker can file application before the Payment of Wages Authority (Labour Court).', penalty: 'Authority can award delayed wages + compensation up to 10x the withheld amount' },
+          { sec: 'Section 20', name: 'Criminal Liability', desc: 'Wilful withholding of wages is a criminal offence — employer can be prosecuted.', penalty: 'Fine up to Rs. 22,500 per offence' },
+        ],
+        examples: [
+          { title: 'Salary not paid for 3 months', situation: 'My employer has not paid my salary for 3 months and refuses to respond', steps: ['Send written demand letter to employer (keep copy)', 'File complaint with Labour Inspector / Labour Commissioner', 'Apply to Payment of Wages Authority for recovery order', 'Authority can award salary + up to 10x compensation', 'If employer still refuses: criminal prosecution under Section 20'] },
+          { title: 'Illegal deductions from salary', situation: 'My employer is deducting money from my salary without any explanation', steps: ['Demand written breakup of all deductions in your payslip', 'If deductions are unauthorised: file complaint with Labour Inspector', 'Labour Authority will order refund of all illegal deductions', 'You are also entitled to 10x the illegally deducted amount as compensation'] },
+        ],
+        remedies: ['Full unpaid wages recovered', 'Compensation up to 10× delayed wages', 'Criminal prosecution of employer', 'Inspector can seal employer premises'],
+        helplines: ['Labour Commissioner Helpline: 1800-11-2526', 'Ministry of Labour: 14434'],
+      },
+      {
+        name: 'Minimum Wages Act, 1948', year: 1948,
+        sections: [
+          { sec: 'Section 3', name: 'Fixing Minimum Wages', desc: 'Central/State Government fixes minimum wages for scheduled employments. Employer CANNOT pay below this.', penalty: 'Paying below minimum wage: criminal offence' },
+          { sec: 'Section 12', name: 'Payment at Minimum Rate', desc: 'Every employer must pay at or above the notified minimum wage.', penalty: 'Fine up to Rs. 500 + imprisonment up to 6 months' },
+          { sec: 'Section 20', name: 'Claim Authority', desc: 'Workers can file claim for the difference between actual wages and minimum wages.', penalty: 'Recovery of shortfall + up to 10× as compensation' },
+        ],
+        examples: [
+          { title: 'Paid below minimum wage', situation: 'I am being paid Rs. 150 per day but the state minimum wage is Rs. 350 for my type of work', steps: ['Check your state\'s notified minimum wage at state labour dept website', 'Calculate shortfall for each day worked', 'File complaint with Labour Inspector (they can inspect employer records)', 'File claim before Minimum Wages Authority for recovery + compensation'] },
+        ],
+        remedies: ['Recovery of wage shortfall for entire period', 'Up to 10× shortfall as penalty', 'Imprisonment of employer up to 6 months'],
+        helplines: ['State Labour Department', 'Ministry of Labour Helpline: 14434'],
+      },
+      {
+        name: 'Code on Wages, 2019', year: 2019,
+        sections: [
+          { sec: 'Section 9', name: 'Timely Payment', desc: 'Wages must be paid on or before 7th of following month (or as notified). No delay permitted.', penalty: 'Fine up to Rs. 50,000 for first offence; Rs. 1 lakh for repeat' },
+          { sec: 'Section 26', name: 'Equal Wages', desc: 'Employer must pay equal wages to men and women for same work or work of similar nature. No gender discrimination.', penalty: 'Fine up to Rs. 50,000' },
+          { sec: 'Section 45', name: 'Inspector-cum-Facilitator', desc: 'Government can appoint Inspectors who have power to enter premises, examine records, and take statements.', penalty: 'Obstruction of Inspector: imprisonment up to 3 months + fine' },
+        ],
+        examples: [
+          { title: 'Gender pay gap for same work', situation: 'I discovered my male colleagues doing the same job as me are paid more just because they are men', steps: ['Collect evidence: job description, salary slips of colleagues if possible', 'File complaint with Labour Commissioner under Code on Wages 2019', 'Inspector will examine employer records for pay disparity', 'Employer must equalise pay and pay arrears for past discrimination'] },
+        ],
+        remedies: ['Equal pay enforced from complaint date', 'Arrears for discriminatory period', 'Up to Rs. 1 lakh fine on employer'],
+        helplines: ['Labour Commissioner Office (district level)'],
+      },
+    ]
+  },
+
+  /* 1 — Consumer Fraud */
+  {
+    icon: '🛍️', name: 'Consumer Fraud',
+    laws: [
+      {
+        name: 'Consumer Protection Act, 2019', year: 2019,
+        sections: [
+          { sec: 'Section 2(7)', name: 'Who is a Consumer', desc: 'Any person who buys goods/services for personal use (not resale) is a consumer.', penalty: 'N/A — defines your right to file complaint' },
+          { sec: 'Section 35', name: 'Consumer Complaint', desc: 'File complaint at District Commission (up to Rs. 50 lakh), State Commission (Rs. 50 lakh–2 crore), National Commission (above Rs. 2 crore).', penalty: 'Trader/seller must compensate victim + pay penalty' },
+          { sec: 'Section 36', name: 'E-commerce Liability', desc: 'E-commerce platforms are responsible for goods sold on their platform. They cannot simply redirect you to the seller.', penalty: 'Fine up to Rs. 50 lakh + imprisonment up to 2 years' },
+          { sec: 'Section 89', name: 'Spurious Goods', desc: 'Selling spurious (fake/adulterated) goods is a criminal offence.', penalty: 'Imprisonment 1–7 years + fine Rs. 1–5 lakh' },
+        ],
+        examples: [
+          { title: 'Defective product, seller refuses refund', situation: 'I bought a defective mobile phone and the seller refuses to refund or replace it', steps: ['Keep all receipts, screenshots, and communications as evidence', 'Send formal demand notice via email/registered post', 'File complaint on consumerhelpline.gov.in (national consumer helpline)', 'If unresolved in 30 days: file at District Consumer Commission (free up to Rs. 5 lakh disputes)', 'Commission will summon seller and order refund + compensation within 3–5 months'] },
+          { title: 'Online order not delivered', situation: 'I paid for an online order but it was never delivered and the company is not refunding', steps: ['File complaint on the e-commerce platform\'s grievance portal', 'Escalate to consumer helpline: 1800-11-4000', 'File at District Consumer Commission — e-commerce platform is jointly liable', 'Also file cybercrime complaint at cybercrime.gov.in if it appears fraudulent'] },
+        ],
+        remedies: ['Full refund of purchase price', 'Compensation for mental agony', 'Cost of litigation awarded', 'Punitive damages for deliberate fraud'],
+        helplines: ['National Consumer Helpline: 1800-11-4000', 'consumerhelpline.gov.in', 'District Consumer Commission (your district)'],
+      },
+      {
+        name: 'Legal Metrology Act, 2009', year: 2009,
+        sections: [
+          { sec: 'Section 36', name: 'Weights & Measures', desc: 'Seller cannot use false weights or measures to cheat customers. Packaged goods must declare net weight.', penalty: 'Fine up to Rs. 25,000 + imprisonment up to 6 months' },
+          { sec: 'Section 18', name: 'MRP Violation', desc: 'Selling goods above Maximum Retail Price (MRP) printed on the package is illegal.', penalty: 'Fine up to Rs. 25,000' },
+        ],
+        examples: [
+          { title: 'Charged above MRP', situation: 'A shopkeeper charged me more than the MRP printed on the product', steps: ['Photograph the product showing MRP and bill showing overcharge', 'File complaint with District Legal Metrology Officer', 'File consumer complaint — you are entitled to refund of excess + compensation', 'Shops and malls are specifically prohibited from this practice'] },
+        ],
+        remedies: ['Refund of excess amount', 'Penalty on seller up to Rs. 25,000', 'Consumer Forum can award additional compensation'],
+        helplines: ['Legal Metrology Department (state level)', 'National Consumer Helpline: 1800-11-4000'],
+      },
+    ]
+  },
+
+  /* 2 — RTI Denial */
+  {
+    icon: '📋', name: 'RTI Denial',
+    laws: [
+      {
+        name: 'Right to Information Act, 2005', year: 2005,
+        sections: [
+          { sec: 'Section 6', name: 'Filing RTI', desc: 'Any citizen can file RTI application to any Public Authority (govt dept, PSU, etc.) in any language. Pay Rs. 10 application fee (free for BPL).', penalty: 'N/A — procedural' },
+          { sec: 'Section 7', name: '30-Day Response Deadline', desc: 'PIO must respond within 30 days. For life and liberty matters: 48 hours. Failure = deemed refusal.', penalty: 'PIO penalised Rs. 250/day up to Rs. 25,000' },
+          { sec: 'Section 19', name: 'First Appeal', desc: 'If unhappy with response or no response: file First Appeal with First Appellate Authority within 30 days.', penalty: 'N/A — appeal process' },
+          { sec: 'Section 20', name: 'Penalty on PIO', desc: 'Central/State Information Commission can impose penalty of Rs. 250 per day (max Rs. 25,000) on PIO for delays or refusal without reason.', penalty: 'Rs. 250/day up to Rs. 25,000 + disciplinary action' },
+        ],
+        examples: [
+          { title: 'No response to RTI in 30+ days', situation: 'I filed an RTI application but received no response even after 30 days', steps: ['File First Appeal with First Appellate Authority of same department within 30 days', 'If First Appeal also ignored/rejected: file Second Appeal with Central/State Information Commission', 'Commission will summon PIO and can impose Rs. 250/day penalty', 'You can file online second appeal at cic.gov.in (central govt) or your State IC'] },
+          { title: 'RTI denied on wrong grounds', situation: 'My RTI was rejected saying the information is confidential but it seems like a public matter', steps: ['Read the rejection order carefully — note the section cited for refusal', 'File First Appeal citing that the information does not fall under Section 8 exemptions', 'Most RTI rejections are overturned on first appeal', 'If still denied: Second Appeal to CIC/SIC for final decision'] },
+        ],
+        remedies: ['Mandatory information disclosure', 'Rs. 250/day penalty on PIO', 'Disciplinary action recommendation', 'Compensation for loss caused by wrongful denial'],
+        helplines: ['RTI Online Portal: rtionline.gov.in', 'CIC Helpline: 011-23741846'],
+      },
+    ]
+  },
+
+  /* 3 — Landlord / Rent */
+  {
+    icon: '🏠', name: 'Landlord / Rent',
+    laws: [
+      {
+        name: 'Transfer of Property Act, 1882', year: 1882,
+        sections: [
+          { sec: 'Section 106', name: 'Notice to Quit', desc: 'For monthly tenancy: landlord must give 15 days\' notice to vacate. For yearly tenancy: 6 months\' notice. Without notice, eviction is illegal.', penalty: 'Wrongful eviction = criminal trespass + civil suit for damages' },
+          { sec: 'Section 108', name: 'Tenant\'s Rights', desc: 'Tenant can enjoy peaceful possession; landlord cannot interfere without notice. Tenant entitled to repairs for urgent needs.', penalty: 'Landlord interference = civil suit' },
+        ],
+        examples: [
+          { title: 'Landlord forcing eviction without notice', situation: 'My landlord is illegally evicting me without proper notice and has cut off electricity', steps: ['Do not vacate — illegal eviction cannot be enforced without court order', 'File police complaint for wrongful confinement / criminal intimidation (BNS Sections 126, 351)', 'File civil suit for injunction to restrain eviction in Civil Court', 'File complaint with Rent Authority if your state has Rent Control Act', 'Cutting utilities = additional criminal offence — file separate FIR'] },
+        ],
+        remedies: ['Injunction from Civil Court to stay eviction', 'Damages for illegal eviction', 'Criminal prosecution of landlord', 'Restoration of utilities by court order'],
+        helplines: ['Civil Court (file suit)', 'District Legal Services Authority (free legal aid)'],
+      },
+      {
+        name: 'State Rent Control Acts', year: 1948,
+        sections: [
+          { sec: 'State Specific', name: 'Rent Control Protection', desc: 'Most states have Rent Control Acts protecting tenants from arbitrary eviction and excessive rent hikes. Eviction only via Rent Controller, not directly.', penalty: 'Eviction without Rent Controller order: illegal' },
+          { sec: 'Fair Rent', name: 'Standard Rent', desc: 'Tenant can apply to Rent Controller to fix "standard rent" if landlord demands excessive rent.', penalty: 'Landlord charging more than standard rent: refund + penalty' },
+        ],
+        examples: [
+          { title: 'Landlord demands 50% rent hike or eviction', situation: 'My landlord suddenly wants to raise rent by 50% or he will evict me', steps: ['Check if your state has Rent Control Act (Delhi, Mumbai, Chennai do)', 'Under Rent Control Acts, rent hike is limited and eviction requires Rent Court order', 'File application before Rent Controller to fix standard rent', 'Landlord cannot evict without Rent Controller\'s order even if you refuse hike'] },
+        ],
+        remedies: ['Standard rent fixed by Rent Controller', 'Refund of excess rent paid', 'Eviction only through Rent Court', 'Protection from arbitrary eviction'],
+        helplines: ['Rent Controller (district court complex)', 'District Legal Services Authority'],
+      },
+    ]
+  },
+
+  /* 4 — Domestic Violence */
+  {
+    icon: '👩', name: 'Domestic Violence',
+    laws: [
+      {
+        name: 'Protection of Women from Domestic Violence Act, 2005', year: 2005,
+        sections: [
+          { sec: 'Section 12', name: 'Filing DV Application', desc: 'Woman can file application before Magistrate for Protection Order, Residence Order, Monetary Relief, Custody Order.', penalty: 'Violation of Protection Order: imprisonment up to 1 year + fine Rs. 20,000' },
+          { sec: 'Section 17', name: 'Right to Reside', desc: 'Woman has right to reside in the shared household even if she does not own it. She CANNOT be thrown out.', penalty: 'Illegal eviction from shared household: criminal contempt + civil action' },
+          { sec: 'Section 18', name: 'Protection Order', desc: 'Court can order abuser to stop acts of domestic violence, prevent contact, dispossession from shared household.', penalty: 'Breach: 1 year imprisonment + Rs. 20,000 fine' },
+          { sec: 'Section 20', name: 'Monetary Relief', desc: 'Court can order monetary relief for medical expenses, loss of earnings, maintenance.', penalty: 'Non-payment = contempt of court' },
+        ],
+        examples: [
+          { title: 'Physical abuse by husband', situation: 'My husband physically abuses me regularly and has thrown me out of the house', steps: ['Call police helpline 181 (Women) or 100 immediately if in danger', 'Contact your nearest Protection Officer (in District Magistrate office)', 'File DV application before Magistrate — Protection Officer will assist you free of cost', 'Court can issue ex-parte (emergency) Protection Order within 3 days', 'Ask for Residence Order to return to shared household + monetary maintenance'] },
+        ],
+        remedies: ['Protection Order (restraint on abuser)', 'Residence Order (right to stay in house)', 'Monetary maintenance + medical expenses', 'Custody of children', 'Immediate shelter if needed'],
+        helplines: ['Women Helpline: 181', 'Police: 100', 'NCW Helpline: 7827170170', 'Protection Officer (DM Office)'],
+      },
+      {
+        name: 'Dowry Prohibition Act, 1961', year: 1961,
+        sections: [
+          { sec: 'Section 3', name: 'Giving/Taking Dowry', desc: 'Giving or taking dowry is a criminal offence, punishable for BOTH the giver and the taker.', penalty: 'Imprisonment minimum 5 years + fine Rs. 15,000 or value of dowry (whichever higher)' },
+          { sec: 'Section 4', name: 'Demanding Dowry', desc: 'Demanding dowry (even without receiving it) is a criminal offence.', penalty: 'Imprisonment minimum 6 months up to 2 years + fine up to Rs. 10,000' },
+        ],
+        examples: [
+          { title: 'Harassed for dowry by husband\'s family', situation: 'My in-laws are constantly harassing me for more dowry money and threatening to throw me out', steps: ['File FIR at nearest police station under Dowry Prohibition Act + BNS Section 85 (dowry death provision)', 'Police MUST register FIR — refusal is itself a crime', 'Also file DV application for protection and monetary relief', 'Contact Dowry Prohibition Officer (appointed in every district)'] },
+        ],
+        remedies: ['FIR and criminal prosecution', 'Protection Order under DV Act', 'Return of all dowry articles', 'Monetary compensation'],
+        helplines: ['Mahila Thana / Women Police Station', 'Women Helpline: 181', 'NCW: 7827170170'],
+      },
+    ]
+  },
+
+  /* 5 — Cyber Crime */
+  {
+    icon: '💻', name: 'Cyber Crime',
+    laws: [
+      {
+        name: 'Information Technology Act, 2000', year: 2000,
+        sections: [
+          { sec: 'Section 43', name: 'Unauthorised Computer Access', desc: 'Accessing any computer without permission, downloading data, introducing viruses — civil liability.', penalty: 'Compensation up to Rs. 1 crore to affected party' },
+          { sec: 'Section 65', name: 'Tampering with Computer Source Code', desc: 'Knowingly concealing, destroying, or altering computer source code.', penalty: 'Imprisonment up to 3 years + fine up to Rs. 2 lakh' },
+          { sec: 'Section 66C', name: 'Identity Theft', desc: 'Fraudulently using another person\'s electronic signature, password, or unique identification.', penalty: 'Imprisonment up to 3 years + fine up to Rs. 1 lakh' },
+          { sec: 'Section 66D', name: 'Cheating by Impersonation', desc: 'Cheating using a computer resource by impersonating another person.', penalty: 'Imprisonment up to 3 years + fine up to Rs. 1 lakh' },
+          { sec: 'Section 67', name: 'Obscene Content Online', desc: 'Publishing or transmitting obscene material in electronic form.', penalty: '1st offence: 3 years + Rs. 5 lakh fine; repeat: 5 years + Rs. 10 lakh fine' },
+        ],
+        examples: [
+          { title: 'UPI / online fraud', situation: 'I lost money in an online UPI fraud and the scammer is blackmailing me', steps: ['Call Cyber Crime Helpline 1930 IMMEDIATELY — report within hours for best chance of fund recovery', 'File complaint at cybercrime.gov.in online portal', 'File FIR at nearest police station or dedicated Cyber Crime Cell', 'Contact your bank/UPI app immediately to block/reverse transaction', 'For blackmail: Section 66E (privacy) + BNS 308 (extortion) also apply'] },
+        ],
+        remedies: ['Transaction reversal if reported quickly', 'Criminal prosecution of accused', 'Civil compensation from IT Act', 'Platform must cooperate with investigation'],
+        helplines: ['Cyber Crime Helpline: 1930', 'cybercrime.gov.in', 'Police: 100'],
+      },
+      {
+        name: 'Bharatiya Nyaya Sanhita, 2023 (Cyber Provisions)', year: 2023,
+        sections: [
+          { sec: 'Section 308', name: 'Extortion / Blackmail', desc: 'Threatening to release private images or information to extort money or sexual favours.', penalty: 'Imprisonment 2–7 years + fine' },
+          { sec: 'Section 318', name: 'Cheating', desc: 'Online financial fraud, investment scams, phishing — all covered under cheating provisions.', penalty: 'Imprisonment up to 7 years + fine' },
+        ],
+        examples: [
+          { title: 'Sextortion / intimate image threat', situation: 'Someone is threatening to release my private photos unless I pay them money', steps: ['Do NOT pay — payment encourages further demands', 'Screenshot/preserve all threats as evidence', 'File complaint at Cyber Crime Cell / cybercrime.gov.in', 'File FIR under BNS Section 308 (extortion) + IT Act Section 67', 'Ask police to request platform to remove images immediately (CSAR takedown)'] },
+        ],
+        remedies: ['FIR and criminal prosecution', 'Emergency court order for image removal', 'Platform reports content to CSAR'],
+        helplines: ['Cyber Crime Helpline: 1930', 'NCW Helpline: 7827170170 (if woman)'],
+      },
+    ]
+  },
+
+  /* 6 — Workplace Harassment */
+  {
+    icon: '🏢', name: 'Workplace Harassment',
+    laws: [
+      {
+        name: 'Sexual Harassment of Women at Workplace Act, 2013 (POSH)', year: 2013,
+        sections: [
+          { sec: 'Section 2(n)', name: 'Definition of Sexual Harassment', desc: 'Unwelcome acts: physical contact, demand for sexual favours, sexually coloured remarks, showing pornography, any other unwelcome physical/verbal/non-verbal conduct of a sexual nature.', penalty: 'Perpetrator: disciplinary action + fine; repeat: termination' },
+          { sec: 'Section 4', name: 'Internal Complaints Committee', desc: 'Every employer with 10+ employees MUST constitute an ICC. Presided over by senior woman employee.', penalty: 'Failure to constitute ICC: fine Rs. 50,000; repeat: licence cancellation' },
+          { sec: 'Section 9', name: 'Filing Complaint', desc: 'Victim can file written complaint with ICC/LCC within 3 months of last incident (extendable by 3 more months).', penalty: 'N/A — procedural right' },
+          { sec: 'Section 13', name: 'Inquiry & Action', desc: 'ICC must complete inquiry within 60 days and submit report. Employer must act on recommendations within 60 days.', penalty: 'Non-implementation: contempt of court if challenged' },
+        ],
+        examples: [
+          { title: 'Sexual harassment by manager', situation: 'I am being sexually harassed at my workplace and HR is not acting', steps: ['File written complaint with ICC (Internal Complaints Committee) within 3 months', 'If employer has no ICC: file with Local Complaints Committee (District Collector office)', 'ICC must inquire within 60 days — you can request interim measures (transfer of perpetrator)', 'If unsatisfied with ICC findings: challenge before court', 'Also file police complaint under BNS Section 74 (sexual harassment)'] },
+        ],
+        remedies: ['Transfer of harasser or change in victim\'s workplace', 'Termination of harasser', 'Compensation from employer', 'Police FIR for criminal sexual harassment'],
+        helplines: ['SHe-Box (online complaint): shebox.nic.in', 'NCW Helpline: 7827170170', 'Police: 100'],
+      },
+      {
+        name: 'Bharatiya Nyaya Sanhita, 2023 — Workplace Provisions', year: 2023,
+        sections: [
+          { sec: 'Section 74', name: 'Sexual Harassment', desc: 'Criminal punishment for sexual harassment acts (words, gestures, demands for sexual favours) at any place.', penalty: 'Imprisonment up to 3 years + fine; if repeat or in position of authority: enhanced punishment' },
+          { sec: 'Section 352', name: 'Intentional Insult / Humiliation', desc: 'Intentional insult to provoke breach of peace — including workplace humiliation, casteist slurs, etc.', penalty: 'Imprisonment up to 2 years + fine' },
+        ],
+        examples: [
+          { title: 'Boss demeans and abuses employee publicly', situation: 'My boss regularly humiliates me in front of colleagues and uses abusive language', steps: ['Document all incidents with dates, witnesses, and exact words used', 'File internal HR complaint (get written acknowledgement)', 'If no action: file complaint with Labour Commissioner for hostile workplace', 'For verbal abuse / humiliation: file criminal complaint under BNS Section 352', 'For caste-based abuse: SC/ST Atrocities Act applies with stricter penalties'] },
+        ],
+        remedies: ['Internal disciplinary action', 'Labour Commissioner inquiry', 'Criminal prosecution', 'Civil suit for mental distress'],
+        helplines: ['Labour Commissioner Office', 'NCW: 7827170170', 'Police: 100'],
+      },
+    ]
+  },
+
+  /* 7 — Property / RERA */
+  {
+    icon: '🏗️', name: 'Property / RERA',
+    laws: [
+      {
+        name: 'Real Estate (Regulation & Development) Act, 2016 (RERA)', year: 2016,
+        sections: [
+          { sec: 'Section 4', name: 'Mandatory Registration', desc: 'All real estate projects above 500 sq m or 8 units MUST be registered with RERA before marketing/selling.', penalty: 'Selling unregistered project: up to 10% of project cost as fine' },
+          { sec: 'Section 18', name: 'Delayed Possession', desc: 'Builder must hand over flat by promised date. If delayed: buyer can withdraw and get full refund with interest (SBI MCLR + 2%). OR buyer can stay and get monthly compensation.', penalty: 'Interest at SBI MCLR + 2% per annum on amount paid' },
+          { sec: 'Section 31', name: 'Filing Complaint', desc: 'Aggrieved buyer can file complaint with RERA Authority (state-level) for any violation.', penalty: 'Authority can order refund, compensation, or penalise builder up to 10% of project cost' },
+          { sec: 'Section 40', name: 'Compensation', desc: 'RERA Authority can award compensation for any loss caused by builder\'s defect or violation.', penalty: 'Builder must pay compensation as ordered' },
+        ],
+        examples: [
+          { title: 'Builder delayed flat delivery by 3 years', situation: 'The builder has not delivered my flat and is not refunding my money', steps: ['Check if project is RERA registered at your state\'s RERA website', 'File complaint with RERA Authority — nominal fee, no advocate required', 'RERA will issue show cause notice to builder within days', 'You can demand: full refund + interest at SBI MCLR+2%, OR flat delivery + monthly compensation', 'RERA orders are enforceable within 45 days — non-compliance = contempt'] },
+        ],
+        remedies: ['Full refund + interest (SBI MCLR + 2%)', 'Monthly compensation for delay', 'Penalty on builder up to 10% of project cost', 'Imprisonment for wilful non-compliance'],
+        helplines: ['State RERA Authority', 'RERA websites: maharera.mahaonline.gov.in (Maharashtra), rera.delhi.gov.in (Delhi), etc.'],
+      },
+    ]
+  },
+
+  /* 8 — Accident / Motor */
+  {
+    icon: '🚗', name: 'Accident / Motor',
+    laws: [
+      {
+        name: 'Motor Vehicles Act, 1988', year: 1988,
+        sections: [
+          { sec: 'Section 140', name: 'No-Fault Liability', desc: 'Accident victim gets MINIMUM compensation (Rs. 50,000 for death, Rs. 25,000 for grievous hurt) without proving fault — paid immediately.', penalty: 'N/A — victim\'s entitlement' },
+          { sec: 'Section 166', name: 'Claim Before MACT', desc: 'Victim or family can file claim before Motor Accident Claims Tribunal for full compensation. No limit on amount.', penalty: 'N/A — compensation to victim' },
+          { sec: 'Section 163A', name: 'Structured Compensation', desc: 'Schedule II formula: compensation based on age + income of victim. Court can also award for pain, suffering, loss of future earnings.', penalty: 'Insurance company must pay within 30 days of award or face interest at 12%' },
+          { sec: 'Section 185', name: 'Drunk Driving', desc: 'Driving with blood alcohol above 30mg/100ml is a criminal offence.', penalty: 'Imprisonment up to 6 months + fine up to Rs. 10,000; 2nd offence: 2 years + Rs. 15,000' },
+        ],
+        examples: [
+          { title: 'Injured in road accident by another driver', situation: 'I was injured in a road accident caused by another driver', steps: ['Call 108 (ambulance) immediately and go to hospital', 'Inform police — FIR is important for MACT claim', 'Collect: FIR copy, spot sketch, insurance details of offending vehicle, witness details', 'File claim before Motor Accident Claims Tribunal in your district', 'Tribunal will issue notice to insurance company who must defend and pay'] },
+        ],
+        remedies: ['Medical expenses reimbursement', 'Compensation for lost income (past and future)', 'Pain and suffering damages', 'Compensation for permanent disability'],
+        helplines: ['Police: 100', 'Ambulance: 108', 'MACT (District Court)'],
+      },
+    ]
+  },
+
+  /* 9 — Medical Negligence */
+  {
+    icon: '⚕️', name: 'Medical Negligence',
+    laws: [
+      {
+        name: 'Consumer Protection Act, 2019 (Medical Services)', year: 2019,
+        sections: [
+          { sec: 'Section 2(42)', name: 'Medical Service = Service', desc: 'Supreme Court in Indian Medical Association v. VP Shantha (1995): medical services are "services" under Consumer Protection Act. Patient is a "consumer."', penalty: 'Hospital/doctor must compensate for deficient service' },
+          { sec: 'Section 35', name: 'Consumer Complaint', desc: 'Patient or family can file complaint at Consumer Commission against doctor/hospital for negligence.', penalty: 'Compensation awarded (no upper limit for death cases)' },
+        ],
+        examples: [
+          { title: 'Wrong surgery / medical error', situation: 'A doctor performed wrong surgery on me and the hospital is denying responsibility', steps: ['Obtain all medical records, discharge summary, operation notes (hospital must provide these)', 'Get second medical opinion documenting the error', 'File complaint with State Medical Council for professional misconduct', 'File Consumer complaint at District/State Commission for compensation', 'File police complaint (BNS Section 105 — culpable homicide if death; Section 125 — endangering life)'] },
+        ],
+        remedies: ['Compensation for medical expenses + pain + lost income', 'Doctor\'s licence suspension/cancellation', 'Criminal prosecution for grave negligence', 'Hospital accountable for its staff'],
+        helplines: ['State Medical Council', 'National Consumer Helpline: 1800-11-4000', 'Police: 100 (for criminal cases)'],
+      },
+      {
+        name: 'Indian Medical Council (Professional Conduct) Regulations, 2002', year: 2002,
+        sections: [
+          { sec: 'Regulation 1.1', name: 'Duty of Care', desc: 'Every doctor must exercise reasonable skill and care. Breach = professional misconduct.', penalty: 'Warning, suspension, or permanent removal from Medical Register' },
+          { sec: 'Regulation 7.7', name: 'Medical Records', desc: 'Hospital must maintain medical records for 3 years and must provide copies to patient on request.', penalty: 'Denial of records = professional misconduct' },
+        ],
+        examples: [
+          { title: 'Hospital refuses to provide medical records', situation: 'The hospital is refusing to give me my medical records after treatment', steps: ['Send written request citing right to medical records (you can demand as patient/family)', 'File complaint with State Medical Council if refused', 'Approach High Court for writ mandating provision of records', 'Records are critical evidence for any negligence case — insist strongly'] },
+        ],
+        remedies: ['Mandatory release of medical records', 'Disciplinary action against hospital', 'Court can order records to be produced'],
+        helplines: ['State Medical Council (your state)', 'NMC (National Medical Commission): nmc.org.in'],
+      },
+    ]
+  },
+
+  /* 10 — SC/ST Atrocities */
+  {
+    icon: '🌐', name: 'SC/ST Atrocities',
+    laws: [
+      {
+        name: 'SC/ST (Prevention of Atrocities) Act, 1989', year: 1989,
+        sections: [
+          { sec: 'Section 3(1)(r)', name: 'Verbal Abuse / Insult', desc: 'Intentionally insulting or humiliating a member of SC/ST in public view constitutes an atrocity.', penalty: 'Imprisonment 6 months to 5 years + fine' },
+          { sec: 'Section 3(1)(s)', name: 'Abusing in Public', desc: 'Abusing a person by caste name in public place is a specific offence.', penalty: 'Imprisonment 6 months to 5 years + fine' },
+          { sec: 'Section 4', name: 'Police Duty to Register FIR', desc: 'Police CANNOT refuse to register FIR under Atrocities Act. Refusal is itself a punishable offence.', penalty: 'Officer who refuses: imprisonment up to 6 months + fine' },
+          { sec: 'Section 15A', name: 'Rights of Victims', desc: 'Victim/witness entitled to protection, Rs. 1000/month travel allowance to attend court, and full legal services free of cost.', penalty: 'Non-provision: complaint to DM/SP' },
+        ],
+        examples: [
+          { title: 'Caste-based verbal abuse and assault', situation: 'I was verbally abused and assaulted due to my caste identity and police are not registering FIR', steps: ['Go to police station with witnesses and demand FIR under Atrocities Act', 'If police refuse: file complaint with SP (Superintendent of Police) directly', 'If SP doesn\'t act: file complaint with DM / State SC-ST Commission', 'File writ petition in High Court for direction to register FIR — High Court will act within hours', 'Contact District Legal Services Authority for free legal help'] },
+        ],
+        remedies: ['Mandatory FIR registration', 'Speedy trial in Special Courts', 'Victim compensation from Rs. 85,000 to Rs. 8.25 lakh per offence (notified schedule)', 'Criminal prosecution with enhanced punishment'],
+        helplines: ['SC/ST National Commission: ncsc.nic.in', 'NCST: ncst.gov.in', 'Police: 100', 'DLSA (free legal aid)'],
+      },
+    ]
+  },
+
+  /* 11 — Senior Citizen */
+  {
+    icon: '👴', name: 'Senior Citizen',
+    laws: [
+      {
+        name: 'Maintenance and Welfare of Parents and Senior Citizens Act, 2007', year: 2007,
+        sections: [
+          { sec: 'Section 4', name: 'Right to Maintenance', desc: 'Parents/grandparents who cannot maintain themselves can demand maintenance from adult children. Stepparents and adoptive parents also included.', penalty: 'Non-payment: imprisonment up to 1 month or until payment' },
+          { sec: 'Section 5', name: 'Tribunal Application', desc: 'Senior citizen can file application for maintenance before Maintenance Tribunal (Sub-Divisional Magistrate level). Process is simple and free.', penalty: 'Tribunal can order maintenance up to Rs. 10,000/month (state can increase limit)' },
+          { sec: 'Section 23', name: 'Gift/Transfer Void', desc: 'If senior citizen transferred property on condition of basic care and child fails to provide care: TRANSFER IS VOID and can be cancelled by Tribunal.', penalty: 'Property reverts to senior citizen' },
+        ],
+        examples: [
+          { title: 'Children abandoning elderly parent', situation: 'My children are abandoning me and not taking care of me despite living in my house', steps: ['File application before Sub-Divisional Magistrate (Maintenance Tribunal) under this Act', 'Tribunal issues notice to children within 7 days', 'Order for monthly maintenance issued within 90 days', 'If children took your property on condition of care: file separate case to cancel transfer', 'State Senior Citizen Helpline can also mediate'] },
+        ],
+        remedies: ['Monthly maintenance order (up to Rs. 10,000+/month)', 'Property transfer cancellation', 'Speedy procedure (order within 90 days)', 'Non-compliance = imprisonment'],
+        helplines: ['Senior Citizen Helpline: 14567', 'SDM Office (Maintenance Tribunal)', 'Police: 100 (if physical abuse)'],
+      },
+    ]
+  },
+
+  /* 12 — Bank / Loan */
+  {
+    icon: '🏦', name: 'Bank / Loan',
+    laws: [
+      {
+        name: 'SARFAESI Act, 2002', year: 2002,
+        sections: [
+          { sec: 'Section 13(2)', name: '60-Day Notice Before Action', desc: 'Bank MUST give 60-day notice before taking possession of secured property for NPA. Borrower can repay within this period.', penalty: 'Any action without notice is void' },
+          { sec: 'Section 13(3A)', name: 'Right to Object', desc: 'Borrower can object to bank\'s notice within 15 days. Bank must consider the objection and reply within 7 days.', penalty: 'Ignoring borrower\'s objection: bank action can be stayed by Debt Recovery Tribunal' },
+          { sec: 'Section 17', name: 'DRT Appeal', desc: 'Borrower can challenge bank\'s action before Debt Recovery Tribunal within 45 days.', penalty: 'DRT can stay the bank action and grant time to repay' },
+        ],
+        examples: [
+          { title: 'Bank recovery agents harassing at home', situation: 'The bank is harassing me for loan recovery and has sent goons to my house', steps: ['Recovery agents/goons using intimidation is ILLEGAL — file FIR immediately', 'File complaint with RBI Banking Ombudsman at rbi.org.in/edri', 'File complaint with bank\'s grievance cell (written, get acknowledgement)', 'Recovery must follow RBI guidelines: agents cannot visit before 8am or after 7pm, cannot threaten', 'Approach Banking Ombudsman: compensation + direction to stop harassment can be ordered in 30 days'] },
+        ],
+        remedies: ['FIR against recovery agents', 'RBI Ombudsman order to stop harassment', 'Compensation from bank', 'Stay on possession action via DRT'],
+        helplines: ['RBI Banking Ombudsman: rbi.org.in/edri', 'RBI Helpline: 14440', 'Police: 100 (for goonda tactics)'],
+      },
+      {
+        name: 'RBI Recovery Guidelines, 2015', year: 2015,
+        sections: [
+          { sec: 'Guidelines', name: 'Recovery Agent Conduct', desc: 'Recovery agents cannot: visit before 8am or after 7pm; use abusive language; threaten violence; visit workplace without permission; disclose debt to third parties.', penalty: 'Bank liable for agents\' misconduct — RBI can penalise bank' },
+        ],
+        examples: [
+          { title: 'Late-night calls and threats from collection agents', situation: 'Bank loan collection agents call me at night and threaten me', steps: ['Document all calls with date, time, and content', 'File complaint on bank\'s website/app grievance portal', 'If no response: file with Banking Ombudsman online', 'Agents calling after 7pm or before 8am: RBI violation — include in complaint', 'Ombudsman can award Rs. 20 lakh compensation for harassment'] },
+        ],
+        remedies: ['Bank must withdraw abusive agents', 'Compensation up to Rs. 20 lakh from Ombudsman', 'RBI can penalise the bank'],
+        helplines: ['RBI Ombudsman: rbi.org.in/edri', 'RBI Consumer Helpline: 14440'],
+      },
+    ]
+  },
+
+  /* 13 — Cheque Bounce */
+  {
+    icon: '⚖️', name: 'Cheque Bounce',
+    laws: [
+      {
+        name: 'Negotiable Instruments Act, 1881 — Section 138', year: 1881,
+        sections: [
+          { sec: 'Section 138', name: 'Cheque Bounce Offence', desc: 'Dishonour of cheque for insufficiency of funds or exceeding arrangements. The drawer of the cheque is criminally liable.', penalty: 'Imprisonment up to 2 years + fine up to 2× the cheque amount' },
+          { sec: 'Section 138 Notice', name: 'Legal Notice Mandatory', desc: 'Within 30 days of bank memo: send legal notice to drawer. Drawer has 15 days to pay. Only if still unpaid: file complaint within 30 more days.', penalty: 'Non-compliance with notice = strong evidence of guilt' },
+          { sec: 'Section 143A', name: 'Interim Compensation', desc: 'Court can order drawer to pay interim compensation of up to 20% of cheque amount while case is pending.', penalty: 'Non-payment of interim compensation: case treated as non-contested' },
+        ],
+        examples: [
+          { title: 'Someone\'s cheque bounced after payment', situation: 'Someone gave me a cheque that bounced due to insufficient funds', steps: ['Obtain "Memo of Return" from your bank immediately', 'Send legal notice by registered post within 30 days of receiving memo', 'If drawer doesn\'t pay within 15 days: file criminal complaint under Section 138 at Magistrate Court', 'Also simultaneously file civil recovery suit for amount + interest', 'Case usually resolved in 6–18 months; drawer often settles after criminal case notice'] },
+        ],
+        remedies: ['Full cheque amount + interest recovered', 'Criminal imprisonment of drawer', 'Interim compensation order', 'Civil decree for amount'],
+        helplines: ['Magistrate Court (file complaint directly)', 'DLSA for free legal help if amount significant'],
+      },
+    ]
+  },
+
+  /* 14 — EPF / Gratuity */
+  {
+    icon: '🧾', name: 'EPF / Gratuity',
+    laws: [
+      {
+        name: 'Employees\' Provident Funds Act, 1952', year: 1952,
+        sections: [
+          { sec: 'Section 6', name: 'Contribution Rate', desc: 'Employer must contribute 12% of basic salary to EPF. Employee also contributes 12%. Employer deducting but not depositing is a criminal offence.', penalty: 'Imprisonment up to 3 years + fine. Interest at 12% per annum on defaulted amount' },
+          { sec: 'Section 14', name: 'Penalty for Default', desc: 'Any employer who fails to pay contributions is liable to pay damages at 5–25% of the amount, plus interest.', penalty: 'Damages 5–25% + prosecution' },
+        ],
+        examples: [
+          { title: 'Employer not depositing EPF contributions', situation: 'My employer is not depositing my EPF and the EPFO passbook shows no credits', steps: ['Check your EPF passbook on epfindia.gov.in (use UAN number)', 'File grievance at epfigms.gov.in (EPFO grievance management system)', 'File complaint with regional EPFO Commissioner — they have power to recover', 'EPFO can recover dues as "arrears of land revenue" — very powerful remedy', 'For criminal prosecution of employer: file complaint with EPFO office'] },
+        ],
+        remedies: ['Full EPF amount recovered + interest', 'Employer penalised 5–25% damages', 'Criminal prosecution', 'EPFO recovers dues as land revenue (attaches employer assets)'],
+        helplines: ['EPFO Helpline: 1800-118-005', 'epfindia.gov.in grievance portal', 'epfigms.gov.in'],
+      },
+      {
+        name: 'Payment of Gratuity Act, 1972', year: 1972,
+        sections: [
+          { sec: 'Section 4', name: 'Gratuity Entitlement', desc: 'Employee with 5+ years of continuous service is entitled to gratuity = 15 days\' last salary × years of service. (For employees in mines/oilfields: 30 days\' salary.)', penalty: 'Non-payment: imprisonment up to 2 years + fine' },
+          { sec: 'Section 7', name: 'Application for Gratuity', desc: 'Employee must apply within 30 days of leaving service. Employer must pay within 30 days of determining amount.', penalty: 'Delayed payment: 10% simple interest per annum on the amount' },
+          { sec: 'Section 8', name: 'Recovery', desc: 'Controlling Authority (Labour Department) can recover gratuity as arrears of land revenue.', penalty: 'Recovery from employer\'s assets; employer faces criminal charges' },
+        ],
+        examples: [
+          { title: 'Employer refusing to pay gratuity after 8 years of service', situation: 'My employer is refusing to pay gratuity after 8 years of service', steps: ['Calculate your entitlement: (Last monthly salary × 15/26) × 8 years', 'Send written application for gratuity to employer', 'If unpaid after 30 days: file application with Controlling Authority (Asst Labour Commissioner)', 'Controlling Authority issues notice; employer must pay within 30 days', 'If still unpaid: recovery as land revenue, employer criminally prosecuted'] },
+        ],
+        remedies: ['Full gratuity + 10% interest per annum', 'Criminal prosecution of employer', 'Recovery from employer\'s property/assets'],
+        helplines: ['Labour Commissioner Office (district)', 'Ministry of Labour Helpline: 14434'],
+      },
+    ]
+  },
+
+  /* 15 — Environment */
+  {
+    icon: '🌱', name: 'Environment',
+    laws: [
+      {
+        name: 'Environment Protection Act, 1986', year: 1986,
+        sections: [
+          { sec: 'Section 15', name: 'Punishment for Violation', desc: 'Any person/company violating environmental standards (air, water, soil pollution) is punishable.', penalty: 'Imprisonment up to 5 years + fine up to Rs. 1 lakh; continuing violation: Rs. 5,000/day additional' },
+          { sec: 'Section 19', name: 'Citizen Complaint', desc: 'Any person can file complaint against environmental violation by giving 60-day notice to authority. If authority doesn\'t act: citizen can file case directly.', penalty: 'N/A — procedural right' },
+        ],
+        examples: [
+          { title: 'Factory releasing toxic smoke in residential area', situation: 'A factory near my house is releasing toxic smoke and polluting the water', steps: ['File complaint with State Pollution Control Board (SPCB) — they have inspection powers', 'File complaint with CPCB (Central Pollution Control Board) if state doesn\'t act', 'File complaint with National Green Tribunal (NGT) — no court fee; can award compensation', 'NGT can issue immediate directions to shut/restrict factory within weeks', 'Collective petition by affected residents strengthens the case significantly'] },
+        ],
+        remedies: ['Factory operations stopped/restricted by NGT', 'Compensation for health damage', 'Restoration costs paid by polluter', 'Criminal prosecution of company management'],
+        helplines: ['State Pollution Control Board', 'National Green Tribunal: greentribunal.gov.in', 'CPCB: cpcb.nic.in'],
+      },
+      {
+        name: 'National Green Tribunal Act, 2010', year: 2010,
+        sections: [
+          { sec: 'Section 14', name: 'NGT Jurisdiction', desc: 'NGT has jurisdiction over all environmental disputes involving substantial question relating to environment including enforcement of any legal right relating to environment.', penalty: 'NGT can impose civil liability without limit' },
+          { sec: 'Section 15', name: 'Relief and Compensation', desc: 'NGT can award compensation and relief to victims of environmental damage. Polluter pays principle.', penalty: 'Compensation + remediation costs on polluter' },
+        ],
+        examples: [
+          { title: 'Illegal mining destroying village land', situation: 'Illegal mining near my village is causing land subsidence and contaminating groundwater', steps: ['File application before NGT — any person can file, no filing fee for individuals', 'NGT can issue show-cause notice to mining company within days', 'Request interim stay on mining operations', 'NGT has imposed crores in compensation in similar cases', 'Also file complaint with District Mining Officer for immediate inspection'] },
+        ],
+        remedies: ['Immediate stay on illegal activity', 'Compensation for damage', 'Restoration of environment', 'Criminal referral to police'],
+        helplines: ['NGT: greentribunal.gov.in, Helpline: 011-24300600', 'State Pollution Control Board'],
+      },
+    ]
+  },
+
+  /* 16 — Inheritance */
+  {
+    icon: '📜', name: 'Inheritance',
+    laws: [
+      {
+        name: 'Hindu Succession Act, 1956 (as amended 2005)', year: 2005,
+        sections: [
+          { sec: 'Section 6', name: 'Daughter\'s Coparcenary Rights', desc: '2005 Amendment: Daughters have EQUAL rights in ancestral property as sons. This applies even if father died before 2005 (Supreme Court in Vineeta Sharma v. Rakesh Sharma, 2020).', penalty: 'Denial of share = civil suit for partition and separate possession' },
+          { sec: 'Section 8', name: 'Class I Heirs', desc: 'Mother, son, daughter, widow get equal share in self-acquired property of deceased. They are all Class I heirs.', penalty: 'Exclusion of Class I heir: partition suit' },
+          { sec: 'Section 14', name: 'Woman\'s Property Rights', desc: 'Any property possessed by a Hindu woman (whether acquired before or after marriage) is her absolute property — she is full owner, can sell/gift/bequeath.', penalty: 'Denial = civil suit' },
+        ],
+        examples: [
+          { title: 'Brothers denying sister her share in ancestral property', situation: 'My brothers are denying me my share in the ancestral property after my father died', steps: ['Collect documents: property papers, birth certificates, death certificate of father', 'Send legal notice to brothers through advocate demanding your share', 'File civil suit for "Partition and Separate Possession" in Civil Court', 'As daughter, your right to ancestral property (coparcenary) is equal to brothers\' — clearly established by Supreme Court 2020', 'Court can also appoint local commissioner to inspect property'] },
+        ],
+        remedies: ['Partition decree granting equal share', 'Injunction against sale of property pending case', 'Share of past income/rent from property', 'Registration of share in your name'],
+        helplines: ['Civil Court (file suit for partition)', 'DLSA for free legal aid', 'Advocate for legal notice'],
+      },
+    ]
+  },
+
+  /* 17 — Railways / Flight */
+  {
+    icon: '🚂', name: 'Railways / Flight',
+    laws: [
+      {
+        name: 'Consumer Protection Act — Airlines & Railways', year: 2019,
+        sections: [
+          { sec: 'DGCA Circular 2010', name: 'Denied Boarding Compensation', desc: 'If airline denies boarding on confirmed ticket (overbooking): Compensation Rs. 5,000 for flights ≤1hr delay; Rs. 10,000 for 1–4hr; Rs. 15,000 beyond. Plus refund.', penalty: 'Airline must pay compensation immediately at airport' },
+          { sec: 'Air Transport Circular', name: 'Flight Delay Rights', desc: 'Flight delayed by 2+ hours: airline must provide meals and refreshments. Delay of 24hr: hotel accommodation. Cancelled flight: full refund or alternative flight.', penalty: 'Failure = complaint to DGCA and Consumer Commission' },
+        ],
+        examples: [
+          { title: 'Airline denied boarding on confirmed ticket', situation: 'The airline denied boarding to me after I had a confirmed ticket', steps: ['Demand written denial letter from airline at airport', 'Claim compensation immediately from airline counter (Rs. 5,000–15,000 depending on delay)', 'If airline refuses: file complaint with DGCA at dgca.gov.in', 'File consumer complaint — Consumer Commissions award full compensation + costs', 'For domestic flights: file at District Consumer Commission where you purchased ticket'] },
+        ],
+        remedies: ['Rs. 5,000–15,000 denied boarding compensation', 'Full ticket refund', 'Alternative flight arrangement', 'Consumer Commission can award additional damages for distress'],
+        helplines: ['DGCA AirSewa Portal: airsewa.gov.in', 'DGCA Complaints: 011-24622495', 'National Consumer Helpline: 1800-11-4000'],
+      },
+      {
+        name: 'Railways Act, 1989', year: 1989,
+        sections: [
+          { sec: 'Section 100', name: 'Lost Luggage Liability', desc: 'Railway is liable for loss of passenger\'s luggage when it is in railway\'s care (booked/checked luggage).', penalty: 'Compensation for value of lost goods' },
+          { sec: 'Railway Claims Tribunal', name: 'RCT Claims', desc: 'Claims for refund, loss of luggage, personal injury, or death in train accident are filed before Railway Claims Tribunal.', penalty: 'Railways must compensate per the award' },
+        ],
+        examples: [
+          { title: 'Luggage lost by railways', situation: 'My booked luggage was lost by the railways and they are not compensating me', steps: ['File claim at Railway Claims Tribunal (RCT) — no advocate required', 'RCT is in every state capital — you can also file online', 'Provide booking receipt and details of contents lost', 'Tribunal passes order within 3–12 months; railway must comply', 'Consumer Commission is an alternative forum for faster relief'] },
+        ],
+        remedies: ['Compensation for value of lost luggage', 'Fast-track process at RCT', 'Consumer forum as alternative'],
+        helplines: ['Railway Claims Tribunal: rct.indianrailways.gov.in', 'Indian Railways Helpline: 139'],
+      },
+    ]
+  },
+
+  /* 18 — Data Privacy */
+  {
+    icon: '🔒', name: 'Data Privacy',
+    laws: [
+      {
+        name: 'Digital Personal Data Protection Act, 2023', year: 2023,
+        sections: [
+          { sec: 'Section 4', name: 'Lawful Processing', desc: 'Your personal data can only be processed with your clear consent or for specific legitimate uses. You must be told why your data is being used.', penalty: 'Violation: fine up to Rs. 250 crore' },
+          { sec: 'Section 11', name: 'Right to Information', desc: 'You have the right to know what personal data an organization holds about you and how it is being used.', penalty: 'Non-compliance: fine up to Rs. 10,000 per complaint' },
+          { sec: 'Section 12', name: 'Right to Correction/Erasure', desc: 'You have the right to correct inaccurate data or erase your personal data (right to be forgotten).', penalty: 'Refusal: complaint to Data Protection Board' },
+          { sec: 'Section 8(6)', name: 'Data Breach Notification', desc: 'Companies must notify the Data Protection Board AND affected individuals of personal data breach.', penalty: 'Failure to notify: fine up to Rs. 200 crore' },
+        ],
+        examples: [
+          { title: 'Company sharing personal data without consent', situation: 'A company is sharing my personal data without my consent and I am getting unwanted calls', steps: ['Send written email/letter to company\'s Privacy Officer/Data Protection Officer requesting data deletion', 'If no response in 30 days: file complaint with Data Protection Board (when operational)', 'For unwanted calls: file complaint on DND portal (trai.gov.in) under TRAI regulations', 'For financial data misuse: file complaint with RBI (bank data) or SEBI (financial data)', 'File FIR under IT Act Section 43A if sensitive personal data breached'] },
+        ],
+        remedies: ['Mandatory data erasure', 'Fines on organization up to Rs. 250 crore', 'Compensation for harm caused', 'Data Protection Board inquiry'],
+        helplines: ['Data Protection Board (upcoming)', 'TRAI DND: 1909', 'Cyber Crime: 1930'],
+      },
+    ]
+  },
+
+  /* 19 — Drug / NDPS */
+  {
+    icon: '💊', name: 'Drug / NDPS',
+    laws: [
+      {
+        name: 'Narcotic Drugs and Psychotropic Substances Act, 1985 (NDPS)', year: 1985,
+        sections: [
+          { sec: 'Section 27', name: 'Small Quantity Possession', desc: 'Possession of small quantity (notified per substance) for personal consumption: lighter punishment.', penalty: 'Maximum 1 year imprisonment OR fine up to Rs. 10,000 OR both' },
+          { sec: 'Section 20', name: 'Commercial Quantity', desc: 'Possession of commercial quantity (much larger): mandatory minimum 10 years imprisonment + fine Rs. 1 lakh minimum. No bail generally.', penalty: '10 years to life + fine (minimum)' },
+          { sec: 'Section 50', name: 'Search Procedure', desc: 'CRITICAL: Police MUST offer person the choice to be searched before a Gazetted Officer or Magistrate BEFORE the search. Failure to inform = illegal search = evidence not admissible.', penalty: 'Search without following Section 50 = case quashed by court' },
+          { sec: 'Section 37', name: 'Bail Provisions', desc: 'For commercial quantity: bail only if court is satisfied there are reasonable grounds to believe accused is not guilty. Very strict bail conditions.', penalty: 'N/A — limits bail rights' },
+        ],
+        examples: [
+          { title: 'Arrested with small quantity of drugs', situation: 'I was arrested with a small quantity of drugs. What are my rights?', steps: ['Immediately demand your rights: right to know grounds of arrest, right to inform family, right to legal aid', 'Ask whether police gave you CHOICE to be searched before Gazetted Officer/Magistrate (Section 50 compliance)', 'If Section 50 not followed: challenge search in court — evidence may be inadmissible', 'Contact DLSA for free legal aid immediately', 'If personal use quantity: bail is possible; hire advocate for bail application immediately'] },
+        ],
+        remedies: ['Bail for small quantity (possible)', 'Section 50 violation = acquittal', 'Free legal aid from DLSA', 'Sentence reduced if first offender + small quantity'],
+        helplines: ['DLSA (free legal aid): 15100', 'Legal Services Helpline: 1516'],
+      },
+    ]
+  },
+
+  /* 20 — Telecom Spam */
+  {
+    icon: '📞', name: 'Telecom Spam',
+    laws: [
+      {
+        name: 'Telecom Commercial Communications Customer Preference Regulations, 2018', year: 2018,
+        sections: [
+          { sec: 'DND Registration', name: 'Do Not Disturb', desc: 'Register on DND (Do Not Disturb) by calling 1909 or SMS DND to 1909. Telemarketers cannot call/SMS after registration.', penalty: 'Unwanted commercial calls after DND: Rs. 500 per call fine on telemarketer; repeat: licence cancelled' },
+          { sec: 'TRAI Complaint', name: 'Complaint Mechanism', desc: 'File complaint at trai.gov.in or via Sanchar Saathi app. Include time, caller number, and nature of call.', penalty: 'TRAI investigates and fines telemarketers per call' },
+        ],
+        examples: [
+          { title: 'Constant spam calls despite DND', situation: 'I am getting constant spam calls despite DND registration', steps: ['Ensure DND is active: SMS "DND" to 1909 and wait 24 hours for activation', 'File complaint on TRAI website at trai.gov.in or via Sanchar Saathi app', 'Note: include date, time, caller number, and call content in complaint', 'TRAI will investigate — telemarketer faces Rs. 500 per call fine', 'For fraudulent calls claiming to be from bank/govt: also file at cybercrime.gov.in'] },
+        ],
+        remedies: ['Telemarketer fined per call', 'Repeat offenders: licence cancelled', 'Blacklisting of telemarketer'],
+        helplines: ['TRAI DND: 1909', 'Sanchar Saathi App', 'trai.gov.in'],
+      },
+    ]
+  },
+
+  /* 21 — Education Rights */
+  {
+    icon: '🎓', name: 'Education Rights',
+    laws: [
+      {
+        name: 'Right to Education Act, 2009 (RTE)', year: 2009,
+        sections: [
+          { sec: 'Section 3', name: 'Free & Compulsory Education', desc: 'Every child aged 6–14 has the fundamental right to free and compulsory elementary education. No school can deny admission or charge fees.', penalty: 'Private school denying admission: complaint to District Education Officer; school faces action' },
+          { sec: 'Section 12(1)(c)', name: '25% EWS Quota', desc: 'Private unaided schools must reserve 25% seats for children from EWS and disadvantaged groups, admitted free of charge. Government reimburses fee.', penalty: 'Non-compliance: school\'s recognition can be cancelled' },
+          { sec: 'Section 17', name: 'No Physical Punishment', desc: 'Physical punishment, mental harassment, and discrimination of children is prohibited in schools.', penalty: 'Teacher guilty of corporal punishment: disciplinary action + criminal prosecution under BNS' },
+        ],
+        examples: [
+          { title: 'School denying admission to EWS child', situation: 'The private school is refusing to admit my child under the 25% RTE quota', steps: ['Apply in writing to school Principal for EWS/DG category admission (keep copy)', 'Contact District Education Officer with your application and school\'s refusal', 'File online complaint at your state\'s Education Department portal', 'NCPCR (National Commission for Protection of Child Rights) also handles RTE complaints: ncpcr.gov.in', 'Schools repeatedly violating RTE face cancellation of recognition'] },
+        ],
+        remedies: ['School must admit child', 'Free education guaranteed', 'School faces action for non-compliance', 'NCPCR can direct immediate admission'],
+        helplines: ['NCPCR: 1800-11-2727 (toll-free)', 'District Education Officer', 'State Education Department portal'],
+      },
+      {
+        name: 'UGC Fee Refund Policy, 2023', year: 2023,
+        sections: [
+          { sec: 'UGC Regulations', name: 'Fee Refund on Withdrawal', desc: 'If student withdraws before last admission date: 90% refund (minus Rs. 1,000). Within 15 days after: 80%. 16–30 days after: 50%. After 30 days: 25%. After academic session starts: Nil (security deposit always returned).', penalty: 'Non-refund: complaint to UGC; institution penalised' },
+          { sec: 'Section 22', name: 'No Document Withholding', desc: 'Educational institutions CANNOT retain original documents (certificates, marksheets) as security. Must return on demand.', penalty: 'Complaint to UGC; institution can face show cause notice and action' },
+        ],
+        examples: [
+          { title: 'College refusing fee refund after withdrawal', situation: 'My college is not refunding my fees after I withdrew my admission', steps: ['Calculate refund due based on date of withdrawal (UGC schedule above)', 'Send written application for refund (keep acknowledgement)', 'If refused: file complaint at ugc.gov.in → Student Grievance Portal', 'UGC issues notice to institution; must respond and pay within 30 days', 'If institution still refuses: Consumer Commission is also an option (education = service)'] },
+        ],
+        remedies: ['Mandatory refund per UGC schedule', 'Original documents returned immediately', 'UGC can penalise institution', 'Consumer Forum as alternative forum'],
+        helplines: ['UGC Anti-Ragging Helpline: 1800-180-5522', 'UGC Grievance Portal: ugc.gov.in', 'Anti-Ragging Portal: antiragging.in'],
+      },
+    ]
+  },
+
+  /* 22 — Bonded Labour */
+  {
+    icon: '🤝', name: 'Bonded Labour',
+    laws: [
+      {
+        name: 'Bonded Labour System (Abolition) Act, 1976', year: 1976,
+        sections: [
+          { sec: 'Section 4', name: 'Bonded Labour Extinguished', desc: 'Every obligation to render bonded labour, under any agreement (oral/written), is EXTINGUISHED immediately. No legal document can enforce it.', penalty: 'Person maintaining bonded labour: imprisonment up to 3 years + fine' },
+          { sec: 'Section 6', name: 'Debt Void', desc: 'Every bonded debt is void. You CANNOT be legally forced to repay it. No court will enforce the debt. You are legally free from the debt.', penalty: 'Trying to recover bonded debt: criminal offence' },
+          { sec: 'Section 21', name: 'Right to Rehabilitation', desc: 'Released bonded labourer entitled to: temporary shelter, subsistence allowance, Central scheme Rs. 1–3 lakh rehabilitation assistance, vocational training.', penalty: 'Non-provision of rehabilitation: complaint to DM' },
+        ],
+        examples: [
+          { title: 'Forced to work to repay advance without proper wages', situation: 'I was given an advance and now forced to work without proper wages to repay it', steps: ['Know your rights: the advance-debt is VOID under law. You are free.', 'Contact District Magistrate (DM) or District Legal Services Authority (DLSA)', 'DM has power to release you IMMEDIATELY and initiate rehabilitation', 'Contact NGOs — they can file habeas corpus petition in High Court for immediate release', 'After release: apply for rehabilitation scheme (up to Rs. 3 lakh assistance)'] },
+        ],
+        remedies: ['Immediate release from bondage (DM order)', 'Debt is void — no repayment needed', 'Rs. 1–3 lakh rehabilitation assistance', 'Free housing and vocational training'],
+        helplines: ['Ministry of Labour Helpline: 14434', 'DLSA: 15100', 'Childline: 1098 (for child bonded labourers)'],
+      },
+    ]
+  },
+
+  /* 23 — Electricity */
+  {
+    icon: '💡', name: 'Electricity',
+    laws: [
+      {
+        name: 'Electricity Act, 2003', year: 2003,
+        sections: [
+          { sec: 'Section 42(5)', name: 'Consumer Grievance Forum', desc: 'Every electricity distribution company MUST have a Consumer Grievance Redressal Forum (CGRF). Free and fast redressal.', penalty: 'Non-establishment of CGRF: SERC can penalise the company' },
+          { sec: 'Section 56', name: 'Disconnection Rules', desc: 'Electricity company must give 7 days\' notice before disconnection. Cannot disconnect for disputed bills.', penalty: 'Wrongful disconnection: compensation + reconnection order by CGRF/Ombudsman' },
+          { sec: 'Section 135', name: 'Theft of Electricity', desc: 'Dishonest abstraction of electricity is a criminal offence. Companies falsely accusing consumers of theft is actionable.', penalty: 'Theft: imprisonment up to 3 years + fine (for first offence); false accusation: civil suit' },
+          { sec: 'Electricity Ombudsman', name: 'Appellate Authority', desc: 'If CGRF doesn\'t resolve: appeal before Electricity Ombudsman (state-level). If still not resolved: State Electricity Regulatory Commission.', penalty: 'Commission can direct the company to compensate consumer' },
+        ],
+        examples: [
+          { title: 'Inflated electricity bill and threat to disconnect', situation: 'My electricity company sent a hugely inflated bill and is threatening to disconnect', steps: ['File written complaint with electricity company (get acknowledgement)', 'If bill disputed: file complaint with Consumer Grievance Redressal Forum (CGRF) of your DISCOM', 'Company CANNOT disconnect while complaint is pending before CGRF', 'If CGRF doesn\'t decide in 60 days or you\'re not satisfied: appeal to Electricity Ombudsman', 'Ombudsman decisions are binding on electricity company'] },
+        ],
+        remedies: ['Correct bill issued', 'Wrongful disconnection — reconnection within 24 hours by CGRF order', 'Compensation for damages', 'No disconnection during pending grievance'],
+        helplines: ['Your state\'s DISCOM customer care number', 'State CGRF (contact your electricity distribution company)', 'SERC (State Electricity Regulatory Commission)'],
+      },
+    ]
+  },
+];
+
+/* =========================================================
+   LEGAL LIBRARY FUNCTIONS
+========================================================= */
+function openLibrary(idx) {
+  const cat = LEGAL_LIBRARY[idx];
+  if (!cat) return;
+
+  document.getElementById('libCatIcon').textContent = cat.icon;
+  document.getElementById('libCatTitle').textContent = cat.name;
+
+  // Build sidebar
+  const sidebar = document.getElementById('libSidebar');
+  sidebar.innerHTML = cat.laws.map((law, i) => `
+    <button class="lib-law-btn ${i === 0 ? 'active' : ''}" onclick="openLaw(${idx}, ${i})">
+      <span style="flex:1">${law.name}</span>
+      <span class="lb-year">${law.year}</span>
+    </button>
+  `).join('');
+
+  // Show first law
+  renderLaw(idx, 0);
+
+  document.getElementById('libOverlay').classList.add('open');
+  document.getElementById('libContent').scrollTop = 0;
+}
+
+function openLaw(catIdx, lawIdx) {
+  // Update active state
+  document.querySelectorAll('.lib-law-btn').forEach((btn, i) => {
+    btn.classList.toggle('active', i === lawIdx);
+  });
+  renderLaw(catIdx, lawIdx);
+  document.getElementById('libContent').scrollTop = 0;
+}
+
+function renderLaw(catIdx, lawIdx) {
+  const law = LEGAL_LIBRARY[catIdx].laws[lawIdx];
+  const content = document.getElementById('libContent');
+
+  const sectionsHtml = law.sections.map(s => `
+    <div class="lib-sec-card">
+      <div class="lib-sec-num">${s.sec}</div>
+      <div class="lib-sec-name">${s.name}</div>
+      <div class="lib-sec-desc">${s.desc}</div>
+      ${s.penalty ? `<div class="lib-sec-penalty"><i class="fa fa-gavel" style="margin-right:4px"></i>${s.penalty}</div>` : ''}
+    </div>
+  `).join('');
+
+  const examplesHtml = (law.examples || []).map(ex => `
+    <div class="lib-example">
+      <div class="lib-example-q">${ex.title}</div>
+      <div style="font-size:.8rem;color:var(--text-3);margin-bottom:12px;font-style:italic">"${ex.situation}"</div>
+      <ul class="lib-example-steps">
+        ${ex.steps.map((step, i) => `
+          <li class="lib-example-step">
+            <span class="lib-step-num">${i + 1}</span>
+            <span>${step}</span>
+          </li>
+        `).join('')}
+      </ul>
+      <button class="lib-use-btn" onclick="useLibraryExample('${ex.situation.replace(/'/g, "\\'").replace(/"/g, '&quot;')}')">
+        <i class="fa fa-arrow-right"></i> Analyze This Situation
+      </button>
+    </div>
+  `).join('');
+
+  const remediesHtml = (law.remedies || []).length ? `
+    <div class="lib-section-title"><i class="fa fa-shield-halved"></i> Available Remedies</div>
+    <div class="lib-remedies">
+      ${law.remedies.map(r => `
+        <div class="lib-remedy">
+          <span class="lib-remedy-icon">✅</span>
+          <span class="lib-remedy-text">${r}</span>
+        </div>
+      `).join('')}
+    </div>
+  ` : '';
+
+  const helplinesHtml = (law.helplines || []).length ? `
+    <div class="lib-section-title"><i class="fa fa-phone"></i> Helplines & Resources</div>
+    <div class="lib-helplines">
+      ${law.helplines.map(h => `<div class="lib-helpline"><i class="fa fa-phone" style="color:var(--green)"></i> <strong>${h.split(':')[0]}</strong>${h.includes(':') ? ': ' + h.split(':').slice(1).join(':') : ''}</div>`).join('')}
+    </div>
+  ` : '';
+
+  content.innerHTML = `
+    <div class="lib-law-header">
+      <div class="lib-law-badge">${LEGAL_LIBRARY[catIdx].icon}</div>
+      <div>
+        <div class="lib-law-title">${law.name}</div>
+        <div class="lib-law-subtitle">Enacted: ${law.year} &nbsp;|&nbsp; Category: ${LEGAL_LIBRARY[catIdx].name}</div>
+      </div>
+    </div>
+
+    <div class="lib-section-title"><i class="fa fa-list-check"></i> Key Sections & Penalties</div>
+    <div class="lib-sections-grid">${sectionsHtml}</div>
+
+    <div class="lib-section-title" style="margin-top:24px"><i class="fa fa-circle-question"></i> Real-World Examples & Step-by-Step Actions</div>
+    ${examplesHtml}
+
+    ${remediesHtml}
+    ${helplinesHtml}
+  `;
+}
+
+function closeLibrary() {
+  document.getElementById('libOverlay').classList.remove('open');
+}
+
+function useLibraryExample(situation) {
+  closeLibrary();
+  const input = document.getElementById('situationInput');
+  input.value = situation;
+  updateCharCount(input);
+  input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  setTimeout(() => {
+    input.focus();
+    input.style.borderColor = 'var(--saffron)';
+    input.style.boxShadow = '0 0 0 3px rgba(245,158,11,.2)';
+    setTimeout(() => { input.style.borderColor = ''; input.style.boxShadow = ''; }, 2000);
+  }, 500);
+}
+
+/* =========================================================
    RESPONSIVE LETTER GRID
 ========================================================= */
 function checkLetterGrid() {
@@ -1750,6 +3139,310 @@ function checkLetterGrid() {
 }
 window.addEventListener('resize', checkLetterGrid);
 checkLetterGrid();
+
+/* =========================================================
+   PAGE SWITCHING (Legal Aid / File ITR)
+========================================================= */
+function switchPage(page) {
+  const legalPage = document.getElementById('legal-page');
+  const itrPage   = document.getElementById('itr-page');
+  const tabLegal  = document.getElementById('tabLegal');
+  const tabITR    = document.getElementById('tabITR');
+
+  if (page === 'itr') {
+    legalPage.style.display = 'none';
+    itrPage.style.display   = 'block';
+    tabLegal.classList.remove('active');
+    tabITR.classList.add('active');
+  } else {
+    itrPage.style.display   = 'none';
+    legalPage.style.display = 'block';
+    tabITR.classList.remove('active');
+    tabLegal.classList.add('active');
+  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* =========================================================
+   ITR TAB SWITCHING
+========================================================= */
+function switchItrTab(tab) {
+  document.getElementById('uploadTab').classList.toggle('active', tab === 'upload');
+  document.getElementById('manualTab').classList.toggle('active', tab === 'manual');
+  document.getElementById('uploadTabBtn').classList.toggle('active', tab === 'upload');
+  document.getElementById('manualTabBtn').classList.toggle('active', tab === 'manual');
+}
+
+/* =========================================================
+   BANK CSV PARSING
+========================================================= */
+let parsedCSVEntries = [];
+
+function itrDragOver(e) {
+  e.preventDefault();
+  document.getElementById('csvDrop').classList.add('drag-over');
+}
+function itrDragLeave(e) {
+  document.getElementById('csvDrop').classList.remove('drag-over');
+}
+function itrDrop(e) {
+  e.preventDefault();
+  document.getElementById('csvDrop').classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (file && file.name.endsWith('.csv')) parseBankCSV(file);
+  else showToast('Please drop a CSV file.', true);
+}
+
+function parseBankCSV(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const text = e.target.result;
+    const rows = text.split('\n').map(r => r.trim()).filter(Boolean);
+    if (rows.length < 2) { showToast('CSV appears empty.', true); return; }
+
+    const headers = rows[0].split(',').map(h => h.replace(/"/g, '').trim().toLowerCase());
+
+    // Find credit column (handles SBI, HDFC, ICICI, Axis etc.)
+    const creditIdx = headers.findIndex(h =>
+      /credit|deposit|cr\.? amt|credit amount|cr amount/.test(h));
+    const dateIdx = headers.findIndex(h =>
+      /date|txn date|transaction date/.test(h));
+    const descIdx = headers.findIndex(h =>
+      /desc|narration|particular|remark|detail/.test(h));
+
+    if (creditIdx === -1) {
+      showToast('Could not find a credit/deposit column in this CSV.', true);
+      return;
+    }
+
+    parsedCSVEntries = [];
+    let total = 0;
+
+    for (let i = 1; i < rows.length; i++) {
+      const cols = splitCSVRow(rows[i]);
+      const rawCredit = (cols[creditIdx] || '').replace(/[",\s₹]/g, '');
+      const credit = parseFloat(rawCredit);
+      if (!credit || credit <= 0) continue;
+      const date = dateIdx >= 0 ? cols[dateIdx]?.replace(/"/g, '').trim() : '';
+      const desc = descIdx >= 0 ? cols[descIdx]?.replace(/"/g, '').trim() : '';
+      parsedCSVEntries.push({ date, desc, credit });
+      total += credit;
+    }
+
+    renderCSVPreview(parsedCSVEntries.slice(0, 10), total);
+    document.getElementById('up_salary').value = Math.round(total);
+    document.getElementById('csvTotalCredit').textContent = '₹' + Math.round(total).toLocaleString('en-IN');
+  };
+  reader.readAsText(file);
+}
+
+function splitCSVRow(row) {
+  const result = [];
+  let cur = '', inQ = false;
+  for (const c of row) {
+    if (c === '"') { inQ = !inQ; }
+    else if (c === ',' && !inQ) { result.push(cur); cur = ''; }
+    else cur += c;
+  }
+  result.push(cur);
+  return result;
+}
+
+function renderCSVPreview(entries, total) {
+  const preview = document.getElementById('csvPreview');
+  const rows    = document.getElementById('csvRows');
+  preview.classList.remove('hidden');
+
+  rows.innerHTML = `
+    <div class="csv-row header">
+      <div>Date</div><div>Description</div><div>Credit (₹)</div>
+    </div>
+  ` + entries.map(e => `
+    <div class="csv-row">
+      <div>${e.date || '—'}</div>
+      <div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${e.desc || '—'}</div>
+      <div class="cr">₹${e.credit.toLocaleString('en-IN')}</div>
+    </div>
+  `).join('');
+
+  if (parsedCSVEntries.length > 10) {
+    rows.innerHTML += `<div style="font-size:.75rem;color:var(--text-3);padding:6px 0">… and ${parsedCSVEntries.length - 10} more entries</div>`;
+  }
+}
+
+/* =========================================================
+   ITR ANALYSIS
+========================================================= */
+let itrResult = null;
+
+async function analyzeITR(mode) {
+  let payload;
+  if (mode === 'upload') {
+    payload = {
+      name: document.getElementById('up_name').value.trim(),
+      pan:  document.getElementById('up_pan').value.trim().toUpperCase(),
+      salary_income:   parseFloat(document.getElementById('up_salary').value)   || 0,
+      business_income: parseFloat(document.getElementById('up_business').value) || 0,
+      capital_gains:   parseFloat(document.getElementById('up_capgains').value) || 0,
+      other_income:    parseFloat(document.getElementById('up_other').value)    || 0,
+    };
+  } else {
+    const bizType = document.getElementById('mn_biztype').value;
+    payload = {
+      name: document.getElementById('mn_name').value.trim(),
+      pan:  document.getElementById('mn_pan').value.trim().toUpperCase(),
+      salary_income:   parseFloat(document.getElementById('mn_salary').value)   || 0,
+      business_income: parseFloat(document.getElementById('mn_business').value) || 0,
+      capital_gains:   parseFloat(document.getElementById('mn_capgains').value) || 0,
+      other_income:    parseFloat(document.getElementById('mn_other').value)    || 0,
+      deduction_80c:   parseFloat(document.getElementById('mn_80c').value)      || 0,
+      deduction_80d:   parseFloat(document.getElementById('mn_80d').value)      || 0,
+      hra_exempt:      parseFloat(document.getElementById('mn_hra').value)      || 0,
+      home_loan_interest: parseFloat(document.getElementById('mn_hl').value)   || 0,
+      house_properties: parseInt(document.getElementById('mn_houses').value)   || 1,
+      presumptive_business: bizType === 'presumptive',
+    };
+  }
+
+  const total = (payload.salary_income || 0) + (payload.business_income || 0) +
+                (payload.capital_gains || 0)  + (payload.other_income || 0);
+  if (total <= 0) {
+    showToast('Please enter at least one income amount.', true);
+    return;
+  }
+
+  document.getElementById('itrLoading').classList.remove('hidden');
+  document.getElementById('itrResults').classList.remove('show');
+
+  try {
+    const resp = await fetch(`${API}/api/itr/analyze`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    itrResult = await resp.json();
+    itrResult._name = payload.name || 'Taxpayer';
+    renderITRResults(itrResult);
+  } catch (err) {
+    showToast('Analysis failed: ' + err.message, true);
+  } finally {
+    document.getElementById('itrLoading').classList.add('hidden');
+  }
+}
+
+function fmt(n) { return '₹' + Math.round(n).toLocaleString('en-IN'); }
+
+function renderITRResults(r) {
+  document.getElementById('resForm').textContent       = r.recommended_form;
+  document.getElementById('resFormReason').textContent = r.form_reason;
+
+  const rec = r.recommended_regime;
+  document.getElementById('resRegime').textContent  = rec + ' Tax Regime';
+  document.getElementById('resRegimeSub').textContent =
+    `Saves ₹${Math.round(r.regime_savings).toLocaleString('en-IN')} vs ${rec === 'New' ? 'Old' : 'New'} regime`;
+
+  document.getElementById('resTotalIncome').textContent = fmt(r.total_income);
+
+  const tax = rec === 'New' ? r.new_regime.tax : r.old_regime.tax;
+  document.getElementById('resTax').textContent  = fmt(tax);
+  document.getElementById('resTaxNote').textContent =
+    tax === 0 ? 'No tax liability (87A rebate or nil income)' : 'Including 4% Health & Education Cess';
+
+  document.getElementById('cmpOldDed').textContent     = fmt(r.old_regime.deductions);
+  document.getElementById('cmpNewDed').textContent     = fmt(r.new_regime.deductions);
+  document.getElementById('cmpOldTaxable').textContent = fmt(r.old_regime.taxable_income);
+  document.getElementById('cmpNewTaxable').textContent = fmt(r.new_regime.taxable_income);
+
+  const oldTaxEl = document.getElementById('cmpOldTax');
+  const newTaxEl = document.getElementById('cmpNewTax');
+  oldTaxEl.textContent = fmt(r.old_regime.tax);
+  newTaxEl.textContent = fmt(r.new_regime.tax);
+
+  if (rec === 'Old') {
+    oldTaxEl.innerHTML += ' <span class="regime-badge">✓ Best</span>';
+    oldTaxEl.classList.add('green');
+  } else {
+    newTaxEl.innerHTML += ' <span class="regime-badge">✓ Best</span>';
+    newTaxEl.classList.add('green');
+  }
+
+  const dedCard = document.getElementById('dedCard');
+  const dedList = document.getElementById('dedList');
+  if (r.applicable_deductions && r.applicable_deductions.length) {
+    dedCard.style.display = 'block';
+    dedList.innerHTML = r.applicable_deductions
+      .map(d => `<li><i class="fa fa-check-circle"></i> ${d}</li>`)
+      .join('');
+  }
+
+  document.getElementById('guidanceContent').textContent = r.guidance || 'No guidance generated.';
+  document.getElementById('itrResults').classList.add('show');
+  document.getElementById('itrResults').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetITR() {
+  itrResult = null;
+  document.getElementById('itrResults').classList.remove('show');
+  document.getElementById('csvPreview').classList.add('hidden');
+  parsedCSVEntries = [];
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+async function downloadITRSummary() {
+  if (!itrResult) return;
+  const rec = itrResult.recommended_regime;
+  const tax = rec === 'New' ? itrResult.new_regime.tax : itrResult.old_regime.tax;
+  const text = `ITR FILING SUMMARY — NyayaSaathi
+Assessment Year: 2025-26
+
+TAXPAYER: ${itrResult._name || 'N/A'}
+
+RECOMMENDED FORM: ${itrResult.recommended_form}
+${itrResult.form_reason}
+
+INCOME SUMMARY
+Total Gross Income: ${fmt(itrResult.total_income)}
+
+TAX REGIME COMPARISON
+Old Regime — Deductions: ${fmt(itrResult.old_regime.deductions)}, Taxable: ${fmt(itrResult.old_regime.taxable_income)}, Tax: ${fmt(itrResult.old_regime.tax)}
+New Regime — Deductions: ${fmt(itrResult.new_regime.deductions)}, Taxable: ${fmt(itrResult.new_regime.taxable_income)}, Tax: ${fmt(itrResult.new_regime.tax)}
+
+RECOMMENDED: ${rec} Regime — Tax Payable: ${fmt(tax)} (saves ₹${Math.round(itrResult.regime_savings).toLocaleString('en-IN')})
+
+${itrResult.applicable_deductions && itrResult.applicable_deductions.length
+    ? 'DEDUCTIONS APPLICABLE (Old Regime)\n' + itrResult.applicable_deductions.map(d => '• ' + d).join('\n') + '\n\n'
+    : ''}FILING GUIDE
+${itrResult.guidance}
+
+---
+Generated by NyayaSaathi — For informational purposes only.
+File your ITR at: incometax.gov.in  |  Deadline: July 31, 2025`;
+
+  try {
+    const resp = await fetch(`${API}/api/pdf`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ letter_text: text, user_name: itrResult._name || 'Taxpayer' }),
+    });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const blob = await resp.blob();
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = `ITR_Summary_${(itrResult._name || 'Taxpayer').replace(/\s+/g,'_')}.pdf`;
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch {
+    // Fallback: plain text download
+    const blob = new Blob([text], { type: 'text/plain' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url; a.download = 'ITR_Summary.txt'; a.click();
+    URL.revokeObjectURL(url);
+  }
+}
 </script>
 </body>
 </html>

@@ -27,6 +27,7 @@ from pydantic import BaseModel
 from core.legal_agent import LegalAgent, extract_json
 from core.letter_generator import generate_letter_stream, generate_letter
 from core.pdf_export import export_to_pdf
+from core.itr_advisor import full_itr_analysis
 
 # Instantiate early so lifespan can reference it
 agent = LegalAgent()
@@ -81,6 +82,23 @@ class PDFRequest(BaseModel):
 
 class TranscribeRequest(BaseModel):
     audio_path: str
+
+
+class ITRRequest(BaseModel):
+    name: str = ""
+    pan: str = ""
+    assessment_year: str = "2025-26"
+    salary_income: float = 0
+    business_income: float = 0
+    capital_gains: float = 0
+    other_income: float = 0
+    deduction_80c: float = 0
+    deduction_80d: float = 0
+    hra_exempt: float = 0
+    home_loan_interest: float = 0
+    presumptive_business: bool = False
+    foreign_income: bool = False
+    house_properties: int = 1
 
 
 # ---------------------------------------------------------------------------
@@ -200,6 +218,20 @@ def generate_pdf(req: PDFRequest):
             media_type="application/pdf",
             filename=f"NyayaSaathi_Letter_{req.user_name.replace(' ', '_')}.pdf",
         )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# ITR Advisor
+# ---------------------------------------------------------------------------
+
+@app.post("/api/itr/analyze")
+def itr_analyze(req: ITRRequest):
+    """Analyze income data and return best ITR form + tax calculation + filing guidance."""
+    try:
+        result = full_itr_analysis(req.model_dump())
+        return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
