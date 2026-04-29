@@ -15,7 +15,8 @@ NyayaSaathi is a **100% offline legal aid assistant** built for underserved Indi
 - **Understands your situation** in plain Hindi, English, or Hinglish
 - **Identifies applicable Indian laws** — 500+ laws & provisions covering criminal law, labour rights, consumer protection, family law, property, cyber crimes, and more (see full list below)
 - **Explains your rights** in simple language anyone can understand
-- **Drafts formal complaint letters** ready to submit to authorities
+- **Follow-up Q&A** — ask follow-on questions after analysis; the AI answers in context of your specific situation
+- **File a Report / Complaint** — 10 complaint types (FIR, consumer, cyber crime, labour, RTI, banking, RERA, medical, POSH, insurance) with AI-drafted formal documents
 - **Exports to PDF** for immediate physical submission
 - **Voice input** via offline Whisper transcription
 - **Case history** — all past analyses saved locally in your browser
@@ -38,14 +39,15 @@ Open `http://localhost:8000` — the browser opens automatically.
 
 **Web frontend features:**
 - Live streaming legal analysis with token-by-token display
-- 12 legal category cards for quick browsing (Wage Theft, Cyber Crime, RERA, etc.)
-- 4-step progress tracker (Describe → Analyze → Letter → PDF)
+- 24 legal category cards linking to a full in-app legal library (Wage Theft, Cyber Crime, RERA, etc.)
+- 3-step progress tracker (Describe → Analyze → Ask Follow-Up)
+- **Follow-up Q&A** — ask any follow-on question; AI answers in context of your original situation
+- **File a Report** page — 10 complaint types, AI-fills a formal document ready to submit
 - Case history sidebar (localStorage — no server needed)
 - Emergency helplines modal (112, 1091, 1098, 1930, 15100)
 - DLSA directory — free legal aid centers for 8 major cities
 - Legal awareness ticker with rotating law tips
 - Voice recording (wired to Whisper transcription endpoint)
-- In-browser editable letter before PDF download
 - Model connection status indicator
 - **ITR Advisor** — upload bank statement (PDF or CSV) or enter details manually
 - **Old vs New regime comparison** with exact tax liability and savings
@@ -87,26 +89,36 @@ Open `http://localhost:7860`
 
 ```
 nyayasaathi/
-├── knowledge_base/
-│   ├── docs/                # 500+ Indian laws & provisions across 63 legal domains
-│   └── build_kb.py          # Indexes docs into ChromaDB
-├── core/
-│   ├── legal_agent.py       # RAG pipeline + Gemma 4 analysis
-│   ├── letter_generator.py  # Complaint letter drafting
-│   ├── pdf_export.py        # PDF generation
-│   └── itr_advisor.py       # ITR form selector, tax calculator, deduction engine
-├── api/
-│   └── server.py            # FastAPI REST backend
+├── backend/
+│   ├── main.py                  # FastAPI app — CORS, lifespan warmup, router includes, static mount
+│   ├── routers/
+│   │   ├── legal.py             # /api/health, /api/analyze/*, /api/letter/*, /api/transcribe
+│   │   ├── itr.py               # /api/itr/analyze, /api/parse-statement
+│   │   ├── reports.py           # /api/report/types, /api/report/fields, /api/report/generate
+│   │   └── documents.py         # /api/pdf
+│   └── services/
+│       ├── agent_singleton.py   # Shared LegalAgent instance
+│       ├── legal_agent.py       # RAG pipeline + Gemma 4 analysis
+│       ├── letter_generator.py  # Complaint letter drafting
+│       ├── pdf_export.py        # PDF generation (fpdf2)
+│       ├── itr_advisor.py       # ITR form selector, tax calculator, deduction engine
+│       └── report_generator.py  # 10-type complaint/FIR report generator
 ├── frontend/
-│   └── index.html           # Professional web frontend
+│   ├── index.html               # App shell (3 pages: Legal Aid, File ITR, File Report)
+│   ├── css/styles.css           # All styles
+│   └── js/app.js                # All client-side logic
+├── knowledge_base/
+│   ├── docs/                    # 500+ Indian laws & provisions across 63 legal domains
+│   └── build_kb.py              # Indexes docs into ChromaDB
+├── scripts/
+│   └── generate_sample_statement.py  # Generate dummy HDFC bank statement PDF for testing
 ├── ui/
-│   └── app.py               # Gradio UI (alternative)
-├── start_web.py             # One-command launcher for web UI
-├── output/                  # Generated PDFs saved here
-├── chroma_db/               # Auto-created vector database
-├── demo_scenarios.py        # Realistic test cases
-├── generate_sample_statement.py  # Generate dummy HDFC bank statement PDF for testing
-├── .env.example             # Environment config template
+│   └── app.py                   # Gradio UI (alternative)
+├── start_web.py                 # One-command launcher (uvicorn backend.main:app)
+├── output/                      # Generated PDFs saved here
+├── chroma_db/                   # Auto-created vector database
+├── demo_scenarios.py            # Realistic test cases
+├── .env.example                 # Environment config template
 └── requirements.txt
 ```
 
@@ -157,10 +169,13 @@ The FastAPI server exposes these endpoints (docs at `/docs`):
 | POST | `/api/analyze/stream` | Legal analysis (streaming SSE) |
 | POST | `/api/analyze` | Legal analysis (non-streaming) |
 | POST | `/api/letter/stream` | Complaint letter generation (streaming SSE) |
-| POST | `/api/pdf` | Export letter to PDF download |
+| POST | `/api/pdf` | Export text to PDF download |
 | POST | `/api/transcribe` | Voice-to-text via Whisper |
 | POST | `/api/parse-statement` | Extract transactions from bank statement PDF |
 | POST | `/api/itr/analyze` | ITR form recommendation + tax calculation + filing guide |
+| GET | `/api/report/types` | List all 10 complaint/report types |
+| GET | `/api/report/fields/{type}` | Form fields, authority, laws & helplines for a complaint type |
+| POST | `/api/report/generate` | AI-draft a formal complaint/FIR/report document |
 
 ---
 
