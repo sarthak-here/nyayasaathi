@@ -966,6 +966,49 @@
       transition: all .2s; display: flex; align-items: center; gap: 8px;
     }
     .btn-green:hover { opacity: .9; transform: translateY(-1px); }
+
+    /* ── Report page ── */
+    .report-page { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+    .report-badge { display:inline-flex;align-items:center;gap:8px;background:rgba(239,68,68,.12);
+      border:1px solid rgba(239,68,68,.3);border-radius:20px;padding:4px 14px;
+      font-size:.8rem;color:#f87171;margin-bottom:18px; }
+    .report-type-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-bottom:28px; }
+    .report-type-card { background:var(--card-bg);border:2px solid var(--border);border-radius:14px;
+      padding:18px 16px;cursor:pointer;transition:border-color .2s,transform .15s;user-select:none; }
+    .report-type-card:hover { transform:translateY(-2px); }
+    .report-type-card.selected { border-color:var(--card-accent,#ef4444);background:rgba(239,68,68,.07); }
+    .rtc-icon { width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+      font-size:1.1rem;margin-bottom:10px; }
+    .rtc-label { font-weight:700;font-size:.9rem;margin-bottom:4px; }
+    .rtc-desc { font-size:.75rem;color:var(--text-3);line-height:1.4; }
+    .report-form-section { background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:24px;margin-bottom:20px; }
+    .report-form-grid { display:grid;grid-template-columns:1fr 1fr;gap:14px; }
+    @media(max-width:600px){ .report-form-grid { grid-template-columns:1fr; } }
+    .report-field { display:flex;flex-direction:column;gap:5px; }
+    .report-field.full-width { grid-column:1/-1; }
+    .report-field label { font-size:.82rem;font-weight:600;color:var(--text-2); }
+    .report-field input,.report-field select,.report-field textarea {
+      background:var(--navy-2);border:1px solid var(--border);border-radius:8px;
+      padding:8px 12px;color:var(--text);font-size:.88rem;width:100%;box-sizing:border-box; }
+    .report-field textarea { min-height:90px;resize:vertical; }
+    .report-field input:focus,.report-field select:focus,.report-field textarea:focus {
+      outline:none;border-color:var(--saffron); }
+    .authority-box { background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.25);
+      border-radius:10px;padding:14px 16px;margin-bottom:16px;font-size:.82rem;line-height:1.7; }
+    .authority-box strong { color:var(--saffron); }
+    .law-tags { display:flex;flex-wrap:wrap;gap:6px;margin-top:8px; }
+    .law-tag { background:rgba(99,102,241,.12);border:1px solid rgba(99,102,241,.25);
+      border-radius:6px;padding:3px 10px;font-size:.72rem;color:#a5b4fc; }
+    .helpline-tags { display:flex;flex-wrap:wrap;gap:6px;margin-top:8px; }
+    .helpline-tag { background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.25);
+      border-radius:6px;padding:3px 10px;font-size:.72rem;color:#6ee7b7; }
+    .report-result { background:var(--card-bg);border:1px solid var(--border);border-radius:14px;
+      padding:24px;margin-top:20px;display:none; }
+    .report-result.show { display:block; }
+    .report-result-title { font-weight:700;font-size:1rem;margin-bottom:14px;display:flex;align-items:center;gap:8px; }
+    #reportText { white-space:pre-wrap;font-family:monospace;font-size:.82rem;line-height:1.7;
+      background:var(--navy-2);border:1px solid var(--border);border-radius:8px;
+      padding:16px;min-height:200px;color:var(--text);width:100%;box-sizing:border-box;resize:vertical; }
   </style>
 </head>
 <body>
@@ -991,6 +1034,7 @@
     <div class="nav-tabs">
       <button class="nav-tab active" id="tabLegal" onclick="switchPage('legal')">⚖️ Legal Aid</button>
       <button class="nav-tab" id="tabITR" onclick="switchPage('itr')">📋 File ITR</button>
+      <button class="nav-tab" id="tabReport" onclick="switchPage('report')">📝 File Report</button>
     </div>
     <div class="nav-actions">
       <div class="status-dot" id="statusDot">
@@ -1660,6 +1704,83 @@
     </footer>
 
   </div><!-- /itr-page -->
+
+  <!-- ===== REPORT PAGE ===== -->
+  <div id="report-page" style="display:none">
+    <div class="report-page">
+
+      <div class="report-badge"><i class="fa fa-file-pen"></i> Free · Offline · AI-Drafted</div>
+      <h1 style="font-size:1.6rem;margin:0 0 6px">File a Report / Complaint</h1>
+      <p style="color:var(--text-3);font-size:.9rem;margin:0 0 24px">
+        Select the type of report, fill in the details, and get a ready-to-submit formal document drafted by AI.
+      </p>
+
+      <!-- Step 1: Select report type -->
+      <div class="itr-section-label" style="margin-bottom:12px">
+        <i class="fa fa-circle-1" style="color:var(--saffron)"></i> Select Report Type
+      </div>
+      <div class="report-type-grid" id="reportTypeGrid">
+        <!-- populated by JS -->
+      </div>
+
+      <!-- Step 2: Form -->
+      <div id="reportFormSection" style="display:none">
+        <div class="itr-section-label" style="margin-bottom:12px">
+          <i class="fa fa-circle-2" style="color:var(--saffron)"></i> <span id="reportFormTitle">Fill Details</span>
+        </div>
+
+        <!-- Authority / law info -->
+        <div class="authority-box" id="authorityBox" style="display:none">
+          <strong><i class="fa fa-location-dot"></i> Where to File:</strong>
+          <span id="authorityText"></span>
+          <div class="law-tags" id="lawTags"></div>
+          <div class="helpline-tags" id="helplineTags"></div>
+        </div>
+
+        <!-- Dynamic form fields -->
+        <div class="report-form-section">
+          <div class="report-form-grid" id="reportFormGrid">
+            <!-- populated by JS -->
+          </div>
+        </div>
+
+        <button class="btn btn-green" style="width:100%;justify-content:center" id="generateReportBtn" onclick="generateReport()">
+          <i class="fa fa-wand-magic-sparkles"></i> Generate Report
+        </button>
+      </div>
+
+      <!-- Loading -->
+      <div id="reportLoading" class="hidden" style="padding:28px;text-align:center">
+        <div class="thinking-block" style="display:inline-flex">
+          <div class="spinner"></div>
+          <span>Drafting your formal report…</span>
+        </div>
+      </div>
+
+      <!-- Step 3: Result -->
+      <div class="report-result" id="reportResult">
+        <div class="report-result-title">
+          <i class="fa fa-file-check" style="color:var(--green)"></i>
+          <span id="reportResultTitle">Your Report is Ready</span>
+          <span style="margin-left:auto;font-size:.75rem;color:var(--text-3)">Edit below before downloading</span>
+        </div>
+        <textarea id="reportText" spellcheck="false"></textarea>
+        <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap">
+          <button class="btn btn-green" onclick="downloadReportPDF()"><i class="fa fa-file-pdf"></i> Download PDF</button>
+          <button class="btn btn-ghost" onclick="copyReport()"><i class="fa fa-copy"></i> Copy Text</button>
+          <button class="btn btn-ghost" onclick="resetReport()"><i class="fa fa-rotate-left"></i> Start Over</button>
+        </div>
+        <div style="margin-top:14px;padding:12px 16px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.2);border-radius:10px;font-size:.78rem;color:var(--text-3);line-height:1.6">
+          <i class="fa fa-triangle-exclamation" style="color:var(--saffron)"></i>
+          <strong style="color:var(--saffron)"> Important:</strong>
+          Read the document carefully before submitting. This is AI-drafted — verify all facts, dates, and amounts.
+          For FIR: carry a printed copy + ID proof to the police station.
+          Free legal help: call <strong>15100</strong> (NALSA).
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /report-page -->
 
 </div><!-- /page-wrap -->
 
@@ -3246,22 +3367,156 @@ checkLetterGrid();
    PAGE SWITCHING (Legal Aid / File ITR)
 ========================================================= */
 function switchPage(page) {
-  const legalPage = document.getElementById('legal-page');
-  const itrPage   = document.getElementById('itr-page');
-  const tabLegal  = document.getElementById('tabLegal');
-  const tabITR    = document.getElementById('tabITR');
+  document.getElementById('legal-page').style.display  = page === 'legal'  ? 'block' : 'none';
+  document.getElementById('itr-page').style.display    = page === 'itr'    ? 'block' : 'none';
+  document.getElementById('report-page').style.display = page === 'report' ? 'block' : 'none';
+  ['Legal','ITR','Report'].forEach(t => {
+    document.getElementById('tab'+t).classList.toggle('active', page === t.toLowerCase());
+  });
+  if (page === 'report' && !reportTypesLoaded) loadReportTypes();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
-  if (page === 'itr') {
-    legalPage.style.display = 'none';
-    itrPage.style.display   = 'block';
-    tabLegal.classList.remove('active');
-    tabITR.classList.add('active');
-  } else {
-    itrPage.style.display   = 'none';
-    legalPage.style.display = 'block';
-    tabITR.classList.remove('active');
-    tabLegal.classList.add('active');
+/* =========================================================
+   REPORT PAGE
+========================================================= */
+let reportTypesLoaded = false;
+let selectedReportType = null;
+let currentReportResult = null;
+
+async function loadReportTypes() {
+  try {
+    const res = await fetch(`${API}/api/report/types`);
+    const types = await res.json();
+    const grid = document.getElementById('reportTypeGrid');
+    grid.innerHTML = types.map(t => `
+      <div class="report-type-card" id="rtc-${t.id}" onclick="selectReportType('${t.id}')" style="--card-accent:${t.color}">
+        <div class="rtc-icon" style="background:${t.color}22;color:${t.color}">
+          <i class="fa ${t.icon}"></i>
+        </div>
+        <div class="rtc-label">${t.label}</div>
+        <div class="rtc-desc">${t.desc}</div>
+      </div>`).join('');
+    reportTypesLoaded = true;
+  } catch(e) {
+    document.getElementById('reportTypeGrid').innerHTML =
+      '<p style="color:var(--text-3)">Could not load report types. Make sure the server is running.</p>';
   }
+}
+
+async function selectReportType(typeId) {
+  // Highlight selection
+  document.querySelectorAll('.report-type-card').forEach(c => c.classList.remove('selected'));
+  document.getElementById('rtc-' + typeId).classList.add('selected');
+  selectedReportType = typeId;
+
+  // Load fields for this type
+  try {
+    const res = await fetch(`${API}/api/report/fields/${typeId}`);
+    const data = await res.json();
+    renderReportForm(typeId, data);
+  } catch(e) {
+    showToast('Could not load form fields.', true);
+  }
+}
+
+function renderReportForm(typeId, data) {
+  // Authority box
+  const authBox = document.getElementById('authorityBox');
+  document.getElementById('authorityText').textContent = ' ' + data.authority;
+  document.getElementById('lawTags').innerHTML  = data.laws.map(l => `<span class="law-tag">${l}</span>`).join('');
+  document.getElementById('helplineTags').innerHTML = data.helplines.map(h => `<span class="helpline-tag"><i class="fa fa-phone-volume" style="font-size:.65rem"></i> ${h}</span>`).join('');
+  authBox.style.display = 'block';
+
+  // Form grid
+  const grid = document.getElementById('reportFormGrid');
+  grid.innerHTML = data.fields.map(f => {
+    const isLong = f.type === 'textarea' || ['incident_description','steps_taken','info_sought','accused_details','bank_response','insurer_response','previous_complaints'].includes(f.id);
+    const cls = `report-field${isLong ? ' full-width' : ''}`;
+    let input = '';
+    if (f.type === 'select') {
+      input = `<select id="rf_${f.id}"><option value="">— select —</option>${(f.options||[]).map(o=>`<option value="${o}">${o}</option>`).join('')}</select>`;
+    } else if (f.type === 'textarea') {
+      input = `<textarea id="rf_${f.id}" placeholder="${f.placeholder||''}"></textarea>`;
+    } else {
+      input = `<input type="${f.type||'text'}" id="rf_${f.id}" placeholder="${f.placeholder||''}" ${f.max?'max="'+f.max+'"':''}>`;
+    }
+    return `<div class="${cls}"><label>${f.label}</label>${input}</div>`;
+  }).join('');
+
+  document.getElementById('reportFormTitle').textContent = `Fill Details — ${typeId.replace('_',' ')}`;
+  document.getElementById('reportFormSection').style.display = 'block';
+  document.getElementById('reportFormSection').scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+async function generateReport() {
+  if (!selectedReportType) { showToast('Please select a report type first.', true); return; }
+
+  // Collect form values
+  const payload = { report_type: selectedReportType };
+  document.querySelectorAll('#reportFormGrid [id^="rf_"]').forEach(el => {
+    const key = el.id.replace('rf_', '');
+    payload[key] = el.value.trim();
+  });
+
+  document.getElementById('reportLoading').classList.remove('hidden');
+  document.getElementById('reportResult').classList.remove('show');
+  document.getElementById('generateReportBtn').disabled = true;
+
+  try {
+    const res = await fetch(`${API}/api/report/generate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) { const e = await res.json(); throw new Error(e.detail || 'Generation failed'); }
+    currentReportResult = await res.json();
+    document.getElementById('reportText').value = currentReportResult.report_text;
+    document.getElementById('reportResultTitle').textContent = currentReportResult.report_label + ' — Ready to Submit';
+    document.getElementById('reportResult').classList.add('show');
+    document.getElementById('reportResult').scrollIntoView({ behavior:'smooth', block:'start' });
+  } catch(err) {
+    showToast('Error: ' + err.message, true);
+  } finally {
+    document.getElementById('reportLoading').classList.add('hidden');
+    document.getElementById('generateReportBtn').disabled = false;
+  }
+}
+
+async function downloadReportPDF() {
+  const text = document.getElementById('reportText').value;
+  if (!text) return;
+  const label = currentReportResult?.report_label || 'Report';
+  try {
+    const res = await fetch(`${API}/api/pdf`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ letter_text: text, user_name: label }),
+    });
+    if (!res.ok) throw new Error('PDF generation failed');
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = label.replace(/\s+/g,'_') + '.pdf';
+    a.click(); URL.revokeObjectURL(url);
+  } catch(err) {
+    showToast('PDF error: ' + err.message, true);
+  }
+}
+
+function copyReport() {
+  const text = document.getElementById('reportText').value;
+  if (!text) return;
+  navigator.clipboard.writeText(text).then(() => showToast('Copied to clipboard!'));
+}
+
+function resetReport() {
+  selectedReportType = null;
+  currentReportResult = null;
+  document.querySelectorAll('.report-type-card').forEach(c => c.classList.remove('selected'));
+  document.getElementById('reportFormSection').style.display = 'none';
+  document.getElementById('reportResult').classList.remove('show');
+  document.getElementById('authorityBox').style.display = 'none';
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 

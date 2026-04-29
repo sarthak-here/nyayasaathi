@@ -28,6 +28,7 @@ from core.legal_agent import LegalAgent, extract_json
 from core.letter_generator import generate_letter_stream, generate_letter
 from core.pdf_export import export_to_pdf
 from core.itr_advisor import full_itr_analysis
+from core.report_generator import generate_report, get_report_types_list, get_report_type_fields
 
 # Instantiate early so lifespan can reference it
 agent = LegalAgent()
@@ -319,6 +320,34 @@ def transcribe(req: TranscribeRequest):
             status_code=501,
             detail="Voice input requires openai-whisper. Run: pip install openai-whisper",
         )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# Report Generator
+# ---------------------------------------------------------------------------
+
+@app.get("/api/report/types")
+def report_types():
+    return get_report_types_list()
+
+@app.get("/api/report/fields/{report_type}")
+def report_fields(report_type: str):
+    data = get_report_type_fields(report_type)
+    if not data:
+        raise HTTPException(status_code=404, detail=f"Unknown report type: {report_type}")
+    return data
+
+@app.post("/api/report/generate")
+def report_generate(payload: dict):
+    report_type = payload.get("report_type")
+    if not report_type:
+        raise HTTPException(status_code=400, detail="report_type is required")
+    try:
+        return generate_report(report_type, payload)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
