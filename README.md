@@ -19,6 +19,8 @@ NyayaSaathi is a **100% offline legal aid assistant** built for underserved Indi
 - **Exports to PDF** for immediate physical submission
 - **Voice input** via offline Whisper transcription
 - **Case history** — all past analyses saved locally in your browser
+- **ITR Filing Advisor** — upload your bank statement PDF/CSV, get the right ITR form, Old vs New regime comparison, and a personalised step-by-step filing guide
+- **Tax-saving suggestions** — automatically detects unused deductions (80C, 80D, 80G donations, NPS, education loan, HRA, home loan, and more) and tells you exactly how much more tax you can save
 
 ---
 
@@ -45,6 +47,12 @@ Open `http://localhost:8000` — the browser opens automatically.
 - Voice recording (wired to Whisper transcription endpoint)
 - In-browser editable letter before PDF download
 - Model connection status indicator
+- **ITR Advisor** — upload bank statement (PDF or CSV) or enter details manually
+- **Old vs New regime comparison** with exact tax liability and savings
+- **Deduction inputs** — 80C, 80CCD(1B) NPS, 80D, 80G (donations), 80E (education loan), 80TTA, HRA, home loan, 80EEA
+- **Unused deduction detector** — highlights which sections you haven't claimed and how much more you can save
+- **All 14 tax-saving sections** reference table (Income Tax Act 1961) with limits and eligible instruments
+- **12 official portal links** — e-Filing, AIS, Form 26AS/TRACES, ITR form PDFs, 80G institution search, NPS, EPFO
 
 ### Option B — Gradio UI (Simple)
 
@@ -69,6 +77,7 @@ Open `http://localhost:7860`
 | Web API | FastAPI + Uvicorn |
 | Simple UI | Gradio |
 | PDF Export | fpdf2 |
+| PDF Parsing | pypdf (bank statement extraction) |
 | Voice Input | OpenAI Whisper (offline) |
 | RAG Framework | LangChain |
 
@@ -84,7 +93,8 @@ nyayasaathi/
 ├── core/
 │   ├── legal_agent.py       # RAG pipeline + Gemma 4 analysis
 │   ├── letter_generator.py  # Complaint letter drafting
-│   └── pdf_export.py        # PDF generation
+│   ├── pdf_export.py        # PDF generation
+│   └── itr_advisor.py       # ITR form selector, tax calculator, deduction engine
 ├── api/
 │   └── server.py            # FastAPI REST backend
 ├── frontend/
@@ -95,6 +105,7 @@ nyayasaathi/
 ├── output/                  # Generated PDFs saved here
 ├── chroma_db/               # Auto-created vector database
 ├── demo_scenarios.py        # Realistic test cases
+├── generate_sample_statement.py  # Generate dummy HDFC bank statement PDF for testing
 ├── .env.example             # Environment config template
 └── requirements.txt
 ```
@@ -148,6 +159,8 @@ The FastAPI server exposes these endpoints (docs at `/docs`):
 | POST | `/api/letter/stream` | Complaint letter generation (streaming SSE) |
 | POST | `/api/pdf` | Export letter to PDF download |
 | POST | `/api/transcribe` | Voice-to-text via Whisper |
+| POST | `/api/parse-statement` | Extract transactions from bank statement PDF |
+| POST | `/api/itr/analyze` | ITR form recommendation + tax calculation + filing guide |
 
 ---
 
