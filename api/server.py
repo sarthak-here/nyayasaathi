@@ -18,9 +18,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse, FileResponse
+from fastapi.responses import StreamingResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -220,6 +220,73 @@ def generate_pdf(req: PDFRequest):
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# Bank Statement PDF Parser
+# ---------------------------------------------------------------------------
+
+@app.post("/api/parse-statement")
+async def parse_statement(file: UploadFile = File(...)):
+    """Extract transactions from a bank statement PDF and return structured data."""
+    if not file.filename.lower().endswith(".pdf"):
+        raise HTTPException(status_code=400, detail="Only PDF files are supported.")
+    try:
+        import pypdf, re, io
+        contents = await file.read()
+        reader = pypdf.PdfReader(io.BytesIO(contents))
+        full_text = "\n".join(page.extract_text() or "" for page in reader.pages)
+
+        entries = []
+        total_credit = 0.0
+        # Match lines that look like: date ... amount ... amount ... balance
+        # Covers common HDFC/SBI/ICICI formats
+        tx_pattern = re.compile(
+            r"(\d{2}[-/]\d{2}[-/]\d{2,4})\s+"   # date
+            r"(.+?)\s+"                            # narration
+            r"([\d,]+\.\d{2})\s+"                 # dr or cr amount 1
+            r"([\d,]+\.\d{2})?\s*"                # optional amount 2
+            r"([\d,]+\.\d{2})"                    # closing balance
+        )
+        for line in full_text.split("\n"):
+            m = tx_pattern.search(line)
+            if not m:
+                continue
+            date, narration, amt1, amt2, balance = m.groups()
+            narration = narration.strip()
+            # Heuristic: if two amounts found, second is closing balance;
+            # determine dr/cr from keywords
+            line_lower = line.lower()
+            is_credit = any(k in line_lower for k in ["cr", "credit", "deposit", "salary", "neft cr", "interest", "reversal", "cash dep"])
+            is_debit  = any(k in line_lower for k in ["dr", "debit", "withdrawal", "atm", "pos", "nach dr", "upi"])
+            credit = 0.0
+            debit  = 0.0
+            val = float(amt1.replace(",", ""))
+            if is_credit and not is_debit:
+                credit = val
+            elif is_debit and not is_credit:
+                debit = val
+            else:
+                # fall back: if amt2 exists it's balance, amt1 is transaction
+                credit = val  # treat as credit by default
+
+            total_credit += credit
+            entries.append({
+                "date": date,
+                "narration": narration,
+                "credit": round(credit, 2),
+                "debit": round(debit, 2),
+                "balance": balance,
+            })
+
+        return JSONResponse({
+            "entries": entries[:50],   # cap preview at 50 rows
+            "total_credit": round(total_credit, 2),
+            "total_entries": len(entries),
+            "raw_text_preview": full_text[:500],
+        })
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Could not parse PDF: {e}")
 
 
 # ---------------------------------------------------------------------------

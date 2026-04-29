@@ -1322,10 +1322,10 @@
         <div class="csv-drop" id="csvDrop" onclick="document.getElementById('csvFileInput').click()"
              ondragover="itrDragOver(event)" ondragleave="itrDragLeave(event)" ondrop="itrDrop(event)">
           <div class="drop-icon">📄</div>
-          <p>Drop your bank statement CSV here, or click to browse</p>
-          <div class="drop-sub">Supports SBI, HDFC, ICICI, Axis, Kotak and most Indian bank CSV exports</div>
+          <p>Drop your bank statement here, or click to browse</p>
+          <div class="drop-sub">Supports PDF and CSV — SBI, HDFC, ICICI, Axis, Kotak and most Indian banks</div>
         </div>
-        <input type="file" id="csvFileInput" accept=".csv" onchange="parseBankCSV(this.files[0])">
+        <input type="file" id="csvFileInput" accept=".csv,.pdf" onchange="handleStatementFile(this.files[0])">
 
         <div class="csv-preview hidden" id="csvPreview">
           <div class="csv-preview-title"><i class="fa fa-table" style="color:var(--green)"></i> Detected Credit Entries</div>
@@ -1353,6 +1353,55 @@
           <div class="itr-input-group">
             <label>Other Income (interest / rent / etc.)</label>
             <div class="rupee-prefix"><input type="number" id="up_other" placeholder="0" min="0"></div>
+          </div>
+        </div>
+        <div class="itr-section-label" style="margin-top:16px">Deductions &amp; Tax-Saving Investments <span style="font-weight:400;color:var(--text-3)">(Old Regime — fill what applies)</span></div>
+        <div class="itr-form-grid">
+          <div class="itr-input-group">
+            <label>Sec 80C — PPF/ELSS/LIC/FD <span style="color:var(--text-3)">(max ₹1.5L)</span></label>
+            <div class="rupee-prefix"><input type="number" id="up_80c" placeholder="0" min="0" max="150000"></div>
+            <div class="hint">PPF, ELSS, LIC premium, EPF, NSC, tuition fees</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80CCD(1B) — NPS Extra <span style="color:var(--text-3)">(max ₹50K)</span></label>
+            <div class="rupee-prefix"><input type="number" id="up_80ccd1b" placeholder="0" min="0" max="50000"></div>
+            <div class="hint">NPS self-contribution over &amp; above 80C limit</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80D — Health Insurance <span style="color:var(--text-3)">(max ₹50K)</span></label>
+            <div class="rupee-prefix"><input type="number" id="up_80d" placeholder="0" min="0" max="100000"></div>
+            <div class="hint">Self/family ₹25K + parents ₹25K (₹50K if senior)</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80G — Donations to NGOs</label>
+            <div class="rupee-prefix"><input type="number" id="up_80g" placeholder="0" min="0"></div>
+            <div class="hint">CRY, HelpAge, PM Relief Fund etc. — pay via UPI/cheque</div>
+          </div>
+          <div class="itr-input-group">
+            <label>80G Deduction Rate</label>
+            <select id="up_80g_pct">
+              <option value="100">100% — PM Relief Fund, National Defence Fund</option>
+              <option value="50" selected>50% — Approved charitable trusts</option>
+            </select>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80E — Education Loan Interest</label>
+            <div class="rupee-prefix"><input type="number" id="up_80e" placeholder="0" min="0"></div>
+            <div class="hint">No upper limit, for 8 years from start of repayment</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80TTA — Savings A/c Interest <span style="color:var(--text-3)">(max ₹10K)</span></label>
+            <div class="rupee-prefix"><input type="number" id="up_80tta" placeholder="0" min="0" max="10000"></div>
+            <div class="hint">Interest from savings bank account</div>
+          </div>
+          <div class="itr-input-group">
+            <label>HRA Exemption</label>
+            <div class="rupee-prefix"><input type="number" id="up_hra" placeholder="0" min="0"></div>
+            <div class="hint">House Rent Allowance (salaried only)</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 24(b) — Home Loan Interest <span style="color:var(--text-3)">(max ₹2L)</span></label>
+            <div class="rupee-prefix"><input type="number" id="up_hl" placeholder="0" min="0" max="200000"></div>
           </div>
         </div>
         <div class="itr-section-label">Your Details</div>
@@ -1396,16 +1445,43 @@
           </div>
         </div>
 
-        <div class="itr-section-label">Deductions (Old Regime)</div>
+        <div class="itr-section-label">Deductions &amp; Tax-Saving Investments <span style="font-weight:400;color:var(--text-3)">(Old Regime)</span></div>
         <div class="itr-form-grid">
           <div class="itr-input-group">
-            <label>Section 80C (max ₹1.5L)</label>
+            <label>Sec 80C — PPF/ELSS/LIC/FD <span style="color:var(--text-3)">(max ₹1.5L)</span></label>
             <div class="rupee-prefix"><input type="number" id="mn_80c" placeholder="0" min="0" max="150000"></div>
-            <div class="hint">PPF, ELSS, LIC, EPF, NSC, FD, tuition</div>
+            <div class="hint">PPF, ELSS, LIC, EPF, NSC, 5-yr FD, tuition fees</div>
           </div>
           <div class="itr-input-group">
-            <label>Section 80D — Health Insurance (max ₹50K)</label>
-            <div class="rupee-prefix"><input type="number" id="mn_80d" placeholder="0" min="0" max="50000"></div>
+            <label>Sec 80CCD(1B) — NPS Extra <span style="color:var(--text-3)">(max ₹50K)</span></label>
+            <div class="rupee-prefix"><input type="number" id="mn_80ccd1b" placeholder="0" min="0" max="50000"></div>
+            <div class="hint">NPS self-contribution — extra ₹50K beyond 80C</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80D — Health Insurance <span style="color:var(--text-3)">(max ₹1L)</span></label>
+            <div class="rupee-prefix"><input type="number" id="mn_80d" placeholder="0" min="0" max="100000"></div>
+            <div class="hint">Self/family ₹25K + parents ₹25K (₹50K if senior citizen)</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80G — Donations to NGOs / Funds</label>
+            <div class="rupee-prefix"><input type="number" id="mn_80g" placeholder="0" min="0"></div>
+            <div class="hint">CRY, HelpAge, PM Relief Fund — must pay via UPI/cheque</div>
+          </div>
+          <div class="itr-input-group">
+            <label>80G Deduction Rate</label>
+            <select id="mn_80g_pct">
+              <option value="100">100% — PM Relief Fund, National Defence Fund</option>
+              <option value="50" selected>50% — Approved charitable trusts/NGOs</option>
+            </select>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80E — Education Loan Interest</label>
+            <div class="rupee-prefix"><input type="number" id="mn_80e" placeholder="0" min="0"></div>
+            <div class="hint">No limit — self, spouse, children. Up to 8 years.</div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80TTA — Savings A/c Interest <span style="color:var(--text-3)">(max ₹10K)</span></label>
+            <div class="rupee-prefix"><input type="number" id="mn_80tta" placeholder="0" min="0" max="10000"></div>
           </div>
           <div class="itr-input-group">
             <label>HRA Exemption</label>
@@ -1413,8 +1489,13 @@
             <div class="hint">House Rent Allowance (salaried only)</div>
           </div>
           <div class="itr-input-group">
-            <label>Home Loan Interest — Sec 24(b) (max ₹2L)</label>
+            <label>Sec 24(b) — Home Loan Interest <span style="color:var(--text-3)">(max ₹2L)</span></label>
             <div class="rupee-prefix"><input type="number" id="mn_hl" placeholder="0" min="0" max="200000"></div>
+          </div>
+          <div class="itr-input-group">
+            <label>Sec 80EEA — Affordable Housing Loan <span style="color:var(--text-3)">(max ₹1.5L)</span></label>
+            <div class="rupee-prefix"><input type="number" id="mn_80eea" placeholder="0" min="0" max="150000"></div>
+            <div class="hint">First-time home buyer, stamp duty ≤ ₹45L</div>
           </div>
         </div>
 
@@ -1511,8 +1592,29 @@
 
         <!-- Applicable deductions -->
         <div class="itr-card" id="dedCard" style="margin-bottom:20px;display:none">
-          <div class="itr-card-title" style="margin-bottom:12px"><i class="fa fa-receipt" style="color:var(--saffron)"></i> Deductions You Can Claim (Old Regime)</div>
+          <div class="itr-card-title" style="margin-bottom:12px"><i class="fa fa-receipt" style="color:var(--saffron)"></i> Deductions You Are Claiming</div>
           <ul class="deductions-list" id="dedList"></ul>
+        </div>
+
+        <!-- Unused tax-saving opportunities -->
+        <div class="itr-card" id="unusedCard" style="margin-bottom:20px;display:none;border-color:rgba(34,197,94,.3);background:rgba(34,197,94,.04)">
+          <div class="itr-card-title" style="margin-bottom:12px;color:var(--green)"><i class="fa fa-lightbulb"></i> Ways to Reduce Your Tax Further</div>
+          <ul class="deductions-list" id="unusedList"></ul>
+        </div>
+
+        <!-- All deduction sections reference -->
+        <details style="margin-bottom:20px">
+          <summary style="cursor:pointer;font-weight:600;font-size:.88rem;padding:12px 16px;background:var(--card-bg);border:1px solid var(--border);border-radius:10px;list-style:none;display:flex;align-items:center;gap:8px">
+            <i class="fa fa-book-open" style="color:var(--saffron)"></i> All Tax-Saving Sections &amp; Laws (Income Tax Act 1961)
+            <span style="margin-left:auto;font-size:.75rem;color:var(--text-3)">click to expand</span>
+          </summary>
+          <div id="allSectionsTable" style="border:1px solid var(--border);border-top:none;border-radius:0 0 10px 10px;overflow:hidden"></div>
+        </details>
+
+        <!-- Portal links -->
+        <div class="itr-card" style="margin-bottom:20px">
+          <div class="itr-card-title" style="margin-bottom:12px"><i class="fa fa-link" style="color:var(--blue,#3b82f6)"></i> Official Portals &amp; Forms</div>
+          <div id="portalLinks" style="display:flex;flex-wrap:wrap;gap:8px"></div>
         </div>
 
         <!-- Filing guidance -->
@@ -3189,8 +3291,37 @@ function itrDrop(e) {
   e.preventDefault();
   document.getElementById('csvDrop').classList.remove('drag-over');
   const file = e.dataTransfer.files[0];
-  if (file && file.name.endsWith('.csv')) parseBankCSV(file);
-  else showToast('Please drop a CSV file.', true);
+  if (!file) return;
+  if (file.name.endsWith('.pdf') || file.name.endsWith('.csv')) handleStatementFile(file);
+  else showToast('Please drop a PDF or CSV bank statement.', true);
+}
+
+function handleStatementFile(file) {
+  if (!file) return;
+  if (file.name.toLowerCase().endsWith('.pdf')) parseBankPDF(file);
+  else parseBankCSV(file);
+}
+
+async function parseBankPDF(file) {
+  const drop = document.getElementById('csvDrop');
+  drop.innerHTML = '<div class="drop-icon">⏳</div><p>Reading PDF...</p>';
+  try {
+    const formData = new FormData();
+    formData.append('file', file);
+    const res = await fetch('/api/parse-statement', { method: 'POST', body: formData });
+    if (!res.ok) { const e = await res.json(); throw new Error(e.detail || 'Parse failed'); }
+    const data = await res.json();
+    parsedCSVEntries = data.entries.map(r => ({ date: r.date, desc: r.narration, credit: r.credit }))
+                                   .filter(r => r.credit > 0);
+    const total = data.total_credit;
+    renderCSVPreview(parsedCSVEntries.slice(0, 10), total);
+    document.getElementById('up_salary').value = Math.round(total);
+    document.getElementById('csvTotalCredit').textContent = '₹' + Math.round(total).toLocaleString('en-IN');
+    drop.innerHTML = '<div class="drop-icon">✅</div><p>' + file.name + '</p><div class="drop-sub">' + data.total_entries + ' transactions found</div>';
+  } catch (err) {
+    drop.innerHTML = '<div class="drop-icon">📄</div><p>Drop your bank statement here, or click to browse</p><div class="drop-sub">Supports PDF and CSV — SBI, HDFC, ICICI, Axis, Kotak and most Indian banks</div>';
+    showToast('PDF parse error: ' + err.message, true);
+  }
 }
 
 function parseBankCSV(file) {
@@ -3282,25 +3413,40 @@ async function analyzeITR(mode) {
     payload = {
       name: document.getElementById('up_name').value.trim(),
       pan:  document.getElementById('up_pan').value.trim().toUpperCase(),
-      salary_income:   parseFloat(document.getElementById('up_salary').value)   || 0,
-      business_income: parseFloat(document.getElementById('up_business').value) || 0,
-      capital_gains:   parseFloat(document.getElementById('up_capgains').value) || 0,
-      other_income:    parseFloat(document.getElementById('up_other').value)    || 0,
+      salary_income:    parseFloat(document.getElementById('up_salary').value)   || 0,
+      business_income:  parseFloat(document.getElementById('up_business').value) || 0,
+      capital_gains:    parseFloat(document.getElementById('up_capgains').value) || 0,
+      other_income:     parseFloat(document.getElementById('up_other').value)    || 0,
+      deduction_80c:    parseFloat(document.getElementById('up_80c').value)      || 0,
+      deduction_80ccd1b:parseFloat(document.getElementById('up_80ccd1b').value)  || 0,
+      deduction_80d:    parseFloat(document.getElementById('up_80d').value)      || 0,
+      deduction_80g:    parseFloat(document.getElementById('up_80g').value)      || 0,
+      deduction_80g_pct:parseFloat(document.getElementById('up_80g_pct').value)  || 50,
+      deduction_80e:    parseFloat(document.getElementById('up_80e').value)      || 0,
+      deduction_80tta:  parseFloat(document.getElementById('up_80tta').value)    || 0,
+      hra_exempt:       parseFloat(document.getElementById('up_hra').value)      || 0,
+      home_loan_interest:parseFloat(document.getElementById('up_hl').value)      || 0,
     };
   } else {
     const bizType = document.getElementById('mn_biztype').value;
     payload = {
       name: document.getElementById('mn_name').value.trim(),
       pan:  document.getElementById('mn_pan').value.trim().toUpperCase(),
-      salary_income:   parseFloat(document.getElementById('mn_salary').value)   || 0,
-      business_income: parseFloat(document.getElementById('mn_business').value) || 0,
-      capital_gains:   parseFloat(document.getElementById('mn_capgains').value) || 0,
-      other_income:    parseFloat(document.getElementById('mn_other').value)    || 0,
-      deduction_80c:   parseFloat(document.getElementById('mn_80c').value)      || 0,
-      deduction_80d:   parseFloat(document.getElementById('mn_80d').value)      || 0,
-      hra_exempt:      parseFloat(document.getElementById('mn_hra').value)      || 0,
-      home_loan_interest: parseFloat(document.getElementById('mn_hl').value)   || 0,
-      house_properties: parseInt(document.getElementById('mn_houses').value)   || 1,
+      salary_income:    parseFloat(document.getElementById('mn_salary').value)   || 0,
+      business_income:  parseFloat(document.getElementById('mn_business').value) || 0,
+      capital_gains:    parseFloat(document.getElementById('mn_capgains').value) || 0,
+      other_income:     parseFloat(document.getElementById('mn_other').value)    || 0,
+      deduction_80c:    parseFloat(document.getElementById('mn_80c').value)      || 0,
+      deduction_80ccd1b:parseFloat(document.getElementById('mn_80ccd1b').value)  || 0,
+      deduction_80d:    parseFloat(document.getElementById('mn_80d').value)      || 0,
+      deduction_80g:    parseFloat(document.getElementById('mn_80g').value)      || 0,
+      deduction_80g_pct:parseFloat(document.getElementById('mn_80g_pct').value)  || 50,
+      deduction_80e:    parseFloat(document.getElementById('mn_80e').value)      || 0,
+      deduction_80tta:  parseFloat(document.getElementById('mn_80tta').value)    || 0,
+      deduction_80eea:  parseFloat(document.getElementById('mn_80eea').value)    || 0,
+      hra_exempt:       parseFloat(document.getElementById('mn_hra').value)      || 0,
+      home_loan_interest:parseFloat(document.getElementById('mn_hl').value)      || 0,
+      house_properties: parseInt(document.getElementById('mn_houses').value)    || 1,
       presumptive_business: bizType === 'presumptive',
     };
   }
@@ -3359,7 +3505,6 @@ function renderITRResults(r) {
   const newTaxEl = document.getElementById('cmpNewTax');
   oldTaxEl.textContent = fmt(r.old_regime.tax);
   newTaxEl.textContent = fmt(r.new_regime.tax);
-
   if (rec === 'Old') {
     oldTaxEl.innerHTML += ' <span class="regime-badge">✓ Best</span>';
     oldTaxEl.classList.add('green');
@@ -3368,16 +3513,78 @@ function renderITRResults(r) {
     newTaxEl.classList.add('green');
   }
 
+  // Deductions claimed
   const dedCard = document.getElementById('dedCard');
   const dedList = document.getElementById('dedList');
   if (r.applicable_deductions && r.applicable_deductions.length) {
     dedCard.style.display = 'block';
     dedList.innerHTML = r.applicable_deductions
-      .map(d => `<li><i class="fa fa-check-circle"></i> ${d}</li>`)
+      .map(d => `<li><i class="fa fa-check-circle" style="color:var(--green)"></i> <strong>${d.sec}</strong> — ${fmt(d.amt)} <span style="color:var(--text-3);font-size:.8rem">${d.note}</span></li>`)
       .join('');
   }
 
-  document.getElementById('guidanceContent').textContent = r.guidance || 'No guidance generated.';
+  // Unused tax-saving opportunities
+  const unusedCard = document.getElementById('unusedCard');
+  const unusedList = document.getElementById('unusedList');
+  if (r.unused_opportunities && r.unused_opportunities.length) {
+    unusedCard.style.display = 'block';
+    unusedList.innerHTML = r.unused_opportunities
+      .map(u => `<li><i class="fa fa-arrow-right" style="color:var(--green)"></i> ${u}</li>`)
+      .join('');
+  }
+
+  // All deduction sections table
+  if (r.deduction_rules) {
+    const tbl = document.getElementById('allSectionsTable');
+    tbl.innerHTML = `
+      <table style="width:100%;border-collapse:collapse;font-size:.8rem">
+        <thead><tr style="background:var(--surface-2,#f1f5f9)">
+          <th style="padding:8px 12px;text-align:left;border-bottom:1px solid var(--border)">Section</th>
+          <th style="padding:8px 12px;text-align:left;border-bottom:1px solid var(--border)">Name</th>
+          <th style="padding:8px 12px;text-align:right;border-bottom:1px solid var(--border)">Limit</th>
+          <th style="padding:8px 12px;text-align:left;border-bottom:1px solid var(--border)">What qualifies</th>
+          <th style="padding:8px 12px;text-align:center;border-bottom:1px solid var(--border)">Regime</th>
+        </tr></thead>
+        <tbody>${r.deduction_rules.map((s, i) => `
+          <tr style="background:${i%2===0?'var(--card-bg)':'var(--surface-2,#f8fafc)'}">
+            <td style="padding:7px 12px;font-weight:700;color:var(--saffron);white-space:nowrap">${s.section}</td>
+            <td style="padding:7px 12px;font-weight:600">${s.name}</td>
+            <td style="padding:7px 12px;text-align:right;white-space:nowrap">${s.limit ? '₹'+s.limit.toLocaleString('en-IN') : '—'}</td>
+            <td style="padding:7px 12px;color:var(--text-2)">${s.instruments}</td>
+            <td style="padding:7px 12px;text-align:center">
+              <span style="font-size:.72rem;padding:2px 7px;border-radius:9px;background:${s.regime==='both'?'rgba(34,197,94,.15)':'rgba(99,102,241,.1)'};color:${s.regime==='both'?'var(--green)':'var(--text-2)'}">
+                ${s.regime==='both'?'Both regimes':'Old regime only'}
+              </span>
+            </td>
+          </tr>`).join('')}
+        </tbody>
+      </table>`;
+  }
+
+  // Portal links
+  if (r.portal_links) {
+    document.getElementById('portalLinks').innerHTML = r.portal_links
+      .map(l => `<a href="${l.url}" target="_blank" rel="noopener"
+            style="display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:8px;
+                   border:1px solid var(--border);background:var(--card-bg);font-size:.78rem;
+                   color:var(--text-1);text-decoration:none;transition:border-color .2s"
+            onmouseover="this.style.borderColor='var(--saffron)'" onmouseout="this.style.borderColor='var(--border)'">
+            <i class="fa fa-arrow-up-right-from-square" style="font-size:.7rem;color:var(--saffron)"></i>${l.name}
+          </a>`)
+      .join('');
+  }
+
+  // Render markdown-like guidance
+  const raw = r.guidance || 'No guidance generated.';
+  document.getElementById('guidanceContent').innerHTML = raw
+    .replace(/### (.+)/g, '<h4 style="margin:16px 0 6px;color:var(--text-1)">$1</h4>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^(\d+)\. (.+)$/gm, '<div style="margin:4px 0;padding-left:4px"><strong>$1.</strong> $2</div>')
+    .replace(/^\* (.+)$/gm, '<div style="margin:3px 0;padding-left:8px">• $1</div>')
+    .replace(/^- (.+)$/gm, '<div style="margin:3px 0;padding-left:8px">• $1</div>')
+    .replace(/\n\n/g, '<br>');
+
   document.getElementById('itrResults').classList.add('show');
   document.getElementById('itrResults').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
