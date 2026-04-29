@@ -3384,30 +3384,48 @@ let reportTypesLoaded = false;
 let selectedReportType = null;
 let currentReportResult = null;
 
-async function loadReportTypes() {
-  try {
-    const res = await fetch(`${API}/api/report/types`);
-    const types = await res.json();
-    const grid = document.getElementById('reportTypeGrid');
-    grid.innerHTML = types.map(t => `
-      <div class="report-type-card" id="rtc-${t.id}" onclick="selectReportType('${t.id}')" style="--card-accent:${t.color}">
-        <div class="rtc-icon" style="background:${t.color}22;color:${t.color}">
-          <i class="fa ${t.icon}"></i>
-        </div>
-        <div class="rtc-label">${t.label}</div>
-        <div class="rtc-desc">${t.desc}</div>
-      </div>`).join('');
-    reportTypesLoaded = true;
-  } catch(e) {
-    document.getElementById('reportTypeGrid').innerHTML =
-      '<p style="color:var(--text-3)">Could not load report types. Make sure the server is running.</p>';
-  }
+const REPORT_TYPES_DATA = [
+  { id:'fir',       label:'FIR / Police Complaint',            icon:'fa-shield-halved',    color:'#ef4444', desc:'File a First Information Report for crimes — assault, theft, fraud, threats, etc.' },
+  { id:'consumer',  label:'Consumer Complaint',                icon:'fa-cart-shopping',    color:'#f59e0b', desc:'Defective product, service deficiency, unfair trade practice, e-commerce fraud.' },
+  { id:'cybercrime',label:'Cyber Crime Report',                icon:'fa-bug-slash',        color:'#8b5cf6', desc:'UPI fraud, phishing, online scam, hacking, identity theft, sextortion.' },
+  { id:'labour',    label:'Labour / Employment Complaint',     icon:'fa-hammer',           color:'#0ea5e9', desc:'Unpaid wages, wrongful termination, EPF not deposited, no payslip, illegal deductions.' },
+  { id:'rti',       label:'RTI Application',                   icon:'fa-file-lines',       color:'#10b981', desc:'Request information from any government department, PSU, or public authority.' },
+  { id:'banking',   label:'Banking / RBI Ombudsman',           icon:'fa-building-columns', color:'#6366f1', desc:'Bank fraud, loan harassment, wrongful charges, ATM issues, recovery agent misconduct.' },
+  { id:'rera',      label:'RERA / Real Estate Complaint',      icon:'fa-building',         color:'#f97316', desc:'Builder delay, possession not given, quality defects, misleading brochure, refund denied.' },
+  { id:'medical',   label:'Medical Negligence Complaint',      icon:'fa-user-doctor',      color:'#ec4899', desc:'Wrong treatment, misdiagnosis, surgical error, hospital overcharging, drug error.' },
+  { id:'posh',      label:'POSH / Workplace Harassment',       icon:'fa-triangle-exclamation', color:'#e11d48', desc:'Sexual harassment at workplace — complaint to Internal Complaints Committee (ICC).' },
+  { id:'insurance', label:'Insurance Complaint',               icon:'fa-umbrella',         color:'#0891b2', desc:'Claim rejected, policy mis-selling, delay in settlement, premium dispute.' },
+];
+
+function loadReportTypes() {
+  const grid = document.getElementById('reportTypeGrid');
+  grid.innerHTML = '';
+  REPORT_TYPES_DATA.forEach(function(t) {
+    const card = document.createElement('div');
+    card.className = 'report-type-card';
+    card.id = 'rtc-' + t.id;
+    card.style.borderColor = 'var(--border)';
+    card.setAttribute('data-color', t.color);
+    card.innerHTML =
+      '<div class="rtc-icon" style="background:' + t.color + '22;color:' + t.color + '">' +
+        '<i class="fa ' + t.icon + '"></i>' +
+      '</div>' +
+      '<div class="rtc-label">' + t.label + '</div>' +
+      '<div class="rtc-desc">' + t.desc + '</div>';
+    card.addEventListener('click', function() { selectReportType(t.id); });
+    grid.appendChild(card);
+  });
+  reportTypesLoaded = true;
 }
 
 async function selectReportType(typeId) {
-  // Highlight selection
-  document.querySelectorAll('.report-type-card').forEach(c => c.classList.remove('selected'));
-  document.getElementById('rtc-' + typeId).classList.add('selected');
+  document.querySelectorAll('.report-type-card').forEach(function(c) {
+    c.classList.remove('selected');
+    c.style.borderColor = 'var(--border)';
+  });
+  var card = document.getElementById('rtc-' + typeId);
+  card.classList.add('selected');
+  card.style.borderColor = card.getAttribute('data-color');
   selectedReportType = typeId;
 
   // Load fields for this type
