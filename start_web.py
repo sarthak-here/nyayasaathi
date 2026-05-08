@@ -30,7 +30,7 @@ def main():
 
     subprocess.run([
         sys.executable, "-m", "uvicorn",
-        "backend.main:app",
+        "Backend.main:app",
         "--host", "0.0.0.0",
         "--port", "8000",
         "--reload",

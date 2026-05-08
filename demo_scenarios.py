@@ -81,9 +81,9 @@ SCENARIOS = [
 
 def run_scenario(scenario: dict, stream: bool = True):
     """Run a single demo scenario through the full pipeline."""
-    from core.legal_agent import LegalAgent
-    from core.letter_generator import generate_letter
-    from core.pdf_export import export_to_pdf
+    from Backend.services.legal_agent import LegalAgent
+    from Backend.services.letter_generator import generate_letter
+    from Backend.services.pdf_export import export_to_pdf
 
     print(f"\n{'='*70}")
     print(f"SCENARIO {scenario['id']}: {scenario['title'].upper()}")

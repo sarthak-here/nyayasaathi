@@ -5,8 +5,10 @@ gradio
 fpdf2
 langchain-community
 langchain
+langchain-text-splitters
 openai-whisper
 python-dotenv
 fastapi
 uvicorn[standard]
 python-multipart
+pytest
